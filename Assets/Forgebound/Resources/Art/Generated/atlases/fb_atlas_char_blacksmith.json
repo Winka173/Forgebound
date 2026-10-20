@@ -1,0 +1,597 @@
+{
+ "schema": "forgebound.art.atlas/1",
+ "group": "char_blacksmith",
+ "ppu": 100,
+ "padding": 4,
+ "pages": [
+  {
+   "index": 0,
+   "image": "fb_atlas_char_blacksmith.png",
+   "size": [
+    640,
+    768
+   ],
+   "sha256": "08e56f0cee0247a44d4d32c5971a781a1c210a1bc3da8d57eb0f92efd0e7da84"
+  }
+ ],
+ "sprites": [
+  {
+   "name": "fb_char_blacksmith_attack_00",
+   "file": "char/blacksmith/fb_char_blacksmith_attack_00.png",
+   "page": 0,
+   "rect": [
+    350,
+    195,
+    111,
+    186
+   ],
+   "rect_unity": [
+    350,
+    387,
+    111,
+    186
+   ],
+   "pivot": [
+    0.36036,
+    0.02681
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    88,
+    51
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "attack",
+   "frame": 0,
+   "source_sha256": "c4874ff7a89bc53151607a6b4c1637d9cdc0b4d129f95655264b53ada7682e57"
+  },
+  {
+   "name": "fb_char_blacksmith_attack_01",
+   "file": "char/blacksmith/fb_char_blacksmith_attack_01.png",
+   "page": 0,
+   "rect": [
+    4,
+    4,
+    96,
+    233
+   ],
+   "rect_unity": [
+    4,
+    531,
+    96,
+    233
+   ],
+   "pivot": [
+    0.45833,
+    0.0214
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    84,
+    4
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "attack",
+   "frame": 1,
+   "source_sha256": "08b039d22cb5e71da2930e6d9e2d77ea138b852e66757d33c35a8da10e22fb86"
+  },
+  {
+   "name": "fb_char_blacksmith_attack_02",
+   "file": "char/blacksmith/fb_char_blacksmith_attack_02.png",
+   "page": 0,
+   "rect": [
+    4,
+    241,
+    169,
+    185
+   ],
+   "rect_unity": [
+    4,
+    342,
+    169,
+    185
+   ],
+   "pivot": [
+    0.69822,
+    0.02696
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    10,
+    52
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "attack",
+   "frame": 2,
+   "source_sha256": "44cf999243763a7e39a4e5668bb6ef5bb0d82acd165e3a90adc572109249d0ea"
+  },
+  {
+   "name": "fb_char_blacksmith_attack_03",
+   "file": "char/blacksmith/fb_char_blacksmith_attack_03.png",
+   "page": 0,
+   "rect": [
+    177,
+    385,
+    144,
+    185
+   ],
+   "rect_unity": [
+    177,
+    198,
+    144,
+    185
+   ],
+   "pivot": [
+    0.64583,
+    0.02696
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    35,
+    52
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "attack",
+   "frame": 3,
+   "source_sha256": "a43865f4c1a356d87ad4bc56c773b1e861e15773de7c37100392c972bde82577"
+  },
+  {
+   "name": "fb_char_blacksmith_attack_04",
+   "file": "char/blacksmith/fb_char_blacksmith_attack_04.png",
+   "page": 0,
+   "rect": [
+    104,
+    4,
+    125,
+    214
+   ],
+   "rect_unity": [
+    104,
+    550,
+    125,
+    214
+   ],
+   "pivot": [
+    0.288,
+    0.0233
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    92,
+    23
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "attack",
+   "frame": 4,
+   "source_sha256": "c2fbc832bcc8257330bcbe3a572258ce47745510071fcb845a5ccffc1828865d"
+  },
+  {
+   "name": "fb_char_blacksmith_attack_05",
+   "file": "char/blacksmith/fb_char_blacksmith_attack_05.png",
+   "page": 0,
+   "rect": [
+    352,
+    574,
+    116,
+    181
+   ],
+   "rect_unity": [
+    352,
+    13,
+    116,
+    181
+   ],
+   "pivot": [
+    0.2931,
+    0.02755
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    94,
+    56
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "attack",
+   "frame": 5,
+   "source_sha256": "564c8bafd396031ea0603ae483af7523c70bc0bd1878817ac331b7a3f9a18587"
+  },
+  {
+   "name": "fb_char_blacksmith_attack_06",
+   "file": "char/blacksmith/fb_char_blacksmith_attack_06.png",
+   "page": 0,
+   "rect": [
+    235,
+    574,
+    113,
+    184
+   ],
+   "rect_unity": [
+    235,
+    10,
+    113,
+    184
+   ],
+   "pivot": [
+    0.32743,
+    0.0271
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    91,
+    53
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "attack",
+   "frame": 6,
+   "source_sha256": "0b9870a5b42470a6ec103ab565e0ac08f8cf7f676a7aae8f7bdb359212a8b774"
+  },
+  {
+   "name": "fb_char_blacksmith_attack_07",
+   "file": "char/blacksmith/fb_char_blacksmith_attack_07.png",
+   "page": 0,
+   "rect": [
+    120,
+    574,
+    111,
+    185
+   ],
+   "rect_unity": [
+    120,
+    9,
+    111,
+    185
+   ],
+   "pivot": [
+    0.35135,
+    0.02696
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    89,
+    52
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "attack",
+   "frame": 7,
+   "source_sha256": "d79ee741cf3684f9d3509c821d9dbb1a4d964b14f42727c87df6600835aa50b6"
+  },
+  {
+   "name": "fb_char_blacksmith_idle_00",
+   "file": "char/blacksmith/fb_char_blacksmith_idle_00.png",
+   "page": 0,
+   "rect": [
+    233,
+    195,
+    113,
+    186
+   ],
+   "rect_unity": [
+    233,
+    387,
+    113,
+    186
+   ],
+   "pivot": [
+    0.35398,
+    0.02681
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    88,
+    51
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "cd3c3de74c62f5a55c50ce7921b9f814c360399bbd97ca128cefd71ff01a8a1d"
+  },
+  {
+   "name": "fb_char_blacksmith_idle_01",
+   "file": "char/blacksmith/fb_char_blacksmith_idle_01.png",
+   "page": 0,
+   "rect": [
+    233,
+    4,
+    110,
+    187
+   ],
+   "rect_unity": [
+    233,
+    577,
+    110,
+    187
+   ],
+   "pivot": [
+    0.36364,
+    0.02667
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    88,
+    50
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "c309649f80ef0094528100865f3f05381d4b5d11256c3729a1bbfc3e8b37b202"
+  },
+  {
+   "name": "fb_char_blacksmith_idle_02",
+   "file": "char/blacksmith/fb_char_blacksmith_idle_02.png",
+   "page": 0,
+   "rect": [
+    347,
+    4,
+    106,
+    187
+   ],
+   "rect_unity": [
+    347,
+    577,
+    106,
+    187
+   ],
+   "pivot": [
+    0.37736,
+    0.02667
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    88,
+    50
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "643d27d8302b81ffe4385ef5e69d14375f1f7b14e81eda745073b1f897edccbd"
+  },
+  {
+   "name": "fb_char_blacksmith_idle_03",
+   "file": "char/blacksmith/fb_char_blacksmith_idle_03.png",
+   "page": 0,
+   "rect": [
+    457,
+    4,
+    106,
+    187
+   ],
+   "rect_unity": [
+    457,
+    577,
+    106,
+    187
+   ],
+   "pivot": [
+    0.37736,
+    0.02667
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    88,
+    50
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "639cd35f8304a751da042a921c78af8b8a2abbec11135df8403d5ef2e72cd975"
+  },
+  {
+   "name": "fb_char_blacksmith_idle_04",
+   "file": "char/blacksmith/fb_char_blacksmith_idle_04.png",
+   "page": 0,
+   "rect": [
+    465,
+    195,
+    109,
+    186
+   ],
+   "rect_unity": [
+    465,
+    387,
+    109,
+    186
+   ],
+   "pivot": [
+    0.36697,
+    0.02681
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    88,
+    51
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "f4a58997db6b6aa113ed3201107615b3488feec24a750315908817d4f4f66f44"
+  },
+  {
+   "name": "fb_char_blacksmith_idle_05",
+   "file": "char/blacksmith/fb_char_blacksmith_idle_05.png",
+   "page": 0,
+   "rect": [
+    4,
+    430,
+    112,
+    185
+   ],
+   "rect_unity": [
+    4,
+    153,
+    112,
+    185
+   ],
+   "pivot": [
+    0.35714,
+    0.02696
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    88,
+    52
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "182f3a42efba6150c1c1097e72671b7107cc57d265c49a0eca8214fbd3b60d91"
+  },
+  {
+   "name": "fb_char_blacksmith_idle_06",
+   "file": "char/blacksmith/fb_char_blacksmith_idle_06.png",
+   "page": 0,
+   "rect": [
+    444,
+    385,
+    114,
+    185
+   ],
+   "rect_unity": [
+    444,
+    198,
+    114,
+    185
+   ],
+   "pivot": [
+    0.35088,
+    0.02696
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    88,
+    52
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "de36d98bd59780e5330dac6a2755b5ccc2f875a1d47211648441650961709dd7"
+  },
+  {
+   "name": "fb_char_blacksmith_idle_07",
+   "file": "char/blacksmith/fb_char_blacksmith_idle_07.png",
+   "page": 0,
+   "rect": [
+    325,
+    385,
+    115,
+    185
+   ],
+   "rect_unity": [
+    325,
+    198,
+    115,
+    185
+   ],
+   "pivot": [
+    0.34783,
+    0.02696
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    88,
+    52
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "d6c66ec3cc3bb0a8e48bea8e8cc607c63dca77c4bc22949662584a7ef449d41f"
+  }
+ ],
+ "clips": {
+  "blacksmith/attack": {
+   "fps": 12,
+   "loop": false,
+   "frame_count": 8,
+   "frames": [
+    "fb_char_blacksmith_attack_00",
+    "fb_char_blacksmith_attack_01",
+    "fb_char_blacksmith_attack_02",
+    "fb_char_blacksmith_attack_03",
+    "fb_char_blacksmith_attack_04",
+    "fb_char_blacksmith_attack_05",
+    "fb_char_blacksmith_attack_06",
+    "fb_char_blacksmith_attack_07"
+   ],
+   "duration_s": 0.6667
+  },
+  "blacksmith/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_char_blacksmith_idle_00",
+    "fb_char_blacksmith_idle_01",
+    "fb_char_blacksmith_idle_02",
+    "fb_char_blacksmith_idle_03",
+    "fb_char_blacksmith_idle_04",
+    "fb_char_blacksmith_idle_05",
+    "fb_char_blacksmith_idle_06",
+    "fb_char_blacksmith_idle_07"
+   ],
+   "duration_s": 1.0
+  }
+ }
+}

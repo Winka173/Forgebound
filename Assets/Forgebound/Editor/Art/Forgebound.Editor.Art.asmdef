@@ -1,0 +1,16 @@
+{
+    "name": "Forgebound.Editor.Art",
+    "rootNamespace": "Forgebound.Editor.Art",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

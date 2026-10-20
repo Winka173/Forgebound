@@ -1,0 +1,1173 @@
+{
+ "schema": "forgebound.art.atlas/1",
+ "group": "enemy",
+ "ppu": 100,
+ "padding": 4,
+ "pages": [
+  {
+   "index": 0,
+   "image": "fb_atlas_enemy.png",
+   "size": [
+    768,
+    1024
+   ],
+   "sha256": "ee9edfefca7cd3bab835fe5c363ab18ce53aa5255ef380a389b8d2890854118e"
+  }
+ ],
+ "sprites": [
+  {
+   "name": "fb_enemy_bat_idle_00",
+   "file": "enemy/bat/fb_enemy_bat_idle_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    683,
+    205,
+    103
+   ],
+   "rect_unity": [
+    4,
+    238,
+    205,
+    103
+   ],
+   "pivot": [
+    0.46829,
+    -0.71857
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    32,
+    55
+   ],
+   "id": "bat",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "b932e12549f660df8f64ed95c11d24340543e99fa7e35c5dedd5d27c3bc84057"
+  },
+  {
+   "name": "fb_enemy_bat_idle_01",
+   "file": "enemy/bat/fb_enemy_bat_idle_01.png",
+   "page": 0,
+   "rect": [
+    548,
+    774,
+    182,
+    103
+   ],
+   "rect_unity": [
+    548,
+    147,
+    182,
+    103
+   ],
+   "pivot": [
+    0.46703,
+    -0.70886
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    43,
+    56
+   ],
+   "id": "bat",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "16b4e33e026796b4ea40cb9ad4a7b09116f270299905fbcad3eed7b1d21e4f19"
+  },
+  {
+   "name": "fb_enemy_bat_idle_02",
+   "file": "enemy/bat/fb_enemy_bat_idle_02.png",
+   "page": 0,
+   "rect": [
+    4,
+    552,
+    162,
+    109
+   ],
+   "rect_unity": [
+    4,
+    363,
+    162,
+    109
+   ],
+   "pivot": [
+    0.46296,
+    -0.62397
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    53,
+    55
+   ],
+   "id": "bat",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "f50861ab1f45133c6bca31df5ed5390804529afec43f2fac1df82f59b440405d"
+  },
+  {
+   "name": "fb_enemy_bat_idle_03",
+   "file": "enemy/bat/fb_enemy_bat_idle_03.png",
+   "page": 0,
+   "rect": [
+    362,
+    668,
+    182,
+    104
+   ],
+   "rect_unity": [
+    362,
+    252,
+    182,
+    104
+   ],
+   "pivot": [
+    0.45604,
+    -0.60589
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    45,
+    65
+   ],
+   "id": "bat",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "08a77e4499abdb95379d365fedf201a170d5547e595f07f6a6885e64237e5b44"
+  },
+  {
+   "name": "fb_enemy_bat_idle_04",
+   "file": "enemy/bat/fb_enemy_bat_idle_04.png",
+   "page": 0,
+   "rect": [
+    553,
+    666,
+    205,
+    104
+   ],
+   "rect_unity": [
+    553,
+    254,
+    205,
+    104
+   ],
+   "pivot": [
+    0.46341,
+    -0.58666
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    33,
+    67
+   ],
+   "id": "bat",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "19f806bc86ac916f489e452b1e97a834a6fe8b909a315f95edcf0b2e17db3748"
+  },
+  {
+   "name": "fb_enemy_bat_idle_05",
+   "file": "enemy/bat/fb_enemy_bat_idle_05.png",
+   "page": 0,
+   "rect": [
+    362,
+    551,
+    187,
+    113
+   ],
+   "rect_unity": [
+    362,
+    360,
+    187,
+    113
+   ],
+   "pivot": [
+    0.46524,
+    -0.47799
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    41,
+    65
+   ],
+   "id": "bat",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "bcc0424b017b03bb7daf9902127c8b1dac99b1925048615d05d3fd0dfc307142"
+  },
+  {
+   "name": "fb_enemy_bat_idle_06",
+   "file": "enemy/bat/fb_enemy_bat_idle_06.png",
+   "page": 0,
+   "rect": [
+    189,
+    551,
+    169,
+    128
+   ],
+   "rect_unity": [
+    189,
+    345,
+    169,
+    128
+   ],
+   "pivot": [
+    0.46154,
+    -0.33604
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    50,
+    61
+   ],
+   "id": "bat",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "7b6d7b30de1078963dfaa6a00d1ae182bbb3614cd1c6ff41fc4d0868910bbabf"
+  },
+  {
+   "name": "fb_enemy_bat_idle_07",
+   "file": "enemy/bat/fb_enemy_bat_idle_07.png",
+   "page": 0,
+   "rect": [
+    553,
+    551,
+    187,
+    111
+   ],
+   "rect_unity": [
+    553,
+    362,
+    187,
+    111
+   ],
+   "pivot": [
+    0.45989,
+    -0.5857
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    42,
+    56
+   ],
+   "id": "bat",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "92be639124e1da5022004e2ae9f5ca7ff708520f0c2f0dcdb1e6ca04389735fe"
+  },
+  {
+   "name": "fb_enemy_golem_idle_00",
+   "file": "enemy/golem/fb_enemy_golem_idle_00.png",
+   "page": 0,
+   "rect": [
+    579,
+    187,
+    166,
+    178
+   ],
+   "rect_unity": [
+    579,
+    659,
+    166,
+    178
+   ],
+   "pivot": [
+    0.6506,
+    0.02802
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    20,
+    59
+   ],
+   "id": "golem",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "a68803cf74a94f5f965483ae212a9b6f8c42ebbbfbb9285e8fa097a6d1fd2423"
+  },
+  {
+   "name": "fb_enemy_golem_idle_01",
+   "file": "enemy/golem/fb_enemy_golem_idle_01.png",
+   "page": 0,
+   "rect": [
+    406,
+    369,
+    161,
+    178
+   ],
+   "rect_unity": [
+    406,
+    477,
+    161,
+    178
+   ],
+   "pivot": [
+    0.64596,
+    0.02802
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    24,
+    59
+   ],
+   "id": "golem",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "add141963826ce4b4beacb0d2135b3c4bb267fcca89557b4266a38c883896652"
+  },
+  {
+   "name": "fb_enemy_golem_idle_02",
+   "file": "enemy/golem/fb_enemy_golem_idle_02.png",
+   "page": 0,
+   "rect": [
+    571,
+    369,
+    157,
+    178
+   ],
+   "rect_unity": [
+    571,
+    477,
+    157,
+    178
+   ],
+   "pivot": [
+    0.64331,
+    0.02802
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    27,
+    59
+   ],
+   "id": "golem",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "3915b86f949cdbb5071644d40f2a3a0a8de44038ddad452a42ebfd2e88f0d82f"
+  },
+  {
+   "name": "fb_enemy_golem_idle_03",
+   "file": "enemy/golem/fb_enemy_golem_idle_03.png",
+   "page": 0,
+   "rect": [
+    472,
+    4,
+    155,
+    179
+   ],
+   "rect_unity": [
+    472,
+    841,
+    155,
+    179
+   ],
+   "pivot": [
+    0.64516,
+    0.02786
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    28,
+    58
+   ],
+   "id": "golem",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "18165632fb5c4bc0f49b5298f643f35a1fe2421422f21ca7b6abc47d9c16843d"
+  },
+  {
+   "name": "fb_enemy_golem_idle_04",
+   "file": "enemy/golem/fb_enemy_golem_idle_04.png",
+   "page": 0,
+   "rect": [
+    310,
+    4,
+    158,
+    179
+   ],
+   "rect_unity": [
+    310,
+    841,
+    158,
+    179
+   ],
+   "pivot": [
+    0.6519,
+    0.02786
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    25,
+    58
+   ],
+   "id": "golem",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "24deddbdf657c3b7a5454cf234f66b0f00cf8129265907ea7ff01ad54a962ca2"
+  },
+  {
+   "name": "fb_enemy_golem_idle_05",
+   "file": "enemy/golem/fb_enemy_golem_idle_05.png",
+   "page": 0,
+   "rect": [
+    4,
+    188,
+    164,
+    178
+   ],
+   "rect_unity": [
+    4,
+    658,
+    164,
+    178
+   ],
+   "pivot": [
+    0.65244,
+    0.02802
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    21,
+    59
+   ],
+   "id": "golem",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "57e4e2f38e3328a92e1c273c713e03e8d9875c6cbdfb3076ba55505b764262dc"
+  },
+  {
+   "name": "fb_enemy_golem_idle_06",
+   "file": "enemy/golem/fb_enemy_golem_idle_06.png",
+   "page": 0,
+   "rect": [
+    189,
+    370,
+    168,
+    177
+   ],
+   "rect_unity": [
+    189,
+    477,
+    168,
+    177
+   ],
+   "pivot": [
+    0.65476,
+    0.02818
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    18,
+    60
+   ],
+   "id": "golem",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "5b9670a7953f4993e0f87598fd19bcb978db0d5f20e37d35bbc2f9b894d33a0d"
+  },
+  {
+   "name": "fb_enemy_golem_idle_07",
+   "file": "enemy/golem/fb_enemy_golem_idle_07.png",
+   "page": 0,
+   "rect": [
+    406,
+    187,
+    169,
+    178
+   ],
+   "rect_unity": [
+    406,
+    659,
+    169,
+    178
+   ],
+   "pivot": [
+    0.65089,
+    0.02802
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    18,
+    59
+   ],
+   "id": "golem",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "4a628549492bbb3e6c20e2eebb59036007398632a48bc9f153aff730c92e8450"
+  },
+  {
+   "name": "fb_enemy_skeleton_idle_00",
+   "file": "enemy/skeleton/fb_enemy_skeleton_idle_00.png",
+   "page": 0,
+   "rect": [
+    310,
+    187,
+    92,
+    179
+   ],
+   "rect_unity": [
+    310,
+    658,
+    92,
+    179
+   ],
+   "pivot": [
+    0.70652,
+    0.02227
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    63,
+    57
+   ],
+   "id": "skeleton",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "8951d3fe740293cf29eed1f0cb92742e4daa6e4996ae7bfcfe176ef9f1990a5e"
+  },
+  {
+   "name": "fb_enemy_skeleton_idle_01",
+   "file": "enemy/skeleton/fb_enemy_skeleton_idle_01.png",
+   "page": 0,
+   "rect": [
+    210,
+    4,
+    96,
+    180
+   ],
+   "rect_unity": [
+    210,
+    840,
+    96,
+    180
+   ],
+   "pivot": [
+    0.72917,
+    0.02215
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    58,
+    56
+   ],
+   "id": "skeleton",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "9a0e552c747c6abfd67ff7d2f2a2ebd530f3b592ca24567dd359dcd8c9061d8e"
+  },
+  {
+   "name": "fb_enemy_skeleton_idle_02",
+   "file": "enemy/skeleton/fb_enemy_skeleton_idle_02.png",
+   "page": 0,
+   "rect": [
+    4,
+    4,
+    100,
+    180
+   ],
+   "rect_unity": [
+    4,
+    840,
+    100,
+    180
+   ],
+   "pivot": [
+    0.74,
+    0.02215
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    56
+   ],
+   "id": "skeleton",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "a97b77d45be3727d64aa9275fb5d3527ceb034e06c9280c5f7f31c86dca9eae6"
+  },
+  {
+   "name": "fb_enemy_skeleton_idle_03",
+   "file": "enemy/skeleton/fb_enemy_skeleton_idle_03.png",
+   "page": 0,
+   "rect": [
+    108,
+    4,
+    98,
+    180
+   ],
+   "rect_unity": [
+    108,
+    840,
+    98,
+    180
+   ],
+   "pivot": [
+    0.7449,
+    0.02215
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    55,
+    56
+   ],
+   "id": "skeleton",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "de1fbfad03cda5ccc414eb4feb67ca7440de5d2462c2e1e7ff46edfd65171fe7"
+  },
+  {
+   "name": "fb_enemy_skeleton_idle_04",
+   "file": "enemy/skeleton/fb_enemy_skeleton_idle_04.png",
+   "page": 0,
+   "rect": [
+    631,
+    4,
+    95,
+    179
+   ],
+   "rect_unity": [
+    631,
+    841,
+    95,
+    179
+   ],
+   "pivot": [
+    0.72632,
+    0.02227
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    59,
+    57
+   ],
+   "id": "skeleton",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "3e2fc526c02266a11eed4de808cbd176995bc78edd6769a43327fec17353f437"
+  },
+  {
+   "name": "fb_enemy_skeleton_idle_05",
+   "file": "enemy/skeleton/fb_enemy_skeleton_idle_05.png",
+   "page": 0,
+   "rect": [
+    172,
+    188,
+    92,
+    178
+   ],
+   "rect_unity": [
+    172,
+    658,
+    92,
+    178
+   ],
+   "pivot": [
+    0.70652,
+    0.0224
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    63,
+    58
+   ],
+   "id": "skeleton",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "a6fc98e9286f546a2cc1938ba5e5882a90c1e5969e53f7d45715577335ed880a"
+  },
+  {
+   "name": "fb_enemy_skeleton_idle_06",
+   "file": "enemy/skeleton/fb_enemy_skeleton_idle_06.png",
+   "page": 0,
+   "rect": [
+    97,
+    370,
+    88,
+    178
+   ],
+   "rect_unity": [
+    97,
+    476,
+    88,
+    178
+   ],
+   "pivot": [
+    0.69318,
+    0.0224
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    67,
+    58
+   ],
+   "id": "skeleton",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "6bf93716ba555e1fbcff81f223ba3d50764499a2ea8ccec0702d9d038234663c"
+  },
+  {
+   "name": "fb_enemy_skeleton_idle_07",
+   "file": "enemy/skeleton/fb_enemy_skeleton_idle_07.png",
+   "page": 0,
+   "rect": [
+    4,
+    370,
+    89,
+    178
+   ],
+   "rect_unity": [
+    4,
+    476,
+    89,
+    178
+   ],
+   "pivot": [
+    0.69663,
+    0.0224
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    66,
+    58
+   ],
+   "id": "skeleton",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "547079177b88f1b7f63e55afa4a429bc434e045a31ca3062bfecc706b58aee06"
+  },
+  {
+   "name": "fb_enemy_slime_idle_00",
+   "file": "enemy/slime/fb_enemy_slime_idle_00.png",
+   "page": 0,
+   "rect": [
+    147,
+    864,
+    138,
+    83
+   ],
+   "rect_unity": [
+    147,
+    77,
+    138,
+    83
+   ],
+   "pivot": [
+    0.5,
+    0.06009
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    59,
+    154
+   ],
+   "id": "slime",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "a4788c5ce44d15011ad13afcec4b1bcb4d2300bd77d0b9302587e95eb9e31dba"
+  },
+  {
+   "name": "fb_enemy_slime_idle_01",
+   "file": "enemy/slime/fb_enemy_slime_idle_01.png",
+   "page": 0,
+   "rect": [
+    213,
+    774,
+    137,
+    86
+   ],
+   "rect_unity": [
+    213,
+    164,
+    137,
+    86
+   ],
+   "pivot": [
+    0.50365,
+    0.04636
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    59,
+    150
+   ],
+   "id": "slime",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "a662d450745ee8eef8998b1a126d79ed2fbeb96f4bd18321378cdb640937a0a9"
+  },
+  {
+   "name": "fb_enemy_slime_idle_02",
+   "file": "enemy/slime/fb_enemy_slime_idle_02.png",
+   "page": 0,
+   "rect": [
+    213,
+    683,
+    136,
+    87
+   ],
+   "rect_unity": [
+    213,
+    254,
+    136,
+    87
+   ],
+   "pivot": [
+    0.5,
+    0.03434
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    60,
+    148
+   ],
+   "id": "slime",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "058bf39791a22674e3cb569ad7b4ed6be250200b35d06006c751d05cc45cb0b9"
+  },
+  {
+   "name": "fb_enemy_slime_idle_03",
+   "file": "enemy/slime/fb_enemy_slime_idle_03.png",
+   "page": 0,
+   "rect": [
+    354,
+    776,
+    137,
+    86
+   ],
+   "rect_unity": [
+    354,
+    162,
+    137,
+    86
+   ],
+   "pivot": [
+    0.49635,
+    0.04636
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    60,
+    150
+   ],
+   "id": "slime",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "1dbef001f1e5fd4af8277f752312f3cb99d714b03698402258ae520e0745c01c"
+  },
+  {
+   "name": "fb_enemy_slime_idle_04",
+   "file": "enemy/slime/fb_enemy_slime_idle_04.png",
+   "page": 0,
+   "rect": [
+    4,
+    790,
+    139,
+    83
+   ],
+   "rect_unity": [
+    4,
+    151,
+    139,
+    83
+   ],
+   "pivot": [
+    0.4964,
+    0.04804
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    59,
+    153
+   ],
+   "id": "slime",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "23d253dd4305781235cc6e4bde48de834cad6eb2e659f46054dcb881b180ffd8"
+  },
+  {
+   "name": "fb_enemy_slime_idle_05",
+   "file": "enemy/slime/fb_enemy_slime_idle_05.png",
+   "page": 0,
+   "rect": [
+    289,
+    866,
+    139,
+    79
+   ],
+   "rect_unity": [
+    289,
+    79,
+    139,
+    79
+   ],
+   "pivot": [
+    0.4964,
+    0.05047
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    59,
+    157
+   ],
+   "id": "slime",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "545f1926604a69a089aad90bca840564efbc5565d6f4f00faeae6c6b2f6e94b9"
+  },
+  {
+   "name": "fb_enemy_slime_idle_06",
+   "file": "enemy/slime/fb_enemy_slime_idle_06.png",
+   "page": 0,
+   "rect": [
+    432,
+    881,
+    140,
+    76
+   ],
+   "rect_unity": [
+    432,
+    67,
+    140,
+    76
+   ],
+   "pivot": [
+    0.5,
+    0.03931
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    58,
+    159
+   ],
+   "id": "slime",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "111bbbcc6a1b1c30548dda3ba4deb5509aa87c2897f2817f80401c2cec78fa73"
+  },
+  {
+   "name": "fb_enemy_slime_idle_07",
+   "file": "enemy/slime/fb_enemy_slime_idle_07.png",
+   "page": 0,
+   "rect": [
+    4,
+    877,
+    139,
+    79
+   ],
+   "rect_unity": [
+    4,
+    68,
+    139,
+    79
+   ],
+   "pivot": [
+    0.5036,
+    0.05047
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    58,
+    157
+   ],
+   "id": "slime",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "d5777c080a916ee88603c4a0531b3b813f18550d1d7b1d7a37b83eeb2760f811"
+  }
+ ],
+ "clips": {
+  "bat/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_bat_idle_00",
+    "fb_enemy_bat_idle_01",
+    "fb_enemy_bat_idle_02",
+    "fb_enemy_bat_idle_03",
+    "fb_enemy_bat_idle_04",
+    "fb_enemy_bat_idle_05",
+    "fb_enemy_bat_idle_06",
+    "fb_enemy_bat_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "golem/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_golem_idle_00",
+    "fb_enemy_golem_idle_01",
+    "fb_enemy_golem_idle_02",
+    "fb_enemy_golem_idle_03",
+    "fb_enemy_golem_idle_04",
+    "fb_enemy_golem_idle_05",
+    "fb_enemy_golem_idle_06",
+    "fb_enemy_golem_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "skeleton/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_skeleton_idle_00",
+    "fb_enemy_skeleton_idle_01",
+    "fb_enemy_skeleton_idle_02",
+    "fb_enemy_skeleton_idle_03",
+    "fb_enemy_skeleton_idle_04",
+    "fb_enemy_skeleton_idle_05",
+    "fb_enemy_skeleton_idle_06",
+    "fb_enemy_skeleton_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "slime/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_slime_idle_00",
+    "fb_enemy_slime_idle_01",
+    "fb_enemy_slime_idle_02",
+    "fb_enemy_slime_idle_03",
+    "fb_enemy_slime_idle_04",
+    "fb_enemy_slime_idle_05",
+    "fb_enemy_slime_idle_06",
+    "fb_enemy_slime_idle_07"
+   ],
+   "duration_s": 1.0
+  }
+ }
+}

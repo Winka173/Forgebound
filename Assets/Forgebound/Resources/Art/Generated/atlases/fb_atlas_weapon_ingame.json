@@ -1,0 +1,4916 @@
+{
+ "schema": "forgebound.art.atlas/1",
+ "group": "weapon_ingame",
+ "ppu": 100,
+ "padding": 4,
+ "pages": [
+  {
+   "index": 0,
+   "image": "fb_atlas_weapon_ingame.png",
+   "size": [
+    1536,
+    768
+   ],
+   "sha256": "bfdd791d2ad8bc135abf9050909b132d244768ab98afee6e94be426cfc7a6bbb"
+  }
+ ],
+ "sprites": [
+  {
+   "name": "fb_weapon_bow_arcane-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bow_arcane-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1368,
+    643,
+    120,
+    31
+   ],
+   "rect_unity": [
+    1368,
+    94,
+    120,
+    31
+   ],
+   "pivot": [
+    0.5,
+    0.75019
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    48
+   ],
+   "id": "bow",
+   "variant": "arcane-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "73e1a189b9d0e47424bf9c4d87b11f4a899d8ef33cbfd09ad9ff875774da6ee7"
+  },
+  {
+   "name": "fb_weapon_bow_earth-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bow_earth-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    644,
+    120,
+    31
+   ],
+   "rect_unity": [
+    4,
+    93,
+    120,
+    31
+   ],
+   "pivot": [
+    0.5,
+    0.75019
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    48
+   ],
+   "id": "bow",
+   "variant": "earth-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "76cdba0cc917bfbac7d3870e06fbdbb9b265b8d80ffa6a767186da93f4d67615"
+  },
+  {
+   "name": "fb_weapon_bow_fire-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bow_fire-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    128,
+    644,
+    120,
+    31
+   ],
+   "rect_unity": [
+    128,
+    93,
+    120,
+    31
+   ],
+   "pivot": [
+    0.5,
+    0.75019
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    48
+   ],
+   "id": "bow",
+   "variant": "fire-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "abff711c9f7ae1f95f5247093d600b1ae0873516d64eea738351596edffd651b"
+  },
+  {
+   "name": "fb_weapon_bow_frost-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bow_frost-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    252,
+    670,
+    120,
+    31
+   ],
+   "rect_unity": [
+    252,
+    67,
+    120,
+    31
+   ],
+   "pivot": [
+    0.5,
+    0.75019
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    48
+   ],
+   "id": "bow",
+   "variant": "frost-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "e511474339596d73c5b130df183f975791dce8d5a30c532b9de6092066131d23"
+  },
+  {
+   "name": "fb_weapon_bow_life-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bow_life-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    376,
+    670,
+    120,
+    31
+   ],
+   "rect_unity": [
+    376,
+    67,
+    120,
+    31
+   ],
+   "pivot": [
+    0.5,
+    0.75019
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    48
+   ],
+   "id": "bow",
+   "variant": "life-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "259f5f78a2f9b88772736a4146e0cd6046d5535abd48331b838faf507d88c89e"
+  },
+  {
+   "name": "fb_weapon_bow_lightning-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bow_lightning-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    500,
+    670,
+    120,
+    31
+   ],
+   "rect_unity": [
+    500,
+    67,
+    120,
+    31
+   ],
+   "pivot": [
+    0.5,
+    0.75019
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    48
+   ],
+   "id": "bow",
+   "variant": "lightning-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "581d80bc7406c6d75476387e8d18c86de23b01aabdf4daa7ebbf6bc27d20a990"
+  },
+  {
+   "name": "fb_weapon_bow_shadow-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bow_shadow-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    624,
+    670,
+    120,
+    31
+   ],
+   "rect_unity": [
+    624,
+    67,
+    120,
+    31
+   ],
+   "pivot": [
+    0.5,
+    0.75019
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    48
+   ],
+   "id": "bow",
+   "variant": "shadow-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "a2bd6253de97d258933bba253e57b5a6c9a1c253c62ae7800609d9a7ea768bae"
+  },
+  {
+   "name": "fb_weapon_bow_solar-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bow_solar-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1244,
+    643,
+    120,
+    32
+   ],
+   "rect_unity": [
+    1244,
+    93,
+    120,
+    32
+   ],
+   "pivot": [
+    0.5,
+    0.72675
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    47
+   ],
+   "id": "bow",
+   "variant": "solar-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "a02bf594e3f12e75d12620a886f7a0184f88d6d0c3780127f0e007fb818bc527"
+  },
+  {
+   "name": "fb_weapon_bow_steel-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bow_steel-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1368,
+    678,
+    120,
+    31
+   ],
+   "rect_unity": [
+    1368,
+    59,
+    120,
+    31
+   ],
+   "pivot": [
+    0.5,
+    0.75019
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    48
+   ],
+   "id": "bow",
+   "variant": "steel-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "3faef3e88a1b74ab381210081f95c8feaa92a738e0af89eabc09f2b2859f6af0"
+  },
+  {
+   "name": "fb_weapon_bow_venom-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bow_venom-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    679,
+    120,
+    31
+   ],
+   "rect_unity": [
+    4,
+    58,
+    120,
+    31
+   ],
+   "pivot": [
+    0.5,
+    0.75019
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    48
+   ],
+   "id": "bow",
+   "variant": "venom-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "3abdf5012617f5f3330f8685a6ec8cc547f4e7bee02d42b6254a2739f06c5ca1"
+  },
+  {
+   "name": "fb_weapon_bow_void-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bow_void-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    128,
+    679,
+    120,
+    31
+   ],
+   "rect_unity": [
+    128,
+    58,
+    120,
+    31
+   ],
+   "pivot": [
+    0.5,
+    0.75019
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    48
+   ],
+   "id": "bow",
+   "variant": "void-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "c186019f05f1e6e99035d1f9ec54be68b7a673cd9a96c707f90c20c83bf1edd3"
+  },
+  {
+   "name": "fb_weapon_bow_wind-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bow_wind-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1244,
+    679,
+    120,
+    31
+   ],
+   "rect_unity": [
+    1244,
+    58,
+    120,
+    31
+   ],
+   "pivot": [
+    0.5,
+    0.75019
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    48
+   ],
+   "id": "bow",
+   "variant": "wind-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "683e440b8f406f9a54aceed71c0f5a786840302a58da012155444e23cbc6b059"
+  },
+  {
+   "name": "fb_weapon_bulwark_arcane-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bulwark_arcane-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1276,
+    4,
+    91,
+    119
+   ],
+   "rect_unity": [
+    1276,
+    645,
+    91,
+    119
+   ],
+   "pivot": [
+    0.56781,
+    0.60015
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    5
+   ],
+   "id": "bulwark",
+   "variant": "arcane-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "c62f53ee3c36889e7d7ff025c831a794e89dcc20a9302099c7d4359b43000e79"
+  },
+  {
+   "name": "fb_weapon_bulwark_earth-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bulwark_earth-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1371,
+    4,
+    91,
+    119
+   ],
+   "rect_unity": [
+    1371,
+    645,
+    91,
+    119
+   ],
+   "pivot": [
+    0.56781,
+    0.60015
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    5
+   ],
+   "id": "bulwark",
+   "variant": "earth-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "7e85a104f12a653618c27101fa05809be71fee59d0df1fdc3c2607a69d1f7081"
+  },
+  {
+   "name": "fb_weapon_bulwark_fire-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bulwark_fire-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1276,
+    127,
+    91,
+    119
+   ],
+   "rect_unity": [
+    1276,
+    522,
+    91,
+    119
+   ],
+   "pivot": [
+    0.56781,
+    0.60015
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    5
+   ],
+   "id": "bulwark",
+   "variant": "fire-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "8e08db8fe225e4f41b7b425060a5c12ceb1241eea7cdd83749989b085e5b1863"
+  },
+  {
+   "name": "fb_weapon_bulwark_frost-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bulwark_frost-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1371,
+    127,
+    91,
+    119
+   ],
+   "rect_unity": [
+    1371,
+    522,
+    91,
+    119
+   ],
+   "pivot": [
+    0.56781,
+    0.60015
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    5
+   ],
+   "id": "bulwark",
+   "variant": "frost-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "71836934e18900c70b6c3ca4b03970fb97e21547f0805cfde26602bd2d41b37a"
+  },
+  {
+   "name": "fb_weapon_bulwark_life-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bulwark_life-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    128,
+    91,
+    119
+   ],
+   "rect_unity": [
+    4,
+    521,
+    91,
+    119
+   ],
+   "pivot": [
+    0.56781,
+    0.60015
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    5
+   ],
+   "id": "bulwark",
+   "variant": "life-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "3b9cf8d862a80cae3591749dc58f7891c960455dcbab6d16e82875d2e6ab2b31"
+  },
+  {
+   "name": "fb_weapon_bulwark_lightning-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bulwark_lightning-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    99,
+    128,
+    91,
+    119
+   ],
+   "rect_unity": [
+    99,
+    521,
+    91,
+    119
+   ],
+   "pivot": [
+    0.56781,
+    0.60015
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    5
+   ],
+   "id": "bulwark",
+   "variant": "lightning-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "7ee88c6eb818ad694e9b9d93c9271c5a7acaea2219d19c6992456b1b6c9c1e9a"
+  },
+  {
+   "name": "fb_weapon_bulwark_shadow-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bulwark_shadow-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    194,
+    128,
+    91,
+    119
+   ],
+   "rect_unity": [
+    194,
+    521,
+    91,
+    119
+   ],
+   "pivot": [
+    0.56781,
+    0.60015
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    5
+   ],
+   "id": "bulwark",
+   "variant": "shadow-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "7ae9a8e37266e6ba99a740c44e1ca7f46f38fa96cd01de31c9734c879e987657"
+  },
+  {
+   "name": "fb_weapon_bulwark_solar-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bulwark_solar-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    289,
+    128,
+    91,
+    119
+   ],
+   "rect_unity": [
+    289,
+    521,
+    91,
+    119
+   ],
+   "pivot": [
+    0.56781,
+    0.60015
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    5
+   ],
+   "id": "bulwark",
+   "variant": "solar-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "47223134044aca4dc8a689293cb80496d7ecf9ca78b4838d77322098f2f5ac46"
+  },
+  {
+   "name": "fb_weapon_bulwark_steel-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bulwark_steel-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    384,
+    128,
+    91,
+    119
+   ],
+   "rect_unity": [
+    384,
+    521,
+    91,
+    119
+   ],
+   "pivot": [
+    0.56781,
+    0.60015
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    5
+   ],
+   "id": "bulwark",
+   "variant": "steel-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "fb94e046e9829e73e3d3ef620fd941e2abeb602bcc582079cfcaf676cd50ced8"
+  },
+  {
+   "name": "fb_weapon_bulwark_venom-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bulwark_venom-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    479,
+    128,
+    91,
+    119
+   ],
+   "rect_unity": [
+    479,
+    521,
+    91,
+    119
+   ],
+   "pivot": [
+    0.56781,
+    0.60015
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    5
+   ],
+   "id": "bulwark",
+   "variant": "venom-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "8155f84b4838d89bccadaab52b2c9df44d613fa64c5165e8b97c19a907974a78"
+  },
+  {
+   "name": "fb_weapon_bulwark_void-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bulwark_void-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    574,
+    128,
+    91,
+    119
+   ],
+   "rect_unity": [
+    574,
+    521,
+    91,
+    119
+   ],
+   "pivot": [
+    0.56781,
+    0.60015
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    5
+   ],
+   "id": "bulwark",
+   "variant": "void-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "c4d46802d29ef2da9d218a00f259abc6565520613d2ed16d5ccc58557245f277"
+  },
+  {
+   "name": "fb_weapon_bulwark_wind-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_bulwark_wind-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    669,
+    128,
+    91,
+    119
+   ],
+   "rect_unity": [
+    669,
+    521,
+    91,
+    119
+   ],
+   "pivot": [
+    0.56781,
+    0.60015
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    5
+   ],
+   "id": "bulwark",
+   "variant": "wind-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "d97fc71d1d327f4dbae0a1fc79a87a04527171cc5b1f7aca6f28d6f1ec0cfe43"
+  },
+  {
+   "name": "fb_weapon_crossbow_arcane-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_crossbow_arcane-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    764,
+    128,
+    120,
+    96
+   ],
+   "rect_unity": [
+    764,
+    544,
+    120,
+    96
+   ],
+   "pivot": [
+    0.29552,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    16
+   ],
+   "id": "crossbow",
+   "variant": "arcane-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "692bfaf0baa142e757ad49f3d87c90e3ebf4fffb664cc3b4c4c8c664c036e3e6"
+  },
+  {
+   "name": "fb_weapon_crossbow_earth-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_crossbow_earth-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    888,
+    128,
+    120,
+    96
+   ],
+   "rect_unity": [
+    888,
+    544,
+    120,
+    96
+   ],
+   "pivot": [
+    0.29552,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    16
+   ],
+   "id": "crossbow",
+   "variant": "earth-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "16e7e9ded7291890a94221d11c5b455957611ed41b67c2feda4695d3ff8c723e"
+  },
+  {
+   "name": "fb_weapon_crossbow_fire-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_crossbow_fire-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1012,
+    128,
+    120,
+    96
+   ],
+   "rect_unity": [
+    1012,
+    544,
+    120,
+    96
+   ],
+   "pivot": [
+    0.29552,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    16
+   ],
+   "id": "crossbow",
+   "variant": "fire-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "d8b3fe0b8f8ffa78810fc3e22a30a2003a3284376c047eae76524542d4ccd657"
+  },
+  {
+   "name": "fb_weapon_crossbow_frost-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_crossbow_frost-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1136,
+    128,
+    120,
+    96
+   ],
+   "rect_unity": [
+    1136,
+    544,
+    120,
+    96
+   ],
+   "pivot": [
+    0.29552,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    16
+   ],
+   "id": "crossbow",
+   "variant": "frost-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "6ea46ba529835520a23d1e2308956b7335e6527673cb8725deb906463e328147"
+  },
+  {
+   "name": "fb_weapon_crossbow_life-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_crossbow_life-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    764,
+    228,
+    120,
+    96
+   ],
+   "rect_unity": [
+    764,
+    444,
+    120,
+    96
+   ],
+   "pivot": [
+    0.29552,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    16
+   ],
+   "id": "crossbow",
+   "variant": "life-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "2e7d7ec52437d2e1b9dc587cee418c255e5b90c698b3f4f52713038370395055"
+  },
+  {
+   "name": "fb_weapon_crossbow_lightning-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_crossbow_lightning-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    888,
+    228,
+    120,
+    96
+   ],
+   "rect_unity": [
+    888,
+    444,
+    120,
+    96
+   ],
+   "pivot": [
+    0.29552,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    16
+   ],
+   "id": "crossbow",
+   "variant": "lightning-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "2140b0a10b7fcbb76641eccfd23ae8db999e0897700f9f7a18a216be37109b20"
+  },
+  {
+   "name": "fb_weapon_crossbow_shadow-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_crossbow_shadow-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1012,
+    228,
+    120,
+    96
+   ],
+   "rect_unity": [
+    1012,
+    444,
+    120,
+    96
+   ],
+   "pivot": [
+    0.29552,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    16
+   ],
+   "id": "crossbow",
+   "variant": "shadow-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "b953c36ab362f83073c2bbce1ea4bdda4c036cad6cc5eef54ccb85f6bc9257f7"
+  },
+  {
+   "name": "fb_weapon_crossbow_solar-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_crossbow_solar-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1136,
+    228,
+    120,
+    96
+   ],
+   "rect_unity": [
+    1136,
+    444,
+    120,
+    96
+   ],
+   "pivot": [
+    0.29552,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    16
+   ],
+   "id": "crossbow",
+   "variant": "solar-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "d92f42b9d570bf7a394cbfff79a5c17515147742e68718df6c280be83d904a2c"
+  },
+  {
+   "name": "fb_weapon_crossbow_steel-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_crossbow_steel-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1260,
+    250,
+    120,
+    96
+   ],
+   "rect_unity": [
+    1260,
+    422,
+    120,
+    96
+   ],
+   "pivot": [
+    0.29552,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    16
+   ],
+   "id": "crossbow",
+   "variant": "steel-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "ab91096b0e7c34ab9445d55007fc6286438df6bfe9c582db4c9e6792bb72a7be"
+  },
+  {
+   "name": "fb_weapon_crossbow_venom-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_crossbow_venom-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1384,
+    250,
+    120,
+    96
+   ],
+   "rect_unity": [
+    1384,
+    422,
+    120,
+    96
+   ],
+   "pivot": [
+    0.29552,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    16
+   ],
+   "id": "crossbow",
+   "variant": "venom-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "4ff16ece211ec44730da7d013d2116a2ff3da90b267605105b8acd70f2424763"
+  },
+  {
+   "name": "fb_weapon_crossbow_void-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_crossbow_void-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    251,
+    120,
+    96
+   ],
+   "rect_unity": [
+    4,
+    421,
+    120,
+    96
+   ],
+   "pivot": [
+    0.29552,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    16
+   ],
+   "id": "crossbow",
+   "variant": "void-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "3daeef5c65485df0384429f97768402867276bda4479fbc4e4b692ffd397c59b"
+  },
+  {
+   "name": "fb_weapon_crossbow_wind-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_crossbow_wind-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    128,
+    251,
+    120,
+    96
+   ],
+   "rect_unity": [
+    128,
+    421,
+    120,
+    96
+   ],
+   "pivot": [
+    0.29552,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    16
+   ],
+   "id": "crossbow",
+   "variant": "wind-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "612dbb9dc3008161b4fb392f0895998eed6f103a15e047dd073899645de35286"
+  },
+  {
+   "name": "fb_weapon_dagger_arcane-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_dagger_arcane-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1244,
+    601,
+    120,
+    38
+   ],
+   "rect_unity": [
+    1244,
+    129,
+    120,
+    38
+   ],
+   "pivot": [
+    0.24901,
+    0.48922
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    45
+   ],
+   "id": "dagger",
+   "variant": "arcane-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "07ba68198f22538c09abc1d09f2d2b7fda150aba647aade3fd1b396c4b509f5a"
+  },
+  {
+   "name": "fb_weapon_dagger_earth-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_dagger_earth-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1368,
+    601,
+    120,
+    38
+   ],
+   "rect_unity": [
+    1368,
+    129,
+    120,
+    38
+   ],
+   "pivot": [
+    0.24901,
+    0.48922
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    45
+   ],
+   "id": "dagger",
+   "variant": "earth-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "9d420ba794b6730eb6434c9f31115f39646d2f8e4b9b61a6fba8e4e9651d55eb"
+  },
+  {
+   "name": "fb_weapon_dagger_fire-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_dagger_fire-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    602,
+    120,
+    38
+   ],
+   "rect_unity": [
+    4,
+    128,
+    120,
+    38
+   ],
+   "pivot": [
+    0.24901,
+    0.48922
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    45
+   ],
+   "id": "dagger",
+   "variant": "fire-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "692a388190b2a7e2ca95e57ca9f4e3dd021b1107e8270c9d93368a410860d6c9"
+  },
+  {
+   "name": "fb_weapon_dagger_frost-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_dagger_frost-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    128,
+    602,
+    120,
+    38
+   ],
+   "rect_unity": [
+    128,
+    128,
+    120,
+    38
+   ],
+   "pivot": [
+    0.24901,
+    0.48922
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    45
+   ],
+   "id": "dagger",
+   "variant": "frost-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "16848c4b7051e109f93abc3c987a7751263df856e5f8bc3e96e9142952d63d4f"
+  },
+  {
+   "name": "fb_weapon_dagger_life-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_dagger_life-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    252,
+    628,
+    120,
+    38
+   ],
+   "rect_unity": [
+    252,
+    102,
+    120,
+    38
+   ],
+   "pivot": [
+    0.24901,
+    0.48922
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    45
+   ],
+   "id": "dagger",
+   "variant": "life-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "7bb7818dc9aa035ef909730958a5f8f257b6850d2fb2cf4ef8222414a38739f6"
+  },
+  {
+   "name": "fb_weapon_dagger_lightning-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_dagger_lightning-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    376,
+    628,
+    120,
+    38
+   ],
+   "rect_unity": [
+    376,
+    102,
+    120,
+    38
+   ],
+   "pivot": [
+    0.24901,
+    0.48922
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    45
+   ],
+   "id": "dagger",
+   "variant": "lightning-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "aa44915766d62c5b62734e5fba7118885e22bae7ae5066929a496ad6d0d0bbf1"
+  },
+  {
+   "name": "fb_weapon_dagger_shadow-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_dagger_shadow-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    500,
+    628,
+    120,
+    38
+   ],
+   "rect_unity": [
+    500,
+    102,
+    120,
+    38
+   ],
+   "pivot": [
+    0.24901,
+    0.48922
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    45
+   ],
+   "id": "dagger",
+   "variant": "shadow-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "a5e5019f90b20a3c1a0c0d6856e6fbb7383537593c368d63e3ef5ac1e1b3e7d6"
+  },
+  {
+   "name": "fb_weapon_dagger_solar-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_dagger_solar-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    624,
+    628,
+    120,
+    38
+   ],
+   "rect_unity": [
+    624,
+    102,
+    120,
+    38
+   ],
+   "pivot": [
+    0.24901,
+    0.48922
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    45
+   ],
+   "id": "dagger",
+   "variant": "solar-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "9c45189ebd4d04b16de844ac54ab6690050032cf142289cfa34bd9e5c928a401"
+  },
+  {
+   "name": "fb_weapon_dagger_steel-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_dagger_steel-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    748,
+    642,
+    120,
+    38
+   ],
+   "rect_unity": [
+    748,
+    88,
+    120,
+    38
+   ],
+   "pivot": [
+    0.24901,
+    0.48922
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    45
+   ],
+   "id": "dagger",
+   "variant": "steel-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "d461dce16e0f7fda938de53110c27db81febcf62acd35e19f8034b649a29b9a8"
+  },
+  {
+   "name": "fb_weapon_dagger_venom-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_dagger_venom-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    872,
+    642,
+    120,
+    38
+   ],
+   "rect_unity": [
+    872,
+    88,
+    120,
+    38
+   ],
+   "pivot": [
+    0.24901,
+    0.48922
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    45
+   ],
+   "id": "dagger",
+   "variant": "venom-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "e64e15c0a600bb04deeabfc620c4421b5be3a4bafa69d945085366ffb06127a3"
+  },
+  {
+   "name": "fb_weapon_dagger_void-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_dagger_void-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    996,
+    642,
+    120,
+    38
+   ],
+   "rect_unity": [
+    996,
+    88,
+    120,
+    38
+   ],
+   "pivot": [
+    0.24901,
+    0.48922
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    45
+   ],
+   "id": "dagger",
+   "variant": "void-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "2700828a45f34df165b517453a45a5d50b9fc45835548d910396cf87b907bb88"
+  },
+  {
+   "name": "fb_weapon_dagger_wind-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_dagger_wind-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1120,
+    642,
+    120,
+    38
+   ],
+   "rect_unity": [
+    1120,
+    88,
+    120,
+    38
+   ],
+   "pivot": [
+    0.24901,
+    0.48922
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    45
+   ],
+   "id": "dagger",
+   "variant": "wind-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "6045272ad18a7a1f780b07fba787ceb56520fcf7f6cdbdf4fae79ddee697ff95"
+  },
+  {
+   "name": "fb_weapon_greatsword_arcane-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_greatsword_arcane-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1244,
+    557,
+    120,
+    40
+   ],
+   "rect_unity": [
+    1244,
+    171,
+    120,
+    40
+   ],
+   "pivot": [
+    0.16731,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    44
+   ],
+   "id": "greatsword",
+   "variant": "arcane-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "269829746e98a2ba7774cca943c9b510e62d940492c134d8f5bf2a4c93b183ba"
+  },
+  {
+   "name": "fb_weapon_greatsword_earth-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_greatsword_earth-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1368,
+    557,
+    120,
+    40
+   ],
+   "rect_unity": [
+    1368,
+    171,
+    120,
+    40
+   ],
+   "pivot": [
+    0.16731,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    44
+   ],
+   "id": "greatsword",
+   "variant": "earth-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "85c5b167f465ce76bb7079ea25b53336b26b8b93b863ed8252db67581c52a890"
+  },
+  {
+   "name": "fb_weapon_greatsword_fire-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_greatsword_fire-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    558,
+    120,
+    40
+   ],
+   "rect_unity": [
+    4,
+    170,
+    120,
+    40
+   ],
+   "pivot": [
+    0.16731,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    44
+   ],
+   "id": "greatsword",
+   "variant": "fire-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "2187304ce07e9d1136eb034f4e17d10784658a069f039730b3945b896707ea4e"
+  },
+  {
+   "name": "fb_weapon_greatsword_frost-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_greatsword_frost-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    128,
+    558,
+    120,
+    40
+   ],
+   "rect_unity": [
+    128,
+    170,
+    120,
+    40
+   ],
+   "pivot": [
+    0.16731,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    44
+   ],
+   "id": "greatsword",
+   "variant": "frost-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "b7edf5532d18fd8e3893512a4ee7b8f7491f205d4793c1bd98ffebc1d3dc6c74"
+  },
+  {
+   "name": "fb_weapon_greatsword_life-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_greatsword_life-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    252,
+    584,
+    120,
+    40
+   ],
+   "rect_unity": [
+    252,
+    144,
+    120,
+    40
+   ],
+   "pivot": [
+    0.16731,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    44
+   ],
+   "id": "greatsword",
+   "variant": "life-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "c27f12bb1feebfcb00705af7755ad201fcda6e45dc5ee04e73a7f0382e342223"
+  },
+  {
+   "name": "fb_weapon_greatsword_lightning-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_greatsword_lightning-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    376,
+    584,
+    120,
+    40
+   ],
+   "rect_unity": [
+    376,
+    144,
+    120,
+    40
+   ],
+   "pivot": [
+    0.16731,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    44
+   ],
+   "id": "greatsword",
+   "variant": "lightning-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "a41589da2321079e96577947cb655aa865f069dbb72f2533e1ec27d9b53ce94d"
+  },
+  {
+   "name": "fb_weapon_greatsword_shadow-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_greatsword_shadow-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    500,
+    584,
+    120,
+    40
+   ],
+   "rect_unity": [
+    500,
+    144,
+    120,
+    40
+   ],
+   "pivot": [
+    0.16731,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    44
+   ],
+   "id": "greatsword",
+   "variant": "shadow-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "ab3f808f30613889a161c30302cc6a2b37adc9778584f0ca864b9f38e78d1d2e"
+  },
+  {
+   "name": "fb_weapon_greatsword_solar-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_greatsword_solar-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    624,
+    584,
+    120,
+    40
+   ],
+   "rect_unity": [
+    624,
+    144,
+    120,
+    40
+   ],
+   "pivot": [
+    0.16731,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    44
+   ],
+   "id": "greatsword",
+   "variant": "solar-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "33f8e9dbe5f1dda8ef198d3cce3a0ac7e6fe24dbaba14771f73ad884b257995b"
+  },
+  {
+   "name": "fb_weapon_greatsword_steel-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_greatsword_steel-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    748,
+    598,
+    120,
+    40
+   ],
+   "rect_unity": [
+    748,
+    130,
+    120,
+    40
+   ],
+   "pivot": [
+    0.16731,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    44
+   ],
+   "id": "greatsword",
+   "variant": "steel-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "aaea480d776fcfe78796da6e96a6dc66444506b448a54da5ec2205b2b50739aa"
+  },
+  {
+   "name": "fb_weapon_greatsword_venom-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_greatsword_venom-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    872,
+    598,
+    120,
+    40
+   ],
+   "rect_unity": [
+    872,
+    130,
+    120,
+    40
+   ],
+   "pivot": [
+    0.16731,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    44
+   ],
+   "id": "greatsword",
+   "variant": "venom-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "c6b037afaa792df2f2e22693179956f4c7f1aebe9303181f04b19ab8b769b017"
+  },
+  {
+   "name": "fb_weapon_greatsword_void-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_greatsword_void-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    996,
+    598,
+    120,
+    40
+   ],
+   "rect_unity": [
+    996,
+    130,
+    120,
+    40
+   ],
+   "pivot": [
+    0.16731,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    44
+   ],
+   "id": "greatsword",
+   "variant": "void-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "829f8093119dc73628e7e2118ed84a51dcc5cba75f71cfc6452ecdfd3cf2a0a6"
+  },
+  {
+   "name": "fb_weapon_greatsword_wind-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_greatsword_wind-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1120,
+    598,
+    120,
+    40
+   ],
+   "rect_unity": [
+    1120,
+    130,
+    120,
+    40
+   ],
+   "pivot": [
+    0.16731,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    44
+   ],
+   "id": "greatsword",
+   "variant": "wind-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "560acc1667587e5cf0109993927ef9ba0ad792231d9a35bccc176aa83568ce70"
+  },
+  {
+   "name": "fb_weapon_hammer_arcane-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_hammer_arcane-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1244,
+    421,
+    120,
+    64
+   ],
+   "rect_unity": [
+    1244,
+    283,
+    120,
+    64
+   ],
+   "pivot": [
+    0.1992,
+    0.3888
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    32
+   ],
+   "id": "hammer",
+   "variant": "arcane-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "c590adf5f7d64e3d12d7188e909c6ce5014a12909a24145f62fe63c1551a2aca"
+  },
+  {
+   "name": "fb_weapon_hammer_earth-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_hammer_earth-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1368,
+    421,
+    120,
+    64
+   ],
+   "rect_unity": [
+    1368,
+    283,
+    120,
+    64
+   ],
+   "pivot": [
+    0.1992,
+    0.3888
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    32
+   ],
+   "id": "hammer",
+   "variant": "earth-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "3598168f91ad97c9bc8561928071e608500581fd92459c3eacbf61672bfb2282"
+  },
+  {
+   "name": "fb_weapon_hammer_fire-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_hammer_fire-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    422,
+    120,
+    64
+   ],
+   "rect_unity": [
+    4,
+    282,
+    120,
+    64
+   ],
+   "pivot": [
+    0.1992,
+    0.3888
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    32
+   ],
+   "id": "hammer",
+   "variant": "fire-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "dda5580733137975cbbcfcf64e42b01491749bbc01c9c618d942c49947e209de"
+  },
+  {
+   "name": "fb_weapon_hammer_frost-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_hammer_frost-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    128,
+    422,
+    120,
+    64
+   ],
+   "rect_unity": [
+    128,
+    282,
+    120,
+    64
+   ],
+   "pivot": [
+    0.1992,
+    0.3888
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    32
+   ],
+   "id": "hammer",
+   "variant": "frost-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "3c84e96d592ab12a874840a7f56ed5f9882a75e0d64a408df94dffe22f363e51"
+  },
+  {
+   "name": "fb_weapon_hammer_life-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_hammer_life-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    748,
+    484,
+    120,
+    64
+   ],
+   "rect_unity": [
+    748,
+    220,
+    120,
+    64
+   ],
+   "pivot": [
+    0.1992,
+    0.3888
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    32
+   ],
+   "id": "hammer",
+   "variant": "life-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "d9c25284c660c338fc252d96e579427945d0176f4998cb695e43fcb4ee894d2b"
+  },
+  {
+   "name": "fb_weapon_hammer_lightning-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_hammer_lightning-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    872,
+    484,
+    120,
+    64
+   ],
+   "rect_unity": [
+    872,
+    220,
+    120,
+    64
+   ],
+   "pivot": [
+    0.1992,
+    0.3888
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    32
+   ],
+   "id": "hammer",
+   "variant": "lightning-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "3ebba279c3ae34f16215c0f6ca5ae2b536215eb8bdf6a16deaf6af4354925774"
+  },
+  {
+   "name": "fb_weapon_hammer_shadow-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_hammer_shadow-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    996,
+    484,
+    120,
+    64
+   ],
+   "rect_unity": [
+    996,
+    220,
+    120,
+    64
+   ],
+   "pivot": [
+    0.1992,
+    0.3888
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    32
+   ],
+   "id": "hammer",
+   "variant": "shadow-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "a9fb3b0828cdb4d015743fbf8a25af798057eb5ae2b93699fc7495227fe1f201"
+  },
+  {
+   "name": "fb_weapon_hammer_solar-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_hammer_solar-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1120,
+    484,
+    120,
+    64
+   ],
+   "rect_unity": [
+    1120,
+    220,
+    120,
+    64
+   ],
+   "pivot": [
+    0.1992,
+    0.3888
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    32
+   ],
+   "id": "hammer",
+   "variant": "solar-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "23f9bae6275104ffdedf2055ed21bc8dc2e94edcfda3daf544dc0f12e5ab57b0"
+  },
+  {
+   "name": "fb_weapon_hammer_steel-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_hammer_steel-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1244,
+    489,
+    120,
+    64
+   ],
+   "rect_unity": [
+    1244,
+    215,
+    120,
+    64
+   ],
+   "pivot": [
+    0.1992,
+    0.3888
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    32
+   ],
+   "id": "hammer",
+   "variant": "steel-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "649b3437802c5651611768bd2981c4a788c6aa94d253c99669dd4f51a7a9de14"
+  },
+  {
+   "name": "fb_weapon_hammer_venom-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_hammer_venom-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1368,
+    489,
+    120,
+    64
+   ],
+   "rect_unity": [
+    1368,
+    215,
+    120,
+    64
+   ],
+   "pivot": [
+    0.1992,
+    0.3888
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    32
+   ],
+   "id": "hammer",
+   "variant": "venom-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "d27f7d62f53711ec4b510d48a31098f132fdfb001a52a9812b806c1860cd32ed"
+  },
+  {
+   "name": "fb_weapon_hammer_void-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_hammer_void-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    490,
+    120,
+    64
+   ],
+   "rect_unity": [
+    4,
+    214,
+    120,
+    64
+   ],
+   "pivot": [
+    0.1992,
+    0.3888
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    32
+   ],
+   "id": "hammer",
+   "variant": "void-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "ff6c194ef15aa52ea93c2239a1d1e7678a952a806361bacac07f2006bffe10c1"
+  },
+  {
+   "name": "fb_weapon_hammer_wind-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_hammer_wind-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    128,
+    490,
+    120,
+    64
+   ],
+   "rect_unity": [
+    128,
+    214,
+    120,
+    64
+   ],
+   "pivot": [
+    0.1992,
+    0.3888
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    32
+   ],
+   "id": "hammer",
+   "variant": "wind-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "1f8bdab82db38c53a01112cda8b27dfa982319cf4a97601a61d8342818f52a9b"
+  },
+  {
+   "name": "fb_weapon_scythe_arcane-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_scythe_arcane-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1244,
+    350,
+    120,
+    67
+   ],
+   "rect_unity": [
+    1244,
+    351,
+    120,
+    67
+   ],
+   "pivot": [
+    0.19291,
+    0.18823
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    31
+   ],
+   "id": "scythe",
+   "variant": "arcane-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "aa8906d15e711a0f192a091c2cd017e55c0011adb0f67ed1a027bfe1f6e6c49a"
+  },
+  {
+   "name": "fb_weapon_scythe_earth-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_scythe_earth-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1368,
+    350,
+    120,
+    67
+   ],
+   "rect_unity": [
+    1368,
+    351,
+    120,
+    67
+   ],
+   "pivot": [
+    0.19291,
+    0.18823
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    31
+   ],
+   "id": "scythe",
+   "variant": "earth-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "e6e5260ad25cf4401dfb30752c7270d6fac09c17e90eba0a7136f487744287d2"
+  },
+  {
+   "name": "fb_weapon_scythe_fire-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_scythe_fire-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    351,
+    120,
+    67
+   ],
+   "rect_unity": [
+    4,
+    350,
+    120,
+    67
+   ],
+   "pivot": [
+    0.19291,
+    0.18823
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    31
+   ],
+   "id": "scythe",
+   "variant": "fire-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "bdf27a132df4786d5a2256a984edf7958ee1b184ced7db9ebf1f167b73d18e0f"
+  },
+  {
+   "name": "fb_weapon_scythe_frost-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_scythe_frost-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    128,
+    351,
+    120,
+    67
+   ],
+   "rect_unity": [
+    128,
+    350,
+    120,
+    67
+   ],
+   "pivot": [
+    0.19291,
+    0.18823
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    31
+   ],
+   "id": "scythe",
+   "variant": "frost-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "3f8f52f499a96f4e271038a62c4911a659cb2450f253018cdfc4e69432a2189a"
+  },
+  {
+   "name": "fb_weapon_scythe_life-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_scythe_life-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    748,
+    413,
+    120,
+    67
+   ],
+   "rect_unity": [
+    748,
+    288,
+    120,
+    67
+   ],
+   "pivot": [
+    0.19291,
+    0.18823
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    31
+   ],
+   "id": "scythe",
+   "variant": "life-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "b3dcfc6d2e4d2825b5616d69dbcc294b5863145ca5c1292067eca4b8fe2afcc1"
+  },
+  {
+   "name": "fb_weapon_scythe_lightning-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_scythe_lightning-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    872,
+    413,
+    120,
+    67
+   ],
+   "rect_unity": [
+    872,
+    288,
+    120,
+    67
+   ],
+   "pivot": [
+    0.19291,
+    0.18823
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    31
+   ],
+   "id": "scythe",
+   "variant": "lightning-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "94bdd9da0d29723efe4dbcf27d87674c5fae994cb8b9bb26c3ea307642984bed"
+  },
+  {
+   "name": "fb_weapon_scythe_shadow-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_scythe_shadow-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    996,
+    413,
+    120,
+    67
+   ],
+   "rect_unity": [
+    996,
+    288,
+    120,
+    67
+   ],
+   "pivot": [
+    0.19291,
+    0.18823
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    31
+   ],
+   "id": "scythe",
+   "variant": "shadow-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "0d1ad0f3d46308de83b5b2e28f464f1f61eaad5751538fa9f9ecd7a06a28e9ff"
+  },
+  {
+   "name": "fb_weapon_scythe_solar-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_scythe_solar-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1120,
+    413,
+    120,
+    67
+   ],
+   "rect_unity": [
+    1120,
+    288,
+    120,
+    67
+   ],
+   "pivot": [
+    0.19291,
+    0.18823
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    31
+   ],
+   "id": "scythe",
+   "variant": "solar-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "79a4269a469cb135e8942f56a17c668a837bd950a050dfddf28791abc1614990"
+  },
+  {
+   "name": "fb_weapon_scythe_steel-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_scythe_steel-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    252,
+    421,
+    120,
+    67
+   ],
+   "rect_unity": [
+    252,
+    280,
+    120,
+    67
+   ],
+   "pivot": [
+    0.19291,
+    0.18823
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    31
+   ],
+   "id": "scythe",
+   "variant": "steel-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "a2df79e9543b369107a9628e3fdfdde72bc9ee0d2534acc7437663e3ae0b7280"
+  },
+  {
+   "name": "fb_weapon_scythe_venom-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_scythe_venom-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    376,
+    421,
+    120,
+    67
+   ],
+   "rect_unity": [
+    376,
+    280,
+    120,
+    67
+   ],
+   "pivot": [
+    0.19291,
+    0.18823
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    31
+   ],
+   "id": "scythe",
+   "variant": "venom-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "348082aa3b6908267e35e251dcef2cbe0751331bc8127e37b2e26b2c430814e4"
+  },
+  {
+   "name": "fb_weapon_scythe_void-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_scythe_void-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    500,
+    421,
+    120,
+    67
+   ],
+   "rect_unity": [
+    500,
+    280,
+    120,
+    67
+   ],
+   "pivot": [
+    0.19291,
+    0.18823
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    31
+   ],
+   "id": "scythe",
+   "variant": "void-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "08c732b1abf3a308d3ad40b76f557ddaaa489cbad48c98d788e07cd80ac54012"
+  },
+  {
+   "name": "fb_weapon_scythe_wind-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_scythe_wind-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    624,
+    421,
+    120,
+    67
+   ],
+   "rect_unity": [
+    624,
+    280,
+    120,
+    67
+   ],
+   "pivot": [
+    0.19291,
+    0.18823
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    31
+   ],
+   "id": "scythe",
+   "variant": "wind-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "422859635d730b8876f7558948aa228288de9bce2e033c1d5e4448cd0481eef9"
+  },
+  {
+   "name": "fb_weapon_spear_arcane-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_spear_arcane-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    872,
+    718,
+    120,
+    18
+   ],
+   "rect_unity": [
+    872,
+    32,
+    120,
+    18
+   ],
+   "pivot": [
+    0.33765,
+    0.49218
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    55
+   ],
+   "id": "spear",
+   "variant": "arcane-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "18a5c00967607d9451d4638985f60254813a94b453f1c53f0d0387cc496b623d"
+  },
+  {
+   "name": "fb_weapon_spear_earth-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_spear_earth-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    996,
+    718,
+    120,
+    18
+   ],
+   "rect_unity": [
+    996,
+    32,
+    120,
+    18
+   ],
+   "pivot": [
+    0.33765,
+    0.49218
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    55
+   ],
+   "id": "spear",
+   "variant": "earth-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "abb4361c1470bc5cfff1bb1c792394dfd119e31448a0d3842313cde01d77a9ff"
+  },
+  {
+   "name": "fb_weapon_spear_fire-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_spear_fire-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1120,
+    718,
+    120,
+    18
+   ],
+   "rect_unity": [
+    1120,
+    32,
+    120,
+    18
+   ],
+   "pivot": [
+    0.33765,
+    0.49218
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    55
+   ],
+   "id": "spear",
+   "variant": "fire-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "df144b0e39384af3879324a8c9d3596fa1ff054c167fd7a2b04d5435cf421e03"
+  },
+  {
+   "name": "fb_weapon_spear_frost-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_spear_frost-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    748,
+    719,
+    120,
+    18
+   ],
+   "rect_unity": [
+    748,
+    31,
+    120,
+    18
+   ],
+   "pivot": [
+    0.33765,
+    0.49218
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    55
+   ],
+   "id": "spear",
+   "variant": "frost-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "2aa88808c8f3bb5ced95b6662c14e8773f2d0e68c01fe0b229d477fdc6ef2d3f"
+  },
+  {
+   "name": "fb_weapon_spear_life-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_spear_life-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    252,
+    739,
+    120,
+    18
+   ],
+   "rect_unity": [
+    252,
+    11,
+    120,
+    18
+   ],
+   "pivot": [
+    0.33765,
+    0.49218
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    55
+   ],
+   "id": "spear",
+   "variant": "life-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "9c606a8b909e06037212d659a83aaad8948eb084d003aa756d1fdfd7eadefe78"
+  },
+  {
+   "name": "fb_weapon_spear_lightning-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_spear_lightning-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    376,
+    739,
+    120,
+    18
+   ],
+   "rect_unity": [
+    376,
+    11,
+    120,
+    18
+   ],
+   "pivot": [
+    0.33765,
+    0.49218
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    55
+   ],
+   "id": "spear",
+   "variant": "lightning-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "f530b5d0fe9946b7bd1cba677680ae13a9ac1efc6b9470b6ebd29a5d4f1efb9d"
+  },
+  {
+   "name": "fb_weapon_spear_shadow-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_spear_shadow-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    500,
+    739,
+    120,
+    18
+   ],
+   "rect_unity": [
+    500,
+    11,
+    120,
+    18
+   ],
+   "pivot": [
+    0.33765,
+    0.49218
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    55
+   ],
+   "id": "spear",
+   "variant": "shadow-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "46c785b61c6656063cb54143a01df0284b7ca1477fac3a77fccd91cc7ec1f7be"
+  },
+  {
+   "name": "fb_weapon_spear_solar-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_spear_solar-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    624,
+    739,
+    120,
+    18
+   ],
+   "rect_unity": [
+    624,
+    11,
+    120,
+    18
+   ],
+   "pivot": [
+    0.33765,
+    0.49218
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    55
+   ],
+   "id": "spear",
+   "variant": "solar-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "cd977fb58887aebe01bd8c62668d125540fc91b7150b8f4d2e520feda40cdd2e"
+  },
+  {
+   "name": "fb_weapon_spear_steel-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_spear_steel-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    872,
+    740,
+    120,
+    18
+   ],
+   "rect_unity": [
+    872,
+    10,
+    120,
+    18
+   ],
+   "pivot": [
+    0.33765,
+    0.49218
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    55
+   ],
+   "id": "spear",
+   "variant": "steel-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "aa0a743cff11803f780f1906fafa4a6aef701c5ace316ca255705cb3a5cae160"
+  },
+  {
+   "name": "fb_weapon_spear_venom-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_spear_venom-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    996,
+    740,
+    120,
+    18
+   ],
+   "rect_unity": [
+    996,
+    10,
+    120,
+    18
+   ],
+   "pivot": [
+    0.33765,
+    0.49218
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    55
+   ],
+   "id": "spear",
+   "variant": "venom-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "9fb0fa4b20a12cbe6fe2c6c06e6a6915881bd676fdcbf10050de92bf8fe101e0"
+  },
+  {
+   "name": "fb_weapon_spear_void-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_spear_void-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1120,
+    740,
+    120,
+    18
+   ],
+   "rect_unity": [
+    1120,
+    10,
+    120,
+    18
+   ],
+   "pivot": [
+    0.33765,
+    0.49218
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    55
+   ],
+   "id": "spear",
+   "variant": "void-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "cfa2a8a3a294d17e0e4cc96c2bed96d0455b63a2e27da9b3085116418867b8eb"
+  },
+  {
+   "name": "fb_weapon_spear_wind-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_spear_wind-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    748,
+    741,
+    120,
+    18
+   ],
+   "rect_unity": [
+    748,
+    9,
+    120,
+    18
+   ],
+   "pivot": [
+    0.33765,
+    0.49218
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    55
+   ],
+   "id": "spear",
+   "variant": "wind-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "05929712d95c1c107a750b4909a3cd5249aadbbbbdd4ead9c9af22076923ceee"
+  },
+  {
+   "name": "fb_weapon_staff_arcane-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_staff_arcane-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    872,
+    684,
+    120,
+    30
+   ],
+   "rect_unity": [
+    872,
+    54,
+    120,
+    30
+   ],
+   "pivot": [
+    0.36752,
+    0.47568
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    49
+   ],
+   "id": "staff",
+   "variant": "arcane-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "5bdd202f38c7a6cea141dd14d186b71358ffb20ac17c7b866d27b934ac70b8d6"
+  },
+  {
+   "name": "fb_weapon_staff_earth-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_staff_earth-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    996,
+    684,
+    120,
+    30
+   ],
+   "rect_unity": [
+    996,
+    54,
+    120,
+    30
+   ],
+   "pivot": [
+    0.36752,
+    0.47568
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    49
+   ],
+   "id": "staff",
+   "variant": "earth-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "6622f472d3c1100280fd5113cbd2540c664933da6bc9f76a9da80dc5c4407ea1"
+  },
+  {
+   "name": "fb_weapon_staff_fire-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_staff_fire-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1120,
+    684,
+    120,
+    30
+   ],
+   "rect_unity": [
+    1120,
+    54,
+    120,
+    30
+   ],
+   "pivot": [
+    0.36752,
+    0.47568
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    49
+   ],
+   "id": "staff",
+   "variant": "fire-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "7c6503985b837661a82c403e5d02fadd0b4c95a9ab0514e8e44a5ddbd06e2218"
+  },
+  {
+   "name": "fb_weapon_staff_frost-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_staff_frost-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    252,
+    705,
+    120,
+    30
+   ],
+   "rect_unity": [
+    252,
+    33,
+    120,
+    30
+   ],
+   "pivot": [
+    0.36752,
+    0.47568
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    49
+   ],
+   "id": "staff",
+   "variant": "frost-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "3f6b6a226971bfa084e7f14d484723dc56e600cabc0ea54ee3ec5bbc686e1bda"
+  },
+  {
+   "name": "fb_weapon_staff_life-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_staff_life-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    376,
+    705,
+    120,
+    30
+   ],
+   "rect_unity": [
+    376,
+    33,
+    120,
+    30
+   ],
+   "pivot": [
+    0.36752,
+    0.47568
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    49
+   ],
+   "id": "staff",
+   "variant": "life-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "d3331fa069c7de4ba73e8b04be4ac67549207d6fd5444a53a072c65953ba1e74"
+  },
+  {
+   "name": "fb_weapon_staff_lightning-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_staff_lightning-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    500,
+    705,
+    120,
+    30
+   ],
+   "rect_unity": [
+    500,
+    33,
+    120,
+    30
+   ],
+   "pivot": [
+    0.36752,
+    0.47568
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    49
+   ],
+   "id": "staff",
+   "variant": "lightning-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "619e30ead345164b4a2cc9dce41c3436591dc8fa6c667fc6705b880770187237"
+  },
+  {
+   "name": "fb_weapon_staff_shadow-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_staff_shadow-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    624,
+    705,
+    120,
+    30
+   ],
+   "rect_unity": [
+    624,
+    33,
+    120,
+    30
+   ],
+   "pivot": [
+    0.36752,
+    0.47568
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    49
+   ],
+   "id": "staff",
+   "variant": "shadow-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "704cacd09d940f60df56151ad50eceebc88f0b8b00b4668a737c4b8d431593e2"
+  },
+  {
+   "name": "fb_weapon_staff_solar-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_staff_solar-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    748,
+    684,
+    120,
+    31
+   ],
+   "rect_unity": [
+    748,
+    53,
+    120,
+    31
+   ],
+   "pivot": [
+    0.36752,
+    0.49259
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    49
+   ],
+   "id": "staff",
+   "variant": "solar-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "3775c1b554965cdae5662d47d7afdb42567c8b7aded5184731a8f4a7c94ed561"
+  },
+  {
+   "name": "fb_weapon_staff_steel-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_staff_steel-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1368,
+    713,
+    120,
+    30
+   ],
+   "rect_unity": [
+    1368,
+    25,
+    120,
+    30
+   ],
+   "pivot": [
+    0.36752,
+    0.47568
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    49
+   ],
+   "id": "staff",
+   "variant": "steel-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "2c526b6b30888858d5c6736f3bc892ec746cd898c0d16b12efc02cab544a45c7"
+  },
+  {
+   "name": "fb_weapon_staff_venom-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_staff_venom-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    714,
+    120,
+    30
+   ],
+   "rect_unity": [
+    4,
+    24,
+    120,
+    30
+   ],
+   "pivot": [
+    0.36752,
+    0.47568
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    49
+   ],
+   "id": "staff",
+   "variant": "venom-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "4c559e2844d0661719981e009a0a6f0d4714164c9b55856890f72196141c5afb"
+  },
+  {
+   "name": "fb_weapon_staff_void-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_staff_void-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    128,
+    714,
+    120,
+    30
+   ],
+   "rect_unity": [
+    128,
+    24,
+    120,
+    30
+   ],
+   "pivot": [
+    0.36752,
+    0.47568
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    49
+   ],
+   "id": "staff",
+   "variant": "void-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "5360c8f5320fe2a7a532439b36ee2cdb4f9533c074c3e7d44bdaab5d5dd2e34e"
+  },
+  {
+   "name": "fb_weapon_staff_wind-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_staff_wind-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1244,
+    714,
+    120,
+    30
+   ],
+   "rect_unity": [
+    1244,
+    24,
+    120,
+    30
+   ],
+   "pivot": [
+    0.36752,
+    0.47568
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    49
+   ],
+   "id": "staff",
+   "variant": "wind-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "1a951e959e84224a914731257482ddd03c08cc65725e3ef4db5799604fc51d19"
+  },
+  {
+   "name": "fb_weapon_sword_arcane-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_sword_arcane-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    252,
+    492,
+    120,
+    42
+   ],
+   "rect_unity": [
+    252,
+    234,
+    120,
+    42
+   ],
+   "pivot": [
+    0.14469,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    43
+   ],
+   "id": "sword",
+   "variant": "arcane-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "42f2e47909993d42dbfca9340bc90a53b89f0bdb32dde5bd1fd025b2c465767d"
+  },
+  {
+   "name": "fb_weapon_sword_earth-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_sword_earth-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    376,
+    492,
+    120,
+    42
+   ],
+   "rect_unity": [
+    376,
+    234,
+    120,
+    42
+   ],
+   "pivot": [
+    0.14469,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    43
+   ],
+   "id": "sword",
+   "variant": "earth-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "0c7110fb3299aff8708de243013e2548ce2825169e7073341ecdbb552076301a"
+  },
+  {
+   "name": "fb_weapon_sword_fire-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_sword_fire-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    500,
+    492,
+    120,
+    42
+   ],
+   "rect_unity": [
+    500,
+    234,
+    120,
+    42
+   ],
+   "pivot": [
+    0.14469,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    43
+   ],
+   "id": "sword",
+   "variant": "fire-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "7352631e95d613d10caae623ab2f79ea2225aef5920d2e5b7cf90131289b3f59"
+  },
+  {
+   "name": "fb_weapon_sword_frost-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_sword_frost-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    624,
+    492,
+    120,
+    42
+   ],
+   "rect_unity": [
+    624,
+    234,
+    120,
+    42
+   ],
+   "pivot": [
+    0.14469,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    43
+   ],
+   "id": "sword",
+   "variant": "frost-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "7886576ef25782219fc3ad325d565cb4a4a623bf4617f21d4204262787506bf1"
+  },
+  {
+   "name": "fb_weapon_sword_life-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_sword_life-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    252,
+    538,
+    120,
+    42
+   ],
+   "rect_unity": [
+    252,
+    188,
+    120,
+    42
+   ],
+   "pivot": [
+    0.14469,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    43
+   ],
+   "id": "sword",
+   "variant": "life-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "17510983adfa1f345ad76f6daec48f441a9ab0e27fef4c12562d367df889146b"
+  },
+  {
+   "name": "fb_weapon_sword_lightning-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_sword_lightning-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    376,
+    538,
+    120,
+    42
+   ],
+   "rect_unity": [
+    376,
+    188,
+    120,
+    42
+   ],
+   "pivot": [
+    0.14469,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    43
+   ],
+   "id": "sword",
+   "variant": "lightning-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "d87cae00e4e820dd9f5c213e5a9bce824f6f7769d9f8354857feef024bf0105c"
+  },
+  {
+   "name": "fb_weapon_sword_shadow-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_sword_shadow-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    500,
+    538,
+    120,
+    42
+   ],
+   "rect_unity": [
+    500,
+    188,
+    120,
+    42
+   ],
+   "pivot": [
+    0.14469,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    43
+   ],
+   "id": "sword",
+   "variant": "shadow-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "c93e04396907253bec99496ca4d88c34fb8a001c28f054107826e081d957d7a2"
+  },
+  {
+   "name": "fb_weapon_sword_solar-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_sword_solar-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    624,
+    538,
+    120,
+    42
+   ],
+   "rect_unity": [
+    624,
+    188,
+    120,
+    42
+   ],
+   "pivot": [
+    0.14469,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    43
+   ],
+   "id": "sword",
+   "variant": "solar-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "5e227ced7e121d955b987e0f9277dc4bff57ec54d364d74b8c7964541f4d547e"
+  },
+  {
+   "name": "fb_weapon_sword_steel-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_sword_steel-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    748,
+    552,
+    120,
+    42
+   ],
+   "rect_unity": [
+    748,
+    174,
+    120,
+    42
+   ],
+   "pivot": [
+    0.14469,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    43
+   ],
+   "id": "sword",
+   "variant": "steel-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "200d3c811782fb8f96360eac55423311577120bf37783246036d4836154500bc"
+  },
+  {
+   "name": "fb_weapon_sword_venom-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_sword_venom-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    872,
+    552,
+    120,
+    42
+   ],
+   "rect_unity": [
+    872,
+    174,
+    120,
+    42
+   ],
+   "pivot": [
+    0.14469,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    43
+   ],
+   "id": "sword",
+   "variant": "venom-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "db18219af2bfaf5cb204bd35a195b15ef6b2f67dcc983c0afa9eda794e57501e"
+  },
+  {
+   "name": "fb_weapon_sword_void-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_sword_void-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    996,
+    552,
+    120,
+    42
+   ],
+   "rect_unity": [
+    996,
+    174,
+    120,
+    42
+   ],
+   "pivot": [
+    0.14469,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    43
+   ],
+   "id": "sword",
+   "variant": "void-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "b612938a9388da139c305bb337e6aa56ff21128f85ee0c2cd3c6fb24c5ec5920"
+  },
+  {
+   "name": "fb_weapon_sword_wind-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_sword_wind-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1120,
+    552,
+    120,
+    42
+   ],
+   "rect_unity": [
+    1120,
+    174,
+    120,
+    42
+   ],
+   "pivot": [
+    0.14469,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    43
+   ],
+   "id": "sword",
+   "variant": "wind-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "f90e2f09b3b873ce03d3d4b574f4e97fb18ed665d9b0fb7c67d0fe38e6c2b9ec"
+  },
+  {
+   "name": "fb_weapon_tome_arcane-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_tome_arcane-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    4,
+    102,
+    120
+   ],
+   "rect_unity": [
+    4,
+    644,
+    102,
+    120
+   ],
+   "pivot": [
+    0.51004,
+    0.50576
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    13,
+    4
+   ],
+   "id": "tome",
+   "variant": "arcane-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "745661fd0715efe7e369aa0738d79b0faacafd1f8757632d22870ba3313e87e7"
+  },
+  {
+   "name": "fb_weapon_tome_earth-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_tome_earth-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    110,
+    4,
+    102,
+    120
+   ],
+   "rect_unity": [
+    110,
+    644,
+    102,
+    120
+   ],
+   "pivot": [
+    0.51004,
+    0.50576
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    13,
+    4
+   ],
+   "id": "tome",
+   "variant": "earth-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "1758705355e571e99c77b0a7502d8a994e36e06364f9a19619298dbea65a88b8"
+  },
+  {
+   "name": "fb_weapon_tome_fire-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_tome_fire-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    216,
+    4,
+    102,
+    120
+   ],
+   "rect_unity": [
+    216,
+    644,
+    102,
+    120
+   ],
+   "pivot": [
+    0.51004,
+    0.50576
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    13,
+    4
+   ],
+   "id": "tome",
+   "variant": "fire-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "5f1682e62641427fe724c0330dd18a4ddd915f305a79deec78f51202bd8da869"
+  },
+  {
+   "name": "fb_weapon_tome_frost-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_tome_frost-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    322,
+    4,
+    102,
+    120
+   ],
+   "rect_unity": [
+    322,
+    644,
+    102,
+    120
+   ],
+   "pivot": [
+    0.51004,
+    0.50576
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    13,
+    4
+   ],
+   "id": "tome",
+   "variant": "frost-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "ec39d58059974f065af331e715cec2f67b162ca579fefc3e3f3a2bf8fdcc84c0"
+  },
+  {
+   "name": "fb_weapon_tome_life-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_tome_life-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    428,
+    4,
+    102,
+    120
+   ],
+   "rect_unity": [
+    428,
+    644,
+    102,
+    120
+   ],
+   "pivot": [
+    0.51004,
+    0.50576
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    13,
+    4
+   ],
+   "id": "tome",
+   "variant": "life-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "ccca8ab21528a34fd422c22ca25b9a61baafc6d42d61262d4c714f8b637a34d3"
+  },
+  {
+   "name": "fb_weapon_tome_lightning-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_tome_lightning-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    534,
+    4,
+    102,
+    120
+   ],
+   "rect_unity": [
+    534,
+    644,
+    102,
+    120
+   ],
+   "pivot": [
+    0.51004,
+    0.50576
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    13,
+    4
+   ],
+   "id": "tome",
+   "variant": "lightning-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "75d7832374d509ee247a63e829a8e5b88c192fc450b49c89626fcaa465539a55"
+  },
+  {
+   "name": "fb_weapon_tome_shadow-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_tome_shadow-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    640,
+    4,
+    102,
+    120
+   ],
+   "rect_unity": [
+    640,
+    644,
+    102,
+    120
+   ],
+   "pivot": [
+    0.51004,
+    0.50576
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    13,
+    4
+   ],
+   "id": "tome",
+   "variant": "shadow-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "e55586f322f8590f1a57a5c03943792d7fbb230faf492722eb782dc146428be8"
+  },
+  {
+   "name": "fb_weapon_tome_solar-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_tome_solar-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    746,
+    4,
+    102,
+    120
+   ],
+   "rect_unity": [
+    746,
+    644,
+    102,
+    120
+   ],
+   "pivot": [
+    0.51004,
+    0.50576
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    13,
+    4
+   ],
+   "id": "tome",
+   "variant": "solar-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "2017c9928a1a9ae3cf3654e8b6fd04ca2048fd30a49762392ecc1dd1d1543d10"
+  },
+  {
+   "name": "fb_weapon_tome_steel-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_tome_steel-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    852,
+    4,
+    102,
+    120
+   ],
+   "rect_unity": [
+    852,
+    644,
+    102,
+    120
+   ],
+   "pivot": [
+    0.51004,
+    0.50576
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    13,
+    4
+   ],
+   "id": "tome",
+   "variant": "steel-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "cb0c29321fea92d6b8dd4673c5d6d39d46c6617e7da30ef14c0ce64a9300af91"
+  },
+  {
+   "name": "fb_weapon_tome_venom-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_tome_venom-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    958,
+    4,
+    102,
+    120
+   ],
+   "rect_unity": [
+    958,
+    644,
+    102,
+    120
+   ],
+   "pivot": [
+    0.51004,
+    0.50576
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    13,
+    4
+   ],
+   "id": "tome",
+   "variant": "venom-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "8d29b359b8433689d06a83a1411e1d770ba5afc9fa1457c3b2d824f3b888e8c5"
+  },
+  {
+   "name": "fb_weapon_tome_void-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_tome_void-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1064,
+    4,
+    102,
+    120
+   ],
+   "rect_unity": [
+    1064,
+    644,
+    102,
+    120
+   ],
+   "pivot": [
+    0.51004,
+    0.50576
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    13,
+    4
+   ],
+   "id": "tome",
+   "variant": "void-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "09450f006d78d59a9bc28bfc30a0d39860a6cea6413d04b289f344d170872d81"
+  },
+  {
+   "name": "fb_weapon_tome_wind-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_tome_wind-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1170,
+    4,
+    102,
+    120
+   ],
+   "rect_unity": [
+    1170,
+    644,
+    102,
+    120
+   ],
+   "pivot": [
+    0.51004,
+    0.50576
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    13,
+    4
+   ],
+   "id": "tome",
+   "variant": "wind-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "ac4049d389631c44b01626e04505c3a5dcefb1d3bba40a48f8a8b7b1b2575e73"
+  },
+  {
+   "name": "fb_weapon_whip_arcane-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_whip_arcane-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    252,
+    251,
+    120,
+    81
+   ],
+   "rect_unity": [
+    252,
+    436,
+    120,
+    81
+   ],
+   "pivot": [
+    0.24411,
+    0.89094
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    23
+   ],
+   "id": "whip",
+   "variant": "arcane-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "e0525627d4b03366e30e7de16bd4f5a76e45f2a794c92c68f9d3cf989c0176ec"
+  },
+  {
+   "name": "fb_weapon_whip_earth-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_whip_earth-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    376,
+    251,
+    120,
+    81
+   ],
+   "rect_unity": [
+    376,
+    436,
+    120,
+    81
+   ],
+   "pivot": [
+    0.24411,
+    0.89094
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    23
+   ],
+   "id": "whip",
+   "variant": "earth-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "ddd0dd8d3c4fe8a3a22f86c335ad172d2f239e92a47839bd78ccf8822d830cef"
+  },
+  {
+   "name": "fb_weapon_whip_fire-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_whip_fire-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    500,
+    251,
+    120,
+    81
+   ],
+   "rect_unity": [
+    500,
+    436,
+    120,
+    81
+   ],
+   "pivot": [
+    0.24411,
+    0.89094
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    23
+   ],
+   "id": "whip",
+   "variant": "fire-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "3e9aea3998b941cad10dcb764f5a892e17bfe6ddaf895e4380743b210140b9e0"
+  },
+  {
+   "name": "fb_weapon_whip_frost-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_whip_frost-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    624,
+    251,
+    120,
+    81
+   ],
+   "rect_unity": [
+    624,
+    436,
+    120,
+    81
+   ],
+   "pivot": [
+    0.24411,
+    0.89094
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    23
+   ],
+   "id": "whip",
+   "variant": "frost-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "67e0903f1af99c576b7e4695a1de34d6e581bfb9fc5ba7d400b02f10532bc944"
+  },
+  {
+   "name": "fb_weapon_whip_life-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_whip_life-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    748,
+    328,
+    120,
+    81
+   ],
+   "rect_unity": [
+    748,
+    359,
+    120,
+    81
+   ],
+   "pivot": [
+    0.24411,
+    0.89094
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    23
+   ],
+   "id": "whip",
+   "variant": "life-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "beec41f72b1da010efd8a23caaeddc60335c4044785e8bc233176d31891dd877"
+  },
+  {
+   "name": "fb_weapon_whip_lightning-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_whip_lightning-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    872,
+    328,
+    120,
+    81
+   ],
+   "rect_unity": [
+    872,
+    359,
+    120,
+    81
+   ],
+   "pivot": [
+    0.24411,
+    0.89094
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    23
+   ],
+   "id": "whip",
+   "variant": "lightning-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "115a6ecefb726930ebebe0b5fc0c7af87797b0b2ad4c9bdd24d264c1434e9b72"
+  },
+  {
+   "name": "fb_weapon_whip_shadow-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_whip_shadow-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    996,
+    328,
+    120,
+    81
+   ],
+   "rect_unity": [
+    996,
+    359,
+    120,
+    81
+   ],
+   "pivot": [
+    0.24411,
+    0.89094
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    23
+   ],
+   "id": "whip",
+   "variant": "shadow-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "b98c73a6f7dc82ef715c20dd08f4bfb188821ec6ed923978ed8999e8c7a46b20"
+  },
+  {
+   "name": "fb_weapon_whip_solar-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_whip_solar-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    1120,
+    328,
+    120,
+    81
+   ],
+   "rect_unity": [
+    1120,
+    359,
+    120,
+    81
+   ],
+   "pivot": [
+    0.24411,
+    0.89094
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    23
+   ],
+   "id": "whip",
+   "variant": "solar-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "5ac31f20ffedf3c5baa8521e10d0b9113d332a347158b9295a39800f124235ee"
+  },
+  {
+   "name": "fb_weapon_whip_steel-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_whip_steel-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    252,
+    336,
+    120,
+    81
+   ],
+   "rect_unity": [
+    252,
+    351,
+    120,
+    81
+   ],
+   "pivot": [
+    0.24411,
+    0.89094
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    23
+   ],
+   "id": "whip",
+   "variant": "steel-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "913c9524d7b223f9017fa7ca644c7fcd9d5d9ac4049924e63a901ef8e172108f"
+  },
+  {
+   "name": "fb_weapon_whip_venom-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_whip_venom-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    376,
+    336,
+    120,
+    81
+   ],
+   "rect_unity": [
+    376,
+    351,
+    120,
+    81
+   ],
+   "pivot": [
+    0.24411,
+    0.89094
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    23
+   ],
+   "id": "whip",
+   "variant": "venom-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "d70c8a09ed68ee39c307e9dd9fa4178ea3413ffcbf0361512984b25ba5a37b97"
+  },
+  {
+   "name": "fb_weapon_whip_void-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_whip_void-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    500,
+    336,
+    120,
+    81
+   ],
+   "rect_unity": [
+    500,
+    351,
+    120,
+    81
+   ],
+   "pivot": [
+    0.24411,
+    0.89094
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    23
+   ],
+   "id": "whip",
+   "variant": "void-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "10be83aa47eb5213df6e11066f94596ddcff1e359c5866b0a0195b942fb00432"
+  },
+  {
+   "name": "fb_weapon_whip_wind-t1_ingame_00",
+   "file": "weapon/ingame/fb_weapon_whip_wind-t1_ingame_00.png",
+   "page": 0,
+   "rect": [
+    624,
+    336,
+    120,
+    81
+   ],
+   "rect_unity": [
+    624,
+    351,
+    120,
+    81
+   ],
+   "pivot": [
+    0.24411,
+    0.89094
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    4,
+    23
+   ],
+   "id": "whip",
+   "variant": "wind-t1",
+   "state": "ingame",
+   "frame": 0,
+   "source_sha256": "dea11464de2741939315625fa80be691ca1b728dd2543560df1f9ada4cdb8968"
+  }
+ ],
+ "clips": {}
+}
