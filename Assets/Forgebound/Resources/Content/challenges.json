@@ -1,0 +1,26 @@
+// Blueprint Trials (Collection Workshop): fixed forgemaster + item pool + encounter + rule modifiers.
+// Rewards are cosmetic/gallery only and never enter Adventure Forge power.
+{
+  "version": 1,
+  "items": [
+    { "id": "trial_first_forge", "tier": 1, "forgemaster": "blacksmith", "encounter": "ember_foreman",
+      "items": ["frame:sword", "core:fire", "modifier:explosion", "piece:whetstone"], "reward": "cosmetic_ember_trim" },
+    { "id": "trial_blades_only", "tier": 1, "forgemaster": "duelist", "encounter": "verdant_treant", "allowedFrames": ["sword", "dagger", "greatsword", "scythe"],
+      "items": ["frame:dagger", "frame:sword", "core:steel", "modifier:twin_strike", "rune:bleeding_edge", "piece:grindstone"], "reward": "cosmetic_blade_banner" },
+    { "id": "trial_cramped_quarters", "tier": 2, "forgemaster": "artificer", "encounter": "frost_countess",
+      "rules": [ { "stat": "boardWidth", "value": -2 }, { "stat": "boardHeight", "value": -1 } ],
+      "items": ["frame:bow", "frame:dagger", "core:frost", "core:lightning", "modifier:split", "piece:echo_relay", "piece:conduit"], "reward": "cosmetic_brass_gears" },
+    { "id": "trial_no_sustain", "tier": 2, "forgemaster": "hexblade", "encounter": "crypt_colossus",
+      "rules": [ { "stat": "healingPower", "value": -1000 }, { "stat": "leech", "value": -1000 } ],
+      "items": ["frame:scythe", "frame:hammer", "core:shadow", "core:earth", "modifier:executioner", "modifier:sundering", "rune:corpse_blast"], "reward": "cosmetic_grave_mantle" },
+    { "id": "trial_relay_engine", "tier": 2, "forgemaster": "runecrafter", "encounter": "storm_paragon",
+      "items": ["frame:sword", "frame:bow", "frame:staff", "core:lightning", "core:arcane", "piece:echo_relay", "piece:splitter", "piece:amplifier", "piece:conduit", "piece:capacitor"], "reward": "cosmetic_rune_circuit" },
+    { "id": "trial_status_alchemy", "tier": 2, "forgemaster": "alchemist", "encounter": "frost_boss_sovereign",
+      "items": ["frame:staff", "frame:whip", "core:fire", "core:venom", "modifier:infused", "modifier:lingering", "rune:plague_seed", "piece:quench_basin", "piece:bellows"], "reward": "cosmetic_alchemist_vials" },
+    { "id": "trial_summoner_host", "tier": 3, "forgemaster": "summoner", "encounter": "crypt_boss_lich",
+      "items": ["frame:tome", "core:arcane", "core:void", "modifier:spectral_bond", "rune:harvest_rune", "rune:pack_leader", "piece:rune_lamp"], "reward": "cosmetic_spectral_cape" },
+    { "id": "trial_ironclad", "tier": 3, "forgemaster": "warden", "encounter": "storm_boss_colossus",
+      "rules": [ { "stat": "enemyHp", "value": 200 } ],
+      "items": ["frame:bulwark", "frame:hammer", "frame:crossbow", "core:earth", "core:life", "modifier:sundering", "modifier:armor_piercer", "modifier:weighted", "piece:anvil", "piece:heavy_anvil"], "reward": "cosmetic_bastion_crest" }
+  ]
+}

@@ -1,0 +1,992 @@
+{
+ "version": 1,
+ "items": [
+  {
+   "id": "ember_etch",
+   "trigger": "onHit",
+   "effects": [
+    {
+     "type": "applyStatus",
+     "status": "burn",
+     "stacks": 1,
+     "duration": 3
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "condition": {
+    "everyN": 3
+   },
+   "tags": [
+    "fire"
+   ]
+  },
+  {
+   "id": "frost_glyph",
+   "trigger": "onHit",
+   "effects": [
+    {
+     "type": "applyStatus",
+     "status": "chill",
+     "stacks": 1,
+     "duration": 3
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "condition": {
+    "everyN": 2
+   },
+   "tags": [
+    "frost"
+   ]
+  },
+  {
+   "id": "static_sigil",
+   "trigger": "onHit",
+   "effects": [
+    {
+     "type": "chain",
+     "power": 0.35,
+     "count": 1,
+     "damageType": "lightning"
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "icd": 0.25,
+   "chance": 0.3,
+   "tags": [
+    "lightning"
+   ]
+  },
+  {
+   "id": "venom_mark",
+   "trigger": "onHit",
+   "effects": [
+    {
+     "type": "applyStatus",
+     "status": "poison",
+     "stacks": 2,
+     "duration": 4
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "condition": {
+    "everyN": 2
+   },
+   "tags": [
+    "venom"
+   ]
+  },
+  {
+   "id": "hex_rune",
+   "trigger": "onHit",
+   "effects": [
+    {
+     "type": "applyStatus",
+     "status": "curse",
+     "stacks": 1,
+     "duration": 4
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "chance": 0.25,
+   "tags": [
+    "shadow"
+   ]
+  },
+  {
+   "id": "hunters_sight",
+   "trigger": "onHit",
+   "effects": [
+    {
+     "type": "mark",
+     "duration": 3
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "condition": {
+    "everyN": 5
+   },
+   "tags": [
+    "mark"
+   ]
+  },
+  {
+   "id": "rending_glyph",
+   "trigger": "onHit",
+   "effects": [
+    {
+     "type": "applyStatus",
+     "status": "armorBreak",
+     "stacks": 1,
+     "duration": 6
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "chance": 0.4,
+   "tags": [
+    "armor_break"
+   ]
+  },
+  {
+   "id": "thunder_knot",
+   "trigger": "onHit",
+   "effects": [
+    {
+     "type": "nova",
+     "power": 0.4,
+     "radius": 1.4,
+     "damageType": "lightning"
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 55,
+   "condition": {
+    "everyN": 6
+   },
+   "tags": [
+    "aoe"
+   ]
+  },
+  {
+   "id": "ward_glyph",
+   "trigger": "onHit",
+   "effects": [
+    {
+     "type": "shield",
+     "power": 0.1
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "icd": 0.4,
+   "tags": [
+    "shield"
+   ]
+  },
+  {
+   "id": "blood_rune",
+   "trigger": "onHit",
+   "effects": [
+    {
+     "type": "heal",
+     "flat": 1
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "icd": 0.5,
+   "tags": [
+    "sustain"
+   ]
+  },
+  {
+   "id": "echo_glyph",
+   "trigger": "onHit",
+   "effects": [
+    {
+     "type": "extraAttack",
+     "power": 0.5
+    }
+   ],
+   "rarity": "rare",
+   "cost": 70,
+   "condition": {
+    "everyN": 7
+   },
+   "tags": [
+    "echo"
+   ]
+  },
+  {
+   "id": "gravity_well",
+   "trigger": "onHit",
+   "effects": [
+    {
+     "type": "pull",
+     "target": "allEnemies",
+     "radius": 0.8
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "condition": {
+    "everyN": 8
+   },
+   "tags": [
+    "control"
+   ]
+  },
+  {
+   "id": "detonator",
+   "trigger": "onHit",
+   "effects": [
+    {
+     "type": "detonate",
+     "status": "burn",
+     "power": 0.35
+    }
+   ],
+   "rarity": "rare",
+   "cost": 65,
+   "condition": {
+    "targetHasStatus": "burn",
+    "everyN": 4
+   },
+   "tags": [
+    "fire",
+    "burst"
+   ]
+  },
+  {
+   "id": "toxin_burst",
+   "trigger": "onHit",
+   "effects": [
+    {
+     "type": "detonate",
+     "status": "poison",
+     "power": 0.22
+    }
+   ],
+   "rarity": "rare",
+   "cost": 65,
+   "condition": {
+    "targetHasStatus": "poison",
+    "everyN": 5
+   },
+   "tags": [
+    "venom",
+    "burst"
+   ]
+  },
+  {
+   "id": "giant_slayer",
+   "trigger": "onHit",
+   "effects": [
+    {
+     "type": "damage",
+     "power": 0.4
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 55,
+   "condition": {
+    "targetIsElite": true
+   },
+   "icd": 0.5,
+   "tags": [
+    "single_target"
+   ]
+  },
+  {
+   "id": "crit_spark",
+   "trigger": "onCrit",
+   "effects": [
+    {
+     "type": "chain",
+     "power": 0.5,
+     "count": 2,
+     "damageType": "lightning"
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "icd": 0.3,
+   "tags": [
+    "crit"
+   ]
+  },
+  {
+   "id": "bleeding_edge",
+   "trigger": "onCrit",
+   "effects": [
+    {
+     "type": "applyStatus",
+     "status": "bleed",
+     "stacks": 2,
+     "duration": 4
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "tags": [
+    "crit",
+    "dot"
+   ]
+  },
+  {
+   "id": "adrenal_rune",
+   "trigger": "onCrit",
+   "effects": [
+    {
+     "type": "haste",
+     "stacks": 1,
+     "duration": 2
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "icd": 0.5,
+   "tags": [
+    "crit",
+    "speed"
+   ]
+  },
+  {
+   "id": "star_shard",
+   "trigger": "onCrit",
+   "effects": [
+    {
+     "type": "projectile",
+     "power": 0.5,
+     "count": 2
+    }
+   ],
+   "rarity": "rare",
+   "cost": 65,
+   "icd": 0.6,
+   "requiresTags": [
+    "projectile"
+   ],
+   "tags": [
+    "crit"
+   ]
+  },
+  {
+   "id": "soul_siphon",
+   "trigger": "onKill",
+   "effects": [
+    {
+     "type": "heal",
+     "flat": 3
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "icd": 0.3,
+   "tags": [
+    "sustain"
+   ]
+  },
+  {
+   "id": "corpse_blast",
+   "trigger": "onKill",
+   "effects": [
+    {
+     "type": "nova",
+     "power": 0.6,
+     "radius": 1.6
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 55,
+   "condition": {
+    "allowFromProc": true
+   },
+   "icd": 0.2,
+   "tags": [
+    "aoe",
+    "onkill"
+   ]
+  },
+  {
+   "id": "bounty_rune",
+   "trigger": "onKill",
+   "effects": [
+    {
+     "type": "gold",
+     "flat": 2
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "maxPerBattle": 8,
+   "tags": [
+    "economy"
+   ]
+  },
+  {
+   "id": "momentum",
+   "trigger": "onKill",
+   "effects": [
+    {
+     "type": "cooldownReduce",
+     "flat": 10
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "icd": 0.3,
+   "tags": [
+    "speed"
+   ]
+  },
+  {
+   "id": "plague_seed",
+   "trigger": "onKill",
+   "effects": [
+    {
+     "type": "spreadStatus",
+     "radius": 2.5
+    }
+   ],
+   "rarity": "rare",
+   "cost": 60,
+   "condition": {
+    "allowFromProc": true
+   },
+   "icd": 0.3,
+   "tags": [
+    "status"
+   ]
+  },
+  {
+   "id": "harvest_rune",
+   "trigger": "onKill",
+   "effects": [
+    {
+     "type": "summon",
+     "power": 0.6
+    }
+   ],
+   "rarity": "rare",
+   "cost": 70,
+   "maxPerBattle": 3,
+   "tags": [
+    "summon"
+   ]
+  },
+  {
+   "id": "arcane_pulse",
+   "trigger": "onAttack",
+   "effects": [
+    {
+     "type": "nova",
+     "target": "self",
+     "power": 0.3,
+     "radius": 1.8,
+     "damageType": "arcane"
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "condition": {
+    "everyN": 5
+   },
+   "tags": [
+    "aoe"
+   ]
+  },
+  {
+   "id": "volley_glyph",
+   "trigger": "onAttack",
+   "effects": [
+    {
+     "type": "projectile",
+     "power": 0.4,
+     "count": 1
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "condition": {
+    "everyN": 3
+   },
+   "requiresTags": [
+    "projectile"
+   ],
+   "tags": [
+    "multi"
+   ]
+  },
+  {
+   "id": "flurry_rune",
+   "trigger": "onAttack",
+   "effects": [
+    {
+     "type": "haste",
+     "stacks": 1,
+     "duration": 1.5
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "condition": {
+    "everyN": 4
+   },
+   "tags": [
+    "speed"
+   ]
+  },
+  {
+   "id": "smiting_rune",
+   "trigger": "onAttack",
+   "effects": [
+    {
+     "type": "damage",
+     "target": "marked",
+     "power": 0.6,
+     "damageType": "radiant"
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 55,
+   "condition": {
+    "everyN": 4
+   },
+   "tags": [
+    "mark"
+   ]
+  },
+  {
+   "id": "combo_finisher",
+   "trigger": "onAttack",
+   "effects": [
+    {
+     "type": "extraAttack",
+     "power": 0.8
+    }
+   ],
+   "rarity": "rare",
+   "cost": 70,
+   "condition": {
+    "everyN": 6,
+    "onlyPrimary": true
+   },
+   "tags": [
+    "echo",
+    "combo"
+   ]
+  },
+  {
+   "id": "kindling",
+   "trigger": "onStatusApplied",
+   "effects": [
+    {
+     "type": "damage",
+     "power": 0.25,
+     "damageType": "fire"
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "condition": {
+    "statusIs": "burn"
+   },
+   "icd": 0.2,
+   "tags": [
+    "fire"
+   ]
+  },
+  {
+   "id": "deep_freeze",
+   "trigger": "onStatusApplied",
+   "effects": [
+    {
+     "type": "nova",
+     "power": 0.5,
+     "radius": 1.5,
+     "damageType": "frost",
+     "status": "chill",
+     "stacks": 2,
+     "duration": 3
+    }
+   ],
+   "rarity": "rare",
+   "cost": 65,
+   "condition": {
+    "statusIs": "freeze",
+    "allowFromProc": true
+   },
+   "icd": 0.5,
+   "tags": [
+    "frost",
+    "aoe"
+   ]
+  },
+  {
+   "id": "conductor",
+   "trigger": "onStatusApplied",
+   "effects": [
+    {
+     "type": "chain",
+     "power": 0.3,
+     "count": 2,
+     "damageType": "lightning"
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "condition": {
+    "statusIs": "shock"
+   },
+   "icd": 0.4,
+   "tags": [
+    "lightning"
+   ]
+  },
+  {
+   "id": "malediction",
+   "trigger": "onStatusApplied",
+   "effects": [
+    {
+     "type": "applyStatus",
+     "status": "weaken",
+     "duration": 2
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "condition": {
+    "statusIs": "curse"
+   },
+   "tags": [
+    "shadow",
+    "defense"
+   ]
+  },
+  {
+   "id": "stagger_lock",
+   "trigger": "onStatusApplied",
+   "effects": [
+    {
+     "type": "damage",
+     "power": 0.5
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "condition": {
+    "statusIs": "stun",
+    "allowFromProc": true
+   },
+   "icd": 0.3,
+   "tags": [
+    "control"
+   ]
+  },
+  {
+   "id": "breaker_rune",
+   "trigger": "onShieldBreak",
+   "effects": [
+    {
+     "type": "applyStatus",
+     "status": "stun",
+     "duration": 0.8
+    },
+    {
+     "type": "damage",
+     "power": 0.8
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "tags": [
+    "shield_break"
+   ]
+  },
+  {
+   "id": "shard_burst",
+   "trigger": "onShieldBreak",
+   "effects": [
+    {
+     "type": "nova",
+     "power": 0.7,
+     "radius": 1.5
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "tags": [
+    "shield_break",
+    "aoe"
+   ]
+  },
+  {
+   "id": "retaliation",
+   "trigger": "onDamageTaken",
+   "effects": [
+    {
+     "type": "damage",
+     "target": "nearest",
+     "power": 0.6
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "icd": 0.6,
+   "tags": [
+    "counter"
+   ]
+  },
+  {
+   "id": "bark_skin",
+   "trigger": "onDamageTaken",
+   "effects": [
+    {
+     "type": "fortify",
+     "duration": 1.5
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "icd": 4,
+   "tags": [
+    "defense"
+   ]
+  },
+  {
+   "id": "spite_rune",
+   "trigger": "onDamageTaken",
+   "effects": [
+    {
+     "type": "applyStatus",
+     "target": "nearest",
+     "status": "weaken",
+     "duration": 2
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "icd": 1.5,
+   "tags": [
+    "defense"
+   ]
+  },
+  {
+   "id": "aegis_rune",
+   "trigger": "onBlock",
+   "effects": [
+    {
+     "type": "damage",
+     "target": "nearest",
+     "power": 0.4,
+     "damageType": "radiant"
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "icd": 0.5,
+   "tags": [
+    "shield",
+    "counter"
+   ]
+  },
+  {
+   "id": "last_stand",
+   "trigger": "onLowHp",
+   "effects": [
+    {
+     "type": "shield",
+     "fromMaxHp": true,
+     "power": 0.3
+    },
+    {
+     "type": "haste",
+     "stacks": 3,
+     "duration": 4
+    }
+   ],
+   "rarity": "rare",
+   "cost": 60,
+   "maxPerBattle": 1,
+   "tags": [
+    "defense"
+   ]
+  },
+  {
+   "id": "pulse_clock",
+   "trigger": "onTimer",
+   "effects": [
+    {
+     "type": "nova",
+     "target": "nearest",
+     "power": 0.5,
+     "radius": 1.5
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 55,
+   "interval": 3,
+   "tags": [
+    "aoe"
+   ]
+  },
+  {
+   "id": "mending_clock",
+   "trigger": "onTimer",
+   "effects": [
+    {
+     "type": "heal",
+     "fromMaxHp": true,
+     "power": 0.02
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "interval": 4,
+   "tags": [
+    "sustain"
+   ]
+  },
+  {
+   "id": "storm_clock",
+   "trigger": "onTimer",
+   "effects": [
+    {
+     "type": "chain",
+     "target": "random",
+     "power": 0.5,
+     "count": 3,
+     "damageType": "lightning"
+    }
+   ],
+   "rarity": "rare",
+   "cost": 65,
+   "interval": 4,
+   "tags": [
+    "lightning"
+   ]
+  },
+  {
+   "id": "opening_volley",
+   "trigger": "onBattleStart",
+   "effects": [
+    {
+     "type": "projectile",
+     "target": "random",
+     "power": 1.0,
+     "count": 3
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 45,
+   "requiresTags": [
+    "projectile"
+   ],
+   "tags": [
+    "opener"
+   ]
+  },
+  {
+   "id": "first_light",
+   "trigger": "onWaveStart",
+   "effects": [
+    {
+     "type": "mark",
+     "target": "random",
+     "count": 2,
+     "duration": 5
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "tags": [
+    "mark",
+    "opener"
+   ]
+  },
+  {
+   "id": "war_cry",
+   "trigger": "onWaveStart",
+   "effects": [
+    {
+     "type": "haste",
+     "stacks": 2,
+     "duration": 3
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 45,
+   "tags": [
+    "speed",
+    "opener"
+   ]
+  },
+  {
+   "id": "bulwark_oath",
+   "trigger": "onBattleStart",
+   "effects": [
+    {
+     "type": "shield",
+     "fromMaxHp": true,
+     "power": 0.15
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "tags": [
+    "shield"
+   ]
+  },
+  {
+   "id": "splinter_rune",
+   "trigger": "onProjectileFired",
+   "effects": [
+    {
+     "type": "damage",
+     "target": "random",
+     "power": 0.25
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "condition": {
+    "everyN": 2
+   },
+   "requiresTags": [
+    "projectile"
+   ],
+   "tags": [
+    "multi"
+   ]
+  },
+  {
+   "id": "pack_leader",
+   "trigger": "onSummon",
+   "effects": [
+    {
+     "type": "haste",
+     "stacks": 1,
+     "duration": 2
+    },
+    {
+     "type": "shield",
+     "power": 0.3
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "requiresTags": [
+    "summon"
+   ],
+   "tags": [
+    "summon"
+   ]
+  },
+  {
+   "id": "execution_rune",
+   "trigger": "onHit",
+   "effects": [
+    {
+     "type": "execute",
+     "power": 0.15
+    }
+   ],
+   "rarity": "rare",
+   "cost": 65,
+   "condition": {
+    "targetHpBelow": 0.15
+   },
+   "tags": [
+    "execute"
+   ]
+  }
+ ]
+}

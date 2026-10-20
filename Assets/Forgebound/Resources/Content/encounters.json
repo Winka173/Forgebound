@@ -1,0 +1,1423 @@
+{
+ "version": 1,
+ "items": [
+  {
+   "id": "ember_scrap_swarm",
+   "biome": "ember_foundry",
+   "kind": "battle",
+   "style": "swarm",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "cinder_imp",
+       "count": 4
+      }
+     ]
+    },
+    {
+     "delay": 12,
+     "spawns": [
+      {
+       "enemy": "slag_hound",
+       "count": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ember_bandit_raid",
+   "biome": "ember_foundry",
+   "kind": "battle",
+   "style": "mixed",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "forge_bandit",
+       "count": 2
+      },
+      {
+       "enemy": "ember_slinger",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "delay": 14,
+     "spawns": [
+      {
+       "enemy": "forge_bandit",
+       "count": 1
+      },
+      {
+       "enemy": "cinder_imp",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ember_brute_line",
+   "biome": "ember_foundry",
+   "kind": "battle",
+   "style": "armor",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "slag_brute",
+       "count": 1
+      },
+      {
+       "enemy": "cinder_imp",
+       "count": 2
+      }
+     ]
+    },
+    {
+     "delay": 15,
+     "spawns": [
+      {
+       "enemy": "slag_brute",
+       "count": 1
+      },
+      {
+       "enemy": "ember_slinger",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ember_bellows_crew",
+   "biome": "ember_foundry",
+   "kind": "battle",
+   "style": "support",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "bellows_tender",
+       "count": 1
+      },
+      {
+       "enemy": "forge_bandit",
+       "count": 2
+      },
+      {
+       "enemy": "slag_hound",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ember_wisp_flock",
+   "biome": "ember_foundry",
+   "kind": "battle",
+   "style": "flyers",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "ash_wisp",
+       "count": 3
+      },
+      {
+       "enemy": "cinder_imp",
+       "count": 2
+      }
+     ]
+    },
+    {
+     "delay": 12,
+     "spawns": [
+      {
+       "enemy": "ash_wisp",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ember_slinger_nest",
+   "biome": "ember_foundry",
+   "kind": "battle",
+   "style": "ranged",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "ember_slinger",
+       "count": 3
+      },
+      {
+       "enemy": "slag_brute",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ember_foreman",
+   "biome": "ember_foundry",
+   "kind": "elite",
+   "style": "elite",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "molten_foreman",
+       "count": 1
+      },
+      {
+       "enemy": "slag_hound",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ember_boss_titan",
+   "biome": "ember_foundry",
+   "kind": "boss",
+   "style": "boss",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 120,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "slag_titan",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ember_boss_kaldur",
+   "biome": "ember_foundry",
+   "kind": "boss",
+   "style": "boss",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 120,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "kaldur_forge_tyrant",
+       "count": 1
+      },
+      {
+       "enemy": "forge_bandit",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "verdant_crawler_tide",
+   "biome": "verdant_ruins",
+   "kind": "battle",
+   "style": "swarm",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "vine_crawler",
+       "count": 4
+      }
+     ]
+    },
+    {
+     "delay": 12,
+     "spawns": [
+      {
+       "enemy": "seed_pod",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "verdant_shaman_grove",
+   "biome": "verdant_ruins",
+   "kind": "battle",
+   "style": "healer",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "spore_shaman",
+       "count": 1
+      },
+      {
+       "enemy": "thorn_beast",
+       "count": 1
+      },
+      {
+       "enemy": "vine_crawler",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "verdant_golem_path",
+   "biome": "verdant_ruins",
+   "kind": "battle",
+   "style": "armor",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "moss_golem",
+       "count": 1
+      },
+      {
+       "enemy": "vine_crawler",
+       "count": 2
+      }
+     ]
+    },
+    {
+     "delay": 14,
+     "spawns": [
+      {
+       "enemy": "mire_toad",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "verdant_stalkers",
+   "biome": "verdant_ruins",
+   "kind": "battle",
+   "style": "stealth",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "briar_stalker",
+       "count": 2
+      },
+      {
+       "enemy": "vine_crawler",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "verdant_toad_marsh",
+   "biome": "verdant_ruins",
+   "kind": "battle",
+   "style": "ranged",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "mire_toad",
+       "count": 2
+      },
+      {
+       "enemy": "thorn_beast",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "delay": 14,
+     "spawns": [
+      {
+       "enemy": "seed_pod",
+       "count": 1
+      },
+      {
+       "enemy": "vine_crawler",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "verdant_pod_field",
+   "biome": "verdant_ruins",
+   "kind": "battle",
+   "style": "splitter",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "seed_pod",
+       "count": 3
+      },
+      {
+       "enemy": "spore_shaman",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "verdant_treant",
+   "biome": "verdant_ruins",
+   "kind": "elite",
+   "style": "elite",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "elder_treant",
+       "count": 1
+      },
+      {
+       "enemy": "spore_shaman",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "verdant_boss_rootmother",
+   "biome": "verdant_ruins",
+   "kind": "boss",
+   "style": "boss",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 120,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "rootmother",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "verdant_boss_bloom",
+   "biome": "verdant_ruins",
+   "kind": "boss",
+   "style": "boss",
+   "minChapter": 1,
+   "maxChapter": 1,
+   "weight": 10,
+   "softLimit": 120,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "hollow_bloom",
+       "count": 1
+      },
+      {
+       "enemy": "vine_crawler",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "frost_wraith_gale",
+   "biome": "frostspire",
+   "kind": "battle",
+   "style": "flyers",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "frost_wraith",
+       "count": 3
+      },
+      {
+       "enemy": "shardling",
+       "count": 3
+      }
+     ]
+    },
+    {
+     "delay": 14,
+     "spawns": [
+      {
+       "enemy": "frost_wraith",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "frost_archer_line",
+   "biome": "frostspire",
+   "kind": "battle",
+   "style": "ranged",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "glacier_knight",
+       "count": 1
+      },
+      {
+       "enemy": "rime_archer",
+       "count": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "frost_mauler_hunt",
+   "biome": "frostspire",
+   "kind": "battle",
+   "style": "bruiser",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "ice_mauler",
+       "count": 2
+      },
+      {
+       "enemy": "shardling",
+       "count": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "frost_priest_vigil",
+   "biome": "frostspire",
+   "kind": "battle",
+   "style": "support",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "frost_priest",
+       "count": 1
+      },
+      {
+       "enemy": "glacier_knight",
+       "count": 1
+      },
+      {
+       "enemy": "rime_archer",
+       "count": 1
+      }
+     ]
+    },
+    {
+     "delay": 15,
+     "spawns": [
+      {
+       "enemy": "shardling",
+       "count": 4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "frost_shard_storm",
+   "biome": "frostspire",
+   "kind": "battle",
+   "style": "swarm",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "shardling",
+       "count": 6
+      }
+     ]
+    },
+    {
+     "delay": 10,
+     "spawns": [
+      {
+       "enemy": "shardling",
+       "count": 4
+      },
+      {
+       "enemy": "snow_sprite",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "frost_sprite_court",
+   "biome": "frostspire",
+   "kind": "battle",
+   "style": "healer",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "snow_sprite",
+       "count": 2
+      },
+      {
+       "enemy": "ice_mauler",
+       "count": 1
+      },
+      {
+       "enemy": "frost_wraith",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "frost_countess",
+   "biome": "frostspire",
+   "kind": "elite",
+   "style": "elite",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "rime_countess",
+       "count": 1
+      },
+      {
+       "enemy": "shardling",
+       "count": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "frost_knight_pair",
+   "biome": "frostspire",
+   "kind": "elite",
+   "style": "elite",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "glacier_knight",
+       "count": 2
+      },
+      {
+       "enemy": "frost_priest",
+       "count": 1
+      },
+      {
+       "enemy": "rime_archer",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "frost_boss_sovereign",
+   "biome": "frostspire",
+   "kind": "boss",
+   "style": "boss",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 150,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "frost_sovereign",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "frost_boss_wyrm",
+   "biome": "frostspire",
+   "kind": "boss",
+   "style": "boss",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 150,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "glass_wyrm",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crypt_bone_patrol",
+   "biome": "sunken_crypt",
+   "kind": "battle",
+   "style": "mixed",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "skeleton",
+       "count": 3
+      },
+      {
+       "enemy": "bone_archer",
+       "count": 2
+      }
+     ]
+    },
+    {
+     "delay": 14,
+     "spawns": [
+      {
+       "enemy": "skeleton",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crypt_necro_rite",
+   "biome": "sunken_crypt",
+   "kind": "battle",
+   "style": "summoner",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "necromancer",
+       "count": 1
+      },
+      {
+       "enemy": "skeleton",
+       "count": 3
+      }
+     ]
+    },
+    {
+     "delay": 15,
+     "spawns": [
+      {
+       "enemy": "ghoul",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crypt_ghoul_pack",
+   "biome": "sunken_crypt",
+   "kind": "battle",
+   "style": "swarm",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "ghoul",
+       "count": 3
+      },
+      {
+       "enemy": "crypt_bat",
+       "count": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crypt_warden_gate",
+   "biome": "sunken_crypt",
+   "kind": "battle",
+   "style": "armor",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "grave_warden",
+       "count": 1
+      },
+      {
+       "enemy": "bone_archer",
+       "count": 2
+      },
+      {
+       "enemy": "skeleton",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crypt_crawler_ambush",
+   "biome": "sunken_crypt",
+   "kind": "battle",
+   "style": "stealth",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "grave_crawler",
+       "count": 3
+      },
+      {
+       "enemy": "crypt_bat",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crypt_bat_swarm",
+   "biome": "sunken_crypt",
+   "kind": "battle",
+   "style": "flyers",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "crypt_bat",
+       "count": 5
+      }
+     ]
+    },
+    {
+     "delay": 10,
+     "spawns": [
+      {
+       "enemy": "crypt_bat",
+       "count": 3
+      },
+      {
+       "enemy": "necromancer",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crypt_colossus",
+   "biome": "sunken_crypt",
+   "kind": "elite",
+   "style": "elite",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "bone_colossus",
+       "count": 1
+      },
+      {
+       "enemy": "bone_archer",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crypt_boss_lich",
+   "biome": "sunken_crypt",
+   "kind": "boss",
+   "style": "boss",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 150,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "lich_regent",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crypt_boss_choir",
+   "biome": "sunken_crypt",
+   "kind": "boss",
+   "style": "boss",
+   "minChapter": 2,
+   "maxChapter": 2,
+   "weight": 10,
+   "softLimit": 150,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "drowned_choir",
+       "count": 1
+      },
+      {
+       "enemy": "skeleton",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "storm_sentinel_wall",
+   "biome": "storm_citadel",
+   "kind": "battle",
+   "style": "reflect",
+   "minChapter": 3,
+   "maxChapter": 3,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "storm_sentinel",
+       "count": 2
+      },
+      {
+       "enemy": "arc_mage",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "storm_drone_swarm",
+   "biome": "storm_citadel",
+   "kind": "battle",
+   "style": "flyers",
+   "minChapter": 3,
+   "maxChapter": 3,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "clockwork_drone",
+       "count": 4
+      },
+      {
+       "enemy": "static_wisp",
+       "count": 2
+      }
+     ]
+    },
+    {
+     "delay": 12,
+     "spawns": [
+      {
+       "enemy": "clockwork_drone",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "storm_lancer_charge",
+   "biome": "storm_citadel",
+   "kind": "battle",
+   "style": "bruiser",
+   "minChapter": 3,
+   "maxChapter": 3,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "sky_lancer",
+       "count": 2
+      },
+      {
+       "enemy": "thunder_hound",
+       "count": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "storm_aegis_bastion",
+   "biome": "storm_citadel",
+   "kind": "battle",
+   "style": "support",
+   "minChapter": 3,
+   "maxChapter": 3,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "aegis_construct",
+       "count": 1
+      },
+      {
+       "enemy": "iron_conscript",
+       "count": 2
+      },
+      {
+       "enemy": "arc_mage",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "storm_hound_pack",
+   "biome": "storm_citadel",
+   "kind": "battle",
+   "style": "swarm",
+   "minChapter": 3,
+   "maxChapter": 3,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "thunder_hound",
+       "count": 5
+      }
+     ]
+    },
+    {
+     "delay": 10,
+     "spawns": [
+      {
+       "enemy": "thunder_hound",
+       "count": 3
+      },
+      {
+       "enemy": "static_wisp",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "storm_adept_cell",
+   "biome": "storm_citadel",
+   "kind": "battle",
+   "style": "stealth",
+   "minChapter": 3,
+   "maxChapter": 3,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "tempest_adept",
+       "count": 2
+      },
+      {
+       "enemy": "iron_conscript",
+       "count": 1
+      },
+      {
+       "enemy": "clockwork_drone",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "storm_conscript_march",
+   "biome": "storm_citadel",
+   "kind": "battle",
+   "style": "armor",
+   "minChapter": 3,
+   "maxChapter": 3,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "iron_conscript",
+       "count": 3
+      },
+      {
+       "enemy": "arc_mage",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "storm_paragon",
+   "biome": "storm_citadel",
+   "kind": "elite",
+   "style": "elite",
+   "minChapter": 3,
+   "maxChapter": 3,
+   "weight": 10,
+   "softLimit": 90,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "storm_paragon",
+       "count": 1
+      },
+      {
+       "enemy": "thunder_hound",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "storm_boss_tyrant",
+   "biome": "storm_citadel",
+   "kind": "boss",
+   "style": "boss",
+   "minChapter": 3,
+   "maxChapter": 3,
+   "weight": 10,
+   "softLimit": 180,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "storm_tyrant",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "storm_boss_colossus",
+   "biome": "storm_citadel",
+   "kind": "boss",
+   "style": "boss",
+   "minChapter": 3,
+   "maxChapter": 3,
+   "weight": 10,
+   "softLimit": 180,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "clockwork_colossus",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "training_single",
+   "kind": "battle",
+   "style": "training",
+   "minChapter": 99,
+   "maxChapter": 99,
+   "weight": 1,
+   "softLimit": 999,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "dummy_single",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "training_swarm",
+   "kind": "battle",
+   "style": "training",
+   "minChapter": 99,
+   "maxChapter": 99,
+   "weight": 1,
+   "softLimit": 999,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "dummy_swarm",
+       "count": 8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "training_armored",
+   "kind": "battle",
+   "style": "training",
+   "minChapter": 99,
+   "maxChapter": 99,
+   "weight": 1,
+   "softLimit": 999,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "dummy_armored",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "training_shielded",
+   "kind": "battle",
+   "style": "training",
+   "minChapter": 99,
+   "maxChapter": 99,
+   "weight": 1,
+   "softLimit": 999,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "dummy_shielded",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "training_status",
+   "kind": "battle",
+   "style": "training",
+   "minChapter": 99,
+   "maxChapter": 99,
+   "weight": 1,
+   "softLimit": 999,
+   "waves": [
+    {
+     "delay": 0,
+     "spawns": [
+      {
+       "enemy": "dummy_resistant",
+       "count": 3
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

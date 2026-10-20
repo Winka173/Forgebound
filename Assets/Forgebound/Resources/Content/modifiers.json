@@ -1,0 +1,860 @@
+{
+ "version": 1,
+ "items": [
+  {
+   "id": "split",
+   "stage": "split",
+   "ops": [
+    {
+     "op": "projectileAdd",
+     "value": 2
+    },
+    {
+     "op": "splitDamage",
+     "value": 600
+    }
+   ],
+   "rarity": "common",
+   "cost": 50,
+   "requiresTags": [
+    "projectile"
+   ],
+   "conflictGroup": "volley_count",
+   "tags": [
+    "aoe"
+   ]
+  },
+  {
+   "id": "pierce",
+   "stage": "pierce",
+   "ops": [
+    {
+     "op": "pierceAdd",
+     "value": 2
+    },
+    {
+     "op": "damagePermille",
+     "value": 900
+    }
+   ],
+   "rarity": "common",
+   "cost": 45,
+   "requiresTags": [
+    "projectile"
+   ],
+   "tags": [
+    "line"
+   ]
+  },
+  {
+   "id": "homing",
+   "stage": "target",
+   "ops": [
+    {
+     "op": "homing",
+     "value": 1
+    },
+    {
+     "op": "projectileSpeedPermille",
+     "value": 850
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "requiresTags": [
+    "projectile"
+   ],
+   "tags": [
+    "reliable"
+   ]
+  },
+  {
+   "id": "ricochet",
+   "stage": "pierce",
+   "ops": [
+    {
+     "op": "ricochetAdd",
+     "value": 2
+    },
+    {
+     "op": "damagePermille",
+     "value": 850
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 55,
+   "requiresTags": [
+    "projectile"
+   ],
+   "tags": [
+    "multi"
+   ]
+  },
+  {
+   "id": "rapid",
+   "stage": "timing",
+   "ops": [
+    {
+     "op": "cooldownPermille",
+     "value": 720
+    },
+    {
+     "op": "damagePermille",
+     "value": 830
+    }
+   ],
+   "rarity": "common",
+   "cost": 45,
+   "conflictGroup": "cadence",
+   "tags": [
+    "speed"
+   ]
+  },
+  {
+   "id": "charged",
+   "stage": "timing",
+   "ops": [
+    {
+     "op": "cooldownPermille",
+     "value": 1450
+    },
+    {
+     "op": "damagePermille",
+     "value": 1750
+    },
+    {
+     "op": "knockback",
+     "value": 500
+    }
+   ],
+   "rarity": "common",
+   "cost": 45,
+   "conflictGroup": "cadence",
+   "tags": [
+    "burst"
+   ]
+  },
+  {
+   "id": "repeat",
+   "stage": "spawn",
+   "ops": [
+    {
+     "op": "repeatCount",
+     "value": 1
+    },
+    {
+     "op": "repeatPermille",
+     "value": 450
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 60,
+   "tags": [
+    "echo"
+   ]
+  },
+  {
+   "id": "delayed",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "delayedDetonate",
+     "value": 700
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "tags": [
+    "burst"
+   ]
+  },
+  {
+   "id": "explosion",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "explosionRadius",
+     "value": 1300
+    },
+    {
+     "op": "explosionPermille",
+     "value": 500
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 60,
+   "tags": [
+    "aoe"
+   ]
+  },
+  {
+   "id": "shockwave",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "shockwave",
+     "value": 450
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 55,
+   "requiresTags": [
+    "melee"
+   ],
+   "tags": [
+    "aoe",
+    "line"
+   ]
+  },
+  {
+   "id": "pull",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "pull",
+     "value": 900
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "tags": [
+    "control"
+   ]
+  },
+  {
+   "id": "shatter",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "shatterBonus",
+     "value": 1200
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "tags": [
+    "frost_synergy"
+   ]
+  },
+  {
+   "id": "knockback",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "knockback",
+     "value": 1000
+    },
+    {
+     "op": "staggerChance",
+     "value": 100
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "requiresTags": [
+    "melee",
+    "mid"
+   ],
+   "tags": [
+    "control"
+   ]
+  },
+  {
+   "id": "sweep",
+   "stage": "split",
+   "ops": [
+    {
+     "op": "arcAdd",
+     "value": 900
+    },
+    {
+     "op": "maxTargetsAdd",
+     "value": 2
+    },
+    {
+     "op": "damagePermille",
+     "value": 900
+    }
+   ],
+   "rarity": "common",
+   "cost": 50,
+   "requiresTags": [
+    "melee",
+    "mid"
+   ],
+   "tags": [
+    "aoe"
+   ]
+  },
+  {
+   "id": "long_reach",
+   "stage": "target",
+   "ops": [
+    {
+     "op": "rangePermille",
+     "value": 1400
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "requiresTags": [
+    "melee",
+    "mid"
+   ],
+   "tags": [
+    "reach"
+   ]
+  },
+  {
+   "id": "precision",
+   "stage": "target",
+   "ops": [
+    {
+     "op": "critChanceAdd",
+     "value": 150
+    }
+   ],
+   "rarity": "common",
+   "cost": 45,
+   "tags": [
+    "crit"
+   ]
+  },
+  {
+   "id": "brutal",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "critDamageAdd",
+     "value": 600
+    },
+    {
+     "op": "critChanceAdd",
+     "value": -40
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "tags": [
+    "crit"
+   ]
+  },
+  {
+   "id": "serrated",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "bleedChance",
+     "value": 400
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "requiresTags": [
+    "blade"
+   ],
+   "tags": [
+    "dot"
+   ]
+  },
+  {
+   "id": "weighted",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "staggerChance",
+     "value": 250
+    },
+    {
+     "op": "armorBreakStacks",
+     "value": 1
+    }
+   ],
+   "rarity": "common",
+   "cost": 45,
+   "requiresTags": [
+    "blunt",
+    "heavy"
+   ],
+   "tags": [
+    "control"
+   ]
+  },
+  {
+   "id": "volatile",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "volatileOnKill",
+     "value": 900
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 55,
+   "tags": [
+    "aoe",
+    "onkill"
+   ]
+  },
+  {
+   "id": "forked",
+   "stage": "pierce",
+   "ops": [
+    {
+     "op": "chainAdd",
+     "value": 1
+    },
+    {
+     "op": "chainPermille",
+     "value": 550
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 55,
+   "tags": [
+    "chain"
+   ]
+  },
+  {
+   "id": "boomerang",
+   "stage": "pierce",
+   "ops": [
+    {
+     "op": "boomerang",
+     "value": 1
+    },
+    {
+     "op": "damagePermille",
+     "value": 900
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "requiresTags": [
+    "projectile"
+   ],
+   "tags": [
+    "multi"
+   ]
+  },
+  {
+   "id": "focus",
+   "stage": "target",
+   "ops": [
+    {
+     "op": "focusBonus",
+     "value": 450
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "conflictGroup": "volley_count",
+   "tags": [
+    "single_target"
+   ]
+  },
+  {
+   "id": "lingering",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "lingering",
+     "value": 180
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 55,
+   "tags": [
+    "zone",
+    "dot"
+   ]
+  },
+  {
+   "id": "overcharge",
+   "stage": "timing",
+   "ops": [
+    {
+     "op": "overchargeEvery",
+     "value": 5
+    },
+    {
+     "op": "overchargePermille",
+     "value": 3000
+    }
+   ],
+   "rarity": "rare",
+   "cost": 65,
+   "tags": [
+    "burst"
+   ]
+  },
+  {
+   "id": "siphon",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "leech",
+     "value": 60
+    }
+   ],
+   "rarity": "rare",
+   "cost": 65,
+   "tags": [
+    "sustain"
+   ]
+  },
+  {
+   "id": "guarding",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "shieldOnDamage",
+     "value": 120
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 55,
+   "tags": [
+    "sustain",
+    "shield"
+   ]
+  },
+  {
+   "id": "executioner",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "executeBelow",
+     "value": 250
+    },
+    {
+     "op": "executeMult",
+     "value": 2000
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 55,
+   "tags": [
+    "execute"
+   ]
+  },
+  {
+   "id": "tempo",
+   "stage": "timing",
+   "ops": [
+    {
+     "op": "tempoPerAttack",
+     "value": 60
+    },
+    {
+     "op": "tempoMax",
+     "value": 480
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 55,
+   "tags": [
+    "speed",
+    "ramp"
+   ]
+  },
+  {
+   "id": "ambush",
+   "stage": "timing",
+   "ops": [
+    {
+     "op": "ambushPermille",
+     "value": 2000
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "tags": [
+    "burst",
+    "opener"
+   ]
+  },
+  {
+   "id": "sundering",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "armorBreakStacks",
+     "value": 2
+    }
+   ],
+   "rarity": "common",
+   "cost": 45,
+   "tags": [
+    "armor_break"
+   ]
+  },
+  {
+   "id": "twin_strike",
+   "stage": "spawn",
+   "ops": [
+    {
+     "op": "twinStrike",
+     "value": 1
+    }
+   ],
+   "rarity": "rare",
+   "cost": 65,
+   "requiresTags": [
+    "melee"
+   ],
+   "tags": [
+    "multi"
+   ]
+  },
+  {
+   "id": "barrage",
+   "stage": "spawn",
+   "ops": [
+    {
+     "op": "barrageCount",
+     "value": 2
+    }
+   ],
+   "rarity": "rare",
+   "cost": 65,
+   "requiresTags": [
+    "projectile"
+   ],
+   "tags": [
+    "multi"
+   ]
+  },
+  {
+   "id": "infused",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "statusChanceAdd",
+     "value": 250
+    },
+    {
+     "op": "statusDurationPermille",
+     "value": 1300
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 50,
+   "tags": [
+    "status"
+   ]
+  },
+  {
+   "id": "resonant",
+   "stage": "timing",
+   "ops": [
+    {
+     "op": "linkThresholdReduce",
+     "value": 1
+    },
+    {
+     "op": "procPermille",
+     "value": 1150
+    }
+   ],
+   "rarity": "rare",
+   "cost": 60,
+   "tags": [
+    "circuit"
+   ]
+  },
+  {
+   "id": "frenzied",
+   "stage": "timing",
+   "ops": [
+    {
+     "op": "frenzyAttackSpeed",
+     "value": 500
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 45,
+   "tags": [
+    "speed",
+    "risk"
+   ]
+  },
+  {
+   "id": "scatter",
+   "stage": "split",
+   "ops": [
+    {
+     "op": "scatter",
+     "value": 1
+    },
+    {
+     "op": "projectileAdd",
+     "value": 1
+    },
+    {
+     "op": "splitDamage",
+     "value": 800
+    }
+   ],
+   "rarity": "common",
+   "cost": 45,
+   "requiresTags": [
+    "projectile"
+   ],
+   "conflictGroup": "volley_count",
+   "tags": [
+    "multi"
+   ]
+  },
+  {
+   "id": "heavy_head",
+   "stage": "timing",
+   "ops": [
+    {
+     "op": "windupPermille",
+     "value": 1300
+    },
+    {
+     "op": "damagePermille",
+     "value": 1300
+    },
+    {
+     "op": "staggerChance",
+     "value": 150
+    }
+   ],
+   "rarity": "common",
+   "cost": 45,
+   "requiresTags": [
+    "melee"
+   ],
+   "conflictGroup": "cadence",
+   "tags": [
+    "burst"
+   ]
+  },
+  {
+   "id": "quickdraw",
+   "stage": "timing",
+   "ops": [
+    {
+     "op": "windupPermille",
+     "value": 500
+    },
+    {
+     "op": "critChanceAdd",
+     "value": 50
+    }
+   ],
+   "rarity": "common",
+   "cost": 40,
+   "tags": [
+    "speed"
+   ]
+  },
+  {
+   "id": "armor_piercer",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "armorPen",
+     "value": 15
+    }
+   ],
+   "rarity": "common",
+   "cost": 45,
+   "tags": [
+    "armor_break"
+   ]
+  },
+  {
+   "id": "overdrive_coil",
+   "stage": "timing",
+   "ops": [
+    {
+     "op": "procPermille",
+     "value": 1350
+    },
+    {
+     "op": "damagePermille",
+     "value": 900
+    }
+   ],
+   "rarity": "rare",
+   "cost": 60,
+   "tags": [
+    "circuit"
+   ]
+  },
+  {
+   "id": "hunters_mark",
+   "stage": "target",
+   "ops": [
+    {
+     "op": "bonusVsStatus",
+     "value": 400,
+     "tag": "mark"
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 45,
+   "tags": [
+    "mark"
+   ]
+  },
+  {
+   "id": "cauterize",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "bonusVsStatus",
+     "value": 300,
+     "tag": "burn"
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 45,
+   "tags": [
+    "fire_synergy"
+   ]
+  },
+  {
+   "id": "spectral_bond",
+   "stage": "spawn",
+   "ops": [
+    {
+     "op": "summonCapAdd",
+     "value": 1
+    },
+    {
+     "op": "damagePermille",
+     "value": 920
+    }
+   ],
+   "rarity": "rare",
+   "cost": 60,
+   "requiresTags": [
+    "summon"
+   ],
+   "tags": [
+    "summon"
+   ]
+  },
+  {
+   "id": "frostbite_edge",
+   "stage": "impact",
+   "ops": [
+    {
+     "op": "bonusVsStatus",
+     "value": 350,
+     "tag": "chill"
+    }
+   ],
+   "rarity": "uncommon",
+   "cost": 45,
+   "tags": [
+    "frost_synergy"
+   ]
+  }
+ ]
+}

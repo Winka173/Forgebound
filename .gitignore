@@ -1,0 +1,23 @@
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+*.csproj
+!tools/dotnet/**/*.csproj
+*.sln
+!tools/dotnet/*.sln
+.vs/
+.idea/
+# dotnet
+tools/dotnet/**/bin/
+tools/dotnet/**/obj/
+# python
+__pycache__/
+.pytest_cache/
+# local saves
+/saves_local/

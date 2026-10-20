@@ -1,0 +1,1472 @@
+{
+ "version": 1,
+ "items": [
+  {
+   "id": "wandering_smith",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.wandering_smith.opt0",
+     "requireGold": 45,
+     "requireTag": "weapon_upgradable",
+     "outcomes": [
+      {
+       "type": "upgradeWeapon"
+      }
+     ]
+    },
+    {
+     "text": "event.wandering_smith.opt1",
+     "outcomes": [
+      {
+       "type": "heal",
+       "value": 15
+      }
+     ]
+    },
+    {
+     "text": "event.wandering_smith.opt2",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_wandering_smith"
+  },
+  {
+   "id": "cursed_anvil",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.cursed_anvil.opt0",
+     "outcomes": [
+      {
+       "type": "essence",
+       "value": 2
+      },
+      {
+       "type": "gainCurse"
+      }
+     ]
+    },
+    {
+     "text": "event.cursed_anvil.opt1",
+     "outcomes": [
+      {
+       "type": "gainRandomItem",
+       "category": "rune",
+       "minRarity": "rare"
+      },
+      {
+       "type": "damage",
+       "value": 10
+      }
+     ]
+    },
+    {
+     "text": "event.cursed_anvil.opt2",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_cursed_anvil"
+  },
+  {
+   "id": "ember_spring",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.ember_spring.opt0",
+     "outcomes": [
+      {
+       "type": "heal",
+       "value": 30
+      }
+     ]
+    },
+    {
+     "text": "event.ember_spring.opt1",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "core",
+       "id": "fire"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_ember_spring",
+   "biome": "ember_foundry"
+  },
+  {
+   "id": "bandit_toll",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.bandit_toll.opt0",
+     "requireGold": 30,
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    },
+    {
+     "text": "event.bandit_toll.opt1",
+     "outcomes": [
+      {
+       "type": "battle",
+       "id": "ember_foreman"
+      }
+     ]
+    },
+    {
+     "text": "event.bandit_toll.opt2",
+     "success": 0.6,
+     "outcomes": [
+      {
+       "type": "gold",
+       "value": 10
+      }
+     ],
+     "fail": [
+      {
+       "type": "damage",
+       "value": 15
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_bandit_toll",
+   "biome": "ember_foundry"
+  },
+  {
+   "id": "overgrown_shrine",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.overgrown_shrine.opt0",
+     "outcomes": [
+      {
+       "type": "gainBlessing"
+      }
+     ]
+    },
+    {
+     "text": "event.overgrown_shrine.opt1",
+     "outcomes": [
+      {
+       "type": "gold",
+       "value": 40
+      },
+      {
+       "type": "gainCurse"
+      }
+     ]
+    },
+    {
+     "text": "event.overgrown_shrine.opt2",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_overgrown_shrine",
+   "biome": "verdant_ruins"
+  },
+  {
+   "id": "spore_cloud",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.spore_cloud.opt0",
+     "outcomes": [
+      {
+       "type": "maxHp",
+       "value": 8
+      },
+      {
+       "type": "damage",
+       "value": 10
+      }
+     ]
+    },
+    {
+     "text": "event.spore_cloud.opt1",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "core",
+       "id": "venom"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_spore_cloud",
+   "biome": "verdant_ruins"
+  },
+  {
+   "id": "frozen_courier",
+   "minChapter": 2,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.frozen_courier.opt0",
+     "outcomes": [
+      {
+       "type": "gainRandomItem",
+       "category": "modifier",
+       "minRarity": "uncommon"
+      }
+     ]
+    },
+    {
+     "text": "event.frozen_courier.opt1",
+     "outcomes": [
+      {
+       "type": "gold",
+       "value": 35
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_frozen_courier",
+   "biome": "frostspire"
+  },
+  {
+   "id": "ice_mirror",
+   "minChapter": 2,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.ice_mirror.opt0",
+     "outcomes": [
+      {
+       "type": "gainRandomItem",
+       "category": "frame",
+       "minRarity": "uncommon"
+      }
+     ]
+    },
+    {
+     "text": "event.ice_mirror.opt1",
+     "outcomes": [
+      {
+       "type": "essence",
+       "value": 1
+      },
+      {
+       "type": "damage",
+       "value": 10
+      }
+     ]
+    },
+    {
+     "text": "event.ice_mirror.opt2",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_ice_mirror",
+   "biome": "frostspire"
+  },
+  {
+   "id": "bone_merchant",
+   "minChapter": 2,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.bone_merchant.opt0",
+     "outcomes": [
+      {
+       "type": "shopDiscount",
+       "value": 400
+      },
+      {
+       "type": "gainCurse"
+      }
+     ]
+    },
+    {
+     "text": "event.bone_merchant.opt1",
+     "requireGold": 50,
+     "outcomes": [
+      {
+       "type": "gainRandomItem",
+       "category": "piece",
+       "minRarity": "rare"
+      }
+     ]
+    },
+    {
+     "text": "event.bone_merchant.opt2",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_bone_merchant",
+   "biome": "sunken_crypt"
+  },
+  {
+   "id": "restless_dead",
+   "minChapter": 2,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.restless_dead.opt0",
+     "requireTag": "has_curse",
+     "outcomes": [
+      {
+       "type": "removeCurse"
+      }
+     ]
+    },
+    {
+     "text": "event.restless_dead.opt1",
+     "outcomes": [
+      {
+       "type": "gold",
+       "value": 60
+      },
+      {
+       "type": "battle",
+       "id": "crypt_colossus"
+      }
+     ]
+    },
+    {
+     "text": "event.restless_dead.opt2",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_restless_dead",
+   "biome": "sunken_crypt"
+  },
+  {
+   "id": "storm_conduit",
+   "minChapter": 3,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.storm_conduit.opt0",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "core",
+       "id": "lightning"
+      },
+      {
+       "type": "damage",
+       "value": 10
+      }
+     ]
+    },
+    {
+     "text": "event.storm_conduit.opt1",
+     "outcomes": [
+      {
+       "type": "gainRandomItem",
+       "category": "piece",
+       "minRarity": "uncommon"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_storm_conduit",
+   "biome": "storm_citadel"
+  },
+  {
+   "id": "clockwork_vault",
+   "minChapter": 3,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.clockwork_vault.opt0",
+     "success": 0.55,
+     "outcomes": [
+      {
+       "type": "essence",
+       "value": 2
+      }
+     ],
+     "fail": [
+      {
+       "type": "damage",
+       "value": 20
+      }
+     ]
+    },
+    {
+     "text": "event.clockwork_vault.opt1",
+     "requireGold": 60,
+     "outcomes": [
+      {
+       "type": "essence",
+       "value": 2
+      }
+     ]
+    },
+    {
+     "text": "event.clockwork_vault.opt2",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_clockwork_vault",
+   "biome": "storm_citadel"
+  },
+  {
+   "id": "forge_spirit",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.forge_spirit.opt0",
+     "outcomes": [
+      {
+       "type": "expandBoard"
+      },
+      {
+       "type": "damage",
+       "value": 15
+      }
+     ]
+    },
+    {
+     "text": "event.forge_spirit.opt1",
+     "outcomes": [
+      {
+       "type": "gainRandomItem",
+       "category": "rune",
+       "minRarity": "uncommon"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_forge_spirit"
+  },
+  {
+   "id": "gambler",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.gambler.opt0",
+     "requireGold": 30,
+     "success": 0.5,
+     "outcomes": [
+      {
+       "type": "gold",
+       "value": 70
+      }
+     ],
+     "fail": [
+      {
+       "type": "nothing"
+      }
+     ]
+    },
+    {
+     "text": "event.gambler.opt1",
+     "success": 0.5,
+     "outcomes": [
+      {
+       "type": "essence",
+       "value": 2
+      }
+     ],
+     "fail": [
+      {
+       "type": "damage",
+       "value": 20
+      }
+     ]
+    },
+    {
+     "text": "event.gambler.opt2",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_gambler"
+  },
+  {
+   "id": "abandoned_camp",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.abandoned_camp.opt0",
+     "outcomes": [
+      {
+       "type": "heal",
+       "value": 20
+      }
+     ]
+    },
+    {
+     "text": "event.abandoned_camp.opt1",
+     "outcomes": [
+      {
+       "type": "gainRandomItem",
+       "category": "modifier"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_abandoned_camp"
+  },
+  {
+   "id": "rune_scholar",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.rune_scholar.opt0",
+     "requireGold": 40,
+     "outcomes": [
+      {
+       "type": "gainRandomItem",
+       "category": "rune",
+       "minRarity": "rare"
+      }
+     ]
+    },
+    {
+     "text": "event.rune_scholar.opt1",
+     "outcomes": [
+      {
+       "type": "gold",
+       "value": 30
+      }
+     ]
+    },
+    {
+     "text": "event.rune_scholar.opt2",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_rune_scholar"
+  },
+  {
+   "id": "mysterious_crate",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.mysterious_crate.opt0",
+     "outcomes": [
+      {
+       "type": "gainRandomItem",
+       "category": "frame"
+      }
+     ]
+    },
+    {
+     "text": "event.mysterious_crate.opt1",
+     "outcomes": [
+      {
+       "type": "gold",
+       "value": 45
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_mysterious_crate"
+  },
+  {
+   "id": "blood_altar",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.blood_altar.opt0",
+     "outcomes": [
+      {
+       "type": "damage",
+       "value": 25
+      },
+      {
+       "type": "gainBlessing"
+      }
+     ]
+    },
+    {
+     "text": "event.blood_altar.opt1",
+     "outcomes": [
+      {
+       "type": "essence",
+       "value": 1
+      },
+      {
+       "type": "gainCurse"
+      }
+     ]
+    },
+    {
+     "text": "event.blood_altar.opt2",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_blood_altar"
+  },
+  {
+   "id": "lost_apprentice",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.lost_apprentice.opt0",
+     "outcomes": [
+      {
+       "type": "heal",
+       "value": 10
+      },
+      {
+       "type": "gold",
+       "value": 25
+      }
+     ]
+    },
+    {
+     "text": "event.lost_apprentice.opt1",
+     "outcomes": [
+      {
+       "type": "gainRandomItem",
+       "category": "piece"
+      },
+      {
+       "type": "gainCurse"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_lost_apprentice"
+  },
+  {
+   "id": "whispering_blade",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.whispering_blade.opt0",
+     "outcomes": [
+      {
+       "type": "gainRandomItem",
+       "category": "modifier",
+       "minRarity": "rare"
+      },
+      {
+       "type": "damage",
+       "value": 15
+      }
+     ]
+    },
+    {
+     "text": "event.whispering_blade.opt1",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_whispering_blade"
+  },
+  {
+   "id": "traveling_bazaar",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.traveling_bazaar.opt0",
+     "outcomes": [
+      {
+       "type": "shopDiscount",
+       "value": 250
+      }
+     ]
+    },
+    {
+     "text": "event.traveling_bazaar.opt1",
+     "outcomes": [
+      {
+       "type": "loseItem"
+      },
+      {
+       "type": "gold",
+       "value": 55
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_traveling_bazaar"
+  },
+  {
+   "id": "ancient_forge",
+   "minChapter": 2,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.ancient_forge.opt0",
+     "requireTag": "weapon_upgradable",
+     "outcomes": [
+      {
+       "type": "upgradeWeapon"
+      }
+     ]
+    },
+    {
+     "text": "event.ancient_forge.opt1",
+     "outcomes": [
+      {
+       "type": "essence",
+       "value": 1
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_ancient_forge"
+  },
+  {
+   "id": "hermit_alchemist",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.hermit_alchemist.opt0",
+     "outcomes": [
+      {
+       "type": "maxHp",
+       "value": 10
+      }
+     ]
+    },
+    {
+     "text": "event.hermit_alchemist.opt1",
+     "success": 0.6,
+     "outcomes": [
+      {
+       "type": "gainBlessing"
+      }
+     ],
+     "fail": [
+      {
+       "type": "gainCurse"
+      }
+     ]
+    },
+    {
+     "text": "event.hermit_alchemist.opt2",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_hermit_alchemist"
+  },
+  {
+   "id": "shrine_of_steel",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.shrine_of_steel.opt0",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "core",
+       "id": "steel"
+      }
+     ]
+    },
+    {
+     "text": "event.shrine_of_steel.opt1",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "modifier",
+       "id": "serrated"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_shrine_of_steel"
+  },
+  {
+   "id": "eclipse_omen",
+   "minChapter": 2,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.eclipse_omen.opt0",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "core",
+       "id": "solar"
+      }
+     ]
+    },
+    {
+     "text": "event.eclipse_omen.opt1",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "core",
+       "id": "shadow"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_eclipse_omen"
+  },
+  {
+   "id": "gale_crossing",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.gale_crossing.opt0",
+     "success": 0.7,
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "core",
+       "id": "wind"
+      }
+     ],
+     "fail": [
+      {
+       "type": "damage",
+       "value": 15
+      }
+     ]
+    },
+    {
+     "text": "event.gale_crossing.opt1",
+     "outcomes": [
+      {
+       "type": "heal",
+       "value": 5
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_gale_crossing"
+  },
+  {
+   "id": "void_rift",
+   "minChapter": 2,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.void_rift.opt0",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "core",
+       "id": "void"
+      },
+      {
+       "type": "gainCurse"
+      }
+     ]
+    },
+    {
+     "text": "event.void_rift.opt1",
+     "outcomes": [
+      {
+       "type": "essence",
+       "value": 1
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_void_rift"
+  },
+  {
+   "id": "training_dummy",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.training_dummy.opt0",
+     "requireTag": "weapon_upgradable",
+     "outcomes": [
+      {
+       "type": "upgradeWeapon"
+      },
+      {
+       "type": "damage",
+       "value": 10
+      }
+     ]
+    },
+    {
+     "text": "event.training_dummy.opt1",
+     "outcomes": [
+      {
+       "type": "gainRandomItem",
+       "category": "piece"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_training_dummy"
+  },
+  {
+   "id": "merchant_caravan",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.merchant_caravan.opt0",
+     "outcomes": [
+      {
+       "type": "gold",
+       "value": 50
+      },
+      {
+       "type": "battle"
+      }
+     ]
+    },
+    {
+     "text": "event.merchant_caravan.opt1",
+     "requireGold": 35,
+     "outcomes": [
+      {
+       "type": "gainRandomItem",
+       "category": "rune"
+      }
+     ]
+    },
+    {
+     "text": "event.merchant_caravan.opt2",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_merchant_caravan"
+  },
+  {
+   "id": "well_of_echoes",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.well_of_echoes.opt0",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "piece",
+       "id": "echo_relay"
+      }
+     ]
+    },
+    {
+     "text": "event.well_of_echoes.opt1",
+     "success": 0.5,
+     "outcomes": [
+      {
+       "type": "gainBlessing"
+      }
+     ],
+     "fail": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_well_of_echoes"
+  },
+  {
+   "id": "broken_golem",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.broken_golem.opt0",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "core",
+       "id": "earth"
+      }
+     ]
+    },
+    {
+     "text": "event.broken_golem.opt1",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "piece",
+       "id": "heavy_anvil"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_broken_golem"
+  },
+  {
+   "id": "healing_grove",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.healing_grove.opt0",
+     "outcomes": [
+      {
+       "type": "heal",
+       "value": 35
+      }
+     ]
+    },
+    {
+     "text": "event.healing_grove.opt1",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "core",
+       "id": "life"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_healing_grove"
+  },
+  {
+   "id": "arcane_library",
+   "minChapter": 2,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.arcane_library.opt0",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "core",
+       "id": "arcane"
+      }
+     ]
+    },
+    {
+     "text": "event.arcane_library.opt1",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "frame",
+       "id": "tome"
+      },
+      {
+       "type": "gainCurse"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_arcane_library"
+  },
+  {
+   "id": "smugglers_den",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.smugglers_den.opt0",
+     "requireGold": 40,
+     "outcomes": [
+      {
+       "type": "gainRandomItem",
+       "category": "piece",
+       "minRarity": "rare"
+      }
+     ]
+    },
+    {
+     "text": "event.smugglers_den.opt1",
+     "outcomes": [
+      {
+       "type": "gold",
+       "value": 20
+      }
+     ]
+    },
+    {
+     "text": "event.smugglers_den.opt2",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_smugglers_den"
+  },
+  {
+   "id": "starfall_crater",
+   "minChapter": 2,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.starfall_crater.opt0",
+     "outcomes": [
+      {
+       "type": "essence",
+       "value": 2
+      },
+      {
+       "type": "damage",
+       "value": 15
+      }
+     ]
+    },
+    {
+     "text": "event.starfall_crater.opt1",
+     "outcomes": [
+      {
+       "type": "heal",
+       "value": 15
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_starfall_crater"
+  },
+  {
+   "id": "weapon_rack",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.weapon_rack.opt0",
+     "outcomes": [
+      {
+       "type": "gainRandomItem",
+       "category": "frame"
+      },
+      {
+       "type": "damage",
+       "value": 10
+      }
+     ]
+    },
+    {
+     "text": "event.weapon_rack.opt1",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "piece",
+       "id": "whetstone"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_weapon_rack"
+  },
+  {
+   "id": "duelist_challenge",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.duelist_challenge.opt0",
+     "outcomes": [
+      {
+       "type": "battle"
+      },
+      {
+       "type": "gainBlessing"
+      }
+     ]
+    },
+    {
+     "text": "event.duelist_challenge.opt1",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_duelist_challenge"
+  },
+  {
+   "id": "tinkers_gift",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.tinkers_gift.opt0",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "piece",
+       "id": "splitter"
+      }
+     ]
+    },
+    {
+     "text": "event.tinkers_gift.opt1",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "piece",
+       "id": "amplifier"
+      },
+      {
+       "type": "damage",
+       "value": 10
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_tinkers_gift"
+  },
+  {
+   "id": "fortune_teller",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.fortune_teller.opt0",
+     "requireGold": 25,
+     "outcomes": [
+      {
+       "type": "revealMap"
+      },
+      {
+       "type": "heal",
+       "value": 10
+      }
+     ]
+    },
+    {
+     "text": "event.fortune_teller.opt1",
+     "outcomes": [
+      {
+       "type": "gainRandomItem",
+       "category": "rune"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_fortune_teller"
+  },
+  {
+   "id": "sacrificial_forge",
+   "minChapter": 2,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.sacrificial_forge.opt0",
+     "outcomes": [
+      {
+       "type": "loseItem"
+      },
+      {
+       "type": "gainRandomItem",
+       "category": "modifier",
+       "minRarity": "rare"
+      }
+     ]
+    },
+    {
+     "text": "event.sacrificial_forge.opt1",
+     "outcomes": [
+      {
+       "type": "maxHp",
+       "value": -8
+      },
+      {
+       "type": "essence",
+       "value": 2
+      }
+     ]
+    },
+    {
+     "text": "event.sacrificial_forge.opt2",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_sacrificial_forge"
+  },
+  {
+   "id": "ghostly_smith",
+   "minChapter": 2,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.ghostly_smith.opt0",
+     "requireTag": "weapon_upgradable",
+     "outcomes": [
+      {
+       "type": "essence",
+       "value": 1
+      },
+      {
+       "type": "upgradeWeapon"
+      }
+     ]
+    },
+    {
+     "text": "event.ghostly_smith.opt1",
+     "outcomes": [
+      {
+       "type": "gold",
+       "value": 30
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_ghostly_smith"
+  },
+  {
+   "id": "crystal_cavern",
+   "minChapter": 2,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.crystal_cavern.opt0",
+     "outcomes": [
+      {
+       "type": "gainItem",
+       "category": "piece",
+       "id": "resonator"
+      }
+     ]
+    },
+    {
+     "text": "event.crystal_cavern.opt1",
+     "outcomes": [
+      {
+       "type": "gold",
+       "value": 40
+      },
+      {
+       "type": "damage",
+       "value": 10
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_crystal_cavern"
+  },
+  {
+   "id": "mercenary_offer",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.mercenary_offer.opt0",
+     "requireGold": 50,
+     "outcomes": [
+      {
+       "type": "gainBlessing"
+      }
+     ]
+    },
+    {
+     "text": "event.mercenary_offer.opt1",
+     "outcomes": [
+      {
+       "type": "damage",
+       "value": 15
+      },
+      {
+       "type": "gainRandomItem",
+       "category": "rune",
+       "minRarity": "rare"
+      }
+     ]
+    },
+    {
+     "text": "event.mercenary_offer.opt2",
+     "outcomes": [
+      {
+       "type": "nothing"
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_mercenary_offer"
+  },
+  {
+   "id": "purifying_flame",
+   "minChapter": 1,
+   "weight": 10,
+   "options": [
+    {
+     "text": "event.purifying_flame.opt0",
+     "requireTag": "has_curse",
+     "outcomes": [
+      {
+       "type": "removeCurse"
+      },
+      {
+       "type": "damage",
+       "value": 20
+      }
+     ]
+    },
+    {
+     "text": "event.purifying_flame.opt1",
+     "outcomes": [
+      {
+       "type": "heal",
+       "value": 10
+      }
+     ]
+    }
+   ],
+   "art": "fb_event_purifying_flame"
+  }
+ ]
+}

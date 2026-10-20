@@ -1,0 +1,1133 @@
+{
+ "version": 1,
+ "items": [
+  {
+   "id": "conduit",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "conduit",
+    "capacity": 3
+   },
+   "rarity": "common",
+   "cost": 25,
+   "tags": [
+    "routing"
+   ]
+  },
+  {
+   "id": "bent_conduit",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "south",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "conduit",
+    "capacity": 3
+   },
+   "rarity": "common",
+   "cost": 25,
+   "tags": [
+    "routing"
+   ]
+  },
+  {
+   "id": "junction",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "north",
+     "kind": "both"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "both"
+    },
+    {
+     "cell": 0,
+     "dir": "south",
+     "kind": "both"
+    },
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "both"
+    }
+   ],
+   "relay": {
+    "type": "conduit",
+    "capacity": 4
+   },
+   "rarity": "uncommon",
+   "cost": 40,
+   "tags": [
+    "routing"
+   ]
+  },
+  {
+   "id": "echo_relay",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "echo",
+    "listen": "onHit",
+    "threshold": 3,
+    "power": 0.6,
+    "capacity": 2
+   },
+   "rarity": "common",
+   "cost": 45,
+   "tags": [
+    "echo"
+   ]
+  },
+  {
+   "id": "echo_coil",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 1,
+     "dir": "east",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "echo",
+    "listen": "onHit",
+    "threshold": 2,
+    "power": 0.45,
+    "capacity": 1
+   },
+   "rarity": "uncommon",
+   "cost": 55,
+   "tags": [
+    "echo"
+   ]
+  },
+  {
+   "id": "crit_echo",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "echo",
+    "listen": "onCrit",
+    "threshold": 2,
+    "power": 0.8,
+    "capacity": 2
+   },
+   "rarity": "uncommon",
+   "cost": 55,
+   "tags": [
+    "echo",
+    "crit"
+   ]
+  },
+  {
+   "id": "kill_echo",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "echo",
+    "listen": "onKill",
+    "threshold": 1,
+    "power": 0.7,
+    "capacity": 1
+   },
+   "rarity": "uncommon",
+   "cost": 50,
+   "tags": [
+    "echo",
+    "onkill"
+   ]
+  },
+  {
+   "id": "status_echo",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "echo",
+    "listen": "onStatusApplied",
+    "threshold": 4,
+    "power": 0.5,
+    "capacity": 2
+   },
+   "rarity": "uncommon",
+   "cost": 50,
+   "tags": [
+    "echo",
+    "status"
+   ]
+  },
+  {
+   "id": "attack_echo",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "echo",
+    "listen": "onAttack",
+    "threshold": 4,
+    "power": 0.55,
+    "capacity": 2
+   },
+   "rarity": "common",
+   "cost": 45,
+   "tags": [
+    "echo"
+   ]
+  },
+  {
+   "id": "splitter",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    },
+    {
+     "cell": 0,
+     "dir": "south",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "splitter",
+    "power": 0.8,
+    "capacity": 2
+   },
+   "rarity": "uncommon",
+   "cost": 50,
+   "tags": [
+    "routing"
+   ]
+  },
+  {
+   "id": "tri_splitter",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "north",
+     "kind": "out"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    },
+    {
+     "cell": 0,
+     "dir": "south",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "splitter",
+    "power": 0.7,
+    "capacity": 3
+   },
+   "rarity": "rare",
+   "cost": 65,
+   "tags": [
+    "routing"
+   ]
+  },
+  {
+   "id": "amplifier",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "amplifier",
+    "power": 1.35,
+    "capacity": 2
+   },
+   "rarity": "uncommon",
+   "cost": 55,
+   "tags": [
+    "power"
+   ]
+  },
+  {
+   "id": "capacitor",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    }
+   ],
+   "relay": {
+    "type": "capacitor",
+    "listen": "onKill",
+    "threshold": 2,
+    "power": 1.2,
+    "radius": 2.2,
+    "capacity": 2
+   },
+   "rarity": "common",
+   "cost": 45,
+   "tags": [
+    "terminal",
+    "aoe"
+   ]
+  },
+  {
+   "id": "crit_capacitor",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    }
+   ],
+   "relay": {
+    "type": "capacitor",
+    "listen": "onCrit",
+    "threshold": 3,
+    "power": 0.9,
+    "radius": 1.8,
+    "capacity": 2
+   },
+   "rarity": "uncommon",
+   "cost": 50,
+   "tags": [
+    "terminal",
+    "crit"
+   ]
+  },
+  {
+   "id": "fire_converter",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "converter",
+    "convert": "fire",
+    "status": {
+     "status": "burn",
+     "chance": 1,
+     "stacks": 1,
+     "duration": 3
+    },
+    "capacity": 2
+   },
+   "rarity": "common",
+   "cost": 45,
+   "tags": [
+    "convert",
+    "fire"
+   ]
+  },
+  {
+   "id": "frost_converter",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "converter",
+    "convert": "frost",
+    "status": {
+     "status": "chill",
+     "chance": 1,
+     "stacks": 2,
+     "duration": 3
+    },
+    "capacity": 2
+   },
+   "rarity": "common",
+   "cost": 45,
+   "tags": [
+    "convert",
+    "frost"
+   ]
+  },
+  {
+   "id": "storm_converter",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "converter",
+    "convert": "lightning",
+    "status": {
+     "status": "shock",
+     "chance": 1,
+     "stacks": 1,
+     "duration": 3
+    },
+    "capacity": 2
+   },
+   "rarity": "common",
+   "cost": 45,
+   "tags": [
+    "convert",
+    "lightning"
+   ]
+  },
+  {
+   "id": "shade_converter",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "converter",
+    "convert": "shadow",
+    "status": {
+     "status": "curse",
+     "chance": 1,
+     "stacks": 1,
+     "duration": 4
+    },
+    "capacity": 2
+   },
+   "rarity": "uncommon",
+   "cost": 50,
+   "tags": [
+    "convert",
+    "shadow"
+   ]
+  },
+  {
+   "id": "delay_coil",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "delay",
+    "delay": 1.0,
+    "power": 1.5,
+    "capacity": 2
+   },
+   "rarity": "common",
+   "cost": 40,
+   "tags": [
+    "burst"
+   ]
+  },
+  {
+   "id": "prism",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "prism",
+    "power": 0.9,
+    "capacity": 2
+   },
+   "rarity": "rare",
+   "cost": 60,
+   "tags": [
+    "status"
+   ]
+  },
+  {
+   "id": "governor",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "governor",
+    "listen": "onAttack",
+    "threshold": 3,
+    "power": 1.0,
+    "maxPerBattle": 12,
+    "capacity": 2
+   },
+   "rarity": "uncommon",
+   "cost": 50,
+   "tags": [
+    "power"
+   ]
+  },
+  {
+   "id": "siphon_node",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    }
+   ],
+   "relay": {
+    "type": "siphon",
+    "capacity": 2
+   },
+   "rarity": "uncommon",
+   "cost": 45,
+   "tags": [
+    "terminal",
+    "sustain"
+   ]
+  },
+  {
+   "id": "beacon",
+   "kind": "relay",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [
+    {
+     "cell": 0,
+     "dir": "west",
+     "kind": "in"
+    },
+    {
+     "cell": 0,
+     "dir": "east",
+     "kind": "out"
+    }
+   ],
+   "relay": {
+    "type": "beacon",
+    "capacity": 2
+   },
+   "rarity": "common",
+   "cost": 40,
+   "tags": [
+    "mark"
+   ]
+  },
+  {
+   "id": "whetstone",
+   "kind": "support",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [],
+   "adjacent": [
+    {
+     "stat": "attackSpeed",
+     "value": 120
+    }
+   ],
+   "maxAdjacent": 2,
+   "rarity": "common",
+   "cost": 35,
+   "tags": [
+    "speed"
+   ]
+  },
+  {
+   "id": "bellows",
+   "kind": "support",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [],
+   "adjacent": [
+    {
+     "stat": "damage",
+     "value": 220,
+     "tag": "fire"
+    },
+    {
+     "stat": "statusDuration",
+     "value": 300,
+     "tag": "dot"
+    }
+   ],
+   "maxAdjacent": 2,
+   "rarity": "common",
+   "cost": 40,
+   "tags": [
+    "fire"
+   ]
+  },
+  {
+   "id": "lens",
+   "kind": "support",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [],
+   "adjacent": [
+    {
+     "stat": "range",
+     "value": 250
+    }
+   ],
+   "maxAdjacent": 2,
+   "rarity": "common",
+   "cost": 35,
+   "tags": [
+    "reach"
+   ]
+  },
+  {
+   "id": "anvil",
+   "kind": "support",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [],
+   "adjacent": [
+    {
+     "stat": "damage",
+     "value": 150
+    }
+   ],
+   "maxAdjacent": 2,
+   "rarity": "common",
+   "cost": 40,
+   "tags": [
+    "power"
+   ]
+  },
+  {
+   "id": "quench_basin",
+   "kind": "support",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [],
+   "adjacent": [
+    {
+     "stat": "statusChance",
+     "value": 200
+    }
+   ],
+   "maxAdjacent": 2,
+   "rarity": "common",
+   "cost": 40,
+   "tags": [
+    "status"
+   ]
+  },
+  {
+   "id": "rune_lamp",
+   "kind": "support",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [],
+   "adjacent": [
+    {
+     "stat": "procDamage",
+     "value": 300
+    }
+   ],
+   "maxAdjacent": 2,
+   "rarity": "uncommon",
+   "cost": 50,
+   "tags": [
+    "circuit"
+   ]
+  },
+  {
+   "id": "focus_lens",
+   "kind": "support",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [],
+   "adjacent": [
+    {
+     "stat": "critChance",
+     "value": 100
+    },
+    {
+     "stat": "critDamage",
+     "value": 250
+    }
+   ],
+   "maxAdjacent": 2,
+   "rarity": "uncommon",
+   "cost": 50,
+   "tags": [
+    "crit"
+   ]
+  },
+  {
+   "id": "fletching_rack",
+   "kind": "support",
+   "footprint": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "ports": [],
+   "adjacent": [
+    {
+     "stat": "projectileCount",
+     "value": 1
+    },
+    {
+     "stat": "projectileSpeed",
+     "value": 300
+    }
+   ],
+   "maxAdjacent": 1,
+   "rarity": "rare",
+   "cost": 60,
+   "tags": [
+    "projectile"
+   ]
+  },
+  {
+   "id": "tesla_coil",
+   "kind": "support",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [],
+   "adjacent": [
+    {
+     "stat": "chainCount",
+     "value": 1
+    }
+   ],
+   "maxAdjacent": 2,
+   "rarity": "uncommon",
+   "cost": 50,
+   "tags": [
+    "lightning",
+    "chain"
+   ]
+  },
+  {
+   "id": "blood_basin",
+   "kind": "support",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [],
+   "adjacent": [
+    {
+     "stat": "leech",
+     "value": 40
+    }
+   ],
+   "maxAdjacent": 2,
+   "rarity": "uncommon",
+   "cost": 50,
+   "tags": [
+    "sustain"
+   ]
+  },
+  {
+   "id": "grindstone",
+   "kind": "support",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [],
+   "adjacent": [
+    {
+     "stat": "critDamage",
+     "value": 400,
+     "tag": "blade"
+    }
+   ],
+   "maxAdjacent": 2,
+   "rarity": "common",
+   "cost": 40,
+   "tags": [
+    "crit"
+   ]
+  },
+  {
+   "id": "heavy_anvil",
+   "kind": "support",
+   "footprint": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "ports": [],
+   "adjacent": [
+    {
+     "stat": "damage",
+     "value": 300
+    },
+    {
+     "stat": "attackSpeed",
+     "value": -100
+    }
+   ],
+   "maxAdjacent": 2,
+   "rarity": "uncommon",
+   "cost": 55,
+   "tags": [
+    "power"
+   ]
+  },
+  {
+   "id": "resonator",
+   "kind": "support",
+   "footprint": [
+    [
+     0,
+     0
+    ]
+   ],
+   "ports": [],
+   "adjacent": [
+    {
+     "stat": "relayThreshold",
+     "value": 1
+    }
+   ],
+   "maxAdjacent": 2,
+   "rarity": "rare",
+   "cost": 60,
+   "tags": [
+    "circuit"
+   ]
+  }
+ ]
+}

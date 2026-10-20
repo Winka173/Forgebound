@@ -1,0 +1,2395 @@
+{
+ "version": 1,
+ "items": [
+  {
+   "id": "cinder_imp",
+   "rank": "minion",
+   "hp": 18,
+   "armor": 0,
+   "speed": 1.6,
+   "radius": 0.3,
+   "attack": {
+    "damage": 3,
+    "cooldown": 1.0,
+    "windup": 0.25
+   },
+   "gold": 2,
+   "threat": 1,
+   "role": "swarm",
+   "tags": [
+    "slagborn",
+    "ember_foundry"
+   ],
+   "sprite": "fb_enemy_cinder_imp",
+   "abilities": [
+    {
+     "type": "explodeOnDeath",
+     "value": 4,
+     "radius": 1.0,
+     "windup": 0.5
+    }
+   ]
+  },
+  {
+   "id": "slag_brute",
+   "rank": "minion",
+   "hp": 55,
+   "armor": 15,
+   "speed": 0.9,
+   "radius": 0.55,
+   "attack": {
+    "damage": 7,
+    "cooldown": 1.6,
+    "windup": 0.5
+   },
+   "gold": 4,
+   "threat": 2,
+   "role": "tank",
+   "tags": [
+    "slagborn",
+    "ember_foundry"
+   ],
+   "sprite": "fb_enemy_slag_brute"
+  },
+  {
+   "id": "forge_bandit",
+   "rank": "minion",
+   "hp": 30,
+   "armor": 0,
+   "speed": 1.3,
+   "radius": 0.4,
+   "attack": {
+    "damage": 4,
+    "cooldown": 1.0,
+    "windup": 0.3
+   },
+   "gold": 3,
+   "threat": 1,
+   "role": "melee",
+   "tags": [
+    "slagborn",
+    "ember_foundry"
+   ],
+   "sprite": "fb_enemy_forge_bandit",
+   "abilities": [
+    {
+     "type": "charge",
+     "cooldown": 6,
+     "windup": 0.6,
+     "value": 7
+    }
+   ]
+  },
+  {
+   "id": "ember_slinger",
+   "rank": "minion",
+   "hp": 22,
+   "armor": 0,
+   "speed": 1.0,
+   "radius": 0.4,
+   "attack": {
+    "damage": 4,
+    "cooldown": 1.6,
+    "windup": 0.4,
+    "ranged": true,
+    "range": 6,
+    "damageType": "fire",
+    "status": {
+     "status": "burn",
+     "chance": 0.3,
+     "stacks": 1,
+     "duration": 3
+    }
+   },
+   "gold": 3,
+   "threat": 2,
+   "role": "ranged",
+   "tags": [
+    "slagborn",
+    "ember_foundry"
+   ],
+   "sprite": "fb_enemy_ember_slinger"
+  },
+  {
+   "id": "bellows_tender",
+   "rank": "minion",
+   "hp": 35,
+   "armor": 0,
+   "speed": 1.0,
+   "radius": 0.4,
+   "attack": {
+    "damage": 3,
+    "cooldown": 1.4,
+    "windup": 0.3
+   },
+   "gold": 4,
+   "threat": 3,
+   "role": "support",
+   "tags": [
+    "slagborn",
+    "ember_foundry"
+   ],
+   "sprite": "fb_enemy_bellows_tender",
+   "abilities": [
+    {
+     "type": "buffAllies",
+     "value": 150,
+     "radius": 4,
+     "cooldown": 8,
+     "windup": 0.5
+    },
+    {
+     "type": "shieldAlly",
+     "value": 10,
+     "radius": 4,
+     "cooldown": 7,
+     "windup": 0.5
+    }
+   ]
+  },
+  {
+   "id": "ash_wisp",
+   "rank": "minion",
+   "hp": 16,
+   "armor": 0,
+   "speed": 1.8,
+   "radius": 0.3,
+   "attack": {
+    "damage": 3,
+    "cooldown": 1.0,
+    "windup": 0.3
+   },
+   "gold": 2,
+   "threat": 1,
+   "role": "flyer",
+   "tags": [
+    "slagborn",
+    "ember_foundry"
+   ],
+   "sprite": "fb_enemy_ash_wisp",
+   "flying": true,
+   "evasion": 0.2
+  },
+  {
+   "id": "slag_hound",
+   "rank": "minion",
+   "hp": 20,
+   "armor": 0,
+   "speed": 2.2,
+   "radius": 0.35,
+   "attack": {
+    "damage": 3,
+    "cooldown": 0.8,
+    "windup": 0.2
+   },
+   "gold": 2,
+   "threat": 1,
+   "role": "swarm",
+   "tags": [
+    "slagborn",
+    "ember_foundry"
+   ],
+   "sprite": "fb_enemy_slag_hound"
+  },
+  {
+   "id": "molten_foreman",
+   "rank": "elite",
+   "hp": 230,
+   "armor": 20,
+   "speed": 0.9,
+   "radius": 0.7,
+   "attack": {
+    "damage": 10,
+    "cooldown": 1.6,
+    "windup": 0.5
+   },
+   "gold": 10,
+   "threat": 5,
+   "role": "elite",
+   "tags": [
+    "slagborn",
+    "ember_foundry"
+   ],
+   "sprite": "fb_enemy_molten_foreman",
+   "resist": {
+    "fire": 0.5
+   },
+   "abilities": [
+    {
+     "type": "slam",
+     "value": 16,
+     "radius": 1.8,
+     "windup": 1.0,
+     "cooldown": 6
+    },
+    {
+     "type": "summon",
+     "enemy": "cinder_imp",
+     "count": 2,
+     "cap": 4,
+     "cooldown": 8,
+     "windup": 0.6
+    }
+   ]
+  },
+  {
+   "id": "slag_titan",
+   "rank": "boss",
+   "hp": 700,
+   "armor": 25,
+   "speed": 0.7,
+   "radius": 1.0,
+   "attack": {
+    "damage": 12,
+    "cooldown": 1.8,
+    "windup": 0.6
+   },
+   "gold": 0,
+   "threat": 10,
+   "role": "boss",
+   "tags": [
+    "slagborn",
+    "ember_foundry"
+   ],
+   "sprite": "fb_enemy_slag_titan",
+   "resist": {
+    "fire": 0.6
+   },
+   "phases": [
+    {
+     "hpBelow": 1.0,
+     "name": "phase.slag_titan.1",
+     "abilities": [
+      {
+       "type": "slam",
+       "value": 18,
+       "radius": 2.0,
+       "windup": 1.0,
+       "cooldown": 5
+      }
+     ]
+    },
+    {
+     "hpBelow": 0.6,
+     "name": "phase.slag_titan.2",
+     "abilities": [
+      {
+       "type": "slam",
+       "value": 18,
+       "radius": 2.0,
+       "windup": 1.0,
+       "cooldown": 5
+      },
+      {
+       "type": "summon",
+       "enemy": "cinder_imp",
+       "count": 3,
+       "cap": 5,
+       "cooldown": 7,
+       "windup": 0.8
+      }
+     ]
+    },
+    {
+     "hpBelow": 0.3,
+     "name": "phase.slag_titan.3",
+     "attackSpeed": 1.3,
+     "damage": 1.2,
+     "abilities": [
+      {
+       "type": "slam",
+       "value": 20,
+       "radius": 2.2,
+       "windup": 0.9,
+       "cooldown": 4.5
+      },
+      {
+       "type": "barrier",
+       "value": 120,
+       "cooldown": 10,
+       "windup": 0.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kaldur_forge_tyrant",
+   "rank": "boss",
+   "hp": 760,
+   "armor": 18,
+   "speed": 1.0,
+   "radius": 0.9,
+   "attack": {
+    "damage": 11,
+    "cooldown": 1.4,
+    "windup": 0.4
+   },
+   "gold": 3,
+   "threat": 10,
+   "role": "boss",
+   "tags": [
+    "slagborn",
+    "ember_foundry"
+   ],
+   "sprite": "fb_enemy_kaldur_forge_tyrant",
+   "resist": {
+    "fire": 0.4
+   },
+   "phases": [
+    {
+     "hpBelow": 1.0,
+     "name": "phase.kaldur.1",
+     "abilities": [
+      {
+       "type": "charge",
+       "value": 16,
+       "cooldown": 6,
+       "windup": 0.9
+      },
+      {
+       "type": "volley",
+       "value": 5,
+       "count": 3,
+       "cooldown": 6,
+       "windup": 0.8,
+       "status": {
+        "status": "burn",
+        "chance": 1,
+        "stacks": 1,
+        "duration": 3
+       }
+      }
+     ]
+    },
+    {
+     "hpBelow": 0.5,
+     "name": "phase.kaldur.2",
+     "speed": 1.2,
+     "abilities": [
+      {
+       "type": "summon",
+       "enemy": "forge_bandit",
+       "count": 2,
+       "cap": 3,
+       "cooldown": 9,
+       "windup": 0.8
+      },
+      {
+       "type": "charge",
+       "value": 18,
+       "cooldown": 5,
+       "windup": 0.8
+      },
+      {
+       "type": "enrage",
+       "cooldown": 3,
+       "windup": 0.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vine_crawler",
+   "rank": "minion",
+   "hp": 20,
+   "armor": 0,
+   "speed": 1.4,
+   "radius": 0.35,
+   "attack": {
+    "damage": 3,
+    "cooldown": 1.0,
+    "windup": 0.3,
+    "status": {
+     "status": "slow",
+     "chance": 0.2,
+     "stacks": 1,
+     "duration": 1.5
+    }
+   },
+   "gold": 2,
+   "threat": 1,
+   "role": "swarm",
+   "tags": [
+    "overgrowth",
+    "verdant_ruins"
+   ],
+   "sprite": "fb_enemy_vine_crawler"
+  },
+  {
+   "id": "spore_shaman",
+   "rank": "minion",
+   "hp": 28,
+   "armor": 0,
+   "speed": 1.0,
+   "radius": 0.4,
+   "attack": {
+    "damage": 2,
+    "cooldown": 2.0,
+    "windup": 0.4,
+    "ranged": true,
+    "range": 5,
+    "damageType": "poison"
+   },
+   "gold": 4,
+   "threat": 4,
+   "role": "healer",
+   "tags": [
+    "overgrowth",
+    "verdant_ruins"
+   ],
+   "sprite": "fb_enemy_spore_shaman",
+   "abilities": [
+    {
+     "type": "healAlly",
+     "value": 12,
+     "radius": 5,
+     "cooldown": 4,
+     "windup": 0.6
+    }
+   ]
+  },
+  {
+   "id": "thorn_beast",
+   "rank": "minion",
+   "hp": 60,
+   "armor": 5,
+   "speed": 1.0,
+   "radius": 0.55,
+   "attack": {
+    "damage": 6,
+    "cooldown": 1.3,
+    "windup": 0.4
+   },
+   "gold": 4,
+   "threat": 2,
+   "role": "tank",
+   "tags": [
+    "overgrowth",
+    "verdant_ruins"
+   ],
+   "sprite": "fb_enemy_thorn_beast",
+   "abilities": [
+    {
+     "type": "thorns",
+     "power": 0.25
+    }
+   ]
+  },
+  {
+   "id": "moss_golem",
+   "rank": "minion",
+   "hp": 80,
+   "armor": 10,
+   "speed": 0.7,
+   "radius": 0.6,
+   "attack": {
+    "damage": 8,
+    "cooldown": 2.0,
+    "windup": 0.6
+   },
+   "gold": 5,
+   "threat": 2,
+   "role": "tank",
+   "tags": [
+    "overgrowth",
+    "verdant_ruins"
+   ],
+   "sprite": "fb_enemy_moss_golem",
+   "abilities": [
+    {
+     "type": "regen",
+     "value": 3
+    }
+   ]
+  },
+  {
+   "id": "seed_pod",
+   "rank": "minion",
+   "hp": 25,
+   "armor": 0,
+   "speed": 0.5,
+   "radius": 0.4,
+   "attack": {
+    "damage": 2,
+    "cooldown": 1.5,
+    "windup": 0.3
+   },
+   "gold": 3,
+   "threat": 1,
+   "role": "splitter",
+   "tags": [
+    "overgrowth",
+    "verdant_ruins"
+   ],
+   "sprite": "fb_enemy_seed_pod",
+   "abilities": [
+    {
+     "type": "splitOnDeath",
+     "enemy": "vine_crawler",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "id": "briar_stalker",
+   "rank": "minion",
+   "hp": 26,
+   "armor": 0,
+   "speed": 1.5,
+   "radius": 0.4,
+   "attack": {
+    "damage": 9,
+    "cooldown": 1.5,
+    "windup": 0.4
+   },
+   "gold": 4,
+   "threat": 3,
+   "role": "assassin",
+   "tags": [
+    "overgrowth",
+    "verdant_ruins"
+   ],
+   "sprite": "fb_enemy_briar_stalker",
+   "abilities": [
+    {
+     "type": "stealth",
+     "cooldown": 8,
+     "windup": 0.3
+    }
+   ]
+  },
+  {
+   "id": "mire_toad",
+   "rank": "minion",
+   "hp": 35,
+   "armor": 0,
+   "speed": 0.9,
+   "radius": 0.45,
+   "attack": {
+    "damage": 4,
+    "cooldown": 1.8,
+    "windup": 0.5,
+    "ranged": true,
+    "range": 5,
+    "damageType": "poison",
+    "status": {
+     "status": "poison",
+     "chance": 0.6,
+     "stacks": 2,
+     "duration": 4
+    }
+   },
+   "gold": 3,
+   "threat": 2,
+   "role": "ranged",
+   "tags": [
+    "overgrowth",
+    "verdant_ruins"
+   ],
+   "sprite": "fb_enemy_mire_toad"
+  },
+  {
+   "id": "elder_treant",
+   "rank": "elite",
+   "hp": 270,
+   "armor": 12,
+   "speed": 0.6,
+   "radius": 0.8,
+   "attack": {
+    "damage": 9,
+    "cooldown": 1.8,
+    "windup": 0.5
+   },
+   "gold": 10,
+   "threat": 5,
+   "role": "elite",
+   "tags": [
+    "overgrowth",
+    "verdant_ruins"
+   ],
+   "sprite": "fb_enemy_elder_treant",
+   "resist": {
+    "poison": 0.5,
+    "fire": -0.3
+   },
+   "abilities": [
+    {
+     "type": "regen",
+     "value": 6
+    },
+    {
+     "type": "summon",
+     "enemy": "vine_crawler",
+     "count": 2,
+     "cap": 4,
+     "cooldown": 7,
+     "windup": 0.6
+    },
+    {
+     "type": "slam",
+     "value": 14,
+     "radius": 2.0,
+     "cooldown": 7,
+     "windup": 1.0
+    }
+   ]
+  },
+  {
+   "id": "rootmother",
+   "rank": "boss",
+   "hp": 750,
+   "armor": 12,
+   "speed": 0.5,
+   "radius": 1.0,
+   "attack": {
+    "damage": 10,
+    "cooldown": 1.6,
+    "windup": 0.5
+   },
+   "gold": 3,
+   "threat": 10,
+   "role": "boss",
+   "tags": [
+    "overgrowth",
+    "verdant_ruins"
+   ],
+   "sprite": "fb_enemy_rootmother",
+   "resist": {
+    "poison": 0.7,
+    "fire": -0.25
+   },
+   "phases": [
+    {
+     "hpBelow": 1.0,
+     "name": "phase.rootmother.1",
+     "abilities": [
+      {
+       "type": "summon",
+       "enemy": "seed_pod",
+       "count": 1,
+       "cap": 3,
+       "cooldown": 8,
+       "windup": 0.8
+      },
+      {
+       "type": "statusAura",
+       "cooldown": 5,
+       "windup": 0.6,
+       "radius": 6,
+       "status": {
+        "status": "poison",
+        "chance": 1,
+        "stacks": 2,
+        "duration": 4
+       }
+      }
+     ]
+    },
+    {
+     "hpBelow": 0.55,
+     "name": "phase.rootmother.2",
+     "abilities": [
+      {
+       "type": "leap",
+       "value": 16,
+       "radius": 1.8,
+       "cooldown": 7,
+       "windup": 1.0
+      },
+      {
+       "type": "summon",
+       "enemy": "seed_pod",
+       "count": 1,
+       "cap": 3,
+       "cooldown": 8,
+       "windup": 0.8
+      },
+      {
+       "type": "healAlly",
+       "value": 30,
+       "radius": 6,
+       "cooldown": 6,
+       "windup": 0.8
+      }
+     ]
+    },
+    {
+     "hpBelow": 0.25,
+     "name": "phase.rootmother.3",
+     "abilities": [
+      {
+       "type": "enrage",
+       "cooldown": 2,
+       "windup": 0.5
+      },
+      {
+       "type": "summon",
+       "enemy": "thorn_beast",
+       "count": 1,
+       "cap": 2,
+       "cooldown": 9,
+       "windup": 0.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hollow_bloom",
+   "rank": "boss",
+   "hp": 780,
+   "armor": 0,
+   "speed": 0.6,
+   "radius": 0.9,
+   "attack": {
+    "damage": 9,
+    "cooldown": 1.4,
+    "windup": 0.4,
+    "ranged": true,
+    "range": 6,
+    "damageType": "poison",
+    "status": {
+     "status": "poison",
+     "chance": 0.5,
+     "stacks": 1,
+     "duration": 4
+    }
+   },
+   "gold": 3,
+   "threat": 10,
+   "role": "boss",
+   "tags": [
+    "overgrowth",
+    "verdant_ruins"
+   ],
+   "sprite": "fb_enemy_hollow_bloom",
+   "resist": {
+    "poison": 0.6
+   },
+   "phases": [
+    {
+     "hpBelow": 1.0,
+     "name": "phase.hollow_bloom.1",
+     "abilities": [
+      {
+       "type": "teleport",
+       "cooldown": 7,
+       "windup": 0.6
+      },
+      {
+       "type": "summon",
+       "enemy": "briar_stalker",
+       "count": 1,
+       "cap": 2,
+       "cooldown": 9,
+       "windup": 0.7
+      }
+     ]
+    },
+    {
+     "hpBelow": 0.5,
+     "name": "phase.hollow_bloom.2",
+     "abilities": [
+      {
+       "type": "healAlly",
+       "value": 40,
+       "radius": 8,
+       "cooldown": 7,
+       "windup": 1.2
+      },
+      {
+       "type": "statusAura",
+       "cooldown": 4,
+       "windup": 0.5,
+       "radius": 8,
+       "status": {
+        "status": "poison",
+        "chance": 1,
+        "stacks": 3,
+        "duration": 4
+       }
+      },
+      {
+       "type": "teleport",
+       "cooldown": 6,
+       "windup": 0.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "frost_wraith",
+   "rank": "minion",
+   "hp": 40,
+   "armor": 0,
+   "speed": 1.7,
+   "radius": 0.4,
+   "attack": {
+    "damage": 6,
+    "cooldown": 1.3,
+    "windup": 0.4,
+    "damageType": "frost",
+    "status": {
+     "status": "chill",
+     "chance": 0.4,
+     "stacks": 1,
+     "duration": 3
+    }
+   },
+   "gold": 4,
+   "threat": 2,
+   "role": "flyer",
+   "tags": [
+    "rime_court",
+    "frostspire"
+   ],
+   "sprite": "fb_enemy_frost_wraith",
+   "flying": true,
+   "evasion": 0.25,
+   "resist": {
+    "frost": 0.6
+   }
+  },
+  {
+   "id": "rime_archer",
+   "rank": "minion",
+   "hp": 40,
+   "armor": 0,
+   "speed": 1.0,
+   "radius": 0.4,
+   "attack": {
+    "damage": 7,
+    "cooldown": 1.8,
+    "windup": 0.5,
+    "ranged": true,
+    "range": 7,
+    "damageType": "frost",
+    "status": {
+     "status": "chill",
+     "chance": 0.3,
+     "stacks": 1,
+     "duration": 3
+    }
+   },
+   "gold": 4,
+   "threat": 2,
+   "role": "ranged",
+   "tags": [
+    "rime_court",
+    "frostspire"
+   ],
+   "sprite": "fb_enemy_rime_archer",
+   "resist": {
+    "frost": 0.5
+   }
+  },
+  {
+   "id": "glacier_knight",
+   "rank": "minion",
+   "hp": 140,
+   "armor": 30,
+   "speed": 0.8,
+   "radius": 0.6,
+   "attack": {
+    "damage": 11,
+    "cooldown": 1.6,
+    "windup": 0.5
+   },
+   "gold": 6,
+   "threat": 3,
+   "role": "tank",
+   "tags": [
+    "rime_court",
+    "frostspire"
+   ],
+   "sprite": "fb_enemy_glacier_knight",
+   "resist": {
+    "frost": 0.5
+   },
+   "abilities": [
+    {
+     "type": "barrier",
+     "value": 60,
+     "cooldown": 12,
+     "windup": 0.8
+    }
+   ]
+  },
+  {
+   "id": "ice_mauler",
+   "rank": "minion",
+   "hp": 120,
+   "armor": 10,
+   "speed": 1.1,
+   "radius": 0.7,
+   "attack": {
+    "damage": 14,
+    "cooldown": 2.0,
+    "windup": 0.7
+   },
+   "gold": 6,
+   "threat": 3,
+   "role": "bruiser",
+   "tags": [
+    "rime_court",
+    "frostspire"
+   ],
+   "sprite": "fb_enemy_ice_mauler",
+   "abilities": [
+    {
+     "type": "leap",
+     "value": 14,
+     "radius": 1.5,
+     "cooldown": 6,
+     "windup": 0.9
+    }
+   ]
+  },
+  {
+   "id": "frost_priest",
+   "rank": "minion",
+   "hp": 55,
+   "armor": 0,
+   "speed": 0.9,
+   "radius": 0.4,
+   "attack": {
+    "damage": 4,
+    "cooldown": 1.6,
+    "windup": 0.4,
+    "ranged": true,
+    "range": 6,
+    "damageType": "frost"
+   },
+   "gold": 5,
+   "threat": 4,
+   "role": "support",
+   "tags": [
+    "rime_court",
+    "frostspire"
+   ],
+   "sprite": "fb_enemy_frost_priest",
+   "abilities": [
+    {
+     "type": "shieldAlly",
+     "value": 25,
+     "radius": 4,
+     "cooldown": 6,
+     "windup": 0.6
+    },
+    {
+     "type": "cleanse",
+     "radius": 4,
+     "cooldown": 7,
+     "windup": 0.5
+    }
+   ]
+  },
+  {
+   "id": "shardling",
+   "rank": "minion",
+   "hp": 22,
+   "armor": 0,
+   "speed": 1.8,
+   "radius": 0.3,
+   "attack": {
+    "damage": 4,
+    "cooldown": 0.9,
+    "windup": 0.25,
+    "damageType": "frost"
+   },
+   "gold": 2,
+   "threat": 1,
+   "role": "swarm",
+   "tags": [
+    "rime_court",
+    "frostspire"
+   ],
+   "sprite": "fb_enemy_shardling",
+   "resist": {
+    "frost": 0.5
+   },
+   "abilities": [
+    {
+     "type": "explodeOnDeath",
+     "value": 6,
+     "radius": 1.0,
+     "windup": 0.5,
+     "status": {
+      "status": "chill",
+      "chance": 1,
+      "stacks": 1,
+      "duration": 2
+     }
+    }
+   ]
+  },
+  {
+   "id": "snow_sprite",
+   "rank": "minion",
+   "hp": 30,
+   "armor": 0,
+   "speed": 1.5,
+   "radius": 0.3,
+   "attack": {
+    "damage": 3,
+    "cooldown": 1.4,
+    "windup": 0.3,
+    "ranged": true,
+    "range": 5,
+    "damageType": "frost"
+   },
+   "gold": 4,
+   "threat": 4,
+   "role": "healer",
+   "tags": [
+    "rime_court",
+    "frostspire"
+   ],
+   "sprite": "fb_enemy_snow_sprite",
+   "flying": true,
+   "evasion": 0.2,
+   "abilities": [
+    {
+     "type": "healAlly",
+     "value": 15,
+     "radius": 5,
+     "cooldown": 4.5,
+     "windup": 0.6
+    }
+   ]
+  },
+  {
+   "id": "rime_countess",
+   "rank": "elite",
+   "hp": 480,
+   "armor": 15,
+   "speed": 1.0,
+   "radius": 0.6,
+   "attack": {
+    "damage": 9,
+    "cooldown": 1.4,
+    "windup": 0.4,
+    "ranged": true,
+    "range": 7,
+    "damageType": "frost",
+    "status": {
+     "status": "chill",
+     "chance": 0.5,
+     "stacks": 1,
+     "duration": 3
+    }
+   },
+   "gold": 14,
+   "threat": 6,
+   "role": "elite",
+   "tags": [
+    "rime_court",
+    "frostspire"
+   ],
+   "sprite": "fb_enemy_rime_countess",
+   "resist": {
+    "frost": 0.7
+   },
+   "abilities": [
+    {
+     "type": "volley",
+     "value": 6,
+     "count": 3,
+     "cooldown": 5,
+     "windup": 0.8,
+     "status": {
+      "status": "chill",
+      "chance": 1,
+      "stacks": 1,
+      "duration": 3
+     }
+    },
+    {
+     "type": "teleport",
+     "cooldown": 7,
+     "windup": 0.5
+    },
+    {
+     "type": "shieldAlly",
+     "value": 40,
+     "radius": 1,
+     "cooldown": 9,
+     "windup": 0.8
+    }
+   ]
+  },
+  {
+   "id": "frost_sovereign",
+   "rank": "boss",
+   "hp": 1500,
+   "armor": 20,
+   "speed": 0.6,
+   "radius": 1.0,
+   "attack": {
+    "damage": 16,
+    "cooldown": 1.6,
+    "windup": 0.6,
+    "damageType": "frost"
+   },
+   "gold": 3,
+   "threat": 10,
+   "role": "boss",
+   "tags": [
+    "rime_court",
+    "frostspire"
+   ],
+   "sprite": "fb_enemy_frost_sovereign",
+   "resist": {
+    "frost": 0.8,
+    "fire": -0.2
+   },
+   "phases": [
+    {
+     "hpBelow": 1.0,
+     "name": "phase.frost_sovereign.1",
+     "abilities": [
+      {
+       "type": "volley",
+       "value": 7,
+       "count": 4,
+       "cooldown": 5,
+       "windup": 0.9,
+       "status": {
+        "status": "chill",
+        "chance": 1,
+        "stacks": 1,
+        "duration": 3
+       }
+      },
+      {
+       "type": "slam",
+       "value": 20,
+       "radius": 2.2,
+       "cooldown": 7,
+       "windup": 1.0
+      }
+     ]
+    },
+    {
+     "hpBelow": 0.6,
+     "name": "phase.frost_sovereign.2",
+     "abilities": [
+      {
+       "type": "summon",
+       "enemy": "shardling",
+       "count": 3,
+       "cap": 6,
+       "cooldown": 8,
+       "windup": 0.8
+      },
+      {
+       "type": "barrier",
+       "value": 150,
+       "cooldown": 12,
+       "windup": 0.8
+      },
+      {
+       "type": "slam",
+       "value": 20,
+       "radius": 2.2,
+       "cooldown": 7,
+       "windup": 1.0
+      }
+     ]
+    },
+    {
+     "hpBelow": 0.3,
+     "name": "phase.frost_sovereign.3",
+     "attackSpeed": 1.4,
+     "abilities": [
+      {
+       "type": "statusAura",
+       "cooldown": 4,
+       "windup": 0.5,
+       "radius": 8,
+       "status": {
+        "status": "chill",
+        "chance": 1,
+        "stacks": 2,
+        "duration": 3
+       }
+      },
+      {
+       "type": "volley",
+       "value": 8,
+       "count": 5,
+       "cooldown": 4,
+       "windup": 0.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "glass_wyrm",
+   "rank": "boss",
+   "hp": 1450,
+   "armor": 0,
+   "speed": 1.2,
+   "radius": 1.0,
+   "attack": {
+    "damage": 14,
+    "cooldown": 1.4,
+    "windup": 0.5,
+    "ranged": true,
+    "range": 6,
+    "damageType": "frost"
+   },
+   "gold": 3,
+   "threat": 10,
+   "role": "boss",
+   "tags": [
+    "rime_court",
+    "frostspire"
+   ],
+   "sprite": "fb_enemy_glass_wyrm",
+   "flying": true,
+   "resist": {
+    "frost": 0.6,
+    "lightning": -0.2
+   },
+   "phases": [
+    {
+     "hpBelow": 1.0,
+     "name": "phase.glass_wyrm.1",
+     "abilities": [
+      {
+       "type": "volley",
+       "value": 8,
+       "count": 3,
+       "cooldown": 4.5,
+       "windup": 0.7
+      },
+      {
+       "type": "teleport",
+       "cooldown": 8,
+       "windup": 0.5
+      }
+     ]
+    },
+    {
+     "hpBelow": 0.5,
+     "name": "phase.glass_wyrm.2",
+     "speed": 1.3,
+     "abilities": [
+      {
+       "type": "leap",
+       "value": 22,
+       "radius": 2.0,
+       "cooldown": 6,
+       "windup": 1.1
+      },
+      {
+       "type": "volley",
+       "value": 9,
+       "count": 4,
+       "cooldown": 4,
+       "windup": 0.7
+      },
+      {
+       "type": "summon",
+       "enemy": "frost_wraith",
+       "count": 2,
+       "cap": 3,
+       "cooldown": 10,
+       "windup": 0.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "skeleton",
+   "rank": "minion",
+   "hp": 35,
+   "armor": 10,
+   "speed": 1.1,
+   "radius": 0.4,
+   "attack": {
+    "damage": 6,
+    "cooldown": 1.2,
+    "windup": 0.35
+   },
+   "gold": 3,
+   "threat": 1,
+   "role": "melee",
+   "tags": [
+    "hollow_dead",
+    "sunken_crypt"
+   ],
+   "sprite": "fb_enemy_skeleton",
+   "resist": {
+    "poison": 0.5
+   }
+  },
+  {
+   "id": "bone_archer",
+   "rank": "minion",
+   "hp": 30,
+   "armor": 5,
+   "speed": 1.0,
+   "radius": 0.4,
+   "attack": {
+    "damage": 7,
+    "cooldown": 1.8,
+    "windup": 0.5,
+    "ranged": true,
+    "range": 7
+   },
+   "gold": 3,
+   "threat": 2,
+   "role": "ranged",
+   "tags": [
+    "hollow_dead",
+    "sunken_crypt"
+   ],
+   "sprite": "fb_enemy_bone_archer",
+   "resist": {
+    "poison": 0.5
+   }
+  },
+  {
+   "id": "ghoul",
+   "rank": "minion",
+   "hp": 55,
+   "armor": 0,
+   "speed": 1.6,
+   "radius": 0.45,
+   "attack": {
+    "damage": 6,
+    "cooldown": 1.0,
+    "windup": 0.3,
+    "status": {
+     "status": "bleed",
+     "chance": 0.3,
+     "stacks": 1,
+     "duration": 3
+    }
+   },
+   "gold": 4,
+   "threat": 2,
+   "role": "bruiser",
+   "tags": [
+    "hollow_dead",
+    "sunken_crypt"
+   ],
+   "sprite": "fb_enemy_ghoul",
+   "abilities": [
+    {
+     "type": "enrage",
+     "cooldown": 3,
+     "windup": 0.4
+    }
+   ]
+  },
+  {
+   "id": "necromancer",
+   "rank": "minion",
+   "hp": 60,
+   "armor": 0,
+   "speed": 0.9,
+   "radius": 0.4,
+   "attack": {
+    "damage": 5,
+    "cooldown": 1.8,
+    "windup": 0.5,
+    "ranged": true,
+    "range": 6,
+    "damageType": "shadow"
+   },
+   "gold": 6,
+   "threat": 5,
+   "role": "summoner",
+   "tags": [
+    "hollow_dead",
+    "sunken_crypt"
+   ],
+   "sprite": "fb_enemy_necromancer",
+   "resist": {
+    "shadow": 0.5
+   },
+   "abilities": [
+    {
+     "type": "revive",
+     "cooldown": 6,
+     "windup": 1.0
+    },
+    {
+     "type": "summon",
+     "enemy": "skeleton",
+     "count": 1,
+     "cap": 3,
+     "cooldown": 9,
+     "windup": 0.8
+    }
+   ]
+  },
+  {
+   "id": "crypt_bat",
+   "rank": "minion",
+   "hp": 25,
+   "armor": 0,
+   "speed": 2.2,
+   "radius": 0.3,
+   "attack": {
+    "damage": 4,
+    "cooldown": 1.0,
+    "windup": 0.25
+   },
+   "gold": 2,
+   "threat": 1,
+   "role": "flyer",
+   "tags": [
+    "hollow_dead",
+    "sunken_crypt"
+   ],
+   "sprite": "fb_enemy_crypt_bat",
+   "flying": true,
+   "evasion": 0.3,
+   "abilities": [
+    {
+     "type": "drainHero",
+     "value": 5,
+     "cooldown": 4,
+     "windup": 0.4
+    }
+   ]
+  },
+  {
+   "id": "grave_warden",
+   "rank": "minion",
+   "hp": 160,
+   "armor": 25,
+   "speed": 0.8,
+   "radius": 0.65,
+   "attack": {
+    "damage": 10,
+    "cooldown": 1.6,
+    "windup": 0.5
+   },
+   "gold": 6,
+   "threat": 3,
+   "role": "tank",
+   "tags": [
+    "hollow_dead",
+    "sunken_crypt"
+   ],
+   "sprite": "fb_enemy_grave_warden",
+   "abilities": [
+    {
+     "type": "armorUp",
+     "value": 90,
+     "cooldown": 8,
+     "windup": 0.6
+    }
+   ]
+  },
+  {
+   "id": "grave_crawler",
+   "rank": "minion",
+   "hp": 45,
+   "armor": 0,
+   "speed": 1.3,
+   "radius": 0.4,
+   "attack": {
+    "damage": 10,
+    "cooldown": 1.4,
+    "windup": 0.35
+   },
+   "gold": 4,
+   "threat": 3,
+   "role": "assassin",
+   "tags": [
+    "hollow_dead",
+    "sunken_crypt"
+   ],
+   "sprite": "fb_enemy_grave_crawler",
+   "abilities": [
+    {
+     "type": "burrow",
+     "cooldown": 9,
+     "windup": 0.4
+    }
+   ]
+  },
+  {
+   "id": "bone_colossus",
+   "rank": "elite",
+   "hp": 520,
+   "armor": 35,
+   "speed": 0.7,
+   "radius": 0.9,
+   "attack": {
+    "damage": 14,
+    "cooldown": 1.8,
+    "windup": 0.6
+   },
+   "gold": 14,
+   "threat": 6,
+   "role": "elite",
+   "tags": [
+    "hollow_dead",
+    "sunken_crypt"
+   ],
+   "sprite": "fb_enemy_bone_colossus",
+   "abilities": [
+    {
+     "type": "slam",
+     "value": 22,
+     "radius": 2.0,
+     "cooldown": 6,
+     "windup": 1.0
+    },
+    {
+     "type": "splitOnDeath",
+     "enemy": "skeleton",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "id": "lich_regent",
+   "rank": "boss",
+   "hp": 1600,
+   "armor": 15,
+   "speed": 0.6,
+   "radius": 0.9,
+   "attack": {
+    "damage": 12,
+    "cooldown": 1.6,
+    "windup": 0.5,
+    "ranged": true,
+    "range": 7,
+    "damageType": "shadow"
+   },
+   "gold": 3,
+   "threat": 10,
+   "role": "boss",
+   "tags": [
+    "hollow_dead",
+    "sunken_crypt"
+   ],
+   "sprite": "fb_enemy_lich_regent",
+   "resist": {
+    "shadow": 0.8,
+    "poison": 0.5,
+    "radiant": -0.3
+   },
+   "phases": [
+    {
+     "hpBelow": 1.0,
+     "name": "phase.lich.1",
+     "abilities": [
+      {
+       "type": "summon",
+       "enemy": "skeleton",
+       "count": 2,
+       "cap": 4,
+       "cooldown": 7,
+       "windup": 0.8
+      },
+      {
+       "type": "beam",
+       "value": 18,
+       "cooldown": 6,
+       "windup": 1.2
+      },
+      {
+       "type": "revive",
+       "cooldown": 8,
+       "windup": 1.0
+      }
+     ]
+    },
+    {
+     "hpBelow": 0.6,
+     "name": "phase.lich.2",
+     "abilities": [
+      {
+       "type": "curseHero",
+       "cooldown": 6,
+       "windup": 0.6,
+       "status": {
+        "status": "curse",
+        "chance": 1,
+        "stacks": 2,
+        "duration": 5
+       }
+      },
+      {
+       "type": "teleport",
+       "cooldown": 6,
+       "windup": 0.5
+      },
+      {
+       "type": "summon",
+       "enemy": "necromancer",
+       "count": 1,
+       "cap": 1,
+       "cooldown": 12,
+       "windup": 1.0
+      },
+      {
+       "type": "beam",
+       "value": 20,
+       "cooldown": 6,
+       "windup": 1.2
+      }
+     ]
+    },
+    {
+     "hpBelow": 0.3,
+     "name": "phase.lich.3",
+     "abilities": [
+      {
+       "type": "drainHero",
+       "value": 14,
+       "cooldown": 4,
+       "windup": 0.6
+      },
+      {
+       "type": "enrage",
+       "cooldown": 2,
+       "windup": 0.5
+      },
+      {
+       "type": "beam",
+       "value": 22,
+       "cooldown": 5,
+       "windup": 1.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "drowned_choir",
+   "rank": "boss",
+   "hp": 1500,
+   "armor": 10,
+   "speed": 0.8,
+   "radius": 0.9,
+   "attack": {
+    "damage": 10,
+    "cooldown": 1.3,
+    "windup": 0.4,
+    "ranged": true,
+    "range": 6,
+    "damageType": "shadow"
+   },
+   "gold": 3,
+   "threat": 10,
+   "role": "boss",
+   "tags": [
+    "hollow_dead",
+    "sunken_crypt"
+   ],
+   "sprite": "fb_enemy_drowned_choir",
+   "resist": {
+    "shadow": 0.6,
+    "frost": 0.4
+   },
+   "phases": [
+    {
+     "hpBelow": 1.0,
+     "name": "phase.choir.1",
+     "abilities": [
+      {
+       "type": "summon",
+       "enemy": "bone_archer",
+       "count": 2,
+       "cap": 4,
+       "cooldown": 8,
+       "windup": 0.8
+      },
+      {
+       "type": "shieldAlly",
+       "value": 50,
+       "radius": 8,
+       "cooldown": 8,
+       "windup": 0.8
+      }
+     ]
+    },
+    {
+     "hpBelow": 0.5,
+     "name": "phase.choir.2",
+     "abilities": [
+      {
+       "type": "revive",
+       "cooldown": 4,
+       "windup": 0.8
+      },
+      {
+       "type": "drainHero",
+       "value": 12,
+       "cooldown": 5,
+       "windup": 0.6
+      },
+      {
+       "type": "statusAura",
+       "cooldown": 5,
+       "windup": 0.6,
+       "radius": 8,
+       "status": {
+        "status": "weaken",
+        "chance": 1,
+        "stacks": 1,
+        "duration": 3
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "storm_sentinel",
+   "rank": "minion",
+   "hp": 160,
+   "armor": 20,
+   "speed": 0.9,
+   "radius": 0.6,
+   "attack": {
+    "damage": 12,
+    "cooldown": 1.5,
+    "windup": 0.5
+   },
+   "gold": 7,
+   "threat": 3,
+   "role": "tank",
+   "tags": [
+    "tempest_order",
+    "storm_citadel"
+   ],
+   "sprite": "fb_enemy_storm_sentinel",
+   "resist": {
+    "lightning": 0.5
+   },
+   "abilities": [
+    {
+     "type": "reflectProjectiles",
+     "power": 0.35
+    }
+   ]
+  },
+  {
+   "id": "arc_mage",
+   "rank": "minion",
+   "hp": 70,
+   "armor": 0,
+   "speed": 1.0,
+   "radius": 0.4,
+   "attack": {
+    "damage": 10,
+    "cooldown": 1.8,
+    "windup": 0.5,
+    "ranged": true,
+    "range": 7,
+    "damageType": "lightning",
+    "status": {
+     "status": "shock",
+     "chance": 0.4,
+     "stacks": 1,
+     "duration": 3
+    }
+   },
+   "gold": 7,
+   "threat": 4,
+   "role": "ranged",
+   "tags": [
+    "tempest_order",
+    "storm_citadel"
+   ],
+   "sprite": "fb_enemy_arc_mage",
+   "resist": {
+    "lightning": 0.5
+   },
+   "abilities": [
+    {
+     "type": "volley",
+     "value": 6,
+     "count": 3,
+     "cooldown": 6,
+     "windup": 0.8
+    }
+   ]
+  },
+  {
+   "id": "clockwork_drone",
+   "rank": "minion",
+   "hp": 55,
+   "armor": 0,
+   "speed": 2.0,
+   "radius": 0.35,
+   "attack": {
+    "damage": 7,
+    "cooldown": 1.2,
+    "windup": 0.3,
+    "ranged": true,
+    "range": 4
+   },
+   "gold": 4,
+   "threat": 2,
+   "role": "flyer",
+   "tags": [
+    "tempest_order",
+    "storm_citadel"
+   ],
+   "sprite": "fb_enemy_clockwork_drone",
+   "flying": true,
+   "evasion": 0.2
+  },
+  {
+   "id": "sky_lancer",
+   "rank": "minion",
+   "hp": 120,
+   "armor": 15,
+   "speed": 1.5,
+   "radius": 0.5,
+   "attack": {
+    "damage": 12,
+    "cooldown": 1.4,
+    "windup": 0.4
+   },
+   "gold": 7,
+   "threat": 3,
+   "role": "bruiser",
+   "tags": [
+    "tempest_order",
+    "storm_citadel"
+   ],
+   "sprite": "fb_enemy_sky_lancer",
+   "abilities": [
+    {
+     "type": "charge",
+     "value": 22,
+     "cooldown": 5,
+     "windup": 0.7
+    }
+   ]
+  },
+  {
+   "id": "aegis_construct",
+   "rank": "minion",
+   "hp": 140,
+   "armor": 25,
+   "speed": 0.8,
+   "radius": 0.6,
+   "attack": {
+    "damage": 8,
+    "cooldown": 1.6,
+    "windup": 0.5
+   },
+   "gold": 7,
+   "threat": 5,
+   "role": "support",
+   "tags": [
+    "tempest_order",
+    "storm_citadel"
+   ],
+   "sprite": "fb_enemy_aegis_construct",
+   "abilities": [
+    {
+     "type": "shieldAlly",
+     "value": 40,
+     "radius": 5,
+     "cooldown": 6,
+     "windup": 0.7
+    },
+    {
+     "type": "buffAllies",
+     "value": 150,
+     "radius": 5,
+     "cooldown": 10,
+     "windup": 0.7
+    }
+   ]
+  },
+  {
+   "id": "thunder_hound",
+   "rank": "minion",
+   "hp": 45,
+   "armor": 0,
+   "speed": 2.2,
+   "radius": 0.35,
+   "attack": {
+    "damage": 7,
+    "cooldown": 0.9,
+    "windup": 0.25,
+    "damageType": "lightning"
+   },
+   "gold": 3,
+   "threat": 1,
+   "role": "swarm",
+   "tags": [
+    "tempest_order",
+    "storm_citadel"
+   ],
+   "sprite": "fb_enemy_thunder_hound",
+   "abilities": [
+    {
+     "type": "explodeOnDeath",
+     "value": 10,
+     "radius": 1.2,
+     "windup": 0.5,
+     "status": {
+      "status": "shock",
+      "chance": 1,
+      "stacks": 1,
+      "duration": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "tempest_adept",
+   "rank": "minion",
+   "hp": 70,
+   "armor": 0,
+   "speed": 1.6,
+   "radius": 0.4,
+   "attack": {
+    "damage": 18,
+    "cooldown": 1.6,
+    "windup": 0.4
+   },
+   "gold": 7,
+   "threat": 4,
+   "role": "assassin",
+   "tags": [
+    "tempest_order",
+    "storm_citadel"
+   ],
+   "sprite": "fb_enemy_tempest_adept",
+   "abilities": [
+    {
+     "type": "stealth",
+     "cooldown": 8,
+     "windup": 0.3
+    },
+    {
+     "type": "teleport",
+     "cooldown": 6,
+     "windup": 0.4
+    }
+   ]
+  },
+  {
+   "id": "static_wisp",
+   "rank": "minion",
+   "hp": 40,
+   "armor": 0,
+   "speed": 1.9,
+   "radius": 0.3,
+   "attack": {
+    "damage": 6,
+    "cooldown": 1.0,
+    "windup": 0.3,
+    "damageType": "lightning"
+   },
+   "gold": 3,
+   "threat": 1,
+   "role": "flyer",
+   "tags": [
+    "tempest_order",
+    "storm_citadel"
+   ],
+   "sprite": "fb_enemy_static_wisp",
+   "flying": true,
+   "evasion": 0.15,
+   "abilities": [
+    {
+     "type": "explodeOnDeath",
+     "value": 9,
+     "radius": 1.2,
+     "windup": 0.4,
+     "status": {
+      "status": "shock",
+      "chance": 1,
+      "stacks": 1,
+      "duration": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "iron_conscript",
+   "rank": "minion",
+   "hp": 90,
+   "armor": 35,
+   "speed": 1.0,
+   "radius": 0.5,
+   "attack": {
+    "damage": 9,
+    "cooldown": 1.3,
+    "windup": 0.4
+   },
+   "gold": 5,
+   "threat": 2,
+   "role": "tank",
+   "tags": [
+    "tempest_order",
+    "storm_citadel"
+   ],
+   "sprite": "fb_enemy_iron_conscript"
+  },
+  {
+   "id": "storm_paragon",
+   "rank": "elite",
+   "hp": 900,
+   "armor": 25,
+   "speed": 1.0,
+   "radius": 0.8,
+   "attack": {
+    "damage": 16,
+    "cooldown": 1.5,
+    "windup": 0.5,
+    "damageType": "lightning"
+   },
+   "gold": 18,
+   "threat": 7,
+   "role": "elite",
+   "tags": [
+    "tempest_order",
+    "storm_citadel"
+   ],
+   "sprite": "fb_enemy_storm_paragon",
+   "resist": {
+    "lightning": 0.6
+   },
+   "abilities": [
+    {
+     "type": "beam",
+     "value": 20,
+     "cooldown": 6,
+     "windup": 1.0
+    },
+    {
+     "type": "barrier",
+     "value": 200,
+     "cooldown": 12,
+     "windup": 0.8
+    },
+    {
+     "type": "summon",
+     "enemy": "thunder_hound",
+     "count": 2,
+     "cap": 4,
+     "cooldown": 9,
+     "windup": 0.7
+    }
+   ]
+  },
+  {
+   "id": "storm_tyrant",
+   "rank": "boss",
+   "hp": 3200,
+   "armor": 30,
+   "speed": 0.8,
+   "radius": 1.1,
+   "attack": {
+    "damage": 18,
+    "cooldown": 1.5,
+    "windup": 0.5,
+    "damageType": "lightning"
+   },
+   "gold": 3,
+   "threat": 10,
+   "role": "boss",
+   "tags": [
+    "tempest_order",
+    "storm_citadel"
+   ],
+   "sprite": "fb_enemy_storm_tyrant",
+   "resist": {
+    "lightning": 0.7,
+    "arcane": 0.3
+   },
+   "phases": [
+    {
+     "hpBelow": 1.0,
+     "name": "phase.storm_tyrant.1",
+     "abilities": [
+      {
+       "type": "volley",
+       "value": 12,
+       "count": 4,
+       "cooldown": 5,
+       "windup": 0.9,
+       "status": {
+        "status": "shock",
+        "chance": 1,
+        "stacks": 1,
+        "duration": 3
+       }
+      },
+      {
+       "type": "slam",
+       "value": 26,
+       "radius": 2.5,
+       "cooldown": 7,
+       "windup": 1.1
+      }
+     ]
+    },
+    {
+     "hpBelow": 0.65,
+     "name": "phase.storm_tyrant.2",
+     "abilities": [
+      {
+       "type": "summon",
+       "enemy": "clockwork_drone",
+       "count": 2,
+       "cap": 4,
+       "cooldown": 8,
+       "windup": 0.8
+      },
+      {
+       "type": "barrier",
+       "value": 300,
+       "cooldown": 14,
+       "windup": 1.0
+      },
+      {
+       "type": "slam",
+       "value": 26,
+       "radius": 2.5,
+       "cooldown": 7,
+       "windup": 1.1
+      }
+     ]
+    },
+    {
+     "hpBelow": 0.3,
+     "name": "phase.storm_tyrant.3",
+     "attackSpeed": 1.4,
+     "abilities": [
+      {
+       "type": "beam",
+       "value": 30,
+       "cooldown": 5,
+       "windup": 1.0
+      },
+      {
+       "type": "teleport",
+       "cooldown": 6,
+       "windup": 0.5
+      },
+      {
+       "type": "curseHero",
+       "cooldown": 7,
+       "windup": 0.6,
+       "status": {
+        "status": "weaken",
+        "chance": 1,
+        "stacks": 1,
+        "duration": 3
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "clockwork_colossus",
+   "rank": "boss",
+   "hp": 3300,
+   "armor": 50,
+   "speed": 0.6,
+   "radius": 1.2,
+   "attack": {
+    "damage": 20,
+    "cooldown": 1.8,
+    "windup": 0.6
+   },
+   "gold": 3,
+   "threat": 10,
+   "role": "boss",
+   "tags": [
+    "tempest_order",
+    "storm_citadel"
+   ],
+   "sprite": "fb_enemy_clockwork_colossus",
+   "resist": {
+    "lightning": 0.3,
+    "poison": 0.8
+   },
+   "phases": [
+    {
+     "hpBelow": 1.0,
+     "name": "phase.colossus.1",
+     "abilities": [
+      {
+       "type": "slam",
+       "value": 28,
+       "radius": 2.4,
+       "cooldown": 6,
+       "windup": 1.1
+      },
+      {
+       "type": "summon",
+       "enemy": "clockwork_drone",
+       "count": 2,
+       "cap": 4,
+       "cooldown": 9,
+       "windup": 0.8
+      }
+     ]
+    },
+    {
+     "hpBelow": 0.5,
+     "name": "phase.colossus.2",
+     "attackSpeed": 1.3,
+     "abilities": [
+      {
+       "type": "barrier",
+       "value": 350,
+       "cooldown": 12,
+       "windup": 1.0
+      },
+      {
+       "type": "charge",
+       "value": 30,
+       "cooldown": 6,
+       "windup": 1.0
+      },
+      {
+       "type": "summon",
+       "enemy": "iron_conscript",
+       "count": 1,
+       "cap": 2,
+       "cooldown": 10,
+       "windup": 0.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dummy_single",
+   "rank": "minion",
+   "hp": 20000,
+   "armor": 0,
+   "speed": 0.3,
+   "radius": 0.5,
+   "attack": {
+    "damage": 1,
+    "cooldown": 5,
+    "windup": 0.5
+   },
+   "gold": 0,
+   "threat": 1,
+   "role": "training",
+   "tags": [
+    "training"
+   ],
+   "sprite": "fb_enemy_training_dummy"
+  },
+  {
+   "id": "dummy_swarm",
+   "rank": "minion",
+   "hp": 400,
+   "armor": 0,
+   "speed": 0.3,
+   "radius": 0.5,
+   "attack": {
+    "damage": 1,
+    "cooldown": 5,
+    "windup": 0.5
+   },
+   "gold": 0,
+   "threat": 1,
+   "role": "training",
+   "tags": [
+    "training"
+   ],
+   "sprite": "fb_enemy_training_dummy"
+  },
+  {
+   "id": "dummy_armored",
+   "rank": "minion",
+   "hp": 8000,
+   "armor": 60,
+   "speed": 0.3,
+   "radius": 0.5,
+   "attack": {
+    "damage": 1,
+    "cooldown": 5,
+    "windup": 0.5
+   },
+   "gold": 0,
+   "threat": 1,
+   "role": "training",
+   "tags": [
+    "training"
+   ],
+   "sprite": "fb_enemy_training_dummy"
+  },
+  {
+   "id": "dummy_shielded",
+   "rank": "minion",
+   "hp": 6000,
+   "armor": 0,
+   "speed": 0.3,
+   "radius": 0.5,
+   "attack": {
+    "damage": 1,
+    "cooldown": 5,
+    "windup": 0.5
+   },
+   "gold": 0,
+   "threat": 1,
+   "role": "training",
+   "tags": [
+    "training"
+   ],
+   "sprite": "fb_enemy_training_dummy",
+   "shield": 1500,
+   "abilities": [
+    {
+     "type": "barrier",
+     "value": 800,
+     "cooldown": 10,
+     "windup": 0.5
+    }
+   ]
+  },
+  {
+   "id": "dummy_resistant",
+   "rank": "minion",
+   "hp": 8000,
+   "armor": 0,
+   "speed": 0.3,
+   "radius": 0.5,
+   "attack": {
+    "damage": 1,
+    "cooldown": 5,
+    "windup": 0.5
+   },
+   "gold": 0,
+   "threat": 1,
+   "role": "training",
+   "tags": [
+    "training"
+   ],
+   "sprite": "fb_enemy_training_dummy",
+   "resist": {
+    "fire": 0.5,
+    "frost": 0.5,
+    "lightning": 0.5,
+    "poison": 0.5,
+    "shadow": 0.5,
+    "arcane": 0.5,
+    "radiant": 0.5
+   }
+  }
+ ]
+}

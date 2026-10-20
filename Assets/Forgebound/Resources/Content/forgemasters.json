@@ -1,0 +1,38 @@
+// Forgemasters bias playstyles through perks + an innate rune; none hard-locks frames/cores.
+{
+  "version": 1,
+  "items": [
+    { "id": "blacksmith", "maxHp": 110, "armor": 5, "startFrame": "hammer", "startCore": null, "startGold": 45,
+      "startPieces": ["whetstone"], "startItems": ["core:earth"], "silhouette": "broad, apron, hammer on shoulder",
+      "perks": [ { "stat": "damage", "value": 150, "tag": "heavy" }, { "stat": "maxHp", "value": 10 } ],
+      "runes": [ { "id": "fm_blacksmith_temper", "trigger": "onBattleStart", "effects": [ { "type": "shield", "fromMaxHp": true, "power": 0.08 } ] } ] },
+    { "id": "runecrafter", "maxHp": 90, "armor": 2, "startFrame": "sword", "startCore": "lightning", "startGold": 40,
+      "startPieces": ["echo_relay", "conduit"], "startItems": ["frame:bow"], "silhouette": "hooded, floating rune tablets",
+      "perks": [ { "stat": "relayCapacity", "value": 1 }, { "stat": "procDamage", "value": 200 } ],
+      "runes": [ { "id": "fm_runecrafter_surge", "trigger": "onTimer", "interval": 6, "effects": [ { "type": "cooldownReduce", "flat": 8 } ] } ] },
+    { "id": "alchemist", "maxHp": 85, "armor": 1, "startFrame": "staff", "startCore": "venom", "startGold": 40,
+      "startPieces": ["quench_basin"], "startItems": ["core:fire"], "silhouette": "long coat, bandolier of vials",
+      "perks": [ { "stat": "statusChance", "value": 150 }, { "stat": "statusDuration", "value": 250 }, { "stat": "burnDamage", "value": 250 }, { "stat": "poisonDamage", "value": 250 } ],
+      "runes": [ { "id": "fm_alchemist_catalyst", "trigger": "onKill", "condition": { "allowFromProc": true }, "icd": 0.5, "effects": [ { "type": "spreadStatus", "radius": 1.6 } ] } ] },
+    { "id": "artificer", "maxHp": 90, "armor": 3, "startFrame": "bow", "startCore": null, "startGold": 50,
+      "startPieces": ["whetstone", "lens"], "startItems": ["frame:dagger"], "silhouette": "goggles, mechanical arm, toolbelt",
+      "perks": [ { "stat": "boardWidth", "value": 1 }, { "stat": "adjacencyPower", "value": 300 } ],
+      "runes": [ { "id": "fm_artificer_overclock", "trigger": "onWaveStart", "effects": [ { "type": "haste", "stacks": 1, "duration": 4 } ] } ] },
+    { "id": "hexblade", "maxHp": 95, "armor": 2, "startFrame": "scythe", "startCore": "shadow", "startGold": 35, "unlock": "win_any",
+      "startPieces": [], "startItems": [], "silhouette": "tattered cloak, cracked mask, chained gauntlet",
+      "perks": [ { "stat": "lowHpDamage", "value": 350 }, { "stat": "leech", "value": 30 }, { "stat": "goldGain", "value": 100 } ],
+      "runes": [ { "id": "fm_hexblade_pact", "trigger": "onKill", "icd": 0.3, "effects": [ { "type": "heal", "flat": 2 } ] } ] },
+    { "id": "summoner", "maxHp": 85, "armor": 1, "startFrame": "tome", "startCore": "arcane", "startGold": 40, "unlock": "reach_chapter_3",
+      "startPieces": ["rune_lamp"], "startItems": [], "silhouette": "robes, orbiting spectral blades",
+      "perks": [ { "stat": "summonPower", "value": 500 } ],
+      "runes": [ { "id": "fm_summoner_vanguard", "trigger": "onBattleStart", "effects": [ { "type": "summon", "power": 0.8 } ] } ] },
+    { "id": "duelist", "maxHp": 90, "armor": 2, "startFrame": "dagger", "startCore": "steel", "startGold": 40, "unlock": "elites_10",
+      "startPieces": ["focus_lens"], "startItems": [], "silhouette": "slim, cape, rapier-like posture",
+      "perks": [ { "stat": "critChance", "value": 80 }, { "stat": "critDamage", "value": 300 }, { "stat": "firstStrike", "value": 1 } ],
+      "runes": [ { "id": "fm_duelist_riposte", "trigger": "onDamageTaken", "icd": 1.0, "effects": [ { "type": "extraAttack", "power": 0.8 } ] } ] },
+    { "id": "warden", "maxHp": 120, "armor": 10, "startFrame": "bulwark", "startCore": "life", "startGold": 40, "unlock": "craft_legendary",
+      "startPieces": ["anvil"], "startItems": [], "silhouette": "tower shield, heavy plate, lantern",
+      "perks": [ { "stat": "shieldOnStart", "value": 20 }, { "stat": "healingPower", "value": 250 }, { "stat": "thorns", "value": 200 } ],
+      "runes": [ { "id": "fm_warden_bastion", "trigger": "onLowHp", "maxPerBattle": 1, "effects": [ { "type": "fortify", "duration": 5 }, { "type": "shield", "fromMaxHp": true, "power": 0.25 } ] } ] }
+  ]
+}

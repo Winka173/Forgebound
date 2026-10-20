@@ -1,0 +1,87 @@
+// Cores: damage identity + status + innate rune behaviour. Each core enables a different build logic.
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "fire", "tags": ["element", "fire", "dot"], "damageType": "fire", "color": "#ff6a2a", "rarity": "common", "cost": 65,
+      "status": { "status": "burn", "chance": 0.35, "stacks": 1, "duration": 3 },
+      "runes": [ { "id": "core_fire_combust", "trigger": "onKill", "condition": { "targetHasStatus": "burn", "allowFromProc": true },
+        "effects": [ { "type": "nova", "power": 0.5, "radius": 1.5, "damageType": "fire", "status": "burn", "stacks": 1, "duration": 2 } ], "icd": 0.2 } ],
+      "sfx": "sfx_core_fire", "vfx": "vfx_burn"
+    },
+    {
+      "id": "frost", "tags": ["element", "frost", "control"], "damageType": "frost", "color": "#7fd8ff", "rarity": "common", "cost": 65,
+      "status": { "status": "chill", "chance": 0.6, "stacks": 1, "duration": 3 },
+      "runes": [ { "id": "core_frost_crack", "trigger": "onStatusApplied", "condition": { "statusIs": "freeze", "allowFromProc": true },
+        "effects": [ { "type": "damage", "power": 0.8, "damageType": "frost" } ], "icd": 0.1 } ],
+      "sfx": "sfx_core_frost", "vfx": "vfx_frost"
+    },
+    {
+      "id": "lightning", "tags": ["element", "lightning", "chain"], "damageType": "lightning", "color": "#ffe24a", "rarity": "common", "cost": 70,
+      "status": { "status": "shock", "chance": 0.3, "stacks": 1, "duration": 3 },
+      "runes": [ { "id": "core_lightning_arc", "trigger": "onHit", "chance": 0.25,
+        "effects": [ { "type": "chain", "power": 0.45, "count": 2, "radius": 3.5, "damageType": "lightning" } ], "icd": 0.3 } ],
+      "sfx": "sfx_core_lightning", "vfx": "vfx_spark_chain"
+    },
+    {
+      "id": "earth", "tags": ["element", "earth", "armor_break"], "damageType": "physical", "color": "#b98a4e", "rarity": "common", "cost": 60,
+      "status": { "status": "armorBreak", "chance": 0.5, "stacks": 1, "duration": 6 },
+      "runes": [ { "id": "core_earth_tremor", "trigger": "onHit", "condition": { "everyN": 4 },
+        "effects": [ { "type": "applyStatus", "status": "stun", "stacks": 1, "duration": 0.4 } ] } ],
+      "sfx": "sfx_core_earth", "vfx": "vfx_rock_chips"
+    },
+    {
+      "id": "life", "tags": ["utility", "life", "sustain"], "color": "#7dff8a", "rarity": "uncommon", "cost": 75,
+      "runes": [
+        { "id": "core_life_ward", "trigger": "onHit", "effects": [ { "type": "shield", "power": 0.15 } ], "icd": 0.25 },
+        { "id": "core_life_bloom", "trigger": "onKill", "effects": [ { "type": "heal", "flat": 2 } ], "icd": 0.5 }
+      ],
+      "sfx": "sfx_core_life", "vfx": "vfx_leaf_glow"
+    },
+    {
+      "id": "shadow", "tags": ["element", "shadow", "execute"], "damageType": "shadow", "color": "#7a4bd6", "rarity": "uncommon", "cost": 75,
+      "status": { "status": "curse", "chance": 0.35, "stacks": 1, "duration": 5 },
+      "runes": [ { "id": "core_shadow_reap", "trigger": "onHit", "condition": { "targetHpBelow": 0.12 },
+        "effects": [ { "type": "execute", "power": 0.12 } ] } ],
+      "sfx": "sfx_core_shadow", "vfx": "vfx_shadow_wisp"
+    },
+    {
+      "id": "venom", "tags": ["element", "venom", "dot"], "damageType": "poison", "color": "#9be22d", "rarity": "common", "cost": 60,
+      "status": { "status": "poison", "chance": 0.7, "stacks": 1, "duration": 4 },
+      "runes": [ { "id": "core_venom_bloom", "trigger": "onKill", "condition": { "targetHasStatus": "poison", "allowFromProc": true },
+        "effects": [ { "type": "spreadStatus", "radius": 2.0 } ], "icd": 0.3 } ],
+      "sfx": "sfx_core_venom", "vfx": "vfx_venom_drip"
+    },
+    {
+      "id": "arcane", "tags": ["element", "arcane", "echo"], "damageType": "arcane", "color": "#4fa3ff", "rarity": "uncommon", "cost": 75,
+      "runes": [ { "id": "core_arcane_echo", "trigger": "onAttack", "condition": { "everyN": 4 },
+        "effects": [ { "type": "extraAttack", "power": 0.7 } ] } ],
+      "sfx": "sfx_core_arcane", "vfx": "vfx_arcane_ring"
+    },
+    {
+      "id": "wind", "tags": ["utility", "wind", "tempo"], "color": "#bff5ea", "rarity": "uncommon", "cost": 70,
+      "stats": [ { "stat": "attackSpeed", "value": 150 }, { "stat": "projectileSpeed", "value": 300 } ],
+      "runes": [ { "id": "core_wind_gust", "trigger": "onHit", "chance": 0.2, "effects": [ { "type": "knockback", "radius": 0.8 } ], "icd": 0.5 } ],
+      "sfx": "sfx_core_wind", "vfx": "vfx_wind_swirl"
+    },
+    {
+      "id": "steel", "tags": ["utility", "steel", "crit"], "damageType": "physical", "color": "#a9b8c9", "rarity": "common", "cost": 60,
+      "stats": [ { "stat": "critChance", "value": 80 }, { "stat": "critDamage", "value": 200 } ],
+      "runes": [ { "id": "core_steel_rend", "trigger": "onCrit", "effects": [ { "type": "applyStatus", "status": "bleed", "stacks": 2, "duration": 4 } ] } ],
+      "sfx": "sfx_core_steel", "vfx": "vfx_steel_glint"
+    },
+    {
+      "id": "solar", "tags": ["element", "solar", "mark"], "damageType": "radiant", "color": "#ffd76a", "rarity": "rare", "cost": 80,
+      "status": { "status": "mark", "chance": 0.3, "stacks": 1, "duration": 4 },
+      "runes": [ { "id": "core_solar_flare", "trigger": "onCrit", "effects": [ { "type": "nova", "power": 0.4, "radius": 1.2, "damageType": "radiant" } ], "icd": 0.4 } ],
+      "sfx": "sfx_core_solar", "vfx": "vfx_sun_flare"
+    },
+    {
+      "id": "void", "tags": ["element", "void", "control"], "damageType": "arcane", "color": "#9b2cff", "rarity": "rare", "cost": 80,
+      "status": { "status": "weaken", "chance": 0.25, "stacks": 1, "duration": 3 },
+      "runes": [ { "id": "core_void_collapse", "trigger": "onHit", "condition": { "everyN": 5 },
+        "effects": [ { "type": "pull", "target": "allEnemies", "radius": 1.2 }, { "type": "nova", "power": 0.35, "radius": 1.5, "damageType": "arcane" } ] } ],
+      "sfx": "sfx_core_void", "vfx": "vfx_void_rift"
+    }
+  ]
+}

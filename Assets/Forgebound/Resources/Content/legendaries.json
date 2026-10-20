@@ -1,0 +1,898 @@
+{
+ "version": 1,
+ "items": [
+  {
+   "id": "infernal_sovereign",
+   "frame": "greatsword",
+   "core": "fire",
+   "requiresModifiers": [
+    "explosion"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_infernal_sovereign",
+   "signature": "waveOnAttack",
+   "signatureValue": 700,
+   "tags": [
+    "fire",
+    "aoe"
+   ]
+  },
+  {
+   "id": "stormpiercer",
+   "frame": "bow",
+   "core": "lightning",
+   "requiresModifiers": [
+    "pierce"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_stormpiercer",
+   "signature": "infinitePierce",
+   "tags": [
+    "lightning",
+    "line"
+   ]
+  },
+  {
+   "id": "worldbreaker",
+   "frame": "hammer",
+   "core": "earth",
+   "requiresModifiers": [
+    "weighted"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_worldbreaker",
+   "signature": "quakeEveryThird",
+   "signatureValue": 900,
+   "tags": [
+    "control"
+   ]
+  },
+  {
+   "id": "winters_silence",
+   "frame": "staff",
+   "core": "frost",
+   "requiresModifiers": [
+    "lingering"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_winters_silence",
+   "signature": "shatterFrozen",
+   "signatureValue": 120,
+   "runes": [
+    {
+     "id": "leg_winter_breath",
+     "trigger": "onTimer",
+     "effects": [
+      {
+       "type": "nova",
+       "target": "cluster",
+       "power": 0.4,
+       "radius": 2.0,
+       "damageType": "frost",
+       "status": "chill",
+       "stacks": 2,
+       "duration": 3
+      }
+     ],
+     "interval": 3
+    }
+   ],
+   "tags": [
+    "frost"
+   ]
+  },
+  {
+   "id": "thousandfold_edge",
+   "frame": "dagger",
+   "core": "steel",
+   "requiresModifiers": [
+    "twin_strike"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_thousandfold_edge",
+   "signature": "bladeStorm",
+   "signatureValue": 8,
+   "tags": [
+    "crit",
+    "multi"
+   ]
+  },
+  {
+   "id": "soul_harvester",
+   "frame": "scythe",
+   "core": "shadow",
+   "requiresModifiers": [
+    "executioner"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_soul_harvester",
+   "signature": "soulHarvest",
+   "tags": [
+    "execute",
+    "summon"
+   ]
+  },
+  {
+   "id": "bloodmoon_scythe",
+   "frame": "scythe",
+   "core": "shadow",
+   "requiresModifiers": [
+    "siphon"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_bloodmoon_scythe",
+   "signature": "bloodpact",
+   "tags": [
+    "risk",
+    "cursed"
+   ]
+  },
+  {
+   "id": "sunforged_blade",
+   "frame": "sword",
+   "core": "solar",
+   "requiresModifiers": [
+    "precision"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_sunforged_blade",
+   "signature": "starfall",
+   "signatureValue": 1500,
+   "tags": [
+    "crit"
+   ]
+  },
+  {
+   "id": "venomweaver_lash",
+   "frame": "whip",
+   "core": "venom",
+   "requiresModifiers": [
+    "infused"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_venomweaver_lash",
+   "signature": "plague",
+   "tags": [
+    "dot"
+   ]
+  },
+  {
+   "id": "aegis_eternal",
+   "frame": "bulwark",
+   "core": "life",
+   "requiresModifiers": [
+    "guarding"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_aegis_eternal",
+   "signature": "sanctuary",
+   "signatureValue": 50,
+   "tags": [
+    "sustain"
+   ]
+  },
+  {
+   "id": "grimoire_of_legions",
+   "frame": "tome",
+   "core": "arcane",
+   "requiresModifiers": [
+    "spectral_bond"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_grimoire_of_legions",
+   "runes": [
+    {
+     "id": "leg_legion_call",
+     "trigger": "onTimer",
+     "effects": [
+      {
+       "type": "summon",
+       "power": 0.8
+      }
+     ],
+     "interval": 5
+    }
+   ],
+   "ops": [
+    {
+     "op": "summonCapAdd",
+     "value": 1
+    }
+   ],
+   "tags": [
+    "summon"
+   ]
+  },
+  {
+   "id": "voidlance",
+   "frame": "spear",
+   "core": "void",
+   "requiresModifiers": [
+    "long_reach"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_voidlance",
+   "signature": "singularity",
+   "signatureValue": 150,
+   "tags": [
+    "control",
+    "aoe"
+   ]
+  },
+  {
+   "id": "tempest_repeater",
+   "frame": "crossbow",
+   "core": "wind",
+   "requiresModifiers": [
+    "rapid"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_tempest_repeater",
+   "signature": "overclock",
+   "signatureValue": 24,
+   "tags": [
+    "speed"
+   ]
+  },
+  {
+   "id": "phoenix_greatblade",
+   "frame": "greatsword",
+   "core": "solar",
+   "requiresModifiers": [
+    "charged"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_phoenix_greatblade",
+   "signature": "phoenix",
+   "signatureValue": 400,
+   "tags": [
+    "sustain",
+    "burst"
+   ]
+  },
+  {
+   "id": "frostfang_daggers",
+   "frame": "dagger",
+   "core": "frost",
+   "requiresModifiers": [
+    "serrated"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_frostfang_daggers",
+   "signature": "shatterFrozen",
+   "signatureValue": 90,
+   "runes": [
+    {
+     "id": "leg_frostfang_bite",
+     "trigger": "onHit",
+     "effects": [
+      {
+       "type": "applyStatus",
+       "status": "chill",
+       "stacks": 2,
+       "duration": 3
+      }
+     ],
+     "condition": {
+      "everyN": 3
+     }
+    }
+   ],
+   "tags": [
+    "frost"
+   ]
+  },
+  {
+   "id": "thunder_maul",
+   "frame": "hammer",
+   "core": "lightning",
+   "requiresModifiers": [
+    "charged"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_thunder_maul",
+   "signature": "thunderhead",
+   "signatureValue": 24,
+   "tags": [
+    "lightning"
+   ]
+  },
+  {
+   "id": "eclipse_staff",
+   "frame": "staff",
+   "core": "solar",
+   "requiresModifiers": [
+    "focus"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_eclipse_staff",
+   "signature": "eclipse",
+   "runes": [
+    {
+     "id": "leg_eclipse_hex",
+     "trigger": "onHit",
+     "effects": [
+      {
+       "type": "applyStatus",
+       "status": "curse",
+       "stacks": 1,
+       "duration": 4
+      }
+     ],
+     "condition": {
+      "everyN": 2
+     }
+    }
+   ],
+   "ops": [
+    {
+     "op": "damagePermille",
+     "value": 1100
+    }
+   ],
+   "tags": [
+    "mark"
+   ]
+  },
+  {
+   "id": "gearwork_crossbow",
+   "frame": "crossbow",
+   "core": "steel",
+   "requiresModifiers": [
+    "barrage"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_gearwork_crossbow",
+   "signature": "gearstorm",
+   "signatureValue": 2,
+   "tags": [
+    "multi"
+   ]
+  },
+  {
+   "id": "mirror_blade",
+   "frame": "sword",
+   "core": "arcane",
+   "requiresModifiers": [
+    "repeat"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_mirror_blade",
+   "signature": "mirror",
+   "signatureValue": 600,
+   "tags": [
+    "echo"
+   ]
+  },
+  {
+   "id": "rootbinder_whip",
+   "frame": "whip",
+   "core": "earth",
+   "requiresModifiers": [
+    "pull"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_rootbinder_whip",
+   "signature": "rootbind",
+   "signatureValue": 400,
+   "tags": [
+    "control"
+   ]
+  },
+  {
+   "id": "colossus_hammer",
+   "frame": "hammer",
+   "core": "steel",
+   "requiresModifiers": [
+    "heavy_head"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_colossus_hammer",
+   "signature": "colossus",
+   "ops": [
+    {
+     "op": "damagePermille",
+     "value": 1300
+    },
+    {
+     "op": "cooldownPermille",
+     "value": 1250
+    }
+   ],
+   "tags": [
+    "burst"
+   ]
+  },
+  {
+   "id": "windrunner_bow",
+   "frame": "bow",
+   "core": "wind",
+   "requiresModifiers": [
+    "ricochet"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_windrunner_bow",
+   "signature": "ricochet",
+   "tags": [
+    "multi",
+    "speed"
+   ]
+  },
+  {
+   "id": "dragonbreath_staff",
+   "frame": "staff",
+   "core": "fire",
+   "requiresModifiers": [
+    "explosion"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_dragonbreath_staff",
+   "runes": [
+    {
+     "id": "leg_dragonbreath",
+     "trigger": "onAttack",
+     "effects": [
+      {
+       "type": "nova",
+       "power": 0.5,
+       "radius": 2.0,
+       "damageType": "fire",
+       "status": "burn",
+       "stacks": 2,
+       "duration": 3
+      }
+     ],
+     "condition": {
+      "everyN": 2
+     }
+    }
+   ],
+   "tags": [
+    "fire",
+    "aoe"
+   ]
+  },
+  {
+   "id": "glacier_bulwark",
+   "frame": "bulwark",
+   "core": "frost",
+   "requiresModifiers": [
+    "knockback"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_glacier_bulwark",
+   "runes": [
+    {
+     "id": "leg_glacier_rebuke",
+     "trigger": "onBlock",
+     "effects": [
+      {
+       "type": "nova",
+       "target": "self",
+       "power": 0.6,
+       "radius": 1.8,
+       "damageType": "frost",
+       "status": "chill",
+       "stacks": 2,
+       "duration": 3
+      }
+     ],
+     "icd": 1.0
+    },
+    {
+     "id": "leg_glacier_skin",
+     "trigger": "onDamageTaken",
+     "effects": [
+      {
+       "type": "applyStatus",
+       "target": "nearest",
+       "status": "chill",
+       "stacks": 1,
+       "duration": 2
+      }
+     ],
+     "icd": 0.5
+    }
+   ],
+   "tags": [
+    "frost",
+    "counter"
+   ]
+  },
+  {
+   "id": "storm_spear",
+   "frame": "spear",
+   "core": "lightning",
+   "requiresModifiers": [
+    "forked"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_storm_spear",
+   "signature": "thunderhead",
+   "signatureValue": 30,
+   "tags": [
+    "lightning"
+   ]
+  },
+  {
+   "id": "plague_tome",
+   "frame": "tome",
+   "core": "venom",
+   "requiresModifiers": [
+    "lingering"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_plague_tome",
+   "signature": "plague",
+   "tags": [
+    "dot",
+    "summon"
+   ]
+  },
+  {
+   "id": "starcaller_bow",
+   "frame": "bow",
+   "core": "solar",
+   "requiresModifiers": [
+    "split"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_starcaller_bow",
+   "signature": "starfall",
+   "signatureValue": 1200,
+   "tags": [
+    "crit",
+    "aoe"
+   ]
+  },
+  {
+   "id": "widowmaker_crossbow",
+   "frame": "crossbow",
+   "core": "shadow",
+   "requiresModifiers": [
+    "executioner"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_widowmaker_crossbow",
+   "runes": [
+    {
+     "id": "leg_widow_reload",
+     "trigger": "onKill",
+     "effects": [
+      {
+       "type": "extraAttack",
+       "power": 1.0
+      }
+     ],
+     "icd": 0.4
+    }
+   ],
+   "ops": [
+    {
+     "op": "executeBelow",
+     "value": 350
+    }
+   ],
+   "tags": [
+    "execute"
+   ]
+  },
+  {
+   "id": "cyclone_glaive",
+   "frame": "spear",
+   "core": "wind",
+   "requiresModifiers": [
+    "sweep"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_cyclone_glaive",
+   "signature": "waveOnAttack",
+   "signatureValue": 500,
+   "tags": [
+    "aoe",
+    "speed"
+   ]
+  },
+  {
+   "id": "obsidian_greatsword",
+   "frame": "greatsword",
+   "core": "void",
+   "requiresModifiers": [
+    "sweep"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_obsidian_greatsword",
+   "signature": "singularity",
+   "signatureValue": 180,
+   "tags": [
+    "control"
+   ]
+  },
+  {
+   "id": "lifebloom_staff",
+   "frame": "staff",
+   "core": "life",
+   "requiresModifiers": [
+    "homing"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_lifebloom_staff",
+   "signature": "sanctuary",
+   "signatureValue": 40,
+   "runes": [
+    {
+     "id": "leg_lifebloom",
+     "trigger": "onKill",
+     "effects": [
+      {
+       "type": "heal",
+       "fromMaxHp": true,
+       "power": 0.02
+      }
+     ],
+     "icd": 0.4
+    }
+   ],
+   "tags": [
+    "sustain"
+   ]
+  },
+  {
+   "id": "shadowstep_daggers",
+   "frame": "dagger",
+   "core": "shadow",
+   "requiresModifiers": [
+    "ambush"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_shadowstep_daggers",
+   "runes": [
+    {
+     "id": "leg_shadowstep",
+     "trigger": "onKill",
+     "effects": [
+      {
+       "type": "cooldownReduce",
+       "flat": 15
+      },
+      {
+       "type": "haste",
+       "stacks": 1,
+       "duration": 2
+      }
+     ],
+     "icd": 0.2
+    }
+   ],
+   "ops": [
+    {
+     "op": "critChanceAdd",
+     "value": 100
+    }
+   ],
+   "tags": [
+    "execute",
+    "speed"
+   ]
+  },
+  {
+   "id": "earthshaker_bulwark",
+   "frame": "bulwark",
+   "core": "earth",
+   "requiresModifiers": [
+    "weighted"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_earthshaker_bulwark",
+   "signature": "quakeEveryThird",
+   "signatureValue": 700,
+   "tags": [
+    "control",
+    "sustain"
+   ]
+  },
+  {
+   "id": "hellfire_whip",
+   "frame": "whip",
+   "core": "fire",
+   "requiresModifiers": [
+    "lingering"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_hellfire_whip",
+   "signature": "statusSpreadOnKill",
+   "tags": [
+    "fire",
+    "dot"
+   ]
+  },
+  {
+   "id": "orrery_of_the_void",
+   "frame": "tome",
+   "core": "void",
+   "requiresModifiers": [
+    "pull"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_orrery_of_the_void",
+   "signature": "singularity",
+   "signatureValue": 160,
+   "tags": [
+    "control",
+    "summon"
+   ]
+  },
+  {
+   "id": "frostbound_crossbow",
+   "frame": "crossbow",
+   "core": "frost",
+   "requiresModifiers": [
+    "pierce"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_frostbound_crossbow",
+   "signature": "infinitePierce",
+   "tags": [
+    "frost",
+    "line"
+   ]
+  },
+  {
+   "id": "runeblade",
+   "frame": "sword",
+   "core": "lightning",
+   "requiresModifiers": [
+    "resonant"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_runeblade",
+   "runes": [
+    {
+     "id": "leg_runeblade_arc",
+     "trigger": "onHit",
+     "effects": [
+      {
+       "type": "chain",
+       "power": 0.4,
+       "count": 3,
+       "damageType": "lightning"
+      }
+     ],
+     "condition": {
+      "everyN": 5
+     }
+    }
+   ],
+   "ops": [
+    {
+     "op": "linkThresholdReduce",
+     "value": 1
+    },
+    {
+     "op": "procPermille",
+     "value": 1200
+    }
+   ],
+   "tags": [
+    "circuit"
+   ]
+  },
+  {
+   "id": "bastion_of_dawn",
+   "frame": "bulwark",
+   "core": "solar",
+   "requiresModifiers": [
+    "guarding"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_bastion_of_dawn",
+   "signature": "phoenix",
+   "signatureValue": 500,
+   "tags": [
+    "sustain"
+   ]
+  },
+  {
+   "id": "venomfang_spear",
+   "frame": "spear",
+   "core": "venom",
+   "requiresModifiers": [
+    "infused"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_venomfang_spear",
+   "signature": "plague",
+   "tags": [
+    "dot"
+   ]
+  },
+  {
+   "id": "reaper_of_storms",
+   "frame": "scythe",
+   "core": "lightning",
+   "requiresModifiers": [
+    "sweep"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_reaper_of_storms",
+   "signature": "thunderhead",
+   "signatureValue": 20,
+   "tags": [
+    "lightning",
+    "aoe"
+   ]
+  },
+  {
+   "id": "cursed_heartforge",
+   "frame": "hammer",
+   "core": "shadow",
+   "requiresModifiers": [
+    "frenzied"
+   ],
+   "essence": 2,
+   "minTier": 2,
+   "vfx": "vfx_leg_cursed_heartforge",
+   "signature": "bloodpact",
+   "tags": [
+    "risk",
+    "cursed"
+   ]
+  },
+  {
+   "id": "echoing_greatsword",
+   "frame": "greatsword",
+   "core": "arcane",
+   "requiresModifiers": [
+    "repeat"
+   ],
+   "essence": 3,
+   "minTier": 2,
+   "vfx": "vfx_leg_echoing_greatsword",
+   "signature": "mirror",
+   "signatureValue": 700,
+   "tags": [
+    "echo"
+   ]
+  }
+ ]
+}

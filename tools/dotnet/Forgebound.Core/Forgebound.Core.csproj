@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Compiles the exact same engine-agnostic sources Unity uses (Assets/Forgebound/Core, asmdef noEngineReferences).
+       netstandard2.1 + C# 9 mirrors Unity 2022.3 constraints. -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <RootNamespace>Forgebound.Core</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../Assets/Forgebound/Core/**/*.cs" />
+  </ItemGroup>
+</Project>

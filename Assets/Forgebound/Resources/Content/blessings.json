@@ -1,0 +1,1589 @@
+{
+ "version": 1,
+ "items": [
+  {
+   "id": "tempered_soul",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "maxHp",
+     "value": 20
+    }
+   ],
+   "group": "hp"
+  },
+  {
+   "id": "giants_heart",
+   "rarity": "uncommon",
+   "stats": [
+    {
+     "stat": "maxHp",
+     "value": 40
+    },
+    {
+     "stat": "moveSpeed",
+     "value": -100
+    }
+   ],
+   "group": "hp"
+  },
+  {
+   "id": "whetted_edges",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "damage",
+     "value": 120,
+     "tag": "blade"
+    }
+   ],
+   "group": "blade"
+  },
+  {
+   "id": "forge_hammered",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "damage",
+     "value": 150,
+     "tag": "heavy"
+    }
+   ],
+   "group": "heavy"
+  },
+  {
+   "id": "keen_eye",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "critChance",
+     "value": 60
+    }
+   ],
+   "group": "crit"
+  },
+  {
+   "id": "executioners_focus",
+   "rarity": "uncommon",
+   "stats": [
+    {
+     "stat": "critDamage",
+     "value": 350
+    }
+   ],
+   "group": "critdmg"
+  },
+  {
+   "id": "quick_hands",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "attackSpeed",
+     "value": 100
+    }
+   ],
+   "group": "speed"
+  },
+  {
+   "id": "eagle_sight",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "range",
+     "value": 200,
+     "tag": "ranged"
+    }
+   ],
+   "group": "range"
+  },
+  {
+   "id": "long_arms",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "range",
+     "value": 150,
+     "tag": "melee"
+    }
+   ],
+   "group": "range"
+  },
+  {
+   "id": "alchemical_lore",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "statusChance",
+     "value": 120
+    }
+   ],
+   "group": "status"
+  },
+  {
+   "id": "lingering_venoms",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "statusDuration",
+     "value": 350
+    }
+   ],
+   "group": "statusdur"
+  },
+  {
+   "id": "pyromancy",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "burnDamage",
+     "value": 400
+    }
+   ],
+   "group": "burn"
+  },
+  {
+   "id": "toxicology",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "poisonDamage",
+     "value": 400
+    }
+   ],
+   "group": "poison"
+  },
+  {
+   "id": "chain_lore",
+   "rarity": "rare",
+   "stats": [
+    {
+     "stat": "chainCount",
+     "value": 1
+    }
+   ],
+   "group": "chain"
+  },
+  {
+   "id": "fletchers_gift",
+   "rarity": "rare",
+   "stats": [
+    {
+     "stat": "projectileCount",
+     "value": 1
+    }
+   ],
+   "group": "projcount"
+  },
+  {
+   "id": "swift_shafts",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "projectileSpeed",
+     "value": 400
+    }
+   ],
+   "group": "projspeed"
+  },
+  {
+   "id": "circuit_mastery",
+   "rarity": "uncommon",
+   "stats": [
+    {
+     "stat": "procDamage",
+     "value": 300
+    }
+   ],
+   "group": "proc"
+  },
+  {
+   "id": "overflow_relays",
+   "rarity": "uncommon",
+   "stats": [
+    {
+     "stat": "relayCapacity",
+     "value": 1
+    }
+   ],
+   "group": "relaycap"
+  },
+  {
+   "id": "hair_trigger",
+   "rarity": "rare",
+   "stats": [
+    {
+     "stat": "relayThreshold",
+     "value": 1
+    }
+   ],
+   "group": "relaythr"
+  },
+  {
+   "id": "harmonic_anvils",
+   "rarity": "uncommon",
+   "stats": [
+    {
+     "stat": "adjacencyPower",
+     "value": 400
+    }
+   ],
+   "group": "adj"
+  },
+  {
+   "id": "iron_skin",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "armor",
+     "value": 8
+    }
+   ],
+   "group": "armor"
+  },
+  {
+   "id": "warding_runes",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "shieldOnStart",
+     "value": 25
+    }
+   ],
+   "group": "shieldstart"
+  },
+  {
+   "id": "troll_blood",
+   "rarity": "uncommon",
+   "stats": [
+    {
+     "stat": "regen",
+     "value": 2
+    }
+   ],
+   "group": "regen"
+  },
+  {
+   "id": "spiked_mail",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "thorns",
+     "value": 250
+    }
+   ],
+   "group": "thorns"
+  },
+  {
+   "id": "phantom_step",
+   "rarity": "uncommon",
+   "stats": [
+    {
+     "stat": "evasion",
+     "value": 80
+    }
+   ],
+   "group": "evasion"
+  },
+  {
+   "id": "vampiric_draught",
+   "rarity": "rare",
+   "stats": [
+    {
+     "stat": "leech",
+     "value": 50
+    }
+   ],
+   "group": "leech"
+  },
+  {
+   "id": "fleet_footed",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "moveSpeed",
+     "value": 250
+    }
+   ],
+   "group": "move"
+  },
+  {
+   "id": "giant_slayer_oath",
+   "rarity": "uncommon",
+   "stats": [
+    {
+     "stat": "damageVsElite",
+     "value": 250
+    },
+    {
+     "stat": "damageVsBoss",
+     "value": 150
+    }
+   ],
+   "group": "elite"
+  },
+  {
+   "id": "kingsbane",
+   "rarity": "rare",
+   "stats": [
+    {
+     "stat": "damageVsBoss",
+     "value": 300
+    }
+   ],
+   "group": "boss"
+  },
+  {
+   "id": "opportunist",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "damageVsStatus",
+     "value": 200,
+     "tag": "Stun"
+    },
+    {
+     "stat": "damageVsStatus",
+     "value": 200,
+     "tag": "Freeze"
+    }
+   ],
+   "group": "vsstatus"
+  },
+  {
+   "id": "hunters_creed",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "damageVsStatus",
+     "value": 250,
+     "tag": "Mark"
+    }
+   ],
+   "group": "vsmark"
+  },
+  {
+   "id": "hexers_delight",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "damageVsStatus",
+     "value": 180,
+     "tag": "Curse"
+    }
+   ],
+   "group": "vscurse"
+  },
+  {
+   "id": "berserker_blood",
+   "rarity": "uncommon",
+   "stats": [
+    {
+     "stat": "lowHpDamage",
+     "value": 400
+    }
+   ],
+   "group": "lowhp"
+  },
+  {
+   "id": "merchant_friend",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "shopDiscount",
+     "value": 150
+    }
+   ],
+   "group": "discount"
+  },
+  {
+   "id": "lucky_dice",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "rerollDiscount",
+     "value": 500
+    }
+   ],
+   "group": "reroll"
+  },
+  {
+   "id": "treasure_sense",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "goldGain",
+     "value": 200
+    }
+   ],
+   "group": "gold"
+  },
+  {
+   "id": "essence_affinity",
+   "rarity": "rare",
+   "stats": [
+    {
+     "stat": "essenceGain",
+     "value": 350
+    }
+   ],
+   "group": "essence"
+  },
+  {
+   "id": "sanctuary_rest",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "restHeal",
+     "value": 250
+    }
+   ],
+   "group": "rest"
+  },
+  {
+   "id": "wide_bazaar",
+   "rarity": "uncommon",
+   "stats": [
+    {
+     "stat": "shopOffers",
+     "value": 1
+    }
+   ],
+   "group": "offers"
+  },
+  {
+   "id": "discerning_taste",
+   "rarity": "uncommon",
+   "stats": [
+    {
+     "stat": "rewardChoices",
+     "value": 1
+    }
+   ],
+   "group": "rewards"
+  },
+  {
+   "id": "healers_touch",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "healingPower",
+     "value": 400
+    }
+   ],
+   "group": "healing"
+  },
+  {
+   "id": "first_blood",
+   "rarity": "uncommon",
+   "stats": [
+    {
+     "stat": "firstStrike",
+     "value": 1
+    }
+   ],
+   "group": "firststrike"
+  },
+  {
+   "id": "expanded_forge",
+   "rarity": "rare",
+   "stats": [
+    {
+     "stat": "boardWidth",
+     "value": 1
+    }
+   ],
+   "group": "boardw",
+   "tags": [
+    "board"
+   ]
+  },
+  {
+   "id": "deep_forge",
+   "rarity": "rare",
+   "stats": [
+    {
+     "stat": "boardHeight",
+     "value": 1
+    }
+   ],
+   "group": "boardh",
+   "tags": [
+    "board"
+   ]
+  },
+  {
+   "id": "arcane_studies",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "damageTypeBonus",
+     "value": 200,
+     "tag": "Arcane"
+    }
+   ],
+   "group": "dt_arcane"
+  },
+  {
+   "id": "flame_heart",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "damageTypeBonus",
+     "value": 200,
+     "tag": "Fire"
+    }
+   ],
+   "group": "dt_fire"
+  },
+  {
+   "id": "glacial_heart",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "damageTypeBonus",
+     "value": 200,
+     "tag": "Frost"
+    }
+   ],
+   "group": "dt_frost"
+  },
+  {
+   "id": "storm_heart",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "damageTypeBonus",
+     "value": 200,
+     "tag": "Lightning"
+    }
+   ],
+   "group": "dt_lightning"
+  },
+  {
+   "id": "umbral_heart",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "damageTypeBonus",
+     "value": 200,
+     "tag": "Shadow"
+    }
+   ],
+   "group": "dt_shadow"
+  },
+  {
+   "id": "radiant_heart",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "damageTypeBonus",
+     "value": 200,
+     "tag": "Radiant"
+    }
+   ],
+   "group": "dt_radiant"
+  },
+  {
+   "id": "summoners_pact",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "summonPower",
+     "value": 400
+    }
+   ],
+   "group": "summon"
+  },
+  {
+   "id": "melee_mastery",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "meleeDamage",
+     "value": 150
+    }
+   ],
+   "group": "meleedmg"
+  },
+  {
+   "id": "marksman_mastery",
+   "rarity": "common",
+   "stats": [
+    {
+     "stat": "rangedDamage",
+     "value": 150
+    }
+   ],
+   "group": "rangeddmg"
+  },
+  {
+   "id": "resist_ward",
+   "rarity": "uncommon",
+   "stats": [
+    {
+     "stat": "resistAll",
+     "value": 120
+    }
+   ],
+   "group": "resist"
+  },
+  {
+   "id": "phoenix_feather",
+   "rarity": "rare",
+   "runes": [
+    {
+     "id": "bl_phoenix",
+     "trigger": "onLowHp",
+     "effects": [
+      {
+       "type": "heal",
+       "fromMaxHp": true,
+       "power": 0.3
+      }
+     ],
+     "maxPerBattle": 1
+    }
+   ],
+   "group": "lowhp_rule"
+  },
+  {
+   "id": "battle_hymn",
+   "rarity": "common",
+   "runes": [
+    {
+     "id": "bl_hymn",
+     "trigger": "onWaveStart",
+     "effects": [
+      {
+       "type": "haste",
+       "stacks": 2,
+       "duration": 4
+      }
+     ]
+    }
+   ],
+   "group": "wave_rule"
+  },
+  {
+   "id": "stormcaller",
+   "rarity": "uncommon",
+   "runes": [
+    {
+     "id": "bl_stormcaller",
+     "trigger": "onTimer",
+     "effects": [
+      {
+       "type": "chain",
+       "target": "random",
+       "power": 0.6,
+       "count": 2,
+       "damageType": "lightning"
+      }
+     ],
+     "interval": 5
+    }
+   ],
+   "group": "timer_rule"
+  },
+  {
+   "id": "ember_halo",
+   "rarity": "uncommon",
+   "runes": [
+    {
+     "id": "bl_ember_halo",
+     "trigger": "onTimer",
+     "effects": [
+      {
+       "type": "nova",
+       "target": "self",
+       "power": 0.35,
+       "radius": 2.0,
+       "damageType": "fire",
+       "status": "burn",
+       "stacks": 1,
+       "duration": 3
+      }
+     ],
+     "interval": 4
+    }
+   ],
+   "group": "timer_rule2"
+  },
+  {
+   "id": "frost_ward",
+   "rarity": "common",
+   "runes": [
+    {
+     "id": "bl_frost_ward",
+     "trigger": "onDamageTaken",
+     "effects": [
+      {
+       "type": "applyStatus",
+       "target": "nearest",
+       "status": "chill",
+       "stacks": 2,
+       "duration": 3
+      }
+     ],
+     "icd": 1.0
+    }
+   ],
+   "group": "counter_rule"
+  },
+  {
+   "id": "thunder_retort",
+   "rarity": "uncommon",
+   "runes": [
+    {
+     "id": "bl_thunder_retort",
+     "trigger": "onBlock",
+     "effects": [
+      {
+       "type": "chain",
+       "target": "nearest",
+       "power": 0.5,
+       "count": 2,
+       "damageType": "lightning"
+      }
+     ],
+     "icd": 1.0
+    }
+   ],
+   "group": "block_rule"
+  },
+  {
+   "id": "reapers_toll",
+   "rarity": "common",
+   "runes": [
+    {
+     "id": "bl_reaper",
+     "trigger": "onKill",
+     "effects": [
+      {
+       "type": "heal",
+       "flat": 2
+      }
+     ],
+     "icd": 0.3
+    }
+   ],
+   "group": "kill_rule"
+  },
+  {
+   "id": "chain_reaction",
+   "rarity": "uncommon",
+   "runes": [
+    {
+     "id": "bl_chain_reaction",
+     "trigger": "onKill",
+     "effects": [
+      {
+       "type": "nova",
+       "power": 0.4,
+       "radius": 1.4
+      }
+     ],
+     "icd": 0.3
+    }
+   ],
+   "group": "kill_rule2"
+  },
+  {
+   "id": "bounty_hunter",
+   "rarity": "common",
+   "runes": [
+    {
+     "id": "bl_bounty",
+     "trigger": "onKill",
+     "effects": [
+      {
+       "type": "gold",
+       "flat": 1
+      }
+     ],
+     "maxPerBattle": 10
+    }
+   ],
+   "group": "kill_gold"
+  },
+  {
+   "id": "guardian_angel",
+   "rarity": "common",
+   "runes": [
+    {
+     "id": "bl_guardian",
+     "trigger": "onBattleStart",
+     "effects": [
+      {
+       "type": "shield",
+       "fromMaxHp": true,
+       "power": 0.2
+      }
+     ]
+    }
+   ],
+   "group": "start_rule"
+  },
+  {
+   "id": "opening_salvo",
+   "rarity": "uncommon",
+   "runes": [
+    {
+     "id": "bl_salvo",
+     "trigger": "onBattleStart",
+     "effects": [
+      {
+       "type": "damage",
+       "target": "allEnemies",
+       "power": 0.8
+      }
+     ]
+    }
+   ],
+   "group": "start_rule2"
+  },
+  {
+   "id": "marking_light",
+   "rarity": "common",
+   "runes": [
+    {
+     "id": "bl_marking",
+     "trigger": "onWaveStart",
+     "effects": [
+      {
+       "type": "mark",
+       "target": "random",
+       "count": 3,
+       "duration": 6
+      }
+     ]
+    }
+   ],
+   "group": "wave_rule2"
+  },
+  {
+   "id": "echoing_forge",
+   "rarity": "rare",
+   "runes": [
+    {
+     "id": "bl_echoing",
+     "trigger": "onAttack",
+     "effects": [
+      {
+       "type": "extraAttack",
+       "power": 0.4
+      }
+     ],
+     "condition": {
+      "everyN": 8
+     }
+    }
+   ],
+   "group": "attack_rule"
+  },
+  {
+   "id": "critical_mass",
+   "rarity": "uncommon",
+   "runes": [
+    {
+     "id": "bl_critmass",
+     "trigger": "onCrit",
+     "effects": [
+      {
+       "type": "nova",
+       "power": 0.3,
+       "radius": 1.2
+      }
+     ],
+     "icd": 0.4
+    }
+   ],
+   "group": "crit_rule"
+  },
+  {
+   "id": "shatterpoint",
+   "rarity": "common",
+   "runes": [
+    {
+     "id": "bl_shatter",
+     "trigger": "onStatusApplied",
+     "effects": [
+      {
+       "type": "damage",
+       "power": 0.8,
+       "damageType": "frost"
+      }
+     ],
+     "condition": {
+      "statusIs": "freeze"
+     },
+     "icd": 0.3
+    }
+   ],
+   "group": "status_rule"
+  },
+  {
+   "id": "wildfire",
+   "rarity": "uncommon",
+   "runes": [
+    {
+     "id": "bl_wildfire",
+     "trigger": "onKill",
+     "effects": [
+      {
+       "type": "spreadStatus",
+       "radius": 2.0
+      }
+     ],
+     "condition": {
+      "targetHasStatus": "burn"
+     },
+     "icd": 0.3
+    }
+   ],
+   "group": "spread_rule"
+  },
+  {
+   "id": "overcharged_core",
+   "rarity": "uncommon",
+   "runes": [
+    {
+     "id": "bl_overcharged",
+     "trigger": "onTimer",
+     "effects": [
+      {
+       "type": "cooldownReduce",
+       "flat": 12
+      }
+     ],
+     "interval": 5
+    }
+   ],
+   "group": "timer_rule3"
+  },
+  {
+   "id": "spirit_companion",
+   "rarity": "uncommon",
+   "runes": [
+    {
+     "id": "bl_spirit",
+     "trigger": "onBattleStart",
+     "effects": [
+      {
+       "type": "summon",
+       "power": 0.7
+      }
+     ]
+    }
+   ],
+   "group": "summon_rule"
+  },
+  {
+   "id": "second_wind",
+   "rarity": "common",
+   "runes": [
+    {
+     "id": "bl_second_wind",
+     "trigger": "onLowHp",
+     "effects": [
+      {
+       "type": "haste",
+       "stacks": 3,
+       "duration": 5
+      },
+      {
+       "type": "cleanse"
+      }
+     ],
+     "maxPerBattle": 1
+    }
+   ],
+   "group": "lowhp_rule2"
+  },
+  {
+   "id": "retribution",
+   "rarity": "common",
+   "runes": [
+    {
+     "id": "bl_retribution",
+     "trigger": "onDamageTaken",
+     "effects": [
+      {
+       "type": "damage",
+       "target": "nearest",
+       "power": 0.5,
+       "damageType": "radiant"
+      }
+     ],
+     "icd": 0.8
+    }
+   ],
+   "group": "counter_rule2"
+  },
+  {
+   "id": "shield_breaker",
+   "rarity": "common",
+   "runes": [
+    {
+     "id": "bl_breaker",
+     "trigger": "onShieldBreak",
+     "effects": [
+      {
+       "type": "applyStatus",
+       "status": "stun",
+       "duration": 1.0
+      }
+     ]
+    }
+   ],
+   "group": "shieldbreak_rule"
+  },
+  {
+   "id": "brittle_steel",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "damage",
+     "value": -120
+    }
+   ],
+   "group": "c_dmg"
+  },
+  {
+   "id": "heavy_chains",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "attackSpeed",
+     "value": -120
+    }
+   ],
+   "group": "c_speed"
+  },
+  {
+   "id": "frail_body",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "maxHp",
+     "value": -20
+    }
+   ],
+   "group": "c_hp"
+  },
+  {
+   "id": "rusted_plates",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "armor",
+     "value": -6
+    }
+   ],
+   "group": "c_armor"
+  },
+  {
+   "id": "greedy_merchants",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "shopDiscount",
+     "value": -200
+    }
+   ],
+   "group": "c_shop"
+  },
+  {
+   "id": "thin_purse",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "goldGain",
+     "value": -250
+    }
+   ],
+   "group": "c_gold"
+  },
+  {
+   "id": "emboldened_foes",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "enemyDamage",
+     "value": 150
+    }
+   ],
+   "group": "c_edmg"
+  },
+  {
+   "id": "bloated_foes",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "enemyHp",
+     "value": 150
+    }
+   ],
+   "group": "c_ehp"
+  },
+  {
+   "id": "swift_foes",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "enemySpeed",
+     "value": 200
+    }
+   ],
+   "group": "c_espeed"
+  },
+  {
+   "id": "open_wounds",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "incomingDamage",
+     "value": 120
+    }
+   ],
+   "group": "c_incoming"
+  },
+  {
+   "id": "cracked_lenses",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "critChance",
+     "value": -60
+    }
+   ],
+   "group": "c_crit"
+  },
+  {
+   "id": "dull_runes",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "procDamage",
+     "value": -250
+    }
+   ],
+   "group": "c_proc"
+  },
+  {
+   "id": "clogged_relays",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "relayThreshold",
+     "value": -1
+    }
+   ],
+   "group": "c_relay"
+  },
+  {
+   "id": "sickly",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "healingPower",
+     "value": -400
+    }
+   ],
+   "group": "c_heal"
+  },
+  {
+   "id": "shortsighted",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "range",
+     "value": -200
+    }
+   ],
+   "group": "c_range"
+  },
+  {
+   "id": "stale_reagents",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "statusChance",
+     "value": -150
+    }
+   ],
+   "group": "c_status"
+  },
+  {
+   "id": "lead_boots",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "moveSpeed",
+     "value": -300
+    }
+   ],
+   "group": "c_move"
+  },
+  {
+   "id": "scarce_wares",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "shopOffers",
+     "value": -2
+    }
+   ],
+   "group": "c_offers"
+  },
+  {
+   "id": "poor_choices",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "rewardChoices",
+     "value": -1
+    }
+   ],
+   "group": "c_rewards"
+  },
+  {
+   "id": "weak_resolve",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "resistAll",
+     "value": -150
+    }
+   ],
+   "group": "c_resist"
+  },
+  {
+   "id": "blood_price",
+   "rarity": "uncommon",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "damage",
+     "value": 250
+    },
+    {
+     "stat": "maxHp",
+     "value": -25
+    }
+   ],
+   "group": "c_pact1",
+   "tags": [
+    "risky"
+   ]
+  },
+  {
+   "id": "glass_cannon",
+   "rarity": "uncommon",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "critDamage",
+     "value": 600
+    },
+    {
+     "stat": "incomingDamage",
+     "value": 200
+    }
+   ],
+   "group": "c_pact2",
+   "tags": [
+    "risky"
+   ]
+  },
+  {
+   "id": "frenzy_pact",
+   "rarity": "uncommon",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "attackSpeed",
+     "value": 250
+    },
+    {
+     "stat": "armor",
+     "value": -10
+    }
+   ],
+   "group": "c_pact3",
+   "tags": [
+    "risky"
+   ]
+  },
+  {
+   "id": "hoarders_curse",
+   "rarity": "uncommon",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "goldGain",
+     "value": 400
+    },
+    {
+     "stat": "enemyHp",
+     "value": 100
+    }
+   ],
+   "group": "c_pact4",
+   "tags": [
+    "risky"
+   ]
+  },
+  {
+   "id": "unstable_core",
+   "rarity": "uncommon",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "procDamage",
+     "value": 450
+    },
+    {
+     "stat": "incomingDamage",
+     "value": 100
+    }
+   ],
+   "group": "c_pact5",
+   "tags": [
+    "risky"
+   ]
+  },
+  {
+   "id": "burning_soul",
+   "rarity": "uncommon",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "damageTypeBonus",
+     "value": 350,
+     "tag": "Fire"
+    }
+   ],
+   "runes": [
+    {
+     "id": "cu_burning_soul",
+     "trigger": "onBattleStart",
+     "effects": [
+      {
+       "type": "applyStatus",
+       "target": "self",
+       "status": "burn",
+       "stacks": 2,
+       "duration": 6
+      }
+     ]
+    }
+   ],
+   "group": "c_pact6",
+   "tags": [
+    "risky"
+   ]
+  },
+  {
+   "id": "hexed_armory",
+   "rarity": "rare",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "modifierSlots",
+     "value": 1
+    },
+    {
+     "stat": "maxHp",
+     "value": -15
+    }
+   ],
+   "group": "c_pact7",
+   "tags": [
+    "risky"
+   ]
+  },
+  {
+   "id": "withering_aura",
+   "rarity": "common",
+   "curse": true,
+   "runes": [
+    {
+     "id": "cu_wither",
+     "trigger": "onTimer",
+     "effects": [
+      {
+       "type": "applyStatus",
+       "target": "self",
+       "status": "weaken",
+       "duration": 2
+      }
+     ],
+     "interval": 8
+    }
+   ],
+   "group": "c_wither"
+  },
+  {
+   "id": "cursed_targeting",
+   "rarity": "common",
+   "curse": true,
+   "runes": [
+    {
+     "id": "cu_misfire",
+     "trigger": "onWaveStart",
+     "effects": [
+      {
+       "type": "applyStatus",
+       "target": "self",
+       "status": "slow",
+       "duration": 3
+      }
+     ]
+    }
+   ],
+   "group": "c_misfire"
+  },
+  {
+   "id": "haunted",
+   "rarity": "common",
+   "curse": true,
+   "runes": [
+    {
+     "id": "cu_haunted",
+     "trigger": "onTimer",
+     "effects": [
+      {
+       "type": "applyStatus",
+       "target": "self",
+       "status": "curse",
+       "stacks": 1,
+       "duration": 4
+      }
+     ],
+     "interval": 10
+    }
+   ],
+   "group": "c_haunt"
+  },
+  {
+   "id": "leaden_start",
+   "rarity": "common",
+   "curse": true,
+   "runes": [
+    {
+     "id": "cu_leaden",
+     "trigger": "onBattleStart",
+     "effects": [
+      {
+       "type": "applyStatus",
+       "target": "self",
+       "status": "stun",
+       "duration": 1.0
+      }
+     ]
+    }
+   ],
+   "group": "c_leaden"
+  },
+  {
+   "id": "bleeding_heart",
+   "rarity": "common",
+   "curse": true,
+   "runes": [
+    {
+     "id": "cu_bleed",
+     "trigger": "onDamageTaken",
+     "effects": [
+      {
+       "type": "applyStatus",
+       "target": "self",
+       "status": "bleed",
+       "stacks": 1,
+       "duration": 3
+      }
+     ],
+     "icd": 2
+    }
+   ],
+   "group": "c_bleedheart"
+  },
+  {
+   "id": "trial_no_sustain",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "healingPower",
+     "value": -1000
+    },
+    {
+     "stat": "leech",
+     "value": -1000
+    }
+   ],
+   "group": "t_nosustain",
+   "tags": [
+    "challenge_only"
+   ]
+  },
+  {
+   "id": "trial_cramped",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "boardWidth",
+     "value": -1
+    },
+    {
+     "stat": "boardHeight",
+     "value": -1
+    }
+   ],
+   "group": "t_cramped",
+   "tags": [
+    "challenge_only"
+   ]
+  },
+  {
+   "id": "trial_ironclad_foes",
+   "rarity": "common",
+   "curse": true,
+   "stats": [
+    {
+     "stat": "enemyHp",
+     "value": 300
+    },
+    {
+     "stat": "enemyDamage",
+     "value": 100
+    }
+   ],
+   "group": "t_ironclad",
+   "tags": [
+    "challenge_only"
+   ]
+  }
+ ]
+}

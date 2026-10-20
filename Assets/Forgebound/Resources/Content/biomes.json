@@ -1,0 +1,101 @@
+{
+ "version": 1,
+ "items": [
+  {
+   "id": "ember_foundry",
+   "order": 1,
+   "palette": [
+    "#2a1610",
+    "#ff6a2a",
+    "#ffb347",
+    "#5a3a2a"
+   ],
+   "music": "mus_ember",
+   "ambience": "amb_forge_roar",
+   "elites": [
+    "ember_foreman"
+   ],
+   "bosses": [
+    "ember_boss_titan",
+    "ember_boss_kaldur"
+   ]
+  },
+  {
+   "id": "verdant_ruins",
+   "order": 1,
+   "palette": [
+    "#14261a",
+    "#7dff8a",
+    "#c6a15b",
+    "#3e5a3a"
+   ],
+   "music": "mus_verdant",
+   "ambience": "amb_leaves",
+   "elites": [
+    "verdant_treant"
+   ],
+   "bosses": [
+    "verdant_boss_rootmother",
+    "verdant_boss_bloom"
+   ]
+  },
+  {
+   "id": "frostspire",
+   "order": 2,
+   "palette": [
+    "#0e1a2a",
+    "#7fd8ff",
+    "#e8f6ff",
+    "#3a5a7a"
+   ],
+   "music": "mus_frost",
+   "ambience": "amb_wind_ice",
+   "elites": [
+    "frost_countess",
+    "frost_knight_pair"
+   ],
+   "bosses": [
+    "frost_boss_sovereign",
+    "frost_boss_wyrm"
+   ]
+  },
+  {
+   "id": "sunken_crypt",
+   "order": 2,
+   "palette": [
+    "#120f1a",
+    "#7a4bd6",
+    "#9ab0a0",
+    "#2a2a3a"
+   ],
+   "music": "mus_crypt",
+   "ambience": "amb_drip",
+   "elites": [
+    "crypt_colossus"
+   ],
+   "bosses": [
+    "crypt_boss_lich",
+    "crypt_boss_choir"
+   ]
+  },
+  {
+   "id": "storm_citadel",
+   "order": 3,
+   "palette": [
+    "#10142a",
+    "#ffe24a",
+    "#4fa3ff",
+    "#5a5a7a"
+   ],
+   "music": "mus_storm",
+   "ambience": "amb_thunder",
+   "elites": [
+    "storm_paragon"
+   ],
+   "bosses": [
+    "storm_boss_tyrant",
+    "storm_boss_colossus"
+   ]
+  }
+ ]
+}

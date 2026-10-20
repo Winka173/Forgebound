@@ -1,0 +1,8 @@
+# Binary sources (.blend/.wav) would go through Git LFS; generated PNG sprites are committed
+# directly while under the texture budget (see docs/DECISIONS.md D-004).
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.png binary
+*.cs text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.md text eol=lf
