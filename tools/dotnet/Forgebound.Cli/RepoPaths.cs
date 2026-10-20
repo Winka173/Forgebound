@@ -44,11 +44,15 @@ namespace Forgebound.Cli
 
         public static Dictionary<string, string> LoadLoc(string lang)
         {
-            var p = Path.Combine(LocDir(), lang + ".json");
-            if (!File.Exists(p)) return null;
-            var j = JsonParser.Parse(File.ReadAllText(p));
-            var d = new Dictionary<string, string>();
-            foreach (var kv in j["strings"].Fields) d[kv.Key] = kv.Value.AsString("");
+            Dictionary<string, string> d = null;
+            foreach (var file in new[] { lang + ".json", "ui_" + lang + ".json" })
+            {
+                var p = Path.Combine(LocDir(), file);
+                if (!File.Exists(p)) continue;
+                if (d == null) d = new Dictionary<string, string>();
+                var j = JsonParser.Parse(File.ReadAllText(p));
+                foreach (var kv in j["strings"].Fields) d[kv.Key] = kv.Value.AsString("");
+            }
             return d;
         }
     }

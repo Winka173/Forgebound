@@ -71,6 +71,17 @@ namespace Forgebound.Core.Content
             foreach (var x in db.Blessings) yield return "blessing." + x.Id + ".name";
             foreach (var x in db.Biomes) yield return "biome." + x.Id + ".name";
             foreach (var x in db.Challenges) { yield return "challenge." + x.Id + ".name"; yield return "challenge." + x.Id + ".desc"; }
+            var tags = new HashSet<string>();
+            foreach (var f in db.Frames) foreach (var t in f.Tags) tags.Add(t);
+            foreach (var c in db.Cores) foreach (var t in c.Tags) tags.Add(t);
+            foreach (var m in db.Modifiers) foreach (var t in m.RequiresTags) tags.Add(t);
+            foreach (var r in db.Runes) foreach (var t in r.RequiresTags) tags.Add(t);
+            var tagList = new List<string>(tags);
+            tagList.Sort(StringComparer.Ordinal);
+            foreach (var t in tagList) yield return "tag." + t;
+            foreach (var k in Forgebound.Core.Localization.TooltipBuilder.TemplateKeys()) yield return k;
+            foreach (var k in new[] { "insight.weapon_low_share", "insight.weapon_never_hit", "insight.rune_never_triggered", "insight.rune_icd_wasted",
+                "insight.link_never_fired", "insight.proc_caps_hit", "insight.dead_links", "insight.top_damage_source" }) yield return k;
             foreach (var x in db.Events)
             {
                 yield return "event." + x.Id + ".title";

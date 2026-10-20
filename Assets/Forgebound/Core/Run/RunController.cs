@@ -137,6 +137,8 @@ namespace Forgebound.Core.Run
 
         private ActionResult Log(ActionResult r, string action, params object[] kv)
         {
+            if (r.Ok && action != "placeWeapon" && action != "placePiece" && action != "move" && action != "remove" && action != "undo" && action != "redo" && action != "primary" && action != "targeting")
+                ClearBoardHistory();
             if (r.Ok && !_replaying)
             {
                 var o = JsonValue.Obj().Set("a", action);
@@ -479,6 +481,63 @@ namespace Forgebound.Core.Run
 
         // ------------------------------------------------------------------ board
 
+        // ---- board undo/redo: snapshots (board + inventory + primary) kept in the controller; the undo/redo actions are
+        // themselves logged, so replays rebuild the identical snapshot stacks and stay deterministic.
+        private sealed class BoardSnapshot
+        {
+            public BoardState Board;
+            public List<InventoryItem> Inventory;
+            public int Primary;
+        }
+
+        private readonly List<BoardSnapshot> _undo = new List<BoardSnapshot>();
+        private readonly List<BoardSnapshot> _redo = new List<BoardSnapshot>();
+        public bool CanUndoBoard { get { return _undo.Count > 0; } }
+        public bool CanRedoBoard { get { return _redo.Count > 0; } }
+
+        private BoardSnapshot Capture()
+        {
+            var inv = new List<InventoryItem>();
+            foreach (var it in Run.Inventory) inv.Add(new InventoryItem { Uid = it.Uid, Category = it.Category, Id = it.Id });
+            return new BoardSnapshot { Board = Run.Board.Clone(), Inventory = inv, Primary = Run.PrimaryWeaponUid };
+        }
+
+        private void Restore(BoardSnapshot snap)
+        {
+            Run.Board = snap.Board.Clone();
+            Run.Inventory.Clear();
+            foreach (var it in snap.Inventory) Run.Inventory.Add(new InventoryItem { Uid = it.Uid, Category = it.Category, Id = it.Id });
+            Run.PrimaryWeaponUid = snap.Primary;
+        }
+
+        private void PushUndo(BoardSnapshot before)
+        {
+            _undo.Add(before);
+            if (_undo.Count > 40) _undo.RemoveAt(0);
+            _redo.Clear();
+        }
+
+        public ActionResult UndoBoard()
+        {
+            if (_undo.Count == 0) return ActionResult.Fail(ActionError.Invalid, "nothing_to_undo");
+            _redo.Add(Capture());
+            Restore(_undo[_undo.Count - 1]);
+            _undo.RemoveAt(_undo.Count - 1);
+            return Log(ActionResult.Success, "undo");
+        }
+
+        public ActionResult RedoBoard()
+        {
+            if (_redo.Count == 0) return ActionResult.Fail(ActionError.Invalid, "nothing_to_redo");
+            _undo.Add(Capture());
+            Restore(_redo[_redo.Count - 1]);
+            _redo.RemoveAt(_redo.Count - 1);
+            return Log(ActionResult.Success, "redo");
+        }
+
+        /// <summary>Any non-board mutation invalidates board history (items may have been consumed).</summary>
+        private void ClearBoardHistory() { _undo.Clear(); _redo.Clear(); }
+
         private ActionResult BoardResult(PlaceError e)
         {
             if (e == PlaceError.None) return ActionResult.Success;
@@ -488,44 +547,50 @@ namespace Forgebound.Core.Run
 
         public ActionResult PlaceWeapon(int weaponUid, int x, int y, int rot)
         {
+            var __before = Capture();
             if (Over) return ActionResult.Fail(ActionError.RunOver);
             if (Run.FindWeapon(weaponUid) == null) return ActionResult.Fail(ActionError.NotFound);
             var existing = Run.Board.FindWeapon(weaponUid);
             PlaceError e;
             if (existing != null) e = Editor().Move(existing.Uid, new Cell(x, y), rot);
             else e = Editor().Place(new PlacedPiece { Kind = PieceKind.Weapon, WeaponUid = weaponUid }, new Cell(x, y), rot);
-            if (e == PlaceError.None) FixPrimary();
+            if (e == PlaceError.None) { FixPrimary(); PushUndo(__before); }
             return Log(BoardResult(e), "placeWeapon", "w", weaponUid, "x", x, "y", y, "rot", rot);
         }
 
         public ActionResult PlacePiece(int itemUid, int x, int y, int rot)
         {
+            var __before = Capture();
             if (Over) return ActionResult.Fail(ActionError.RunOver);
             var it = Run.FindItem(itemUid);
             if (it == null || it.Category != ItemCategory.Piece) return ActionResult.Fail(ActionError.NotFound);
             var def = Db.Piece(it.Id);
             if (def == null) return ActionResult.Fail(ActionError.NotFound);
             var e = Editor().Place(new PlacedPiece { Kind = def.Kind == PieceKind.Support ? PieceKind.Support : PieceKind.Relay, PieceId = it.Id }, new Cell(x, y), rot);
-            if (e == PlaceError.None) Run.Inventory.Remove(it);
+            if (e == PlaceError.None) { Run.Inventory.Remove(it); PushUndo(__before); }
             return Log(BoardResult(e), "placePiece", "item", itemUid, "x", x, "y", y, "rot", rot);
         }
 
         public ActionResult MovePiece(int boardUid, int x, int y, int rot)
         {
+            var __before = Capture();
             if (Over) return ActionResult.Fail(ActionError.RunOver);
             var e = Editor().Move(boardUid, new Cell(x, y), rot);
+            if (e == PlaceError.None) PushUndo(__before);
             return Log(BoardResult(e), "move", "uid", boardUid, "x", x, "y", y, "rot", rot);
         }
 
         /// <summary>Remove a piece from the board. Relays/supports return to inventory; weapons go to the bench.</summary>
         public ActionResult RemovePiece(int boardUid)
         {
+            var __before = Capture();
             if (Over) return ActionResult.Fail(ActionError.RunOver);
             var p = Run.Board.Find(boardUid);
             if (p == null) return ActionResult.Fail(ActionError.NotFound);
             Run.Board.Pieces.Remove(p);
             if (p.Kind != PieceKind.Weapon) AddItemForce(ItemCategory.Piece, p.PieceId);
             FixPrimary();
+            PushUndo(__before);
             return Log(ActionResult.Success, "remove", "uid", boardUid);
         }
 
@@ -1001,6 +1066,8 @@ namespace Forgebound.Core.Run
                     case "skip": r = SkipReward(); break;
                     case "event": r = ChooseEventOption(a.Int("i")); break;
                     case "abandon": r = Abandon(); break;
+                    case "undo": r = UndoBoard(); break;
+                    case "redo": r = RedoBoard(); break;
                     default: return false;
                 }
                 if (r.Ok) Run.ActionLog.Add(a);

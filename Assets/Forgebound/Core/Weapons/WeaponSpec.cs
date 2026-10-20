@@ -13,6 +13,7 @@ namespace Forgebound.Core.Weapons
     public sealed class WeaponSpec
     {
         public int Uid;
+        public int Tier = 1;
         public bool IsPrimary;
         public FrameDef Frame;
         public CoreDef Core;
@@ -110,6 +111,7 @@ namespace Forgebound.Core.Weapons
             var s = new WeaponSpec
             {
                 Uid = w.Uid,
+                Tier = w.Tier,
                 IsPrimary = isPrimary,
                 Frame = frame,
                 Core = core,

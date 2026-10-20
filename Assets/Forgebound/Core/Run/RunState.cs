@@ -119,6 +119,7 @@ namespace Forgebound.Core.Run
         public readonly List<JsonValue> ActionLog = new List<JsonValue>();
         public string DeathReason;
         public bool NextRewardBlessing;
+        public bool RecordedInProfile;
 
         public WeaponInstance FindWeapon(int uid)
         {
@@ -182,6 +183,7 @@ namespace Forgebound.Core.Run
             o.Set("shopDiscount", ShopDiscountPermille);
             o.Set("deathReason", JsonValue.Str(DeathReason));
             o.Set("nextRewardBlessing", NextRewardBlessing);
+            o.Set("recorded", RecordedInProfile);
 
             var inv = JsonValue.Arr();
             foreach (var it in Inventory) inv.Add(JsonValue.Obj().Set("uid", it.Uid).Set("cat", it.Category.ToString()).Set("id", it.Id));
@@ -370,6 +372,7 @@ namespace Forgebound.Core.Run
             r.ShopDiscountPermille = o.Int("shopDiscount");
             r.DeathReason = o.Str("deathReason");
             r.NextRewardBlessing = o.BoolOf("nextRewardBlessing");
+            r.RecordedInProfile = o.BoolOf("recorded");
             foreach (var it in o["inventory"].Elements())
             {
                 ItemCategory cat;
