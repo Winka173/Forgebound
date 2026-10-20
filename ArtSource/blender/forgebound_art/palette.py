@@ -42,6 +42,84 @@ MATERIALS = {
 }
 
 
+def _m(base, shadow, highlight, metal=0.0, spec=0.1, spec_size=0.03, paint=0.3):
+    return {"base": base, "shadow": shadow, "highlight": highlight, "metal": metal, "spec": spec, "spec_size": spec_size,
+            "paint": paint, "flat": False}
+
+
+# --- Regeneration batch 2 -----------------------------------------------------
+# Forgemaster outfits.  Each Forgemaster owns a dominant hue (cloth), a value-
+# separated secondary (leather/plate) and a glow accent, so the 8 heroes are
+# distinct in colour as well as silhouette.  The blacksmith rows replace the
+# muddy brown/blue mass of batch 1: lighter cornflower shirt, near-black apron,
+# warm grey trousers, so skin / shirt / apron / boots step down in value.
+MATERIALS.update({
+    "bs_shirt":     _m("#5F8FCC", "#24386A", "#A6C8F0"),
+    "bs_apron":     _m("#4A2E22", "#1C100E", "#7E5440", spec=0.2),
+    "bs_trousers":  _m("#7A6E66", "#33292A", "#ABA096"),
+    "bs_beard":     _m("#C2622A", "#5A2216", "#F0A050", paint=0.4),
+    "rc_robe":      _m("#3A3E8C", "#161634", "#6E78D0"),
+    "rc_trim":      _m("#E8D9A8", "#8A7454", "#FFF8DC"),
+    "al_coat":      _m("#2F7A58", "#10301F", "#6CC08E"),
+    "al_leather":   _m("#9A6A3C", "#41241A", "#D0A070"),
+    "ar_shirt":     _m("#2E8C96", "#103842", "#6CD0D8"),
+    "ar_brass":     _m("#D69A3A", "#7A3E12", "#FFE0A0", metal=0.9, spec=0.9, spec_size=0.07, paint=0.18),
+    "hx_cloak":     _m("#3A2A4A", "#120A1A", "#6E5490", paint=0.35),
+    "hx_mask":      _m("#ECE6DA", "#8A8098", "#FFFFFF", spec=0.4, spec_size=0.05, paint=0.15),
+    "sm_robe":      _m("#E4E8F4", "#6E7AA8", "#FFFFFF", paint=0.25),
+    "sm_sash":      _m("#2F55C8", "#141E5A", "#7C9CFF"),
+    "du_cape":      _m("#C02838", "#4E0C1C", "#F06070"),
+    "du_vest":      _m("#2A2A36", "#0E0E16", "#5A5A70"),
+    "du_shirt":     _m("#F2EADC", "#9A8C80", "#FFFFFF", paint=0.2),
+    "wd_plate":     _m("#9AA6B4", "#3A4456", "#E2EAF4", metal=1.0, spec=0.9, spec_size=0.06, paint=0.18),
+    "wd_tabard":    _m("#4E7E3A", "#1C3416", "#8EC070"),
+    "hair_dark":    _m("#3A2A26", "#140C0C", "#6E5248", paint=0.4),
+    "hair_white":   _m("#E8E4EC", "#8E88A0", "#FFFFFF", paint=0.4),
+    "skin_tan":     _m("#C88A60", "#7A4238", "#EDB890", spec=0.05),
+    "skin_pale":    _m("#EAC4A8", "#A07070", "#FFE6D0", spec=0.05),
+    "skin_dark":    _m("#8E5A3C", "#46241E", "#C08860", spec=0.05),
+})
+
+# Enemy faction kits: each faction = body material, armour/secondary, cloth,
+# accent and an emissive glow.  Faction identity is carried by these materials;
+# role is carried by the silhouette (see enemykit.py).
+FACTION_KITS = {
+    "slagborn":      {"body": _m("#4A3C38", "#1A1216", "#7E6A60", paint=0.4), "armor": _m("#5C5C66", "#22222C", "#A0A4B0", metal=0.8, spec=0.6, spec_size=0.05, paint=0.22),
+                      "cloth": _m("#8E2E1C", "#3E0E10", "#D0603A"), "accent": _m("#C47A2A", "#5A2A10", "#F0B060", metal=0.6, spec=0.6, spec_size=0.06),
+                      "glow": ("#FF6A2A", "#7A1A08", "#FFC060"), "eye": "#FFD24A"},
+    "overgrowth":    {"body": _m("#6E4C2E", "#2C1A12", "#A88058", paint=0.45), "armor": _m("#4E8E3C", "#1A3A1A", "#9AD070", paint=0.35),
+                      "cloth": _m("#8E6AB0", "#3A2450", "#C8A8E8"), "accent": _m("#E8709A", "#7A2040", "#FFC0D4"),
+                      "glow": ("#B8F060", "#2E6A10", "#EFFFB0"), "eye": "#E8FF6A"},
+    "rime_court":    {"body": _m("#A8DCF4", "#3A6AA8", "#F0FCFF", spec=0.8, spec_size=0.08, paint=0.18), "armor": _m("#C4CEE0", "#4A5878", "#F4F8FF", metal=1.0, spec=0.9, spec_size=0.06, paint=0.15),
+                      "cloth": _m("#2E4A96", "#101C46", "#6C8CE0"), "accent": _m("#E8F4FF", "#7A9AC0", "#FFFFFF"),
+                      "glow": ("#7FD8FF", "#1E4A8A", "#E8FAFF"), "eye": "#BFF4FF"},
+    "hollow_dead":   {"body": _m("#E0D4B4", "#7E6E5C", "#FFF6E0", spec=0.2, spec_size=0.04), "armor": _m("#6E5A4C", "#2E2220", "#A88A6E", metal=0.5, spec=0.4, spec_size=0.04, paint=0.4),
+                      "cloth": _m("#4E4462", "#1C1626", "#857AA0", paint=0.4), "accent": _m("#7AA898", "#2A443E", "#B8E0D0"),
+                      "glow": ("#B48CFF", "#3A1A7A", "#EEE0FF"), "eye": "#C8A8FF"},
+    "tempest_order": {"body": _m("#8E9CBC", "#323A5A", "#D4DEF4", metal=0.9, spec=0.8, spec_size=0.06, paint=0.2), "armor": _m("#D4A040", "#7A4414", "#FFE6A0", metal=1.0, spec=1.0, spec_size=0.07, paint=0.16),
+                      "cloth": _m("#2A4AB0", "#0E1A50", "#6A8AF0"), "accent": _m("#F4F0E4", "#8A8678", "#FFFFFF"),
+                      "glow": ("#FFE24A", "#7A5A08", "#FFFBC8"), "eye": "#FFF27A"},
+    "training":      {"body": _m("#C8A060", "#6A4422", "#F0D090", paint=0.45), "armor": _m("#8A8C96", "#363844", "#C8CCD6", metal=0.8, spec=0.6, spec_size=0.05),
+                      "cloth": _m("#B83A2E", "#4E1212", "#E87060"), "accent": _m("#8E5C34", "#45261A", "#C69060"),
+                      "glow": ("#FFB347", "#8A3A10", "#FFF0C0"), "eye": "#1B1412"},
+}
+
+# Biome backdrops: (sky top, sky horizon, far, mid, near ground, ground top, accent glow)
+# derived from Content/biomes.json palettes (dark, accent, light, mid).
+BIOME_SCENES = {
+    "ember_foundry": {"sky": ("#1E0E0C", "#7A2E14"), "far": "#3A1A14", "mid": "#4E2A20", "near": "#2A1610", "ground": "#5A3A2A",
+                      "accent": "#FF6A2A", "light": "#FFB347"},
+    "verdant_ruins": {"sky": ("#0E1E16", "#4E7A4A"), "far": "#22402C", "mid": "#2E4E34", "near": "#14261A", "ground": "#3E5A3A",
+                      "accent": "#7DFF8A", "light": "#C6A15B"},
+    "frostspire":    {"sky": ("#0E1A2A", "#5A86AE"), "far": "#2A4A6A", "mid": "#3A5A7A", "near": "#1A2C44", "ground": "#C8E0F0",
+                      "accent": "#7FD8FF", "light": "#E8F6FF"},
+    "sunken_crypt":  {"sky": ("#0A0810", "#2E2648"), "far": "#1E1A2C", "mid": "#2A2A3A", "near": "#120F1A", "ground": "#3A3A4A",
+                      "accent": "#7A4BD6", "light": "#9AB0A0"},
+    "storm_citadel": {"sky": ("#0A0C1E", "#3A4A8A"), "far": "#1E2448", "mid": "#2E3460", "near": "#10142A", "ground": "#5A5A7A",
+                      "accent": "#FFE24A", "light": "#4FA3FF"},
+}
+
+
 def hex_to_srgb(h: str):
     h = h.lstrip("#")
     return tuple(int(h[i:i + 2], 16) / 255.0 for i in (0, 2, 4))
