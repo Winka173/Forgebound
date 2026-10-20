@@ -1,0 +1,377 @@
+{
+ "clips": [
+  {
+   "id": "mus_boss",
+   "seconds": 14.495,
+   "peak": 0.8,
+   "rms": 0.1286
+  },
+  {
+   "id": "mus_crypt",
+   "seconds": 25.213,
+   "peak": 0.8,
+   "rms": 0.1325
+  },
+  {
+   "id": "mus_ember",
+   "seconds": 18.412,
+   "peak": 0.8,
+   "rms": 0.1383
+  },
+  {
+   "id": "mus_frost",
+   "seconds": 23.95,
+   "peak": 0.8,
+   "rms": 0.1808
+  },
+  {
+   "id": "mus_storm",
+   "seconds": 16.221,
+   "peak": 0.8,
+   "rms": 0.1261
+  },
+  {
+   "id": "mus_verdant",
+   "seconds": 20.82,
+   "peak": 0.8,
+   "rms": 0.1313
+  },
+  {
+   "id": "mus_workshop",
+   "seconds": 22.807,
+   "peak": 0.8,
+   "rms": 0.1656
+  },
+  {
+   "id": "sfx_board_expand",
+   "seconds": 0.4,
+   "peak": 0.827,
+   "rms": 0.2012
+  },
+  {
+   "id": "sfx_bow_release",
+   "seconds": 0.25,
+   "peak": 0.876,
+   "rms": 0.2577
+  },
+  {
+   "id": "sfx_buy",
+   "seconds": 0.27,
+   "peak": 0.89,
+   "rms": 0.1882
+  },
+  {
+   "id": "sfx_core_arcane",
+   "seconds": 0.4,
+   "peak": 0.89,
+   "rms": 0.2215
+  },
+  {
+   "id": "sfx_core_earth",
+   "seconds": 0.45,
+   "peak": 0.89,
+   "rms": 0.1901
+  },
+  {
+   "id": "sfx_core_fire",
+   "seconds": 0.4,
+   "peak": 0.89,
+   "rms": 0.1251
+  },
+  {
+   "id": "sfx_core_frost",
+   "seconds": 0.5,
+   "peak": 0.872,
+   "rms": 0.1817
+  },
+  {
+   "id": "sfx_core_life",
+   "seconds": 0.5,
+   "peak": 0.89,
+   "rms": 0.2236
+  },
+  {
+   "id": "sfx_core_lightning",
+   "seconds": 0.25,
+   "peak": 0.89,
+   "rms": 0.1083
+  },
+  {
+   "id": "sfx_core_shadow",
+   "seconds": 0.5,
+   "peak": 0.89,
+   "rms": 0.2412
+  },
+  {
+   "id": "sfx_core_solar",
+   "seconds": 0.6,
+   "peak": 0.89,
+   "rms": 0.1861
+  },
+  {
+   "id": "sfx_core_steel",
+   "seconds": 0.4,
+   "peak": 0.885,
+   "rms": 0.1849
+  },
+  {
+   "id": "sfx_core_venom",
+   "seconds": 0.35,
+   "peak": 0.89,
+   "rms": 0.0756
+  },
+  {
+   "id": "sfx_core_void",
+   "seconds": 0.6,
+   "peak": 0.89,
+   "rms": 0.3158
+  },
+  {
+   "id": "sfx_core_wind",
+   "seconds": 0.45,
+   "peak": 0.89,
+   "rms": 0.1534
+  },
+  {
+   "id": "sfx_crit",
+   "seconds": 0.25,
+   "peak": 0.83,
+   "rms": 0.1474
+  },
+  {
+   "id": "sfx_crossbow_thunk",
+   "seconds": 0.21,
+   "peak": 0.84,
+   "rms": 0.1339
+  },
+  {
+   "id": "sfx_dagger_flick",
+   "seconds": 0.12,
+   "peak": 0.863,
+   "rms": 0.2024
+  },
+  {
+   "id": "sfx_enemy_attack",
+   "seconds": 0.15,
+   "peak": 0.89,
+   "rms": 0.1663
+  },
+  {
+   "id": "sfx_enemy_death",
+   "seconds": 0.4,
+   "peak": 0.89,
+   "rms": 0.2037
+  },
+  {
+   "id": "sfx_explosion",
+   "seconds": 0.6,
+   "peak": 0.89,
+   "rms": 0.1582
+  },
+  {
+   "id": "sfx_forge_assemble",
+   "seconds": 0.52,
+   "peak": 0.89,
+   "rms": 0.1916
+  },
+  {
+   "id": "sfx_greatsword_cleave",
+   "seconds": 0.35,
+   "peak": 0.875,
+   "rms": 0.2076
+  },
+  {
+   "id": "sfx_hammer_impact",
+   "seconds": 0.6,
+   "peak": 0.89,
+   "rms": 0.1428
+  },
+  {
+   "id": "sfx_hero_hurt",
+   "seconds": 0.2,
+   "peak": 0.84,
+   "rms": 0.2027
+  },
+  {
+   "id": "sfx_hit_generic",
+   "seconds": 0.12,
+   "peak": 0.861,
+   "rms": 0.2198
+  },
+  {
+   "id": "sfx_legendary_signature",
+   "seconds": 0.7,
+   "peak": 0.89,
+   "rms": 0.1948
+  },
+  {
+   "id": "sfx_relay_fire",
+   "seconds": 0.18,
+   "peak": 0.89,
+   "rms": 0.2403
+  },
+  {
+   "id": "sfx_reroll",
+   "seconds": 0.2,
+   "peak": 0.89,
+   "rms": 0.1815
+  },
+  {
+   "id": "sfx_rest",
+   "seconds": 1.2,
+   "peak": 0.89,
+   "rms": 0.1389
+  },
+  {
+   "id": "sfx_reward",
+   "seconds": 0.46,
+   "peak": 0.89,
+   "rms": 0.236
+  },
+  {
+   "id": "sfx_rotate",
+   "seconds": 0.12,
+   "peak": 0.864,
+   "rms": 0.1487
+  },
+  {
+   "id": "sfx_rune_proc",
+   "seconds": 0.25,
+   "peak": 0.89,
+   "rms": 0.2145
+  },
+  {
+   "id": "sfx_scythe_reap",
+   "seconds": 0.38,
+   "peak": 0.89,
+   "rms": 0.1455
+  },
+  {
+   "id": "sfx_sell",
+   "seconds": 0.25,
+   "peak": 0.89,
+   "rms": 0.1975
+  },
+  {
+   "id": "sfx_shield_bash",
+   "seconds": 0.35,
+   "peak": 0.859,
+   "rms": 0.1556
+  },
+  {
+   "id": "sfx_shield_break",
+   "seconds": 0.45,
+   "peak": 0.861,
+   "rms": 0.1586
+  },
+  {
+   "id": "sfx_slam",
+   "seconds": 0.7,
+   "peak": 0.88,
+   "rms": 0.1653
+  },
+  {
+   "id": "sfx_slot_click",
+   "seconds": 0.1,
+   "peak": 0.697,
+   "rms": 0.1115
+  },
+  {
+   "id": "sfx_spear_thrust",
+   "seconds": 0.15,
+   "peak": 0.89,
+   "rms": 0.241
+  },
+  {
+   "id": "sfx_staff_cast",
+   "seconds": 0.3,
+   "peak": 0.89,
+   "rms": 0.2486
+  },
+  {
+   "id": "sfx_sword_slash",
+   "seconds": 0.3,
+   "peak": 0.89,
+   "rms": 0.1603
+  },
+  {
+   "id": "sfx_telegraph",
+   "seconds": 0.6,
+   "peak": 0.89,
+   "rms": 0.2064
+  },
+  {
+   "id": "sfx_temper",
+   "seconds": 0.7,
+   "peak": 0.89,
+   "rms": 0.1738
+  },
+  {
+   "id": "sfx_tome_summon",
+   "seconds": 0.6,
+   "peak": 0.89,
+   "rms": 0.1899
+  },
+  {
+   "id": "sfx_unsocket",
+   "seconds": 0.15,
+   "peak": 0.89,
+   "rms": 0.2371
+  },
+  {
+   "id": "sfx_whip_crack",
+   "seconds": 0.2,
+   "peak": 0.89,
+   "rms": 0.0867
+  },
+  {
+   "id": "sting_boss_phase",
+   "seconds": 1.2,
+   "peak": 0.89,
+   "rms": 0.182
+  },
+  {
+   "id": "sting_legendary",
+   "seconds": 1.8,
+   "peak": 0.89,
+   "rms": 0.1726
+  },
+  {
+   "id": "sting_revive",
+   "seconds": 1.0,
+   "peak": 0.89,
+   "rms": 0.1762
+  },
+  {
+   "id": "sting_run_start",
+   "seconds": 1.0,
+   "peak": 0.89,
+   "rms": 0.1747
+  },
+  {
+   "id": "ui_click",
+   "seconds": 0.06,
+   "peak": 0.54,
+   "rms": 0.1065
+  },
+  {
+   "id": "ui_confirm",
+   "seconds": 0.18,
+   "peak": 0.6,
+   "rms": 0.1891
+  },
+  {
+   "id": "ui_error",
+   "seconds": 0.15,
+   "peak": 0.6,
+   "rms": 0.2683
+  },
+  {
+   "id": "ui_node",
+   "seconds": 0.3,
+   "peak": 0.6,
+   "rms": 0.1021
+  }
+ ],
+ "issues": []
+}

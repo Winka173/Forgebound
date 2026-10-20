@@ -533,7 +533,7 @@ namespace Forgebound.Core.Content
         Thunderhead,         // periodic lightning storm at random enemies
         Plague,              // poison stacks never expire and spread on death
         Eclipse,             // alternates radiant/shadow every attack, each boosting the other
-        Gearstorm,           // each modifier on the weapon fires an extra cog projectile
+        Gearstorm,           // every attack also fires SignatureValue cog projectiles at nearby enemies
         Rootbind,            // hits root enemies; rooted take bonus damage
         Phoenix,             // once per battle, revive hero with burst
         Starfall,            // crits call a falling star

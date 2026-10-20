@@ -86,6 +86,7 @@ namespace Forgebound.Core.Localization
                 if (Has("frame." + p + ".name")) p = Get("frame." + p + ".name");
                 else if (Has("rune." + p + ".name")) p = Get("rune." + p + ".name");
                 else if (Has("enemy." + p + ".name")) p = Get("enemy." + p + ".name");
+                else if (Has("trigger." + p)) p = Get("trigger." + p);
                 args[i - 1] = p;
             }
             return Format(parts[0], args);
