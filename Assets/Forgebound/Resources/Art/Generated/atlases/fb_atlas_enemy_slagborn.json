@@ -11,7 +11,7 @@
     1664,
     1024
    ],
-   "sha256": "c6ee4a491bb4f108354040b666b69e438bd21e80cea0f271af1ab51eeecaf745"
+   "sha256": "673ccc8666e2175e19c5c2e1cff15cdb5499f3fcef3f2f54b5e6f8703ab33c16"
   }
  ],
  "sprites": [
@@ -55,13 +55,13 @@
    "page": 0,
    "rect": [
     322,
-    766,
+    765,
     142,
     131
    ],
    "rect_unity": [
     322,
-    127,
+    128,
     142,
     131
    ],
@@ -123,13 +123,13 @@
    "page": 0,
    "rect": [
     180,
-    766,
+    765,
     138,
     132
    ],
    "rect_unity": [
     180,
-    126,
+    127,
     138,
     132
    ],
@@ -157,13 +157,13 @@
    "page": 0,
    "rect": [
     4,
-    767,
+    766,
     122,
     131
    ],
    "rect_unity": [
     4,
-    126,
+    127,
     122,
     131
    ],
@@ -567,17 +567,17 @@
     696,
     607,
     87,
-    152
+    151
    ],
    "rect_unity": [
     696,
-    265,
+    266,
     87,
-    152
+    151
    ],
    "pivot": [
     0.49425,
-    0.02623
+    0.01978
    ],
    "source_size": [
     256,
@@ -591,7 +591,7 @@
    "variant": null,
    "state": "idle",
    "frame": 0,
-   "source_sha256": "2a73d670565d413cb7b34e8bdd0e23b27f40f284028cb121e44782d5cea40497"
+   "source_sha256": "20af01b610efc3680cd38f36f3ced8e850afd846cc288d47822d5c056cf567c1"
   },
   {
    "name": "fb_enemy_cinder_imp_idle_01",
@@ -601,17 +601,17 @@
     413,
     610,
     86,
-    152
+    151
    ],
    "rect_unity": [
     413,
-    262,
+    263,
     86,
-    152
+    151
    ],
    "pivot": [
     0.48837,
-    0.02623
+    0.01978
    ],
    "source_size": [
     256,
@@ -625,7 +625,7 @@
    "variant": null,
    "state": "idle",
    "frame": 1,
-   "source_sha256": "c805ade5ca6104137cf059460494fc424722b43dd1bb9b5fd369f20f50b3744e"
+   "source_sha256": "6f524a4659c1c58768f05d63d9d84be11671cdd021b82d3af734e342984e1e9c"
   },
   {
    "name": "fb_enemy_cinder_imp_idle_02",
@@ -635,17 +635,17 @@
     4,
     594,
     84,
-    153
+    152
    ],
    "rect_unity": [
     4,
-    277,
+    278,
     84,
-    153
+    152
    ],
    "pivot": [
     0.47619,
-    0.02606
+    0.01965
    ],
    "source_size": [
     256,
@@ -659,7 +659,7 @@
    "variant": null,
    "state": "idle",
    "frame": 2,
-   "source_sha256": "02116c08ca50bd93e08c6f6d2c68b527b27009d449dfdc4c1c701e86b8471ca0"
+   "source_sha256": "6ff8f9bcbdbd41172e8d12d7228e5c7c5aecd313cd04a73a263ff73437049870"
   },
   {
    "name": "fb_enemy_cinder_imp_idle_03",
@@ -669,17 +669,17 @@
     92,
     611,
     84,
-    152
+    151
    ],
    "rect_unity": [
     92,
-    261,
+    262,
     84,
-    152
+    151
    ],
    "pivot": [
     0.47619,
-    0.02623
+    0.01978
    ],
    "source_size": [
     256,
@@ -693,7 +693,7 @@
    "variant": null,
    "state": "idle",
    "frame": 3,
-   "source_sha256": "915065029612f146c2c22485009e15d5cf648aa10e5ff935a8d345a4a609074d"
+   "source_sha256": "41cd24a240816875eac244b94cd1cbbcfd331b4cedadcb0750e2010e63e3ed9c"
   },
   {
    "name": "fb_enemy_cinder_imp_idle_04",
@@ -701,19 +701,19 @@
    "page": 0,
    "rect": [
     696,
-    763,
+    762,
     85,
-    151
+    150
    ],
    "rect_unity": [
     696,
-    110,
+    112,
     85,
-    151
+    150
    ],
    "pivot": [
     0.48235,
-    0.02641
+    0.01991
    ],
    "source_size": [
     256,
@@ -727,7 +727,7 @@
    "variant": null,
    "state": "idle",
    "frame": 4,
-   "source_sha256": "6bd8ba8f458c138289a4c9ab802fefadf952b0c001382e3eb3d42799dd490eb1"
+   "source_sha256": "65e87f1ea5ab2253ad417f062c10bc4ae20e5c7e0009f38443f4d62eaa6a016c"
   },
   {
    "name": "fb_enemy_cinder_imp_idle_05",
@@ -737,17 +737,17 @@
     272,
     611,
     87,
-    151
+    150
    ],
    "rect_unity": [
     272,
-    262,
+    263,
     87,
-    151
+    150
    ],
    "pivot": [
     0.49425,
-    0.02641
+    0.01991
    ],
    "source_size": [
     256,
@@ -761,7 +761,7 @@
    "variant": null,
    "state": "idle",
    "frame": 5,
-   "source_sha256": "1aec23484692c696c87785649806f035aaf90ea97ca123cf83ad71ea8121bdba"
+   "source_sha256": "d17e1092b27f6c203f3c4dc0a18e349dc64f288b0763774e927412a44f2b8278"
   },
   {
    "name": "fb_enemy_cinder_imp_idle_06",
@@ -771,17 +771,17 @@
     785,
     764,
     88,
-    150
+    149
    ],
    "rect_unity": [
     785,
-    110,
+    111,
     88,
-    150
+    149
    ],
    "pivot": [
     0.5,
-    0.02658
+    0.02005
    ],
    "source_size": [
     256,
@@ -795,7 +795,7 @@
    "variant": null,
    "state": "idle",
    "frame": 6,
-   "source_sha256": "3ae9930313b4311b456fcebb9371d0090949f6a4fbf4970208981b51072c8466"
+   "source_sha256": "81528297f7ff4542797278b288568fb6def3ebd632eaf1f1b0ac41a3817b3ae8"
   },
   {
    "name": "fb_enemy_cinder_imp_idle_07",
@@ -805,17 +805,17 @@
     180,
     611,
     88,
-    151
+    150
    ],
    "rect_unity": [
     180,
-    262,
+    263,
     88,
-    151
+    150
    ],
    "pivot": [
     0.5,
-    0.02641
+    0.01991
    ],
    "source_size": [
     256,
@@ -829,7 +829,7 @@
    "variant": null,
    "state": "idle",
    "frame": 7,
-   "source_sha256": "91880d3c7ac7d945e7529d3195ee1e8ff6f1d74d86d9cebff0b3afbbcc6ef448"
+   "source_sha256": "1fdebbfb1c64686b22a23670753a939bb62a918a59f587cecef68e4c492f9b25"
   },
   {
    "name": "fb_enemy_ember_slinger_idle_00",
@@ -1924,14 +1924,14 @@
    "file": "enemy/slag_hound/fb_enemy_slag_hound_idle_00.png",
    "page": 0,
    "rect": [
-    4,
-    902,
+    128,
+    901,
     119,
     106
    ],
    "rect_unity": [
-    4,
-    16,
+    128,
+    17,
     119,
     106
    ],
@@ -1959,13 +1959,13 @@
    "page": 0,
    "rect": [
     322,
-    901,
+    900,
     122,
     108
    ],
    "rect_unity": [
     322,
-    15,
+    16,
     122,
     108
    ],
@@ -2060,13 +2060,13 @@
    "file": "enemy/slag_hound/fb_enemy_slag_hound_idle_04.png",
    "page": 0,
    "rect": [
-    877,
+    4,
     901,
     120,
     106
    ],
    "rect_unity": [
-    877,
+    4,
     17,
     120,
     106
@@ -2094,14 +2094,14 @@
    "file": "enemy/slag_hound/fb_enemy_slag_hound_idle_05.png",
    "page": 0,
    "rect": [
-    127,
-    902,
+    877,
+    901,
     117,
     103
    ],
    "rect_unity": [
-    127,
-    19,
+    877,
+    20,
     117,
     103
    ],

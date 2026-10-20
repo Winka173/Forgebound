@@ -2,37 +2,25 @@
  "summary": {
   "files": 1264,
   "file_levels": {
-   "PASS": 1189,
-   "WARN": 72,
-   "FAIL": 3
+   "PASS": 1208,
+   "WARN": 56,
+   "FAIL": 0
   },
-  "findings": 86,
-  "fail_findings": 3,
-  "warn_findings": 83,
+  "findings": 56,
+  "fail_findings": 0,
+  "warn_findings": 56,
   "by_check": {
    "contrast": {
-    "WARN": 56,
-    "FAIL": 0
-   },
-   "halo": {
-    "WARN": 5,
+    "WARN": 55,
     "FAIL": 0
    },
    "oversaturation": {
     "WARN": 1,
     "FAIL": 0
-   },
-   "animation": {
-    "WARN": 4,
-    "FAIL": 0
-   },
-   "duplicate": {
-    "WARN": 17,
-    "FAIL": 3
    }
   },
-  "total_mb": 35.03,
-  "verdict": "FAIL"
+  "total_mb": 34.99,
+  "verdict": "PASS"
  },
  "disclaimer": "Automated checks verify technical correctness (format, alpha, halos, cropping, provenance, budgets, duplicates, legibility heuristics). They do NOT certify aesthetic quality; a human art review against the qualitative checkpoints is required before assets are considered final.",
  "qualitative_checkpoints": [
@@ -48,14 +36,6 @@
   "Originality: no resemblance to existing game IP (shapes, emblems, characters)."
  ],
  "findings": [
-  {
-   "check": "contrast",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_deep_forge_icon.png",
-   "message": "only 31% of sprite texels contrast with a light background",
-   "value": 0.31155,
-   "threshold": 0.25
-  },
   {
    "check": "contrast",
    "level": "WARN",
@@ -183,46 +163,6 @@
    "message": "only 42% of sprite texels contrast with a light background",
    "value": 0.42061,
    "threshold": 0.25
-  },
-  {
-   "check": "halo",
-   "level": "WARN",
-   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_00.png",
-   "message": "dark fringe on 28.4% of alpha-edge texels",
-   "value": 0.28395,
-   "threshold": 0.35
-  },
-  {
-   "check": "halo",
-   "level": "WARN",
-   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_04.png",
-   "message": "dark fringe on 29.3% of alpha-edge texels",
-   "value": 0.29268,
-   "threshold": 0.35
-  },
-  {
-   "check": "halo",
-   "level": "WARN",
-   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_05.png",
-   "message": "dark fringe on 31.6% of alpha-edge texels",
-   "value": 0.31599,
-   "threshold": 0.35
-  },
-  {
-   "check": "halo",
-   "level": "WARN",
-   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_06.png",
-   "message": "dark fringe on 25.0% of alpha-edge texels",
-   "value": 0.25,
-   "threshold": 0.35
-  },
-  {
-   "check": "halo",
-   "level": "WARN",
-   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_07.png",
-   "message": "dark fringe on 31.9% of alpha-edge texels",
-   "value": 0.31884,
-   "threshold": 0.35
   },
   {
    "check": "contrast",
@@ -404,64 +344,64 @@
    "check": "contrast",
    "level": "WARN",
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_00.png",
-   "message": "only 31% of sprite texels contrast with a light background",
-   "value": 0.30741,
+   "message": "only 30% of sprite texels contrast with a light background",
+   "value": 0.29615,
    "threshold": 0.25
   },
   {
    "check": "contrast",
    "level": "WARN",
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_01.png",
-   "message": "only 31% of sprite texels contrast with a light background",
-   "value": 0.30607,
+   "message": "only 29% of sprite texels contrast with a light background",
+   "value": 0.29384,
    "threshold": 0.25
   },
   {
    "check": "contrast",
    "level": "WARN",
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_02.png",
-   "message": "only 30% of sprite texels contrast with a light background",
-   "value": 0.30449,
+   "message": "only 29% of sprite texels contrast with a light background",
+   "value": 0.29012,
    "threshold": 0.25
   },
   {
    "check": "contrast",
    "level": "WARN",
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_03.png",
-   "message": "only 30% of sprite texels contrast with a light background",
-   "value": 0.30199,
+   "message": "only 29% of sprite texels contrast with a light background",
+   "value": 0.29005,
    "threshold": 0.25
   },
   {
    "check": "contrast",
    "level": "WARN",
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_04.png",
-   "message": "only 31% of sprite texels contrast with a light background",
-   "value": 0.30606,
+   "message": "only 29% of sprite texels contrast with a light background",
+   "value": 0.29442,
    "threshold": 0.25
   },
   {
    "check": "contrast",
    "level": "WARN",
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_05.png",
-   "message": "only 31% of sprite texels contrast with a light background",
-   "value": 0.30851,
+   "message": "only 30% of sprite texels contrast with a light background",
+   "value": 0.29664,
    "threshold": 0.25
   },
   {
    "check": "contrast",
    "level": "WARN",
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_06.png",
-   "message": "only 31% of sprite texels contrast with a light background",
-   "value": 0.30996,
+   "message": "only 30% of sprite texels contrast with a light background",
+   "value": 0.29938,
    "threshold": 0.25
   },
   {
    "check": "contrast",
    "level": "WARN",
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_07.png",
-   "message": "only 31% of sprite texels contrast with a light background",
-   "value": 0.31002,
+   "message": "only 30% of sprite texels contrast with a light background",
+   "value": 0.29865,
    "threshold": 0.25
   },
   {
@@ -543,198 +483,6 @@
    "message": "additive glow saturates alpha on 27% of its area",
    "value": 0.26808,
    "threshold": 0.5
-  },
-  {
-   "check": "animation",
-   "level": "WARN",
-   "file": "char/warden/attack",
-   "message": "feet are 7.0px away from the pivot ground line",
-   "value": 6.9872,
-   "threshold": 12
-  },
-  {
-   "check": "animation",
-   "level": "WARN",
-   "file": "enemy/bone_colossus/idle",
-   "message": "feet line (bbox bottom) drifts 5px across frames",
-   "value": 5.0,
-   "threshold": 8
-  },
-  {
-   "check": "animation",
-   "level": "WARN",
-   "file": "enemy/bone_colossus/idle",
-   "message": "feet are 8.0px away from the pivot ground line",
-   "value": 7.9872,
-   "threshold": 12
-  },
-  {
-   "check": "animation",
-   "level": "WARN",
-   "file": "enemy/ice_mauler/idle",
-   "message": "feet are 10.0px away from the pivot ground line",
-   "value": 9.9872,
-   "threshold": 12
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_guardian_angel_icon.png",
-   "message": "near-duplicate of fb_blessing_battle_hymn_icon.png: phash dist 10, only 1.9% of texels differ",
-   "value": 0.01904,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_marking_light_icon.png",
-   "message": "near-duplicate of fb_blessing_battle_hymn_icon.png: phash dist 8, only 2.3% of texels differ",
-   "value": 0.02318,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_opening_salvo_icon.png",
-   "message": "near-duplicate of fb_blessing_battle_hymn_icon.png: phash dist 6, only 2.4% of texels differ",
-   "value": 0.02401,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_spirit_companion_icon.png",
-   "message": "near-duplicate of fb_blessing_battle_hymn_icon.png: phash dist 8, only 2.6% of texels differ",
-   "value": 0.02649,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_chain_reaction_icon.png",
-   "message": "near-duplicate of fb_blessing_bounty_hunter_icon.png: phash dist 4, only 2.9% of texels differ",
-   "value": 0.02939,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_reapers_toll_icon.png",
-   "message": "near-duplicate of fb_blessing_bounty_hunter_icon.png: phash dist 4, only 1.8% of texels differ",
-   "value": 0.01821,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_wildfire_icon.png",
-   "message": "near-duplicate of fb_blessing_bounty_hunter_icon.png: phash dist 2, only 2.9% of texels differ",
-   "value": 0.02939,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_reapers_toll_icon.png",
-   "message": "near-duplicate of fb_blessing_chain_reaction_icon.png: phash dist 2, only 2.3% of texels differ",
-   "value": 0.02318,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_wildfire_icon.png",
-   "message": "near-duplicate of fb_blessing_chain_reaction_icon.png: phash dist 4, only 1.2% of texels differ",
-   "value": 0.01242,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "FAIL",
-   "file": "blessing/icon/fb_blessing_expanded_forge_icon.png",
-   "message": "near-duplicate of fb_blessing_deep_forge_icon.png: phash dist 0, only 0.2% of texels differ",
-   "value": 0.00168,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "FAIL",
-   "file": "blessing/icon/fb_blessing_long_arms_icon.png",
-   "message": "near-duplicate of fb_blessing_eagle_sight_icon.png: phash dist 0, only 0.0% of texels differ",
-   "value": 0.0,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_stormcaller_icon.png",
-   "message": "near-duplicate of fb_blessing_ember_halo_icon.png: phash dist 4, only 1.4% of texels differ",
-   "value": 0.01407,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_retribution_icon.png",
-   "message": "near-duplicate of fb_blessing_frost_ward_icon.png: phash dist 2, only 1.5% of texels differ",
-   "value": 0.0149,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_marking_light_icon.png",
-   "message": "near-duplicate of fb_blessing_guardian_angel_icon.png: phash dist 2, only 2.3% of texels differ",
-   "value": 0.02276,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_opening_salvo_icon.png",
-   "message": "near-duplicate of fb_blessing_guardian_angel_icon.png: phash dist 6, only 2.9% of texels differ",
-   "value": 0.02856,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_spirit_companion_icon.png",
-   "message": "near-duplicate of fb_blessing_guardian_angel_icon.png: phash dist 4, only 2.3% of texels differ",
-   "value": 0.02318,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_overflow_relays_icon.png",
-   "message": "near-duplicate of fb_blessing_hair_trigger_icon.png: phash dist 4, only 2.4% of texels differ",
-   "value": 0.02429,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "FAIL",
-   "file": "blessing/icon/fb_blessing_hunters_creed_icon.png",
-   "message": "near-duplicate of fb_blessing_hexers_delight_icon.png: phash dist 2, only 0.0% of texels differ",
-   "value": 0.0,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_spirit_companion_icon.png",
-   "message": "near-duplicate of fb_blessing_opening_salvo_icon.png: phash dist 2, only 1.4% of texels differ",
-   "value": 0.01366,
-   "threshold": 0.01
-  },
-  {
-   "check": "duplicate",
-   "level": "WARN",
-   "file": "blessing/icon/fb_blessing_wildfire_icon.png",
-   "message": "near-duplicate of fb_blessing_reapers_toll_icon.png: phash dist 6, only 2.6% of texels differ",
-   "value": 0.02608,
-   "threshold": 0.01
   }
  ],
  "files": [
@@ -775,12 +523,12 @@
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9464,
-    "contrast_light": 0.5764,
+    "contrast_dark": 0.9478,
+    "contrast_light": 0.6368,
     "legible_px": 1312.0,
-    "legible_lstd": 17.6247,
+    "legible_lstd": 16.0799,
     "oversat": 0.0,
-    "kb": 12.085
+    "kb": 13.0361
    }
   },
   {
@@ -805,12 +553,12 @@
     "coverage": 0.516,
     "halo_dark": 0.0216,
     "halo_light": 0.0,
-    "contrast_dark": 0.9215,
-    "contrast_light": 0.9341,
+    "contrast_dark": 0.9257,
+    "contrast_light": 0.8885,
     "legible_px": 1177.0,
-    "legible_lstd": 14.9545,
+    "legible_lstd": 17.2688,
     "oversat": 0.0,
-    "kb": 14.3457
+    "kb": 12.9531
    }
   },
   {
@@ -850,12 +598,12 @@
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9492,
-    "contrast_light": 0.5783,
+    "contrast_dark": 0.94,
+    "contrast_light": 0.5868,
     "legible_px": 1312.0,
-    "legible_lstd": 17.2699,
+    "legible_lstd": 18.4785,
     "oversat": 0.0,
-    "kb": 12.3076
+    "kb": 14.8379
    }
   },
   {
@@ -905,17 +653,17 @@
   },
   {
    "file": "blessing/icon/fb_blessing_chain_reaction_icon.png",
-   "level": "WARN",
+   "level": "PASS",
    "metrics": {
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9473,
-    "contrast_light": 0.5818,
+    "contrast_dark": 0.9472,
+    "contrast_light": 0.5767,
     "legible_px": 1312.0,
-    "legible_lstd": 17.5015,
+    "legible_lstd": 18.3324,
     "oversat": 0.0,
-    "kb": 12.2988
+    "kb": 13.2217
    }
   },
   {
@@ -970,12 +718,12 @@
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9413,
-    "contrast_light": 0.5974,
+    "contrast_dark": 0.9472,
+    "contrast_light": 0.5798,
     "legible_px": 1312.0,
-    "legible_lstd": 17.3687,
+    "legible_lstd": 18.9674,
     "oversat": 0.0,
-    "kb": 15.123
+    "kb": 13.7734
    }
   },
   {
@@ -985,27 +733,27 @@
     "coverage": 0.5172,
     "halo_dark": 0.0129,
     "halo_light": 0.0,
-    "contrast_dark": 0.9262,
-    "contrast_light": 0.8722,
+    "contrast_dark": 0.9274,
+    "contrast_light": 0.8735,
     "legible_px": 1189.0,
-    "legible_lstd": 18.0097,
+    "legible_lstd": 17.8084,
     "oversat": 0.0,
-    "kb": 13.0068
+    "kb": 13.7578
    }
   },
   {
    "file": "blessing/icon/fb_blessing_deep_forge_icon.png",
-   "level": "WARN",
+   "level": "PASS",
    "metrics": {
     "coverage": 0.5613,
     "halo_dark": 0.0725,
     "halo_light": 0.0,
-    "contrast_dark": 0.9478,
-    "contrast_light": 0.3115,
+    "contrast_dark": 0.9482,
+    "contrast_light": 0.5739,
     "legible_px": 1291.0,
-    "legible_lstd": 16.2815,
+    "legible_lstd": 16.1837,
     "oversat": 0.0,
-    "kb": 13.0469
+    "kb": 11.6914
    }
   },
   {
@@ -1045,12 +793,12 @@
     "coverage": 0.5601,
     "halo_dark": 0.0556,
     "halo_light": 0.0,
-    "contrast_dark": 0.9523,
-    "contrast_light": 0.6133,
+    "contrast_dark": 0.9491,
+    "contrast_light": 0.636,
     "legible_px": 1290.0,
-    "legible_lstd": 16.8212,
+    "legible_lstd": 15.4113,
     "oversat": 0.0,
-    "kb": 10.6406
+    "kb": 10.7461
    }
   },
   {
@@ -1060,12 +808,12 @@
     "coverage": 0.5707,
     "halo_dark": 0.0718,
     "halo_light": 0.0,
-    "contrast_dark": 0.9444,
-    "contrast_light": 0.65,
+    "contrast_dark": 0.9433,
+    "contrast_light": 0.6355,
     "legible_px": 1313.0,
-    "legible_lstd": 16.4981,
+    "legible_lstd": 17.1363,
     "oversat": 0.0,
-    "kb": 12.1338
+    "kb": 14.123
    }
   },
   {
@@ -1075,12 +823,12 @@
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9374,
-    "contrast_light": 0.5963,
+    "contrast_dark": 0.9475,
+    "contrast_light": 0.5761,
     "legible_px": 1312.0,
-    "legible_lstd": 17.7595,
+    "legible_lstd": 17.4858,
     "oversat": 0.0,
-    "kb": 15.1396
+    "kb": 13.4883
    }
   },
   {
@@ -1130,7 +878,7 @@
   },
   {
    "file": "blessing/icon/fb_blessing_expanded_forge_icon.png",
-   "level": "FAIL",
+   "level": "PASS",
    "metrics": {
     "coverage": 0.5613,
     "halo_dark": 0.0725,
@@ -1255,12 +1003,12 @@
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9452,
-    "contrast_light": 0.6243,
+    "contrast_dark": 0.9436,
+    "contrast_light": 0.602,
     "legible_px": 1312.0,
-    "legible_lstd": 16.8209,
+    "legible_lstd": 17.722,
     "oversat": 0.0,
-    "kb": 13.7656
+    "kb": 15.0439
    }
   },
   {
@@ -1340,17 +1088,17 @@
   },
   {
    "file": "blessing/icon/fb_blessing_guardian_angel_icon.png",
-   "level": "WARN",
+   "level": "PASS",
    "metrics": {
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9464,
-    "contrast_light": 0.5641,
+    "contrast_dark": 0.9495,
+    "contrast_light": 0.5299,
     "legible_px": 1312.0,
-    "legible_lstd": 17.7487,
+    "legible_lstd": 17.5582,
     "oversat": 0.0,
-    "kb": 11.8887
+    "kb": 12.1504
    }
   },
   {
@@ -1360,12 +1108,12 @@
     "coverage": 0.5613,
     "halo_dark": 0.0725,
     "halo_light": 0.0,
-    "contrast_dark": 0.9464,
-    "contrast_light": 0.6342,
+    "contrast_dark": 0.9465,
+    "contrast_light": 0.6314,
     "legible_px": 1291.0,
-    "legible_lstd": 18.2236,
+    "legible_lstd": 17.8262,
     "oversat": 0.0,
-    "kb": 12.668
+    "kb": 12.8125
    }
   },
   {
@@ -1390,12 +1138,12 @@
     "coverage": 0.5287,
     "halo_dark": 0.0,
     "halo_light": 0.0,
-    "contrast_dark": 0.9154,
-    "contrast_light": 0.9044,
+    "contrast_dark": 0.9273,
+    "contrast_light": 0.8839,
     "legible_px": 1222.0,
-    "legible_lstd": 16.3416,
+    "legible_lstd": 17.7517,
     "oversat": 0.0,
-    "kb": 15.4746
+    "kb": 12.8887
    }
   },
   {
@@ -1438,7 +1186,7 @@
     "contrast_dark": 0.9177,
     "contrast_light": 0.8685,
     "legible_px": 1244.0,
-    "legible_lstd": 17.5721,
+    "legible_lstd": 17.5724,
     "oversat": 0.0,
     "kb": 16.4385
    }
@@ -1450,12 +1198,12 @@
     "coverage": 0.5601,
     "halo_dark": 0.0556,
     "halo_light": 0.0,
-    "contrast_dark": 0.9468,
-    "contrast_light": 0.6043,
+    "contrast_dark": 0.9466,
+    "contrast_light": 0.6016,
     "legible_px": 1290.0,
-    "legible_lstd": 16.4056,
+    "legible_lstd": 17.3392,
     "oversat": 0.0,
-    "kb": 12.6523
+    "kb": 13.2217
    }
   },
   {
@@ -1475,17 +1223,17 @@
   },
   {
    "file": "blessing/icon/fb_blessing_hunters_creed_icon.png",
-   "level": "FAIL",
+   "level": "PASS",
    "metrics": {
     "coverage": 0.5601,
     "halo_dark": 0.0556,
     "halo_light": 0.0,
     "contrast_dark": 0.9468,
-    "contrast_light": 0.6053,
+    "contrast_light": 0.6042,
     "legible_px": 1290.0,
-    "legible_lstd": 16.6709,
+    "legible_lstd": 17.2096,
     "oversat": 0.0,
-    "kb": 12.8818
+    "kb": 13.1504
    }
   },
   {
@@ -1555,12 +1303,12 @@
     "coverage": 0.5276,
     "halo_dark": 0.004,
     "halo_light": 0.0,
-    "contrast_dark": 0.9261,
-    "contrast_light": 0.872,
+    "contrast_dark": 0.9293,
+    "contrast_light": 0.8963,
     "legible_px": 1218.0,
-    "legible_lstd": 17.9075,
+    "legible_lstd": 17.3189,
     "oversat": 0.0,
-    "kb": 13.6318
+    "kb": 14.4473
    }
   },
   {
@@ -1580,17 +1328,17 @@
   },
   {
    "file": "blessing/icon/fb_blessing_long_arms_icon.png",
-   "level": "FAIL",
+   "level": "PASS",
    "metrics": {
     "coverage": 0.5601,
     "halo_dark": 0.0556,
     "halo_light": 0.0,
-    "contrast_dark": 0.9523,
-    "contrast_light": 0.6129,
+    "contrast_dark": 0.949,
+    "contrast_light": 0.6344,
     "legible_px": 1290.0,
-    "legible_lstd": 16.7539,
+    "legible_lstd": 15.6302,
     "oversat": 0.0,
-    "kb": 10.8193
+    "kb": 11.0547
    }
   },
   {
@@ -1610,17 +1358,17 @@
   },
   {
    "file": "blessing/icon/fb_blessing_marking_light_icon.png",
-   "level": "WARN",
+   "level": "PASS",
    "metrics": {
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9463,
-    "contrast_light": 0.565,
+    "contrast_dark": 0.9404,
+    "contrast_light": 0.5558,
     "legible_px": 1312.0,
-    "legible_lstd": 17.5855,
+    "legible_lstd": 17.5503,
     "oversat": 0.0,
-    "kb": 12.3486
+    "kb": 16.9189
    }
   },
   {
@@ -1646,11 +1394,11 @@
     "halo_dark": 0.0556,
     "halo_light": 0.0,
     "contrast_dark": 0.9504,
-    "contrast_light": 0.6306,
+    "contrast_light": 0.6273,
     "legible_px": 1290.0,
-    "legible_lstd": 16.3571,
+    "legible_lstd": 15.9615,
     "oversat": 0.0,
-    "kb": 10.5654
+    "kb": 11.292
    }
   },
   {
@@ -1685,17 +1433,17 @@
   },
   {
    "file": "blessing/icon/fb_blessing_opening_salvo_icon.png",
-   "level": "WARN",
+   "level": "PASS",
    "metrics": {
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9444,
-    "contrast_light": 0.5789,
+    "contrast_dark": 0.9475,
+    "contrast_light": 0.6199,
     "legible_px": 1312.0,
-    "legible_lstd": 17.8069,
+    "legible_lstd": 16.5462,
     "oversat": 0.0,
-    "kb": 12.0342
+    "kb": 12.4561
    }
   },
   {
@@ -1723,14 +1471,14 @@
     "contrast_dark": 0.94,
     "contrast_light": 0.5928,
     "legible_px": 1290.0,
-    "legible_lstd": 17.8557,
+    "legible_lstd": 17.8517,
     "oversat": 0.0,
-    "kb": 13.752
+    "kb": 13.9814
    }
   },
   {
    "file": "blessing/icon/fb_blessing_overflow_relays_icon.png",
-   "level": "WARN",
+   "level": "PASS",
    "metrics": {
     "coverage": 0.5601,
     "halo_dark": 0.0556,
@@ -1765,12 +1513,12 @@
     "coverage": 0.5707,
     "halo_dark": 0.0718,
     "halo_light": 0.0,
-    "contrast_dark": 0.9452,
-    "contrast_light": 0.568,
+    "contrast_dark": 0.9455,
+    "contrast_light": 0.5819,
     "legible_px": 1313.0,
-    "legible_lstd": 17.7325,
+    "legible_lstd": 18.5063,
     "oversat": 0.0,
-    "kb": 12.5684
+    "kb": 12.626
    }
   },
   {
@@ -1835,17 +1583,17 @@
   },
   {
    "file": "blessing/icon/fb_blessing_reapers_toll_icon.png",
-   "level": "WARN",
+   "level": "PASS",
    "metrics": {
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9492,
-    "contrast_light": 0.5762,
+    "contrast_dark": 0.9493,
+    "contrast_light": 0.5731,
     "legible_px": 1312.0,
-    "legible_lstd": 17.3577,
+    "legible_lstd": 18.3758,
     "oversat": 0.0,
-    "kb": 12.0059
+    "kb": 11.9551
    }
   },
   {
@@ -1865,17 +1613,17 @@
   },
   {
    "file": "blessing/icon/fb_blessing_retribution_icon.png",
-   "level": "WARN",
+   "level": "PASS",
    "metrics": {
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9452,
-    "contrast_light": 0.6286,
+    "contrast_dark": 0.9495,
+    "contrast_light": 0.6255,
     "legible_px": 1312.0,
-    "legible_lstd": 16.8595,
+    "legible_lstd": 17.4997,
     "oversat": 0.0,
-    "kb": 13.3662
+    "kb": 12.0684
    }
   },
   {
@@ -1930,12 +1678,12 @@
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9491,
-    "contrast_light": 0.5654,
+    "contrast_dark": 0.947,
+    "contrast_light": 0.6392,
     "legible_px": 1312.0,
-    "legible_lstd": 17.5351,
+    "legible_lstd": 17.339,
     "oversat": 0.0,
-    "kb": 11.6768
+    "kb": 12.5273
    }
   },
   {
@@ -1945,12 +1693,12 @@
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9487,
-    "contrast_light": 0.5828,
+    "contrast_dark": 0.9494,
+    "contrast_light": 0.6174,
     "legible_px": 1312.0,
-    "legible_lstd": 17.2573,
+    "legible_lstd": 16.5225,
     "oversat": 0.0,
-    "kb": 12.0352
+    "kb": 12.1699
    }
   },
   {
@@ -1961,11 +1709,11 @@
     "halo_dark": 0.055,
     "halo_light": 0.0,
     "contrast_dark": 0.9495,
-    "contrast_light": 0.5492,
+    "contrast_light": 0.5881,
     "legible_px": 1312.0,
-    "legible_lstd": 17.7719,
+    "legible_lstd": 16.916,
     "oversat": 0.0,
-    "kb": 12.7393
+    "kb": 12.6445
    }
   },
   {
@@ -1975,12 +1723,12 @@
     "coverage": 0.5117,
     "halo_dark": 0.0209,
     "halo_light": 0.0,
-    "contrast_dark": 0.9336,
-    "contrast_light": 0.9334,
+    "contrast_dark": 0.9315,
+    "contrast_light": 0.9635,
     "legible_px": 1180.0,
-    "legible_lstd": 15.5523,
+    "legible_lstd": 14.976,
     "oversat": 0.0,
-    "kb": 12.0801
+    "kb": 12.3525
    }
   },
   {
@@ -2015,17 +1763,17 @@
   },
   {
    "file": "blessing/icon/fb_blessing_spirit_companion_icon.png",
-   "level": "WARN",
+   "level": "PASS",
    "metrics": {
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9445,
-    "contrast_light": 0.5732,
+    "contrast_dark": 0.9472,
+    "contrast_light": 0.5676,
     "legible_px": 1312.0,
-    "legible_lstd": 17.8416,
+    "legible_lstd": 17.2257,
     "oversat": 0.0,
-    "kb": 12.1123
+    "kb": 12.5781
    }
   },
   {
@@ -2060,17 +1808,17 @@
   },
   {
    "file": "blessing/icon/fb_blessing_stormcaller_icon.png",
-   "level": "WARN",
+   "level": "PASS",
    "metrics": {
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9374,
-    "contrast_light": 0.6013,
+    "contrast_dark": 0.9466,
+    "contrast_light": 0.6168,
     "legible_px": 1312.0,
-    "legible_lstd": 17.707,
+    "legible_lstd": 16.9599,
     "oversat": 0.0,
-    "kb": 14.9795
+    "kb": 12.7744
    }
   },
   {
@@ -2095,12 +1843,12 @@
     "coverage": 0.5009,
     "halo_dark": 0.004,
     "halo_light": 0.0,
-    "contrast_dark": 0.929,
-    "contrast_light": 0.9543,
+    "contrast_dark": 0.9284,
+    "contrast_light": 0.9524,
     "legible_px": 1153.0,
-    "legible_lstd": 13.2473,
+    "legible_lstd": 12.597,
     "oversat": 0.0,
-    "kb": 12.5039
+    "kb": 12.6436
    }
   },
   {
@@ -2155,12 +1903,12 @@
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9475,
-    "contrast_light": 0.5426,
+    "contrast_dark": 0.9464,
+    "contrast_light": 0.6124,
     "legible_px": 1312.0,
-    "legible_lstd": 18.147,
+    "legible_lstd": 17.9685,
     "oversat": 0.0,
-    "kb": 12.167
+    "kb": 12.3076
    }
   },
   {
@@ -2197,15 +1945,15 @@
    "file": "blessing/icon/fb_blessing_trial_cramped_icon.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.5273,
-    "halo_dark": 0.0189,
+    "coverage": 0.545,
+    "halo_dark": 0.015,
     "halo_light": 0.0,
-    "contrast_dark": 0.8983,
-    "contrast_light": 0.8645,
-    "legible_px": 1221.0,
-    "legible_lstd": 19.4477,
+    "contrast_dark": 0.8998,
+    "contrast_light": 0.8578,
+    "legible_px": 1259.0,
+    "legible_lstd": 19.5683,
     "oversat": 0.0,
-    "kb": 16.3438
+    "kb": 17.0
    }
   },
   {
@@ -2360,17 +2108,17 @@
   },
   {
    "file": "blessing/icon/fb_blessing_wildfire_icon.png",
-   "level": "WARN",
+   "level": "PASS",
    "metrics": {
     "coverage": 0.5696,
     "halo_dark": 0.055,
     "halo_light": 0.0,
-    "contrast_dark": 0.9474,
-    "contrast_light": 0.5881,
+    "contrast_dark": 0.9475,
+    "contrast_light": 0.6256,
     "legible_px": 1312.0,
-    "legible_lstd": 17.4359,
+    "legible_lstd": 17.6622,
     "oversat": 0.0,
-    "kb": 12.2939
+    "kb": 12.6357
    }
   },
   {
@@ -2380,12 +2128,12 @@
     "coverage": 0.5151,
     "halo_dark": 0.0241,
     "halo_light": 0.0,
-    "contrast_dark": 0.9185,
-    "contrast_light": 0.8962,
+    "contrast_dark": 0.9288,
+    "contrast_light": 0.8512,
     "legible_px": 1188.0,
-    "legible_lstd": 16.1041,
+    "legible_lstd": 18.2851,
     "oversat": 0.0,
-    "kb": 16.3662
+    "kb": 14.5723
    }
   },
   {
@@ -4612,240 +4360,240 @@
    "file": "char/warden/fb_char_warden_attack_00.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.2022,
-    "halo_dark": 0.0127,
+    "coverage": 0.1971,
+    "halo_dark": 0.0107,
     "halo_light": 0.0,
-    "contrast_dark": 0.8613,
-    "contrast_light": 0.8836,
-    "legible_px": 469.0,
-    "legible_lstd": 15.2818,
+    "contrast_dark": 0.8614,
+    "contrast_light": 0.8759,
+    "legible_px": 455.0,
+    "legible_lstd": 15.3651,
     "oversat": 0.0,
-    "kb": 23.8252
+    "kb": 23.792
    }
   },
   {
    "file": "char/warden/fb_char_warden_attack_01.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.1997,
-    "halo_dark": 0.0104,
+    "coverage": 0.1966,
+    "halo_dark": 0.0026,
     "halo_light": 0.0,
-    "contrast_dark": 0.8571,
-    "contrast_light": 0.8853,
-    "legible_px": 457.0,
-    "legible_lstd": 15.5083,
+    "contrast_dark": 0.857,
+    "contrast_light": 0.879,
+    "legible_px": 449.0,
+    "legible_lstd": 15.1999,
     "oversat": 0.0,
-    "kb": 24.3457
+    "kb": 24.2197
    }
   },
   {
    "file": "char/warden/fb_char_warden_attack_02.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.2005,
-    "halo_dark": 0.0129,
+    "coverage": 0.1964,
+    "halo_dark": 0.0105,
     "halo_light": 0.0,
-    "contrast_dark": 0.8597,
-    "contrast_light": 0.8797,
-    "legible_px": 467.0,
-    "legible_lstd": 15.4275,
+    "contrast_dark": 0.8587,
+    "contrast_light": 0.8767,
+    "legible_px": 456.0,
+    "legible_lstd": 15.3252,
     "oversat": 0.0,
-    "kb": 24.7285
+    "kb": 24.3916
    }
   },
   {
    "file": "char/warden/fb_char_warden_attack_03.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.2013,
-    "halo_dark": 0.0054,
+    "coverage": 0.1966,
+    "halo_dark": 0.0028,
     "halo_light": 0.0,
-    "contrast_dark": 0.8638,
-    "contrast_light": 0.8801,
-    "legible_px": 463.0,
-    "legible_lstd": 15.4787,
+    "contrast_dark": 0.8608,
+    "contrast_light": 0.8762,
+    "legible_px": 457.0,
+    "legible_lstd": 15.6281,
     "oversat": 0.0,
-    "kb": 24.8721
+    "kb": 24.1885
    }
   },
   {
    "file": "char/warden/fb_char_warden_attack_04.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.213,
-    "halo_dark": 0.0172,
+    "coverage": 0.2063,
+    "halo_dark": 0.0075,
     "halo_light": 0.0,
-    "contrast_dark": 0.8669,
-    "contrast_light": 0.8903,
-    "legible_px": 495.0,
-    "legible_lstd": 15.5239,
+    "contrast_dark": 0.8647,
+    "contrast_light": 0.8857,
+    "legible_px": 481.0,
+    "legible_lstd": 15.5983,
     "oversat": 0.0,
-    "kb": 25.7334
+    "kb": 25.4287
    }
   },
   {
    "file": "char/warden/fb_char_warden_attack_05.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.2148,
-    "halo_dark": 0.0173,
+    "coverage": 0.2086,
+    "halo_dark": 0.015,
     "halo_light": 0.0,
-    "contrast_dark": 0.8663,
-    "contrast_light": 0.8919,
-    "legible_px": 493.0,
-    "legible_lstd": 15.3335,
+    "contrast_dark": 0.8646,
+    "contrast_light": 0.8854,
+    "legible_px": 480.0,
+    "legible_lstd": 15.5486,
     "oversat": 0.0,
-    "kb": 26.5098
+    "kb": 26.0713
    }
   },
   {
    "file": "char/warden/fb_char_warden_attack_06.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.2101,
-    "halo_dark": 0.0051,
+    "coverage": 0.2032,
+    "halo_dark": 0.0052,
     "halo_light": 0.0,
-    "contrast_dark": 0.864,
-    "contrast_light": 0.8887,
-    "legible_px": 482.0,
-    "legible_lstd": 15.8386,
+    "contrast_dark": 0.8636,
+    "contrast_light": 0.8837,
+    "legible_px": 469.0,
+    "legible_lstd": 15.8727,
     "oversat": 0.0,
-    "kb": 25.1924
+    "kb": 24.8975
    }
   },
   {
    "file": "char/warden/fb_char_warden_attack_07.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.2038,
-    "halo_dark": 0.0228,
+    "coverage": 0.198,
+    "halo_dark": 0.0242,
     "halo_light": 0.0,
-    "contrast_dark": 0.8646,
-    "contrast_light": 0.8827,
-    "legible_px": 464.0,
-    "legible_lstd": 15.511,
+    "contrast_dark": 0.8613,
+    "contrast_light": 0.8777,
+    "legible_px": 451.0,
+    "legible_lstd": 15.6019,
     "oversat": 0.0,
-    "kb": 24.2686
+    "kb": 23.957
    }
   },
   {
    "file": "char/warden/fb_char_warden_idle_00.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.2224,
-    "halo_dark": 0.0125,
+    "coverage": 0.2143,
+    "halo_dark": 0.0126,
     "halo_light": 0.0,
-    "contrast_dark": 0.8733,
-    "contrast_light": 0.8882,
-    "legible_px": 512.0,
-    "legible_lstd": 14.3762,
+    "contrast_dark": 0.874,
+    "contrast_light": 0.8819,
+    "legible_px": 496.0,
+    "legible_lstd": 14.5028,
     "oversat": 0.0,
-    "kb": 27.6875
+    "kb": 26.665
    }
   },
   {
    "file": "char/warden/fb_char_warden_idle_01.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.224,
-    "halo_dark": 0.0124,
+    "coverage": 0.2159,
+    "halo_dark": 0.0128,
     "halo_light": 0.0,
-    "contrast_dark": 0.8723,
-    "contrast_light": 0.8837,
-    "legible_px": 516.0,
-    "legible_lstd": 14.6268,
+    "contrast_dark": 0.874,
+    "contrast_light": 0.8787,
+    "legible_px": 498.0,
+    "legible_lstd": 14.7602,
     "oversat": 0.0,
-    "kb": 28.251
+    "kb": 27.1992
    }
   },
   {
    "file": "char/warden/fb_char_warden_idle_02.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.2242,
-    "halo_dark": 0.0181,
+    "coverage": 0.2161,
+    "halo_dark": 0.0105,
     "halo_light": 0.0,
-    "contrast_dark": 0.8714,
-    "contrast_light": 0.8811,
-    "legible_px": 516.0,
-    "legible_lstd": 14.879,
+    "contrast_dark": 0.8703,
+    "contrast_light": 0.8775,
+    "legible_px": 496.0,
+    "legible_lstd": 14.9552,
     "oversat": 0.0,
-    "kb": 28.3193
+    "kb": 27.25
    }
   },
   {
    "file": "char/warden/fb_char_warden_idle_03.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.2229,
-    "halo_dark": 0.0127,
+    "coverage": 0.2148,
+    "halo_dark": 0.013,
     "halo_light": 0.0,
-    "contrast_dark": 0.8707,
-    "contrast_light": 0.882,
-    "legible_px": 512.0,
-    "legible_lstd": 14.8355,
+    "contrast_dark": 0.8701,
+    "contrast_light": 0.8786,
+    "legible_px": 494.0,
+    "legible_lstd": 14.8881,
     "oversat": 0.0,
-    "kb": 28.2451
+    "kb": 27.1367
    }
   },
   {
    "file": "char/warden/fb_char_warden_idle_04.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.221,
-    "halo_dark": 0.0151,
+    "coverage": 0.2131,
+    "halo_dark": 0.013,
     "halo_light": 0.0,
-    "contrast_dark": 0.873,
-    "contrast_light": 0.8843,
-    "legible_px": 509.0,
-    "legible_lstd": 14.5709,
+    "contrast_dark": 0.8729,
+    "contrast_light": 0.8784,
+    "legible_px": 490.0,
+    "legible_lstd": 14.6676,
     "oversat": 0.0,
-    "kb": 28.0605
+    "kb": 26.7383
    }
   },
   {
    "file": "char/warden/fb_char_warden_idle_05.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.2196,
-    "halo_dark": 0.0103,
+    "coverage": 0.2115,
+    "halo_dark": 0.0079,
     "halo_light": 0.0,
-    "contrast_dark": 0.8738,
-    "contrast_light": 0.8879,
-    "legible_px": 504.0,
-    "legible_lstd": 14.1551,
+    "contrast_dark": 0.8755,
+    "contrast_light": 0.8814,
+    "legible_px": 488.0,
+    "legible_lstd": 14.1762,
     "oversat": 0.0,
-    "kb": 27.6289
+    "kb": 26.4277
    }
   },
   {
    "file": "char/warden/fb_char_warden_idle_06.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.219,
-    "halo_dark": 0.0212,
+    "coverage": 0.2111,
+    "halo_dark": 0.0211,
     "halo_light": 0.0,
-    "contrast_dark": 0.8775,
-    "contrast_light": 0.8889,
-    "legible_px": 503.0,
-    "legible_lstd": 14.4043,
+    "contrast_dark": 0.8766,
+    "contrast_light": 0.8821,
+    "legible_px": 484.0,
+    "legible_lstd": 14.3261,
     "oversat": 0.0,
-    "kb": 27.29
+    "kb": 26.1885
    }
   },
   {
    "file": "char/warden/fb_char_warden_idle_07.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.22,
-    "halo_dark": 0.0129,
+    "coverage": 0.2122,
+    "halo_dark": 0.0104,
     "halo_light": 0.0,
-    "contrast_dark": 0.8784,
-    "contrast_light": 0.8881,
-    "legible_px": 504.0,
-    "legible_lstd": 14.3002,
+    "contrast_dark": 0.8772,
+    "contrast_light": 0.8818,
+    "legible_px": 486.0,
+    "legible_lstd": 14.306,
     "oversat": 0.0,
-    "kb": 27.416
+    "kb": 26.3877
    }
   },
   {
@@ -5752,120 +5500,120 @@
    "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_00.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.1995,
-    "halo_dark": 0.0297,
+    "coverage": 0.1908,
+    "halo_dark": 0.0265,
     "halo_light": 0.0,
-    "contrast_dark": 0.861,
-    "contrast_light": 0.484,
-    "legible_px": 454.0,
-    "legible_lstd": 17.5916,
+    "contrast_dark": 0.858,
+    "contrast_light": 0.4956,
+    "legible_px": 434.0,
+    "legible_lstd": 17.5321,
     "oversat": 0.0,
-    "kb": 27.6533
+    "kb": 27.3174
    }
   },
   {
    "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_01.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.2024,
-    "halo_dark": 0.0275,
+    "coverage": 0.1935,
+    "halo_dark": 0.028,
     "halo_light": 0.0,
-    "contrast_dark": 0.8621,
-    "contrast_light": 0.4827,
-    "legible_px": 470.0,
-    "legible_lstd": 17.4216,
+    "contrast_dark": 0.8583,
+    "contrast_light": 0.4935,
+    "legible_px": 448.0,
+    "legible_lstd": 17.4612,
     "oversat": 0.0,
-    "kb": 27.9092
+    "kb": 27.418
    }
   },
   {
    "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_02.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.2039,
-    "halo_dark": 0.0313,
+    "coverage": 0.1947,
+    "halo_dark": 0.0267,
     "halo_light": 0.0,
-    "contrast_dark": 0.8615,
-    "contrast_light": 0.4827,
-    "legible_px": 464.0,
-    "legible_lstd": 17.2589,
+    "contrast_dark": 0.8582,
+    "contrast_light": 0.4931,
+    "legible_px": 444.0,
+    "legible_lstd": 17.2912,
     "oversat": 0.0,
-    "kb": 28.4336
+    "kb": 27.8447
    }
   },
   {
    "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_03.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.2022,
-    "halo_dark": 0.0271,
+    "coverage": 0.1933,
+    "halo_dark": 0.0304,
     "halo_light": 0.0,
-    "contrast_dark": 0.8612,
-    "contrast_light": 0.4826,
-    "legible_px": 463.0,
-    "legible_lstd": 17.4589,
+    "contrast_dark": 0.8583,
+    "contrast_light": 0.4936,
+    "legible_px": 446.0,
+    "legible_lstd": 17.4326,
     "oversat": 0.0,
-    "kb": 27.7236
+    "kb": 27.3701
    }
   },
   {
    "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_04.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.199,
-    "halo_dark": 0.0253,
+    "coverage": 0.1904,
+    "halo_dark": 0.0308,
     "halo_light": 0.0,
-    "contrast_dark": 0.8612,
-    "contrast_light": 0.4843,
-    "legible_px": 456.0,
-    "legible_lstd": 17.5275,
+    "contrast_dark": 0.8585,
+    "contrast_light": 0.4954,
+    "legible_px": 437.0,
+    "legible_lstd": 17.7302,
     "oversat": 0.0,
-    "kb": 27.5801
+    "kb": 27.2637
    }
   },
   {
    "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_05.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.1958,
-    "halo_dark": 0.0302,
+    "coverage": 0.1873,
+    "halo_dark": 0.0332,
     "halo_light": 0.0,
-    "contrast_dark": 0.8608,
-    "contrast_light": 0.4843,
-    "legible_px": 448.0,
-    "legible_lstd": 17.3308,
+    "contrast_dark": 0.8574,
+    "contrast_light": 0.4957,
+    "legible_px": 427.0,
+    "legible_lstd": 17.1641,
     "oversat": 0.0,
-    "kb": 27.5186
+    "kb": 27.0225
    }
   },
   {
    "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_06.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.1945,
-    "halo_dark": 0.0384,
+    "coverage": 0.1863,
+    "halo_dark": 0.0319,
     "halo_light": 0.0,
-    "contrast_dark": 0.8628,
-    "contrast_light": 0.4834,
-    "legible_px": 450.0,
-    "legible_lstd": 17.2281,
+    "contrast_dark": 0.8578,
+    "contrast_light": 0.4945,
+    "legible_px": 429.0,
+    "legible_lstd": 17.2389,
     "oversat": 0.0,
-    "kb": 27.4951
+    "kb": 26.8711
    }
   },
   {
    "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_07.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.1961,
-    "halo_dark": 0.0227,
+    "coverage": 0.1877,
+    "halo_dark": 0.0283,
     "halo_light": 0.0,
-    "contrast_dark": 0.8612,
-    "contrast_light": 0.4854,
-    "legible_px": 451.0,
-    "legible_lstd": 17.2988,
+    "contrast_dark": 0.8576,
+    "contrast_light": 0.4972,
+    "legible_px": 432.0,
+    "legible_lstd": 17.3148,
     "oversat": 0.0,
-    "kb": 27.5225
+    "kb": 26.9775
    }
   },
   {
@@ -5993,14 +5741,14 @@
    "level": "PASS",
    "metrics": {
     "coverage": 0.0966,
-    "halo_dark": 0.046,
+    "halo_dark": 0.0451,
     "halo_light": 0.0,
-    "contrast_dark": 0.7976,
+    "contrast_dark": 0.7968,
     "contrast_light": 0.9848,
     "legible_px": 226.0,
-    "legible_lstd": 10.118,
+    "legible_lstd": 10.1045,
     "oversat": 0.0,
-    "kb": 15.5381
+    "kb": 15.4121
    }
   },
   {
@@ -6008,14 +5756,14 @@
    "level": "PASS",
    "metrics": {
     "coverage": 0.0974,
-    "halo_dark": 0.036,
+    "halo_dark": 0.0353,
     "halo_light": 0.0,
-    "contrast_dark": 0.7947,
+    "contrast_dark": 0.7939,
     "contrast_light": 0.9853,
     "legible_px": 226.0,
-    "legible_lstd": 9.9741,
+    "legible_lstd": 9.9604,
     "oversat": 0.0,
-    "kb": 15.8672
+    "kb": 15.7373
    }
   },
   {
@@ -6023,14 +5771,14 @@
    "level": "PASS",
    "metrics": {
     "coverage": 0.0977,
-    "halo_dark": 0.0355,
+    "halo_dark": 0.0349,
     "halo_light": 0.0,
-    "contrast_dark": 0.7954,
+    "contrast_dark": 0.7946,
     "contrast_light": 0.9849,
     "legible_px": 225.0,
-    "legible_lstd": 10.2017,
+    "legible_lstd": 10.1879,
     "oversat": 0.0,
-    "kb": 15.6006
+    "kb": 15.4785
    }
   },
   {
@@ -6038,14 +5786,14 @@
    "level": "PASS",
    "metrics": {
     "coverage": 0.0971,
-    "halo_dark": 0.0283,
+    "halo_dark": 0.0278,
     "halo_light": 0.0,
-    "contrast_dark": 0.7991,
+    "contrast_dark": 0.7983,
     "contrast_light": 0.9844,
     "legible_px": 222.0,
-    "legible_lstd": 10.0191,
+    "legible_lstd": 10.0053,
     "oversat": 0.0,
-    "kb": 15.5977
+    "kb": 15.4697
    }
   },
   {
@@ -6053,14 +5801,14 @@
    "level": "PASS",
    "metrics": {
     "coverage": 0.0961,
-    "halo_dark": 0.0232,
+    "halo_dark": 0.0227,
     "halo_light": 0.0,
-    "contrast_dark": 0.7952,
+    "contrast_dark": 0.7943,
     "contrast_light": 0.9851,
     "legible_px": 226.0,
-    "legible_lstd": 10.3593,
+    "legible_lstd": 10.3464,
     "oversat": 0.0,
-    "kb": 15.4609
+    "kb": 15.3418
    }
   },
   {
@@ -6068,14 +5816,14 @@
    "level": "PASS",
    "metrics": {
     "coverage": 0.0952,
-    "halo_dark": 0.0466,
+    "halo_dark": 0.0457,
     "halo_light": 0.0,
-    "contrast_dark": 0.7968,
+    "contrast_dark": 0.796,
     "contrast_light": 0.9857,
     "legible_px": 226.0,
-    "legible_lstd": 10.1726,
+    "legible_lstd": 10.1592,
     "oversat": 0.0,
-    "kb": 15.6074
+    "kb": 15.4863
    }
   },
   {
@@ -6083,14 +5831,14 @@
    "level": "PASS",
    "metrics": {
     "coverage": 0.095,
-    "halo_dark": 0.0418,
+    "halo_dark": 0.041,
     "halo_light": 0.0,
-    "contrast_dark": 0.7968,
+    "contrast_dark": 0.796,
     "contrast_light": 0.9851,
     "legible_px": 222.0,
-    "legible_lstd": 9.9831,
+    "legible_lstd": 9.9696,
     "oversat": 0.0,
-    "kb": 15.457
+    "kb": 15.335
    }
   },
   {
@@ -6098,14 +5846,14 @@
    "level": "PASS",
    "metrics": {
     "coverage": 0.0957,
-    "halo_dark": 0.0368,
+    "halo_dark": 0.0361,
     "halo_light": 0.0,
-    "contrast_dark": 0.7961,
+    "contrast_dark": 0.7952,
     "contrast_light": 0.9852,
     "legible_px": 224.0,
-    "legible_lstd": 10.3226,
+    "legible_lstd": 10.3094,
     "oversat": 0.0,
-    "kb": 15.5234
+    "kb": 15.3984
    }
   },
   {
@@ -6230,122 +5978,122 @@
   },
   {
    "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_00.png",
-   "level": "WARN",
+   "level": "PASS",
    "metrics": {
-    "coverage": 0.0601,
-    "halo_dark": 0.284,
+    "coverage": 0.071,
+    "halo_dark": 0.0212,
     "halo_light": 0.0,
-    "contrast_dark": 0.8289,
-    "contrast_light": 0.7248,
-    "legible_px": 124.0,
-    "legible_lstd": 19.2727,
+    "contrast_dark": 0.8312,
+    "contrast_light": 0.7395,
+    "legible_px": 155.0,
+    "legible_lstd": 19.2359,
     "oversat": 0.0,
-    "kb": 9.1475
+    "kb": 9.583
    }
   },
   {
    "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_01.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.0606,
-    "halo_dark": 0.006,
+    "coverage": 0.0711,
+    "halo_dark": 0.0042,
     "halo_light": 0.0,
-    "contrast_dark": 0.8226,
-    "contrast_light": 0.7118,
-    "legible_px": 144.0,
-    "legible_lstd": 19.6524,
+    "contrast_dark": 0.8391,
+    "contrast_light": 0.7228,
+    "legible_px": 160.0,
+    "legible_lstd": 19.5672,
     "oversat": 0.0,
-    "kb": 9.4453
+    "kb": 9.9219
    }
   },
   {
    "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_02.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.0613,
-    "halo_dark": 0.0242,
+    "coverage": 0.0708,
+    "halo_dark": 0.0203,
     "halo_light": 0.0,
-    "contrast_dark": 0.8331,
-    "contrast_light": 0.7133,
-    "legible_px": 142.0,
-    "legible_lstd": 18.3484,
+    "contrast_dark": 0.8319,
+    "contrast_light": 0.714,
+    "legible_px": 168.0,
+    "legible_lstd": 17.7686,
     "oversat": 0.0,
-    "kb": 9.3994
+    "kb": 10.0049
    }
   },
   {
    "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_03.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.0607,
-    "halo_dark": 0.0057,
+    "coverage": 0.0711,
+    "halo_dark": 0.0042,
     "halo_light": 0.0,
-    "contrast_dark": 0.8247,
-    "contrast_light": 0.7094,
-    "legible_px": 144.0,
-    "legible_lstd": 19.9637,
+    "contrast_dark": 0.8359,
+    "contrast_light": 0.6994,
+    "legible_px": 160.0,
+    "legible_lstd": 20.0416,
     "oversat": 0.0,
-    "kb": 9.4434
+    "kb": 10.1533
    }
   },
   {
    "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_04.png",
-   "level": "WARN",
+   "level": "PASS",
    "metrics": {
-    "coverage": 0.0599,
-    "halo_dark": 0.2927,
+    "coverage": 0.0708,
+    "halo_dark": 0.0254,
     "halo_light": 0.0,
-    "contrast_dark": 0.8346,
-    "contrast_light": 0.7282,
-    "legible_px": 124.0,
-    "legible_lstd": 19.4263,
+    "contrast_dark": 0.8314,
+    "contrast_light": 0.703,
+    "legible_px": 155.0,
+    "legible_lstd": 20.3612,
     "oversat": 0.0,
-    "kb": 9.2109
+    "kb": 9.7451
    }
   },
   {
    "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_05.png",
-   "level": "WARN",
+   "level": "PASS",
    "metrics": {
-    "coverage": 0.0589,
-    "halo_dark": 0.316,
+    "coverage": 0.0696,
+    "halo_dark": 0.0078,
     "halo_light": 0.0,
-    "contrast_dark": 0.8381,
-    "contrast_light": 0.7337,
-    "legible_px": 119.0,
-    "legible_lstd": 19.3172,
+    "contrast_dark": 0.8235,
+    "contrast_light": 0.71,
+    "legible_px": 151.0,
+    "legible_lstd": 19.2344,
     "oversat": 0.0,
-    "kb": 9.249
+    "kb": 9.9385
    }
   },
   {
    "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_06.png",
-   "level": "WARN",
+   "level": "PASS",
    "metrics": {
-    "coverage": 0.0583,
-    "halo_dark": 0.25,
+    "coverage": 0.0681,
+    "halo_dark": 0.0073,
     "halo_light": 0.0,
-    "contrast_dark": 0.8253,
-    "contrast_light": 0.7364,
-    "legible_px": 138.0,
-    "legible_lstd": 17.9958,
+    "contrast_dark": 0.831,
+    "contrast_light": 0.716,
+    "legible_px": 166.0,
+    "legible_lstd": 19.0103,
     "oversat": 0.0,
-    "kb": 9.2256
+    "kb": 9.6816
    }
   },
   {
    "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_07.png",
-   "level": "WARN",
+   "level": "PASS",
    "metrics": {
-    "coverage": 0.0591,
-    "halo_dark": 0.3188,
+    "coverage": 0.0698,
+    "halo_dark": 0.0153,
     "halo_light": 0.0,
-    "contrast_dark": 0.84,
-    "contrast_light": 0.7327,
-    "legible_px": 120.0,
-    "legible_lstd": 19.2078,
+    "contrast_dark": 0.8319,
+    "contrast_light": 0.713,
+    "legible_px": 152.0,
+    "legible_lstd": 18.3625,
     "oversat": 0.0,
-    "kb": 9.1514
+    "kb": 9.6348
    }
   },
   {
@@ -7912,45 +7660,45 @@
    "file": "enemy/ghoul/fb_enemy_ghoul_idle_00.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.1623,
-    "halo_dark": 0.0331,
+    "coverage": 0.1624,
+    "halo_dark": 0.0327,
     "halo_light": 0.0,
-    "contrast_dark": 0.8719,
-    "contrast_light": 0.5611,
+    "contrast_dark": 0.8724,
+    "contrast_light": 0.5617,
     "legible_px": 374.0,
-    "legible_lstd": 17.9752,
+    "legible_lstd": 18.017,
     "oversat": 0.0,
-    "kb": 20.7344
+    "kb": 20.7236
    }
   },
   {
    "file": "enemy/ghoul/fb_enemy_ghoul_idle_01.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.1646,
-    "halo_dark": 0.024,
+    "coverage": 0.1647,
+    "halo_dark": 0.0237,
     "halo_light": 0.0,
-    "contrast_dark": 0.8683,
-    "contrast_light": 0.5589,
+    "contrast_dark": 0.8687,
+    "contrast_light": 0.5594,
     "legible_px": 376.0,
-    "legible_lstd": 17.7549,
+    "legible_lstd": 17.7975,
     "oversat": 0.0,
-    "kb": 20.8965
+    "kb": 20.8887
    }
   },
   {
    "file": "enemy/ghoul/fb_enemy_ghoul_idle_02.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.1656,
-    "halo_dark": 0.0361,
+    "coverage": 0.1657,
+    "halo_dark": 0.0356,
     "halo_light": 0.0,
-    "contrast_dark": 0.8697,
-    "contrast_light": 0.5597,
+    "contrast_dark": 0.8701,
+    "contrast_light": 0.5602,
     "legible_px": 378.0,
-    "legible_lstd": 17.9259,
+    "legible_lstd": 17.9681,
     "oversat": 0.0,
-    "kb": 21.0186
+    "kb": 21.0039
    }
   },
   {
@@ -7958,14 +7706,14 @@
    "level": "PASS",
    "metrics": {
     "coverage": 0.1647,
-    "halo_dark": 0.0322,
+    "halo_dark": 0.0317,
     "halo_light": 0.0,
-    "contrast_dark": 0.8685,
-    "contrast_light": 0.5592,
+    "contrast_dark": 0.8689,
+    "contrast_light": 0.5597,
     "legible_px": 375.0,
-    "legible_lstd": 18.0222,
+    "legible_lstd": 18.064,
     "oversat": 0.0,
-    "kb": 20.8887
+    "kb": 20.8701
    }
   },
   {
@@ -7973,29 +7721,29 @@
    "level": "PASS",
    "metrics": {
     "coverage": 0.1626,
-    "halo_dark": 0.0299,
+    "halo_dark": 0.0295,
     "halo_light": 0.0,
-    "contrast_dark": 0.8695,
-    "contrast_light": 0.5595,
+    "contrast_dark": 0.8699,
+    "contrast_light": 0.5601,
     "legible_px": 375.0,
-    "legible_lstd": 17.9806,
+    "legible_lstd": 18.022,
     "oversat": 0.0,
-    "kb": 20.6426
+    "kb": 20.6328
    }
   },
   {
    "file": "enemy/ghoul/fb_enemy_ghoul_idle_05.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.1605,
-    "halo_dark": 0.0282,
+    "coverage": 0.1606,
+    "halo_dark": 0.0278,
     "halo_light": 0.0,
-    "contrast_dark": 0.8699,
-    "contrast_light": 0.5602,
+    "contrast_dark": 0.8704,
+    "contrast_light": 0.5608,
     "legible_px": 367.0,
-    "legible_lstd": 17.781,
+    "legible_lstd": 17.8248,
     "oversat": 0.0,
-    "kb": 20.4102
+    "kb": 20.4023
    }
   },
   {
@@ -8003,29 +7751,29 @@
    "level": "PASS",
    "metrics": {
     "coverage": 0.1595,
-    "halo_dark": 0.0136,
-    "halo_light": 0.0023,
-    "contrast_dark": 0.8708,
-    "contrast_light": 0.5637,
+    "halo_dark": 0.0135,
+    "halo_light": 0.0022,
+    "contrast_dark": 0.8712,
+    "contrast_light": 0.5643,
     "legible_px": 367.0,
-    "legible_lstd": 17.9417,
+    "legible_lstd": 17.9844,
     "oversat": 0.0,
-    "kb": 20.2314
+    "kb": 20.2188
    }
   },
   {
    "file": "enemy/ghoul/fb_enemy_ghoul_idle_07.png",
    "level": "PASS",
    "metrics": {
-    "coverage": 0.1602,
-    "halo_dark": 0.0234,
+    "coverage": 0.1603,
+    "halo_dark": 0.0231,
     "halo_light": 0.0,
-    "contrast_dark": 0.872,
-    "contrast_light": 0.5621,
+    "contrast_dark": 0.8724,
+    "contrast_light": 0.5627,
     "legible_px": 371.0,
-    "legible_lstd": 18.0037,
+    "legible_lstd": 18.0456,
     "oversat": 0.0,
-    "kb": 20.3154
+    "kb": 20.3027
    }
   },
   {
@@ -8752,120 +8500,120 @@
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_00.png",
    "level": "WARN",
    "metrics": {
-    "coverage": 0.2341,
-    "halo_dark": 0.0123,
+    "coverage": 0.2484,
+    "halo_dark": 0.0201,
     "halo_light": 0.0,
-    "contrast_dark": 0.9091,
-    "contrast_light": 0.3074,
-    "legible_px": 537.0,
-    "legible_lstd": 17.0428,
+    "contrast_dark": 0.9125,
+    "contrast_light": 0.2961,
+    "legible_px": 576.0,
+    "legible_lstd": 17.079,
     "oversat": 0.0,
-    "kb": 25.166
+    "kb": 25.4053
    }
   },
   {
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_01.png",
    "level": "WARN",
    "metrics": {
-    "coverage": 0.2386,
-    "halo_dark": 0.025,
+    "coverage": 0.2526,
+    "halo_dark": 0.0075,
     "halo_light": 0.0,
-    "contrast_dark": 0.9098,
-    "contrast_light": 0.3061,
-    "legible_px": 550.0,
-    "legible_lstd": 16.9968,
+    "contrast_dark": 0.9122,
+    "contrast_light": 0.2938,
+    "legible_px": 578.0,
+    "legible_lstd": 17.111,
     "oversat": 0.0,
-    "kb": 25.0977
+    "kb": 25.2998
    }
   },
   {
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_02.png",
    "level": "WARN",
    "metrics": {
-    "coverage": 0.2407,
-    "halo_dark": 0.018,
+    "coverage": 0.254,
+    "halo_dark": 0.0193,
     "halo_light": 0.0,
-    "contrast_dark": 0.9107,
-    "contrast_light": 0.3045,
-    "legible_px": 558.0,
-    "legible_lstd": 16.9793,
+    "contrast_dark": 0.9136,
+    "contrast_light": 0.2901,
+    "legible_px": 586.0,
+    "legible_lstd": 17.0489,
     "oversat": 0.0,
-    "kb": 25.3516
+    "kb": 25.1777
    }
   },
   {
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_03.png",
    "level": "WARN",
    "metrics": {
-    "coverage": 0.2393,
-    "halo_dark": 0.0189,
+    "coverage": 0.2528,
+    "halo_dark": 0.005,
     "halo_light": 0.0,
-    "contrast_dark": 0.9113,
-    "contrast_light": 0.302,
-    "legible_px": 555.0,
-    "legible_lstd": 17.1087,
+    "contrast_dark": 0.9125,
+    "contrast_light": 0.2901,
+    "legible_px": 583.0,
+    "legible_lstd": 17.1121,
     "oversat": 0.0,
-    "kb": 25.3662
+    "kb": 25.2061
    }
   },
   {
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_04.png",
    "level": "WARN",
    "metrics": {
-    "coverage": 0.2363,
-    "halo_dark": 0.022,
+    "coverage": 0.2494,
+    "halo_dark": 0.0229,
     "halo_light": 0.0,
-    "contrast_dark": 0.9093,
-    "contrast_light": 0.3061,
-    "legible_px": 544.0,
-    "legible_lstd": 17.0245,
+    "contrast_dark": 0.9126,
+    "contrast_light": 0.2944,
+    "legible_px": 577.0,
+    "legible_lstd": 17.1006,
     "oversat": 0.0,
-    "kb": 25.3604
+    "kb": 25.3291
    }
   },
   {
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_05.png",
    "level": "WARN",
    "metrics": {
-    "coverage": 0.2317,
-    "halo_dark": 0.021,
+    "coverage": 0.2456,
+    "halo_dark": 0.0152,
     "halo_light": 0.0,
-    "contrast_dark": 0.9099,
-    "contrast_light": 0.3085,
-    "legible_px": 535.0,
-    "legible_lstd": 16.9462,
+    "contrast_dark": 0.9127,
+    "contrast_light": 0.2966,
+    "legible_px": 567.0,
+    "legible_lstd": 16.7357,
     "oversat": 0.0,
-    "kb": 25.082
+    "kb": 25.1836
    }
   },
   {
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_06.png",
    "level": "WARN",
    "metrics": {
-    "coverage": 0.2294,
-    "halo_dark": 0.0219,
+    "coverage": 0.2434,
+    "halo_dark": 0.0151,
     "halo_light": 0.0,
-    "contrast_dark": 0.9094,
-    "contrast_light": 0.31,
-    "legible_px": 531.0,
-    "legible_lstd": 17.161,
+    "contrast_dark": 0.9122,
+    "contrast_light": 0.2994,
+    "legible_px": 563.0,
+    "legible_lstd": 16.9567,
     "oversat": 0.0,
-    "kb": 24.9893
+    "kb": 25.165
    }
   },
   {
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_07.png",
    "level": "WARN",
    "metrics": {
-    "coverage": 0.2301,
-    "halo_dark": 0.0143,
+    "coverage": 0.2444,
+    "halo_dark": 0.0072,
     "halo_light": 0.0,
-    "contrast_dark": 0.9095,
-    "contrast_light": 0.31,
-    "legible_px": 532.0,
-    "legible_lstd": 17.0882,
+    "contrast_dark": 0.9121,
+    "contrast_light": 0.2986,
+    "legible_px": 569.0,
+    "legible_lstd": 17.2517,
     "oversat": 0.0,
-    "kb": 24.7861
+    "kb": 25.1074
    }
   },
   {

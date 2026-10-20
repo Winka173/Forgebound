@@ -159,8 +159,8 @@ def plan_biped(K):
         e_ = Vector((0.06 if side == "f" else -0.04, (sh + 0.02) * y, 0.8))
         h_ = Vector((0.2 if side == "f" else 0.04, (sh + 0.04) * y, 0.62 if side == "f" else 0.6))
         if b == "ape":
-            e_ = Vector((0.12, (sh + 0.04) * y, 0.7))
-            h_ = Vector((0.3, (sh + 0.06) * y, 0.28))
+            e_ = Vector((0.12, (sh + 0.04) * y, 0.72))
+            h_ = Vector((0.3, (sh + 0.06) * y, 0.42))
         if b == "ghoul":
             h_ = Vector((0.32, (sh + 0.04) * y, 0.45))
         mat_u = sleeve if b not in ("skeleton", "skeleton_bulky") else m["bone"]
@@ -204,7 +204,7 @@ def plan_biped(K):
             elif b in ("skeleton", "skeleton_bulky"):
                 K.P(G.box(f"foot_{side}", (0.2, 0.09, 0.07), m["bone"], m=T((0.06, hy * y, 0.04)), bevel=0.025, smooth=True), f"shin_{side}")
             elif b in ("imp", "ghoul", "ape"):
-                K.P(G.uvsphere(f"foot_{side}", lr * 1.6, skin, m=T((0.07, hy * y, 0.06)), scale=(1.6, 0.9, 0.6)), f"shin_{side}")
+                K.P(G.uvsphere(f"foot_{side}", lr * 1.6, skin, m=T((0.07, hy * y, lr * 1.6 * 0.6)), scale=(1.6, 0.9, 0.6)), f"shin_{side}")
             else:
                 K.P(G.box(f"boot_{side}", (0.3, 0.16, 0.15), m["armor"] if b in ("bulky", "construct") else m["leather_wrap"],
                           m=T((0.06, hy * y, 0.075)), bevel=0.05, segs=2, smooth=True), f"shin_{side}")
@@ -1443,7 +1443,7 @@ def x_ice_chains(K):
 def x_ice_fists(K):
     for side in ("f", "b"):
         p = K.A["hand_" + side]
-        K.P(G.ico(f"ice_fist_{side}", 0.2, K.m["ice"], m=T(tuple(p)), subdiv=0, scale=(1.1, 1, 1.0)), f"fore_{side}")
+        K.P(G.ico(f"ice_fist_{side}", 0.17, K.m["ice"], m=T(tuple(p)), subdiv=0, scale=(1.1, 1, 1.0)), f"fore_{side}")
 
 
 def x_fur(K):
@@ -1481,9 +1481,9 @@ def x_bone_legs(K):
 
 def x_bone_club_arm(K):
     p = K.A["hand_f"]
-    K.P(G.tube("bone_club", [tuple(p), tuple(p + Vector((0.08, 0, -0.25))), tuple(p + Vector((0.12, 0, -0.45)))], [0.08, 0.1, 0.16], K.m["bone"],
+    K.P(G.tube("bone_club", [tuple(p), tuple(p + Vector((0.12, 0, -0.18))), tuple(p + Vector((0.22, 0, -0.3)))], [0.08, 0.1, 0.14], K.m["bone"],
                segs=8), "fore_f")
-    K.P(G.uvsphere("bone_club_knob", 0.17, K.m["bone"], m=T(tuple(p + Vector((0.13, 0, -0.5))))), "fore_f")
+    K.P(G.uvsphere("bone_club_knob", 0.15, K.m["bone"], m=T(tuple(p + Vector((0.24, 0, -0.33))))), "fore_f")
 
 
 def x_bell(K):
@@ -1658,8 +1658,9 @@ def t_rotor(K):
     K.P(G.tube("rotor_mast", [(0, 0, 1.2), (0, 0, 1.36)], 0.025, K.m["dark_iron"], segs=6), "body")
     for i in range(3):
         a = math.radians(120 * i)
-        K.P(G.slab(f"rotor_blade{i}", [(0, -0.04), (0.4, -0.03), (0.42, 0.03), (0, 0.04)], 0.015, K.m["brass"],
-                   m=T((0, 0, 1.36), (0, 0, math.degrees(a))), plane="XY"), "orbit")
+        # thicker blades, pitched 28 deg so they never sit exactly edge-on (thin edge-on slivers matted as halo)
+        K.P(G.slab(f"rotor_blade{i}", [(0, -0.05), (0.4, -0.04), (0.42, 0.04), (0, 0.05)], 0.04, K.m["brass"],
+                   m=T((0, 0, 1.36), (0, 0, math.degrees(a))) @ T((0, 0, 0), (28, 0, 0)), plane="XY"), "orbit")
 
 
 PARTS = {

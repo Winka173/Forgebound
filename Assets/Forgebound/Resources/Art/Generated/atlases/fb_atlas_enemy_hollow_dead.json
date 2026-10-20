@@ -8,10 +8,10 @@
    "index": 0,
    "image": "fb_atlas_enemy_hollow_dead.png",
    "size": [
-    1408,
-    1152
+    1536,
+    1024
    ],
-   "sha256": "219e4a29c5c16b168b384573ed64a0aa7d738a672b2812d8c3f63f16097712b5"
+   "sha256": "9c5a7be8c603dcf52a93dfef30f6e5ba5ccb1ab91235ac11d3be1894cb7721c0"
   }
  ],
  "sprites": [
@@ -20,14 +20,14 @@
    "file": "enemy/bone_archer/fb_enemy_bone_archer_idle_00.png",
    "page": 0,
    "rect": [
-    130,
-    786,
+    1075,
+    634,
     125,
     170
    ],
    "rect_unity": [
-    130,
-    196,
+    1075,
+    220,
     125,
     170
    ],
@@ -54,14 +54,14 @@
    "file": "enemy/bone_archer/fb_enemy_bone_archer_idle_01.png",
    "page": 0,
    "rect": [
-    410,
-    637,
+    695,
+    634,
     124,
     171
    ],
    "rect_unity": [
-    410,
-    344,
+    695,
+    219,
     124,
     171
    ],
@@ -88,14 +88,14 @@
    "file": "enemy/bone_archer/fb_enemy_bone_archer_idle_02.png",
    "page": 0,
    "rect": [
-    262,
-    638,
+    823,
+    634,
     122,
     171
    ],
    "rect_unity": [
-    262,
-    343,
+    823,
+    219,
     122,
     171
    ],
@@ -122,14 +122,14 @@
    "file": "enemy/bone_archer/fb_enemy_bone_archer_idle_03.png",
    "page": 0,
    "rect": [
-    4,
-    786,
+    949,
+    634,
     122,
     171
    ],
    "rect_unity": [
-    4,
-    195,
+    949,
+    219,
     122,
     171
    ],
@@ -156,14 +156,14 @@
    "file": "enemy/bone_archer/fb_enemy_bone_archer_idle_04.png",
    "page": 0,
    "rect": [
-    388,
-    812,
+    1204,
+    634,
     123,
     170
    ],
    "rect_unity": [
-    388,
-    170,
+    1204,
+    220,
     123,
     170
    ],
@@ -190,14 +190,14 @@
    "file": "enemy/bone_archer/fb_enemy_bone_archer_idle_05.png",
    "page": 0,
    "rect": [
-    259,
-    813,
+    4,
+    787,
     125,
     169
    ],
    "rect_unity": [
-    259,
-    170,
+    4,
+    68,
     125,
     169
    ],
@@ -224,14 +224,14 @@
    "file": "enemy/bone_archer/fb_enemy_bone_archer_idle_06.png",
    "page": 0,
    "rect": [
-    1134,
-    817,
+    390,
+    637,
     126,
     169
    ],
    "rect_unity": [
-    1134,
-    166,
+    390,
+    218,
     126,
     169
    ],
@@ -258,14 +258,14 @@
    "file": "enemy/bone_archer/fb_enemy_bone_archer_idle_07.png",
    "page": 0,
    "rect": [
-    767,
-    817,
+    1331,
+    634,
     127,
     169
    ],
    "rect_unity": [
-    767,
-    166,
+    1331,
+    221,
     127,
     169
    ],
@@ -292,224 +292,20 @@
    "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_00.png",
    "page": 0,
    "rect": [
-    1225,
+    935,
     228,
-    153,
+    156,
     219
    ],
    "rect_unity": [
-    1225,
-    705,
-    153,
+    935,
+    577,
+    156,
     219
    ],
    "pivot": [
-    0.69935,
+    0.70513,
     0.01821
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    21,
-    17
-   ],
-   "id": "bone_colossus",
-   "variant": null,
-   "state": "idle",
-   "frame": 0,
-   "source_sha256": "a8eab05ddb716d1e59ec2409042fce2f5aedba30c2963b23f784daade3ff365c"
-  },
-  {
-   "name": "fb_enemy_bone_colossus_idle_01",
-   "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_01.png",
-   "page": 0,
-   "rect": [
-    1225,
-    4,
-    146,
-    220
-   ],
-   "rect_unity": [
-    1225,
-    928,
-    146,
-    220
-   ],
-   "pivot": [
-    0.68493,
-    0.01812
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    28,
-    16
-   ],
-   "id": "bone_colossus",
-   "variant": null,
-   "state": "idle",
-   "frame": 1,
-   "source_sha256": "8df0d582db4c13423ae40707194d2d4fcd34a5a560d3a42085ae73345a9539e2"
-  },
-  {
-   "name": "fb_enemy_bone_colossus_idle_02",
-   "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_02.png",
-   "page": 0,
-   "rect": [
-    569,
-    4,
-    141,
-    224
-   ],
-   "rect_unity": [
-    569,
-    924,
-    141,
-    224
-   ],
-   "pivot": [
-    0.67376,
-    0.03566
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    33,
-    16
-   ],
-   "id": "bone_colossus",
-   "variant": null,
-   "state": "idle",
-   "frame": 2,
-   "source_sha256": "3f39b1445357f67907216c1345bf02cf71a2f570bfd9d1508c18881b0ca3dd76"
-  },
-  {
-   "name": "fb_enemy_bone_colossus_idle_03",
-   "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_03.png",
-   "page": 0,
-   "rect": [
-    833,
-    4,
-    141,
-    223
-   ],
-   "rect_unity": [
-    833,
-    925,
-    141,
-    223
-   ],
-   "pivot": [
-    0.67376,
-    0.03133
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    33,
-    16
-   ],
-   "id": "bone_colossus",
-   "variant": null,
-   "state": "idle",
-   "frame": 3,
-   "source_sha256": "1a4f66ba7f8a4ae1ad81d6e144b06f02866ff5658b932243a0faf028960e6f27"
-  },
-  {
-   "name": "fb_enemy_bone_colossus_idle_04",
-   "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_04.png",
-   "page": 0,
-   "rect": [
-    978,
-    230,
-    146,
-    219
-   ],
-   "rect_unity": [
-    978,
-    703,
-    146,
-    219
-   ],
-   "pivot": [
-    0.68493,
-    0.01821
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    28,
-    17
-   ],
-   "id": "bone_colossus",
-   "variant": null,
-   "state": "idle",
-   "frame": 4,
-   "source_sha256": "93eee9be99b82a363e972618968b630beb5f6e50425844592092255006196e63"
-  },
-  {
-   "name": "fb_enemy_bone_colossus_idle_05",
-   "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_05.png",
-   "page": 0,
-   "rect": [
-    336,
-    234,
-    153,
-    217
-   ],
-   "rect_unity": [
-    336,
-    701,
-    153,
-    217
-   ],
-   "pivot": [
-    0.69281,
-    0.01837
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    22,
-    19
-   ],
-   "id": "bone_colossus",
-   "variant": null,
-   "state": "idle",
-   "frame": 5,
-   "source_sha256": "d0e9cfebc9d4a80ef56610648c654539521b3043db5e93ce8dad9128367a98ba"
-  },
-  {
-   "name": "fb_enemy_bone_colossus_idle_06",
-   "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_06.png",
-   "page": 0,
-   "rect": [
-    731,
-    232,
-    158,
-    217
-   ],
-   "rect_unity": [
-    731,
-    703,
-    158,
-    217
-   ],
-   "pivot": [
-    0.6962,
-    0.01837
    ],
    "source_size": [
     256,
@@ -517,32 +313,236 @@
    ],
    "trim_offset": [
     18,
+    17
+   ],
+   "id": "bone_colossus",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "1cd3887db0af10d91e30e3036139d6add81c598fb2f1ab7f33ff0c395bd7e188"
+  },
+  {
+   "name": "fb_enemy_bone_colossus_idle_01",
+   "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_01.png",
+   "page": 0,
+   "rect": [
+    935,
+    4,
+    151,
+    220
+   ],
+   "rect_unity": [
+    935,
+    800,
+    151,
+    220
+   ],
+   "pivot": [
+    0.69536,
+    0.01812
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    23,
+    16
+   ],
+   "id": "bone_colossus",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "3e4dc7ed7df779ab735e74db70ab7fdee2235788aa985a7541f31af1774e48f9"
+  },
+  {
+   "name": "fb_enemy_bone_colossus_idle_02",
+   "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_02.png",
+   "page": 0,
+   "rect": [
+    1090,
+    4,
+    147,
+    220
+   ],
+   "rect_unity": [
+    1090,
+    800,
+    147,
+    220
+   ],
+   "pivot": [
+    0.68707,
+    0.01812
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    27,
+    16
+   ],
+   "id": "bone_colossus",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "b497f5df28b64d5baa189f30a857c34be27fb9783d93baf420d6da11a161a84b"
+  },
+  {
+   "name": "fb_enemy_bone_colossus_idle_03",
+   "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_03.png",
+   "page": 0,
+   "rect": [
+    1241,
+    4,
+    147,
+    220
+   ],
+   "rect_unity": [
+    1241,
+    800,
+    147,
+    220
+   ],
+   "pivot": [
+    0.68707,
+    0.01812
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    27,
+    16
+   ],
+   "id": "bone_colossus",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "fe84ebaba6b136d0fe47962614cd62da386a1be45b8a6d80287ac8866ae185ea"
+  },
+  {
+   "name": "fb_enemy_bone_colossus_idle_04",
+   "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_04.png",
+   "page": 0,
+   "rect": [
+    1095,
+    228,
+    151,
+    219
+   ],
+   "rect_unity": [
+    1095,
+    577,
+    151,
+    219
+   ],
+   "pivot": [
+    0.69536,
+    0.01821
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    23,
+    17
+   ],
+   "id": "bone_colossus",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "f90b16e75f226b2a6c401290ea2d9b30a1693cbce3d3e05f3e80679a4ea4e830"
+  },
+  {
+   "name": "fb_enemy_bone_colossus_idle_05",
+   "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_05.png",
+   "page": 0,
+   "rect": [
+    449,
+    233,
+    157,
+    217
+   ],
+   "rect_unity": [
+    449,
+    574,
+    157,
+    217
+   ],
+   "pivot": [
+    0.69427,
+    0.01837
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    19,
+    19
+   ],
+   "id": "bone_colossus",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "1358c6a0341f9e462fcce21a7832a39c07366a71013ac2b480eed55bf1b00bea"
+  },
+  {
+   "name": "fb_enemy_bone_colossus_idle_06",
+   "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_06.png",
+   "page": 0,
+   "rect": [
+    688,
+    230,
+    160,
+    217
+   ],
+   "rect_unity": [
+    688,
+    577,
+    160,
+    217
+   ],
+   "pivot": [
+    0.7,
+    0.01837
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    16,
     19
    ],
    "id": "bone_colossus",
    "variant": null,
    "state": "idle",
    "frame": 6,
-   "source_sha256": "8dcef1b150b6d0b633f3d56bb66215e4f98d957604e62f28381cf91899a8cce5"
+   "source_sha256": "623a85d19eed98a584e5e3d72dfced149feab91927f34f85e057761cc878af4b"
   },
   {
    "name": "fb_enemy_bone_colossus_idle_07",
    "file": "enemy/bone_colossus/fb_enemy_bone_colossus_idle_07.png",
    "page": 0,
    "rect": [
-    569,
-    232,
-    158,
+    1250,
+    228,
+    160,
     218
    ],
    "rect_unity": [
-    569,
-    702,
-    158,
+    1250,
+    578,
+    160,
     218
    ],
    "pivot": [
-    0.70253,
+    0.7,
     0.01829
    ],
    "source_size": [
@@ -550,28 +550,28 @@
     256
    ],
    "trim_offset": [
-    17,
+    16,
     18
    ],
    "id": "bone_colossus",
    "variant": null,
    "state": "idle",
    "frame": 7,
-   "source_sha256": "641a2fc4618063622ff3a0f17ca0b9b85c84e42f7f81baf17958c21b3a3501ba"
+   "source_sha256": "abcb27046dfa9c6baa0d56a690abc846656b5051d76f49fc1a523fb5757d836b"
   },
   {
    "name": "fb_enemy_crypt_bat_idle_00",
    "file": "enemy/crypt_bat/fb_enemy_crypt_bat_idle_00.png",
    "page": 0,
    "rect": [
-    198,
-    986,
+    889,
+    809,
     172,
     94
    ],
    "rect_unity": [
-    198,
-    72,
+    889,
+    121,
     172,
     94
    ],
@@ -598,14 +598,14 @@
    "file": "enemy/crypt_bat/fb_enemy_crypt_bat_idle_01.png",
    "page": 0,
    "rect": [
-    626,
-    818,
+    1331,
+    807,
     128,
     123
    ],
    "rect_unity": [
-    626,
-    211,
+    1331,
+    94,
     128,
     123
    ],
@@ -632,14 +632,14 @@
    "file": "enemy/crypt_bat/fb_enemy_crypt_bat_idle_02.png",
    "page": 0,
    "rect": [
-    515,
-    812,
+    133,
+    787,
     107,
     134
    ],
    "rect_unity": [
-    515,
-    206,
+    133,
+    103,
     107,
     134
    ],
@@ -666,14 +666,14 @@
    "file": "enemy/crypt_bat/fb_enemy_crypt_bat_idle_03.png",
    "page": 0,
    "rect": [
-    1264,
-    817,
+    244,
+    787,
     128,
     127
    ],
    "rect_unity": [
-    1264,
-    208,
+    244,
+    110,
     128,
     127
    ],
@@ -700,14 +700,14 @@
    "file": "enemy/crypt_bat/fb_enemy_crypt_bat_idle_04.png",
    "page": 0,
    "rect": [
-    898,
-    818,
+    1075,
+    808,
     173,
     105
    ],
    "rect_unity": [
-    898,
-    229,
+    1075,
+    111,
     173,
     105
    ],
@@ -734,14 +734,14 @@
    "file": "enemy/crypt_bat/fb_enemy_crypt_bat_idle_05.png",
    "page": 0,
    "rect": [
-    898,
-    927,
+    695,
+    809,
     190,
     103
    ],
    "rect_unity": [
-    898,
-    122,
+    695,
+    112,
     190,
     103
    ],
@@ -768,14 +768,14 @@
    "file": "enemy/crypt_bat/fb_enemy_crypt_bat_idle_06.png",
    "page": 0,
    "rect": [
-    515,
-    950,
+    376,
+    816,
     189,
     100
    ],
    "rect_unity": [
-    515,
-    102,
+    376,
+    108,
     189,
     100
    ],
@@ -802,14 +802,14 @@
    "file": "enemy/crypt_bat/fb_enemy_crypt_bat_idle_07.png",
    "page": 0,
    "rect": [
-    4,
-    961,
+    569,
+    916,
     190,
     96
    ],
    "rect_unity": [
-    4,
-    95,
+    569,
+    12,
     190,
     96
    ],
@@ -836,20 +836,20 @@
    "file": "enemy/ghoul/fb_enemy_ghoul_idle_00.png",
    "page": 0,
    "rect": [
-    731,
-    453,
+    141,
+    420,
     138,
-    179
+    180
    ],
    "rect_unity": [
-    731,
-    520,
+    141,
+    424,
     138,
-    179
+    180
    ],
    "pivot": [
     0.68841,
-    0.01669
+    0.02215
    ],
    "source_size": [
     256,
@@ -863,7 +863,7 @@
    "variant": null,
    "state": "idle",
    "frame": 0,
-   "source_sha256": "f12c2eb48ecfa819f73eb3e53e32957bc7d2177389a470ba9f497c99f723c15c"
+   "source_sha256": "ef6d7153246b6592bc4025b3350f46d0666bb6834044cc163dc9d3c47bfd1879"
   },
   {
    "name": "fb_enemy_ghoul_idle_01",
@@ -873,17 +873,17 @@
     113,
     235,
     135,
-    180
+    181
    ],
    "rect_unity": [
     113,
-    737,
+    608,
     135,
-    180
+    181
    ],
    "pivot": [
     0.68148,
-    0.0166
+    0.02203
    ],
    "source_size": [
     256,
@@ -897,27 +897,27 @@
    "variant": null,
    "state": "idle",
    "frame": 1,
-   "source_sha256": "5dce6d325082df0c28c550a0795e18ca8a29693c08b7e5548cdf741572258251"
+   "source_sha256": "df2f8c62174ce8957e6539fc8b302287ce8abee3e8186c3894eda24ce3291617"
   },
   {
    "name": "fb_enemy_ghoul_idle_02",
    "file": "enemy/ghoul/fb_enemy_ghoul_idle_02.png",
    "page": 0,
    "rect": [
-    4,
-    419,
+    252,
+    235,
     133,
-    180
+    181
    ],
    "rect_unity": [
-    4,
-    553,
+    252,
+    608,
     133,
-    180
+    181
    ],
    "pivot": [
     0.67669,
-    0.0166
+    0.02203
    ],
    "source_size": [
     256,
@@ -931,27 +931,27 @@
    "variant": null,
    "state": "idle",
    "frame": 2,
-   "source_sha256": "934c06c6e2174190b5485c821bd3f1147fb4b9017ffcf62d4442171bf0049fc0"
+   "source_sha256": "5edbcbe5ef4e7a7b6ebf4ecaf90459b64ec2ad38b692a83675ee6f28e337a0d6"
   },
   {
    "name": "fb_enemy_ghoul_idle_03",
    "file": "enemy/ghoul/fb_enemy_ghoul_idle_03.png",
    "page": 0,
    "rect": [
-    141,
-    419,
+    4,
+    420,
     133,
-    180
+    181
    ],
    "rect_unity": [
-    141,
-    553,
+    4,
+    423,
     133,
-    180
+    181
    ],
    "pivot": [
     0.67669,
-    0.0166
+    0.02203
    ],
    "source_size": [
     256,
@@ -965,27 +965,27 @@
    "variant": null,
    "state": "idle",
    "frame": 3,
-   "source_sha256": "ed76f135c9db60dd3a666ee0af580d4c901ffb4cab002e35523801590c23872b"
+   "source_sha256": "fcea0b622cac3ac682029b20c1edc17d4f833eb81b3b0a42e31160eaa062844a"
   },
   {
    "name": "fb_enemy_ghoul_idle_04",
    "file": "enemy/ghoul/fb_enemy_ghoul_idle_04.png",
    "page": 0,
    "rect": [
-    873,
-    453,
+    283,
+    420,
     134,
-    179
+    180
    ],
    "rect_unity": [
-    873,
-    520,
+    283,
+    424,
     134,
-    179
+    180
    ],
    "pivot": [
     0.6791,
-    0.01669
+    0.02215
    ],
    "source_size": [
     256,
@@ -999,27 +999,27 @@
    "variant": null,
    "state": "idle",
    "frame": 4,
-   "source_sha256": "b057dbce8a17a1a2022d0f7720ef35892cbeb0abf74d33523a6ad0c4249ec00b"
+   "source_sha256": "3aff60d3d8301cad0df937d4740d10ab8c531289af34efd682a1aef93ffb9771"
   },
   {
    "name": "fb_enemy_ghoul_idle_05",
    "file": "enemy/ghoul/fb_enemy_ghoul_idle_05.png",
    "page": 0,
    "rect": [
-    626,
-    636,
+    752,
+    451,
     137,
-    178
+    179
    ],
    "rect_unity": [
-    626,
-    338,
+    752,
+    394,
     137,
-    178
+    179
    ],
    "pivot": [
     0.68613,
-    0.01678
+    0.02227
    ],
    "source_size": [
     256,
@@ -1033,27 +1033,27 @@
    "variant": null,
    "state": "idle",
    "frame": 5,
-   "source_sha256": "6f3646ac2ac9ad6532fce2d267893ff43dd7ed5354736de8d19267fa151f2968"
+   "source_sha256": "d3cca38e06b6de65b6a2c1d201f377cad1ccd78381b6ef4783304f4af6c24128"
   },
   {
    "name": "fb_enemy_ghoul_idle_06",
    "file": "enemy/ghoul/fb_enemy_ghoul_idle_06.png",
    "page": 0,
    "rect": [
-    767,
-    636,
+    553,
+    634,
     138,
-    177
+    178
    ],
    "rect_unity": [
-    767,
-    339,
+    553,
+    212,
     138,
-    177
+    178
    ],
    "pivot": [
     0.68841,
-    0.01688
+    0.0224
    ],
    "source_size": [
     256,
@@ -1067,27 +1067,27 @@
    "variant": null,
    "state": "idle",
    "frame": 6,
-   "source_sha256": "bb5eb8128207ac5e1ed59f41bb3333dcc922f73176925712a32c432302385a15"
+   "source_sha256": "4b200add3859ea3a0bd427fbdb1f3e42fd7a2917f420ffc198acc5d30f8a3fdb"
   },
   {
    "name": "fb_enemy_ghoul_idle_07",
    "file": "enemy/ghoul/fb_enemy_ghoul_idle_07.png",
    "page": 0,
    "rect": [
-    1134,
-    635,
+    610,
+    451,
     138,
-    178
+    179
    ],
    "rect_unity": [
-    1134,
-    339,
+    610,
+    394,
     138,
-    178
+    179
    ],
    "pivot": [
     0.68841,
-    0.01678
+    0.02227
    ],
    "source_size": [
     256,
@@ -1101,21 +1101,21 @@
    "variant": null,
    "state": "idle",
    "frame": 7,
-   "source_sha256": "13eaf4fd60a25de41b0320dca86c4e1b57141ff66b80593661ded3c9757b8ed0"
+   "source_sha256": "4b6b80e5bdbf2444de6efbbf8e037a5c6fe2616098a5ead9a0e1bbb19905d0b8"
   },
   {
    "name": "fb_enemy_grave_crawler_idle_00",
    "file": "enemy/grave_crawler/fb_enemy_grave_crawler_idle_00.png",
    "page": 0,
    "rect": [
-    1092,
-    990,
+    1139,
+    917,
     120,
     76
    ],
    "rect_unity": [
-    1092,
-    86,
+    1139,
+    31,
     120,
     76
    ],
@@ -1142,14 +1142,14 @@
    "file": "enemy/grave_crawler/fb_enemy_grave_crawler_idle_01.png",
    "page": 0,
    "rect": [
-    374,
-    986,
+    763,
+    916,
     121,
     76
    ],
    "rect_unity": [
-    374,
-    90,
+    763,
+    32,
     121,
     76
    ],
@@ -1176,14 +1176,14 @@
    "file": "enemy/grave_crawler/fb_enemy_grave_crawler_idle_02.png",
    "page": 0,
    "rect": [
-    1264,
-    948,
+    889,
+    907,
     121,
     78
    ],
    "rect_unity": [
-    1264,
-    126,
+    889,
+    39,
     121,
     78
    ],
@@ -1210,14 +1210,14 @@
    "file": "enemy/grave_crawler/fb_enemy_grave_crawler_idle_03.png",
    "page": 0,
    "rect": [
-    708,
-    990,
+    1014,
+    917,
     121,
     76
    ],
    "rect_unity": [
-    708,
-    86,
+    1014,
+    31,
     121,
     76
    ],
@@ -1244,14 +1244,14 @@
    "file": "enemy/grave_crawler/fb_enemy_grave_crawler_idle_04.png",
    "page": 0,
    "rect": [
-    1216,
-    1030,
+    244,
+    918,
     120,
     76
    ],
    "rect_unity": [
-    1216,
-    46,
+    244,
+    30,
     120,
     76
    ],
@@ -1278,14 +1278,14 @@
    "file": "enemy/grave_crawler/fb_enemy_grave_crawler_idle_05.png",
    "page": 0,
    "rect": [
-    833,
-    1034,
+    368,
+    920,
     120,
     74
    ],
    "rect_unity": [
-    833,
-    44,
+    368,
+    30,
     120,
     74
    ],
@@ -1312,14 +1312,14 @@
    "file": "enemy/grave_crawler/fb_enemy_grave_crawler_idle_06.png",
    "page": 0,
    "rect": [
-    499,
-    1054,
+    1387,
+    934,
     118,
     73
    ],
    "rect_unity": [
-    499,
-    25,
+    1387,
+    17,
     118,
     73
    ],
@@ -1346,14 +1346,14 @@
    "file": "enemy/grave_crawler/fb_enemy_grave_crawler_idle_07.png",
    "page": 0,
    "rect": [
-    957,
-    1034,
+    1263,
+    934,
     120,
     74
    ],
    "rect_unity": [
-    957,
-    44,
+    1263,
+    16,
     120,
     74
    ],
@@ -1387,7 +1387,7 @@
    ],
    "rect_unity": [
     449,
-    923,
+    795,
     116,
     225
    ],
@@ -1421,7 +1421,7 @@
    ],
    "rect_unity": [
     113,
-    921,
+    793,
     110,
     227
    ],
@@ -1455,7 +1455,7 @@
    ],
    "rect_unity": [
     4,
-    920,
+    792,
     105,
     228
    ],
@@ -1489,7 +1489,7 @@
    ],
    "rect_unity": [
     227,
-    921,
+    793,
     105,
     227
    ],
@@ -1523,7 +1523,7 @@
    ],
    "rect_unity": [
     336,
-    922,
+    794,
     109,
     226
    ],
@@ -1550,14 +1550,14 @@
    "file": "enemy/grave_warden/fb_enemy_grave_warden_idle_05.png",
    "page": 0,
    "rect": [
-    714,
+    569,
     4,
     115,
     224
    ],
    "rect_unity": [
-    714,
-    924,
+    569,
+    796,
     115,
     224
    ],
@@ -1584,14 +1584,14 @@
    "file": "enemy/grave_warden/fb_enemy_grave_warden_idle_06.png",
    "page": 0,
    "rect": [
-    1102,
+    812,
     4,
     119,
     222
    ],
    "rect_unity": [
-    1102,
-    926,
+    812,
+    798,
     119,
     222
    ],
@@ -1618,14 +1618,14 @@
    "file": "enemy/grave_warden/fb_enemy_grave_warden_idle_07.png",
    "page": 0,
    "rect": [
-    978,
+    688,
     4,
     120,
     222
    ],
    "rect_unity": [
-    978,
-    926,
+    688,
+    798,
     120,
     222
    ],
@@ -1652,14 +1652,14 @@
    "file": "enemy/necromancer/fb_enemy_necromancer_idle_00.png",
    "page": 0,
    "rect": [
-    493,
-    454,
+    893,
+    451,
     129,
     179
    ],
    "rect_unity": [
-    493,
-    519,
+    893,
+    394,
     129,
     179
    ],
@@ -1686,14 +1686,14 @@
    "file": "enemy/necromancer/fb_enemy_necromancer_idle_01.png",
    "page": 0,
    "rect": [
-    1128,
-    451,
+    1250,
+    450,
     131,
     180
    ],
    "rect_unity": [
-    1128,
-    521,
+    1250,
+    394,
     131,
     180
    ],
@@ -1720,14 +1720,14 @@
    "file": "enemy/necromancer/fb_enemy_necromancer_idle_02.png",
    "page": 0,
    "rect": [
-    1263,
-    451,
+    1385,
+    450,
     130,
     180
    ],
    "rect_unity": [
-    1263,
-    521,
+    1385,
+    394,
     130,
     180
    ],
@@ -1754,14 +1754,14 @@
    "file": "enemy/necromancer/fb_enemy_necromancer_idle_03.png",
    "page": 0,
    "rect": [
-    278,
-    455,
+    1026,
+    451,
     128,
     179
    ],
    "rect_unity": [
-    278,
-    518,
+    1026,
+    394,
     128,
     179
    ],
@@ -1788,14 +1788,14 @@
    "file": "enemy/necromancer/fb_enemy_necromancer_idle_04.png",
    "page": 0,
    "rect": [
-    4,
-    603,
+    421,
+    454,
     128,
     179
    ],
    "rect_unity": [
-    4,
-    370,
+    421,
+    391,
     128,
     179
    ],
@@ -1822,14 +1822,14 @@
    "file": "enemy/necromancer/fb_enemy_necromancer_idle_05.png",
    "page": 0,
    "rect": [
-    1276,
-    635,
+    4,
+    605,
     125,
     178
    ],
    "rect_unity": [
-    1276,
-    339,
+    4,
+    241,
     125,
     178
    ],
@@ -1856,14 +1856,14 @@
    "file": "enemy/necromancer/fb_enemy_necromancer_idle_06.png",
    "page": 0,
    "rect": [
-    1011,
-    635,
+    267,
+    604,
     119,
     179
    ],
    "rect_unity": [
-    1011,
-    338,
+    267,
+    241,
     119,
     179
    ],
@@ -1890,14 +1890,14 @@
    "file": "enemy/necromancer/fb_enemy_necromancer_idle_07.png",
    "page": 0,
    "rect": [
-    136,
-    603,
+    141,
+    604,
     122,
     179
    ],
    "rect_unity": [
-    136,
-    370,
+    141,
+    241,
     122,
     179
    ],

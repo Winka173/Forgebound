@@ -8,10 +8,10 @@
    "index": 0,
    "image": "fb_atlas_char_warden.png",
    "size": [
-    640,
-    896
+    1024,
+    512
    ],
-   "sha256": "040ceca75e93cb6d286797fda60899fda66ee9ed91c6e131b186f336038f996e"
+   "sha256": "334e24de4128020ce68066e9ffc5f58ca320468b1fb614f67b0ff07d1bad4152"
   }
  ],
  "sprites": [
@@ -20,20 +20,20 @@
    "file": "char/warden/fb_char_warden_attack_00.png",
    "page": 0,
    "rect": [
-    101,
+    868,
     4,
-    98,
-    218
+    93,
+    216
    ],
    "rect_unity": [
-    101,
-    674,
-    98,
-    218
+    868,
+    292,
+    93,
+    216
    ],
    "pivot": [
-    0.43878,
-    0.03205
+    0.46237,
+    0.02309
    ],
    "source_size": [
     256,
@@ -47,27 +47,27 @@
    "variant": null,
    "state": "attack",
    "frame": 0,
-   "source_sha256": "f547ac777fcfbda1f933a5b00db3cb90e7900062c678208dee223d793d7db740"
+   "source_sha256": "43928dc82fff3088562ed0aff314252779a772fa0589417e30e042f1bc51fac2"
   },
   {
    "name": "fb_char_warden_attack_01",
    "file": "char/warden/fb_char_warden_attack_01.png",
    "page": 0,
    "rect": [
-    4,
+    343,
     4,
     93,
-    219
+    217
    ],
    "rect_unity": [
-    4,
-    673,
+    343,
+    291,
     93,
-    219
+    217
    ],
    "pivot": [
     0.52688,
-    0.03191
+    0.02298
    ],
    "source_size": [
     256,
@@ -81,27 +81,27 @@
    "variant": null,
    "state": "attack",
    "frame": 1,
-   "source_sha256": "4ba83ddd34b87679b26df248884e396cdbfced1dfd5f07d502c2a1462cca6c57"
+   "source_sha256": "e53299953d0167690b9b7ea4d342ebcbb0954eb6bbe099c70bfd770178a7eca3"
   },
   {
    "name": "fb_char_warden_attack_02",
    "file": "char/warden/fb_char_warden_attack_02.png",
    "page": 0,
    "rect": [
-    203,
+    672,
     4,
     94,
-    218
+    216
    ],
    "rect_unity": [
-    203,
-    674,
+    672,
+    292,
     94,
-    218
+    216
    ],
    "pivot": [
     0.55319,
-    0.03205
+    0.02309
    ],
    "source_size": [
     256,
@@ -115,60 +115,60 @@
    "variant": null,
    "state": "attack",
    "frame": 2,
-   "source_sha256": "f6a1e8c25de4c792cc6a0664cf24e156a059ff9af405f0d07a829156237857e7"
+   "source_sha256": "9171920008b57952a251eab365dcb1b014e4a5cfa14035f692eb749bcb3f40e1"
   },
   {
    "name": "fb_char_warden_attack_03",
    "file": "char/warden/fb_char_warden_attack_03.png",
    "page": 0,
    "rect": [
-    538,
+    770,
     4,
-    97,
-    217
+    94,
+    216
    ],
    "rect_unity": [
-    538,
-    675,
-    97,
-    217
+    770,
+    292,
+    94,
+    216
    ],
    "pivot": [
-    0.57732,
-    0.02759
+    0.56383,
+    0.02309
    ],
    "source_size": [
     256,
     256
    ],
    "trim_offset": [
-    72,
+    75,
     21
    ],
    "id": "warden",
    "variant": null,
    "state": "attack",
    "frame": 3,
-   "source_sha256": "7372444d255834f55c9ecb36480b45903de5d22d1e826aba4e3d6afdec496dbf"
+   "source_sha256": "6a62bbae9ed3210c3cac362cfdb4c582829b6c8985c5cd9d7341c869acdd249e"
   },
   {
    "name": "fb_char_warden_attack_04",
    "file": "char/warden/fb_char_warden_attack_04.png",
    "page": 0,
    "rect": [
-    379,
-    446,
-    110,
+    4,
+    225,
+    104,
     212
    ],
    "rect_unity": [
-    379,
-    238,
-    110,
+    4,
+    75,
+    104,
     212
    ],
    "pivot": [
-    0.29091,
+    0.30769,
     0.02352
    ],
    "source_size": [
@@ -183,26 +183,26 @@
    "variant": null,
    "state": "attack",
    "frame": 4,
-   "source_sha256": "6590268bbc55225581d6335a0a996397a5a19a944899bc3f7521dce4af4ac754"
+   "source_sha256": "59bc9803b79a9751d1edb396c91ac9f1d9e6d9b31c325f3413831978e603f704"
   },
   {
    "name": "fb_char_warden_attack_05",
    "file": "char/warden/fb_char_warden_attack_05.png",
    "page": 0,
    "rect": [
-    379,
-    662,
-    116,
+    112,
+    225,
+    110,
     209
    ],
    "rect_unity": [
-    379,
-    25,
-    116,
+    112,
+    78,
+    110,
     209
    ],
    "pivot": [
-    0.25,
+    0.26364,
     0.02386
    ],
    "source_size": [
@@ -217,26 +217,26 @@
    "variant": null,
    "state": "attack",
    "frame": 5,
-   "source_sha256": "28548b4dfbdb2ccfd6b064e0130bf85e9c9b6d8fbaf94e9cab405bfd18340adb"
+   "source_sha256": "a9b63ae507b10744baf5421e29a18d1cefbdd816db96e896dc75e992fae86fca"
   },
   {
    "name": "fb_char_warden_attack_06",
    "file": "char/warden/fb_char_warden_attack_06.png",
    "page": 0,
    "rect": [
-    521,
-    445,
-    107,
+    894,
+    224,
+    101,
     213
    ],
    "rect_unity": [
-    521,
-    238,
-    107,
+    894,
+    75,
+    101,
     213
    ],
    "pivot": [
-    0.3271,
+    0.34653,
     0.02341
    ],
    "source_size": [
@@ -251,27 +251,27 @@
    "variant": null,
    "state": "attack",
    "frame": 6,
-   "source_sha256": "429563cd2782ede91d08e2edab50a206e85d688836291991ac268c49d19b970e"
+   "source_sha256": "d09b6765f19b39ddba92d1e261de13d9f99a7157e82f090b8a349926e45d64cf"
   },
   {
    "name": "fb_char_warden_attack_07",
    "file": "char/warden/fb_char_warden_attack_07.png",
    "page": 0,
    "rect": [
-    418,
-    225,
-    99,
-    217
+    677,
+    224,
+    94,
+    215
    ],
    "rect_unity": [
-    418,
-    454,
-    99,
-    217
+    677,
+    73,
+    94,
+    215
    ],
    "pivot": [
-    0.40404,
-    0.0322
+    0.42553,
+    0.0232
    ],
    "source_size": [
     256,
@@ -285,26 +285,26 @@
    "variant": null,
    "state": "attack",
    "frame": 7,
-   "source_sha256": "eeb7fa4d7049fb31d7488849e99fc37006815c13e93fb451781fbea48df94c14"
+   "source_sha256": "a6bcbeb68b55478343b35893f4564d69f1fd3f5a954b7d36dbd27414980e1ade"
   },
   {
    "name": "fb_char_warden_idle_00",
    "file": "char/warden/fb_char_warden_idle_00.png",
    "page": 0,
    "rect": [
-    101,
-    226,
-    120,
+    440,
+    4,
+    114,
     216
    ],
    "rect_unity": [
-    101,
-    454,
-    120,
+    440,
+    292,
+    114,
     216
    ],
    "pivot": [
-    0.35833,
+    0.37719,
     0.02309
    ],
    "source_size": [
@@ -319,26 +319,26 @@
    "variant": null,
    "state": "idle",
    "frame": 0,
-   "source_sha256": "bac50cb2741d5604d7fc97fb4abdfa8f26bf47cca00f4524edf2d7b72524e0b1"
+   "source_sha256": "1c4ca7312eb5a119efe93362501cc25dba57eea354ab2b00fb6707ef205848df"
   },
   {
    "name": "fb_char_warden_idle_01",
    "file": "char/warden/fb_char_warden_idle_01.png",
    "page": 0,
    "rect": [
-    301,
     4,
-    116,
+    4,
+    111,
     217
    ],
    "rect_unity": [
-    301,
-    675,
-    116,
+    4,
+    291,
+    111,
     217
    ],
    "pivot": [
-    0.37069,
+    0.38739,
     0.02298
    ],
    "source_size": [
@@ -353,26 +353,26 @@
    "variant": null,
    "state": "idle",
    "frame": 1,
-   "source_sha256": "ae1c1d224f222a34c4ef8778548c8f649776d963fb7350bdaba23ef1593b7c1b"
+   "source_sha256": "dff408a37cfea2eae2a132c4d2876121cf1b87ceb1f01894a3ebf834b96f74bc"
   },
   {
    "name": "fb_char_warden_idle_02",
    "file": "char/warden/fb_char_warden_idle_02.png",
    "page": 0,
    "rect": [
-    421,
+    119,
     4,
-    113,
+    108,
     217
    ],
    "rect_unity": [
-    421,
-    675,
-    113,
+    119,
+    291,
+    108,
     217
    ],
    "pivot": [
-    0.37168,
+    0.38889,
     0.02298
    ],
    "source_size": [
@@ -387,26 +387,26 @@
    "variant": null,
    "state": "idle",
    "frame": 2,
-   "source_sha256": "a8e2a13ead8b1a2312f66d3aa7586aff1dcddabf246f5055528182a9bc78ea67"
+   "source_sha256": "361809f7e0ae5f4317c1dec0c07319c647fc4382df8e06fdc4204b8043ebb3b4"
   },
   {
    "name": "fb_char_warden_idle_03",
    "file": "char/warden/fb_char_warden_idle_03.png",
    "page": 0,
    "rect": [
-    301,
-    225,
-    113,
+    231,
+    4,
+    108,
     217
    ],
    "rect_unity": [
-    301,
-    454,
-    113,
+    231,
+    291,
+    108,
     217
    ],
    "pivot": [
-    0.38053,
+    0.39815,
     0.02298
    ],
    "source_size": [
@@ -421,26 +421,26 @@
    "variant": null,
    "state": "idle",
    "frame": 3,
-   "source_sha256": "ae4d67b6045a96e41e40d01ee216e3380d079f381792c85594727fad9eee02b8"
+   "source_sha256": "f0ba4c5270273be7ef979d471be4bb0c9fe1abb0cd98aa56416be1e063bbc600"
   },
   {
    "name": "fb_char_warden_idle_04",
    "file": "char/warden/fb_char_warden_idle_04.png",
    "page": 0,
    "rect": [
-    521,
-    225,
-    115,
+    558,
+    4,
+    110,
     216
    ],
    "rect_unity": [
-    521,
-    455,
-    115,
+    558,
+    292,
+    110,
     216
    ],
    "pivot": [
-    0.37391,
+    0.39091,
     0.02309
    ],
    "source_size": [
@@ -455,26 +455,26 @@
    "variant": null,
    "state": "idle",
    "frame": 4,
-   "source_sha256": "396d715fadbb9f9c6328b1ffbc4ad831007ad899ca96763c5c55b7571872d57d"
+   "source_sha256": "6da3be2fb2340ffa782ef76b4e6cea4c551da024877eeeddf1f837741c394d79"
   },
   {
    "name": "fb_char_warden_idle_05",
    "file": "char/warden/fb_char_warden_idle_05.png",
    "page": 0,
    "rect": [
-    130,
-    446,
-    119,
+    560,
+    224,
+    113,
     215
    ],
    "rect_unity": [
-    130,
-    235,
-    119,
+    560,
+    73,
+    113,
     215
    ],
    "pivot": [
-    0.36134,
+    0.38053,
     0.0232
    ],
    "source_size": [
@@ -489,26 +489,26 @@
    "variant": null,
    "state": "idle",
    "frame": 5,
-   "source_sha256": "2a197d32a63bf7e3b9ba925ad46ddfde7d0d9dc484e4b1f03eccac9f24b8dd91"
+   "source_sha256": "eed71ec5349f4fc6e2d45afa02454864cb01160c75de8f1150aa8dd72a22fae7"
   },
   {
    "name": "fb_char_warden_idle_06",
    "file": "char/warden/fb_char_warden_idle_06.png",
    "page": 0,
    "rect": [
-    253,
-    446,
-    122,
+    775,
+    224,
+    115,
     214
    ],
    "rect_unity": [
-    253,
-    236,
-    122,
+    775,
+    74,
+    115,
     214
    ],
    "pivot": [
-    0.35246,
+    0.37391,
     0.0233
    ],
    "source_size": [
@@ -523,26 +523,26 @@
    "variant": null,
    "state": "idle",
    "frame": 6,
-   "source_sha256": "eb7332e5d5475ee65e2c039a47806c5e98aff21d6b4276909932dc670ab00806"
+   "source_sha256": "9b8393d6b0925055f931471b034b39d4461873c7d3e319b4086c5b59280294ea"
   },
   {
    "name": "fb_char_warden_idle_07",
    "file": "char/warden/fb_char_warden_idle_07.png",
    "page": 0,
    "rect": [
-    4,
-    446,
-    122,
+    440,
+    224,
+    116,
     215
    ],
    "rect_unity": [
-    4,
-    235,
-    122,
+    440,
+    73,
+    116,
     215
    ],
    "pivot": [
-    0.35246,
+    0.37069,
     0.0232
    ],
    "source_size": [
@@ -557,7 +557,7 @@
    "variant": null,
    "state": "idle",
    "frame": 7,
-   "source_sha256": "e8bd37192e1c9bcaa389832f4388384d4a341f86a8e8a06c72a8d9b667472b74"
+   "source_sha256": "5dd273150df65be60d5eef47c66e7fbc11be506b2dc3faf88c10a40764f58324"
   }
  ],
  "clips": {

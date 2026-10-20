@@ -11,7 +11,7 @@
     1536,
     1152
    ],
-   "sha256": "1aa4aceaed76da05335964f62a5498f67dca67b910d63047ccadcafd47a86281"
+   "sha256": "663c8504c2adf5dd4da10ed8bd699dc31465a89edd76f1093976ada477150d90"
   }
  ],
  "sprites": [
@@ -292,14 +292,14 @@
    "file": "enemy/frost_wraith/fb_enemy_frost_wraith_idle_00.png",
    "page": 0,
    "rect": [
-    751,
-    790,
+    1420,
+    798,
     91,
     151
    ],
    "rect_unity": [
-    751,
-    211,
+    1420,
+    203,
     91,
     151
    ],
@@ -326,14 +326,14 @@
    "file": "enemy/frost_wraith/fb_enemy_frost_wraith_idle_01.png",
    "page": 0,
    "rect": [
-    134,
-    807,
+    135,
+    812,
     96,
     147
    ],
    "rect_unity": [
-    134,
-    198,
+    135,
+    193,
     96,
     147
    ],
@@ -360,14 +360,14 @@
    "file": "enemy/frost_wraith/fb_enemy_frost_wraith_idle_02.png",
    "page": 0,
    "rect": [
-    335,
-    807,
+    1090,
+    814,
     100,
     142
    ],
    "rect_unity": [
-    335,
-    203,
+    1090,
+    196,
     100,
     142
    ],
@@ -394,14 +394,14 @@
    "file": "enemy/frost_wraith/fb_enemy_frost_wraith_idle_03.png",
    "page": 0,
    "rect": [
-    439,
-    807,
+    1194,
+    814,
     100,
     141
    ],
    "rect_unity": [
-    439,
-    204,
+    1194,
+    197,
     100,
     141
    ],
@@ -428,14 +428,14 @@
    "file": "enemy/frost_wraith/fb_enemy_frost_wraith_idle_04.png",
    "page": 0,
    "rect": [
-    234,
-    807,
+    235,
+    812,
     97,
     144
    ],
    "rect_unity": [
-    234,
-    201,
+    235,
+    196,
     97,
     144
    ],
@@ -462,14 +462,14 @@
    "file": "enemy/frost_wraith/fb_enemy_frost_wraith_idle_05.png",
    "page": 0,
    "rect": [
-    846,
-    790,
+    359,
+    807,
     93,
     150
    ],
    "rect_unity": [
-    846,
-    212,
+    359,
+    195,
     93,
     150
    ],
@@ -496,14 +496,14 @@
    "file": "enemy/frost_wraith/fb_enemy_frost_wraith_idle_06.png",
    "page": 0,
    "rect": [
-    657,
-    790,
+    1326,
+    798,
     90,
     152
    ],
    "rect_unity": [
-    657,
-    210,
+    1326,
+    202,
     90,
     152
    ],
@@ -530,14 +530,14 @@
    "file": "enemy/frost_wraith/fb_enemy_frost_wraith_idle_07.png",
    "page": 0,
    "rect": [
-    562,
-    790,
+    1231,
+    644,
     91,
     153
    ],
    "rect_unity": [
-    562,
-    209,
+    1231,
+    355,
     91,
     153
    ],
@@ -836,190 +836,20 @@
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_00.png",
    "page": 0,
    "rect": [
-    610,
-    618,
-    170,
-    168
+    782,
+    622,
+    173,
+    172
    ],
    "rect_unity": [
-    610,
-    366,
-    170,
-    168
+    782,
+    358,
+    173,
+    172
    ],
    "pivot": [
-    0.63529,
-    0.05945
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    20,
-    74
-   ],
-   "id": "ice_mauler",
-   "variant": null,
-   "state": "idle",
-   "frame": 0,
-   "source_sha256": "bcdb3eb6ad50a89cc875a95c23aa1c336972e267f00428010059c87a77433fc6"
-  },
-  {
-   "name": "fb_enemy_ice_mauler_idle_01",
-   "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_01.png",
-   "page": 0,
-   "rect": [
-    610,
-    445,
-    167,
-    169
-   ],
-   "rect_unity": [
-    610,
-    538,
-    167,
-    169
-   ],
-   "pivot": [
-    0.62874,
-    0.0591
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    23,
-    73
-   ],
-   "id": "ice_mauler",
-   "variant": null,
-   "state": "idle",
-   "frame": 1,
-   "source_sha256": "106b4e417152317ed799efbeebf12b205d9b7550ca083d1a4a238a417faa97c8"
-  },
-  {
-   "name": "fb_enemy_ice_mauler_idle_02",
-   "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_02.png",
-   "page": 0,
-   "rect": [
-    1351,
-    444,
-    164,
-    170
-   ],
-   "rect_unity": [
-    1351,
-    538,
-    164,
-    170
-   ],
-   "pivot": [
-    0.62195,
-    0.05875
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    26,
-    72
-   ],
-   "id": "ice_mauler",
-   "variant": null,
-   "state": "idle",
-   "frame": 2,
-   "source_sha256": "d36952dbb86df1ef9a8c7b7cbb110f00d553d207127cb2d12160a6ab44617edd"
-  },
-  {
-   "name": "fb_enemy_ice_mauler_idle_03",
-   "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_03.png",
-   "page": 0,
-   "rect": [
-    4,
-    445,
-    163,
-    170
-   ],
-   "rect_unity": [
-    4,
-    537,
-    163,
-    170
-   ],
-   "pivot": [
-    0.61963,
-    0.05875
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    27,
-    72
-   ],
-   "id": "ice_mauler",
-   "variant": null,
-   "state": "idle",
-   "frame": 3,
-   "source_sha256": "f02b2e0397a0b67f13f173323a084e04ce398626b568cefb19697556023e53a9"
-  },
-  {
-   "name": "fb_enemy_ice_mauler_idle_04",
-   "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_04.png",
-   "page": 0,
-   "rect": [
-    781,
-    445,
-    166,
-    169
-   ],
-   "rect_unity": [
-    781,
-    538,
-    166,
-    169
-   ],
-   "pivot": [
-    0.62651,
-    0.0591
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    24,
-    73
-   ],
-   "id": "ice_mauler",
-   "variant": null,
-   "state": "idle",
-   "frame": 4,
-   "source_sha256": "0f1d9d2910daec0d5e8eb1bb45151ef226171b82fc60ff35b56ef4b052838591"
-  },
-  {
-   "name": "fb_enemy_ice_mauler_idle_05",
-   "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_05.png",
-   "page": 0,
-   "rect": [
-    784,
-    618,
-    169,
-    168
-   ],
-   "rect_unity": [
-    784,
-    366,
-    169,
-    168
-   ],
-   "pivot": [
-    0.62722,
-    0.05945
+    0.61272,
+    0.02318
    ],
    "source_size": [
     256,
@@ -1027,95 +857,265 @@
    ],
    "trim_offset": [
     22,
-    74
+    64
+   ],
+   "id": "ice_mauler",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "34a75861d903f04e746a753fc94f2407f5ad84679ed5ec111d46db43168698eb"
+  },
+  {
+   "name": "fb_enemy_ice_mauler_idle_01",
+   "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_01.png",
+   "page": 0,
+   "rect": [
+    782,
+    445,
+    170,
+    173
+   ],
+   "rect_unity": [
+    782,
+    534,
+    170,
+    173
+   ],
+   "pivot": [
+    0.61176,
+    0.02305
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    24,
+    63
+   ],
+   "id": "ice_mauler",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "ce6c798429ccfede8b94e23d71545dc98347f2010e04c5eb6ce86d69de943ee2"
+  },
+  {
+   "name": "fb_enemy_ice_mauler_idle_02",
+   "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_02.png",
+   "page": 0,
+   "rect": [
+    4,
+    445,
+    168,
+    174
+   ],
+   "rect_unity": [
+    4,
+    533,
+    168,
+    174
+   ],
+   "pivot": [
+    0.60714,
+    0.02291
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    26,
+    62
+   ],
+   "id": "ice_mauler",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "91a96992dedd4698216d5174e8adc97733f8e2699183af73deba44055a50d645"
+  },
+  {
+   "name": "fb_enemy_ice_mauler_idle_03",
+   "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_03.png",
+   "page": 0,
+   "rect": [
+    610,
+    445,
+    168,
+    174
+   ],
+   "rect_unity": [
+    610,
+    533,
+    168,
+    174
+   ],
+   "pivot": [
+    0.60714,
+    0.02291
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    26,
+    62
+   ],
+   "id": "ice_mauler",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "2f31eb8403402e409d07082a78d208bc3cc002784b408ea55680bb6e8bd8603b"
+  },
+  {
+   "name": "fb_enemy_ice_mauler_idle_04",
+   "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_04.png",
+   "page": 0,
+   "rect": [
+    1351,
+    444,
+    170,
+    174
+   ],
+   "rect_unity": [
+    1351,
+    534,
+    170,
+    174
+   ],
+   "pivot": [
+    0.60588,
+    0.02291
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    25,
+    62
+   ],
+   "id": "ice_mauler",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "e0ec1124a72b7cbcf966b8b2a30d69dcfac2b0e683cc14f92c534d67c4f2b3e8"
+  },
+  {
+   "name": "fb_enemy_ice_mauler_idle_05",
+   "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_05.png",
+   "page": 0,
+   "rect": [
+    1351,
+    622,
+    172,
+    172
+   ],
+   "rect_unity": [
+    1351,
+    358,
+    172,
+    172
+   ],
+   "pivot": [
+    0.61047,
+    0.02318
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    23,
+    64
    ],
    "id": "ice_mauler",
    "variant": null,
    "state": "idle",
    "frame": 5,
-   "source_sha256": "e63167e44d6bce4a8531f33d481bf666bd939f6bfb750e1d06ca13b60e4ef842"
+   "source_sha256": "0c447d9b390c26b2caf38eca82f103ee4172910edeeab870c465ecd524733ea4"
   },
   {
    "name": "fb_enemy_ice_mauler_idle_06",
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_06.png",
    "page": 0,
    "rect": [
-    4,
-    619,
-    171,
-    167
+    182,
+    637,
+    173,
+    171
    ],
    "rect_unity": [
-    4,
-    366,
-    171,
-    167
+    182,
+    344,
+    173,
+    171
    ],
    "pivot": [
-    0.63158,
-    0.0598
+    0.61272,
+    0.02332
    ],
    "source_size": [
     256,
     256
    ],
    "trim_offset": [
-    20,
-    75
+    22,
+    65
    ],
    "id": "ice_mauler",
    "variant": null,
    "state": "idle",
    "frame": 6,
-   "source_sha256": "4dc7b5df0155ab88a32f8e7d7cdc95d95633180d28113f9bc7f9443cd173535c"
+   "source_sha256": "b6060743ad9687fd604d874f99dbccc66792433937856b7a323d72654308a92e"
   },
   {
    "name": "fb_enemy_ice_mauler_idle_07",
    "file": "enemy/ice_mauler/fb_enemy_ice_mauler_idle_07.png",
    "page": 0,
    "rect": [
-    1351,
-    618,
-    172,
-    167
+    4,
+    623,
+    174,
+    171
    ],
    "rect_unity": [
-    1351,
-    367,
-    172,
-    167
+    4,
+    358,
+    174,
+    171
    ],
    "pivot": [
-    0.63372,
-    0.0598
+    0.61494,
+    0.02332
    ],
    "source_size": [
     256,
     256
    ],
    "trim_offset": [
-    19,
-    75
+    21,
+    65
    ],
    "id": "ice_mauler",
    "variant": null,
    "state": "idle",
    "frame": 7,
-   "source_sha256": "afca10430b5c37e8532d34498454a59a17524277b8dc5d8c3b8b3a1d4db79548"
+   "source_sha256": "576fc8ee95250838a2f396b69467e2de11db5c960c5ccf97133e651af516399f"
   },
   {
    "name": "fb_enemy_rime_archer_idle_00",
    "file": "enemy/rime_archer/fb_enemy_rime_archer_idle_00.png",
    "page": 0,
    "rect": [
-    1104,
-    644,
+    959,
+    646,
     127,
     165
    ],
    "rect_unity": [
-    1104,
-    343,
+    959,
+    341,
     127,
     165
    ],
@@ -1142,14 +1142,14 @@
    "file": "enemy/rime_archer/fb_enemy_rime_archer_idle_01.png",
    "page": 0,
    "rect": [
-    179,
-    637,
+    610,
+    623,
     125,
     166
    ],
    "rect_unity": [
-    179,
-    349,
+    610,
+    363,
     125,
     166
    ],
@@ -1176,13 +1176,13 @@
    "file": "enemy/rime_archer/fb_enemy_rime_archer_idle_02.png",
    "page": 0,
    "rect": [
-    308,
+    359,
     637,
     123,
     166
    ],
    "rect_unity": [
-    308,
+    359,
     349,
     123,
     166
@@ -1210,14 +1210,14 @@
    "file": "enemy/rime_archer/fb_enemy_rime_archer_idle_03.png",
    "page": 0,
    "rect": [
-    435,
-    637,
+    1104,
+    644,
     123,
     166
    ],
    "rect_unity": [
-    435,
-    349,
+    1104,
+    342,
     123,
     166
    ],
@@ -1244,14 +1244,14 @@
    "file": "enemy/rime_archer/fb_enemy_rime_archer_idle_04.png",
    "page": 0,
    "rect": [
-    957,
-    646,
+    486,
+    793,
     124,
     165
    ],
    "rect_unity": [
-    957,
-    341,
+    486,
+    194,
     124,
     165
    ],
@@ -1278,14 +1278,14 @@
    "file": "enemy/rime_archer/fb_enemy_rime_archer_idle_05.png",
    "page": 0,
    "rect": [
-    4,
-    790,
+    746,
+    798,
     126,
     164
    ],
    "rect_unity": [
-    4,
-    198,
+    746,
+    190,
     126,
     164
    ],
@@ -1312,14 +1312,14 @@
    "file": "enemy/rime_archer/fb_enemy_rime_archer_idle_06.png",
    "page": 0,
    "rect": [
-    1367,
-    789,
+    4,
+    798,
     127,
     164
    ],
    "rect_unity": [
-    1367,
-    199,
+    4,
+    190,
     127,
     164
    ],
@@ -1346,14 +1346,14 @@
    "file": "enemy/rime_archer/fb_enemy_rime_archer_idle_07.png",
    "page": 0,
    "rect": [
-    1235,
-    789,
+    614,
+    793,
     128,
     164
    ],
    "rect_unity": [
-    1235,
-    199,
+    614,
+    195,
     128,
     164
    ],
@@ -1652,14 +1652,14 @@
    "file": "enemy/shardling/fb_enemy_shardling_idle_00.png",
    "page": 0,
    "rect": [
-    335,
-    953,
+    409,
+    962,
     83,
     84
    ],
    "rect_unity": [
-    335,
-    115,
+    409,
+    106,
     83,
     84
    ],
@@ -1686,14 +1686,14 @@
    "file": "enemy/shardling/fb_enemy_shardling_idle_01.png",
    "page": 0,
    "rect": [
-    1135,
-    906,
+    322,
+    961,
     83,
     88
    ],
    "rect_unity": [
-    1135,
-    158,
+    322,
+    103,
     83,
     88
    ],
@@ -1720,14 +1720,14 @@
    "file": "enemy/shardling/fb_enemy_shardling_idle_02.png",
    "page": 0,
    "rect": [
-    1135,
-    813,
+    235,
+    960,
     83,
     89
    ],
    "rect_unity": [
-    1135,
-    250,
+    235,
+    103,
     83,
     89
    ],
@@ -1754,14 +1754,14 @@
    "file": "enemy/shardling/fb_enemy_shardling_idle_03.png",
    "page": 0,
    "rect": [
-    439,
-    952,
+    614,
+    961,
     84,
     87
    ],
    "rect_unity": [
-    439,
-    113,
+    614,
+    104,
     84,
     87
    ],
@@ -1788,14 +1788,14 @@
    "file": "enemy/shardling/fb_enemy_shardling_idle_04.png",
    "page": 0,
    "rect": [
-    234,
-    955,
+    496,
+    962,
     83,
     84
    ],
    "rect_unity": [
-    234,
-    113,
+    496,
+    106,
     83,
     84
    ],
@@ -1822,14 +1822,14 @@
    "file": "enemy/shardling/fb_enemy_shardling_idle_05.png",
    "page": 0,
    "rect": [
-    1396,
-    957,
+    901,
+    1048,
     84,
     81
    ],
    "rect_unity": [
-    1396,
-    114,
+    901,
+    23,
     84,
     81
    ],
@@ -1856,14 +1856,14 @@
    "file": "enemy/shardling/fb_enemy_shardling_idle_06.png",
    "page": 0,
    "rect": [
-    1396,
-    1042,
+    198,
+    1053,
     84,
     78
    ],
    "rect_unity": [
-    1396,
-    32,
+    198,
+    21,
     84,
     78
    ],
@@ -1890,14 +1890,14 @@
    "file": "enemy/shardling/fb_enemy_shardling_idle_07.png",
    "page": 0,
    "rect": [
-    1135,
-    998,
+    595,
+    1052,
     83,
     81
    ],
    "rect_unity": [
-    1135,
-    73,
+    595,
+    19,
     83,
     81
    ],
@@ -1924,14 +1924,14 @@
    "file": "enemy/snow_sprite/fb_enemy_snow_sprite_idle_00.png",
    "page": 0,
    "rect": [
-    543,
-    947,
+    1068,
+    960,
     196,
     89
    ],
    "rect_unity": [
-    543,
-    116,
+    1068,
+    103,
     196,
     89
    ],
@@ -1958,14 +1958,14 @@
    "file": "enemy/snow_sprite/fb_enemy_snow_sprite_idle_01.png",
    "page": 0,
    "rect": [
-    4,
-    958,
+    702,
+    1048,
     195,
     82
    ],
    "rect_unity": [
-    4,
-    112,
+    702,
+    22,
     195,
     82
    ],
@@ -1992,14 +1992,14 @@
    "file": "enemy/snow_sprite/fb_enemy_snow_sprite_idle_02.png",
    "page": 0,
    "rect": [
-    203,
-    1043,
+    4,
+    1053,
     190,
     81
    ],
    "rect_unity": [
-    203,
-    28,
+    4,
+    18,
     190,
     81
    ],
@@ -2026,14 +2026,14 @@
    "file": "enemy/snow_sprite/fb_enemy_snow_sprite_idle_03.png",
    "page": 0,
    "rect": [
-    527,
-    1040,
+    409,
+    1050,
     182,
     82
    ],
    "rect_unity": [
-    527,
-    30,
+    409,
+    20,
     182,
     82
    ],
@@ -2060,14 +2060,14 @@
    "file": "enemy/snow_sprite/fb_enemy_snow_sprite_idle_04.png",
    "page": 0,
    "rect": [
-    1222,
-    957,
+    4,
+    966,
     170,
     83
    ],
    "rect_unity": [
-    1222,
-    112,
+    4,
+    103,
     170,
     83
    ],
@@ -2094,14 +2094,14 @@
    "file": "enemy/snow_sprite/fb_enemy_snow_sprite_idle_05.png",
    "page": 0,
    "rect": [
-    751,
-    945,
+    1298,
+    954,
     166,
     109
    ],
    "rect_unity": [
-    751,
-    98,
+    1298,
+    89,
     166,
     109
    ],
@@ -2128,13 +2128,13 @@
    "file": "enemy/snow_sprite/fb_enemy_snow_sprite_idle_06.png",
    "page": 0,
    "rect": [
-    943,
+    876,
     815,
     178,
     114
    ],
    "rect_unity": [
-    943,
+    876,
     223,
     178,
     114
@@ -2162,13 +2162,13 @@
    "file": "enemy/snow_sprite/fb_enemy_snow_sprite_idle_07.png",
    "page": 0,
    "rect": [
-    943,
+    876,
     933,
     188,
     111
    ],
    "rect_unity": [
-    943,
+    876,
     108,
     188,
     111

@@ -11,7 +11,7 @@
     1408,
     1536
    ],
-   "sha256": "151d5000f1a6e6a445ccf7eca2e139f1423993d66a8953fdf0d7a2ca3a32bb0c"
+   "sha256": "aee267341c3b1b6a382e07830a5eebac9ee5435a45aab86acdf6b58d47278fba"
   }
  ],
  "sprites": [
@@ -564,122 +564,54 @@
    "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_00.png",
    "page": 0,
    "rect": [
-    1309,
-    1156,
-    93,
-    98
+    130,
+    1232,
+    95,
+    102
    ],
    "rect_unity": [
-    1309,
-    282,
-    93,
-    98
+    130,
+    202,
+    95,
+    102
    ],
    "pivot": [
-    0.48387,
-    -0.69401
+    0.48421,
+    -0.66679
    ],
    "source_size": [
     256,
     256
    ],
    "trim_offset": [
-    83,
-    66
+    82,
+    62
    ],
    "id": "clockwork_drone",
    "variant": null,
    "state": "idle",
    "frame": 0,
-   "source_sha256": "c318cc1dbe8f24d473b59b2950f1cbb78469a7c2ec5dd493cd58a8134d1f7ec3"
+   "source_sha256": "d9951919954f51830d5b587ed2a5395a77cb940be50da529eaf76d3465eea866"
   },
   {
    "name": "fb_enemy_clockwork_drone_idle_01",
    "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_01.png",
    "page": 0,
    "rect": [
-    1212,
-    1242,
-    91,
-    98
+    1311,
+    1267,
+    92,
+    102
    ],
    "rect_unity": [
-    1212,
-    196,
-    91,
-    98
+    1311,
+    167,
+    92,
+    102
    ],
    "pivot": [
-    0.42857,
-    -0.75523
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    89,
-    60
-   ],
-   "id": "clockwork_drone",
-   "variant": null,
-   "state": "idle",
-   "frame": 1,
-   "source_sha256": "0722c0060a6c1787e2be51268dea6a856c08ed692a0379772c171b1f87ef3515"
-  },
-  {
-   "name": "fb_enemy_clockwork_drone_idle_02",
-   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_02.png",
-   "page": 0,
-   "rect": [
-    1307,
-    1258,
-    90,
-    98
-   ],
-   "rect_unity": [
-    1307,
-    180,
-    90,
-    98
-   ],
-   "pivot": [
-    0.42222,
-    -0.77564
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    90,
-    58
-   ],
-   "id": "clockwork_drone",
-   "variant": null,
-   "state": "idle",
-   "frame": 2,
-   "source_sha256": "b066061426f485cbe70fe95884beb4e498560d9439a791c8b87f1b8d88385118"
-  },
-  {
-   "name": "fb_enemy_clockwork_drone_idle_03",
-   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_03.png",
-   "page": 0,
-   "rect": [
-    130,
-    1334,
-    89,
-    98
-   ],
-   "rect_unity": [
-    130,
-    104,
-    89,
-    98
-   ],
-   "pivot": [
-    0.44944,
-    -0.75523
+    0.43478,
+    -0.72562
    ],
    "source_size": [
     256,
@@ -687,47 +619,115 @@
    ],
    "trim_offset": [
     88,
-    60
+    56
    ],
    "id": "clockwork_drone",
    "variant": null,
    "state": "idle",
-   "frame": 3,
-   "source_sha256": "931bb29b025e23441e2de0f93cda0fed815fec3757af293131fe3752c6e50fbb"
+   "frame": 1,
+   "source_sha256": "02c7fd73bf6bbafb6db7537150beb17885e388f9112296591a7ca15aab4e083a"
   },
   {
-   "name": "fb_enemy_clockwork_drone_idle_04",
-   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_04.png",
+   "name": "fb_enemy_clockwork_drone_idle_02",
+   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_02.png",
    "page": 0,
    "rect": [
-    130,
-    1232,
-    93,
-    98
+    1309,
+    1160,
+    90,
+    103
    ],
    "rect_unity": [
-    130,
-    206,
-    93,
-    98
+    1309,
+    273,
+    90,
+    103
    ],
    "pivot": [
-    0.51613,
-    -0.69401
+    0.42222,
+    -0.73799
    ],
    "source_size": [
     256,
     256
    ],
    "trim_offset": [
-    80,
-    66
+    90,
+    53
+   ],
+   "id": "clockwork_drone",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "0391dadb9299cf2dd4e1bea3966232ce813a4db14110a5840476570fca63bbfa"
+  },
+  {
+   "name": "fb_enemy_clockwork_drone_idle_03",
+   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_03.png",
+   "page": 0,
+   "rect": [
+    130,
+    1338,
+    92,
+    102
+   ],
+   "rect_unity": [
+    130,
+    96,
+    92,
+    102
+   ],
+   "pivot": [
+    0.45652,
+    -0.72562
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    86,
+    56
+   ],
+   "id": "clockwork_drone",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "5b567d37bfa559bf105954d3101bdf3c687e98d61bd997b9acb586f1b48bb863"
+  },
+  {
+   "name": "fb_enemy_clockwork_drone_idle_04",
+   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_04.png",
+   "page": 0,
+   "rect": [
+    1212,
+    1267,
+    95,
+    102
+   ],
+   "rect_unity": [
+    1212,
+    167,
+    95,
+    102
+   ],
+   "pivot": [
+    0.51579,
+    -0.66679
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    79,
+    62
    ],
    "id": "clockwork_drone",
    "variant": null,
    "state": "idle",
    "frame": 4,
-   "source_sha256": "a2965f1828651dc3d1dd439ec2e05a0254eac19f005a92194011df1fe67cfe2f"
+   "source_sha256": "4f8d187307a1ccb7d395630935f98f72d0952d898afaf6d7d0074760cfd422b5"
   },
   {
    "name": "fb_enemy_clockwork_drone_idle_05",
@@ -736,18 +736,18 @@
    "rect": [
     1309,
     1053,
-    91,
-    99
+    92,
+    103
    ],
    "rect_unity": [
     1309,
-    384,
-    91,
-    99
+    380,
+    92,
+    103
    ],
    "pivot": [
-    0.57143,
-    -0.61629
+    0.56522,
+    -0.59236
    ],
    "source_size": [
     256,
@@ -755,13 +755,13 @@
    ],
    "trim_offset": [
     76,
-    72
+    68
    ],
    "id": "clockwork_drone",
    "variant": null,
    "state": "idle",
    "frame": 5,
-   "source_sha256": "0ad4e49560d8cd0631032f96ae655d8d7536b399ef14900fae23e47184b97ee9"
+   "source_sha256": "97f6857b309bd271ca3408a0f0d80aaff132d99804be271cf929baed48470504"
   },
   {
    "name": "fb_enemy_clockwork_drone_idle_06",
@@ -769,19 +769,19 @@
    "page": 0,
    "rect": [
     1212,
-    1344,
+    1373,
     87,
-    98
+    102
    ],
    "rect_unity": [
     1212,
-    94,
+    61,
     87,
-    98
+    102
    ],
    "pivot": [
     0.5977,
-    -0.61238
+    -0.58836
    ],
    "source_size": [
     256,
@@ -789,13 +789,13 @@
    ],
    "trim_offset": [
     76,
-    74
+    70
    ],
    "id": "clockwork_drone",
    "variant": null,
    "state": "idle",
    "frame": 6,
-   "source_sha256": "e9a0b0bd16a87353e8a3812d43e7953d82cdb5385854fa673c12e919643aaebf"
+   "source_sha256": "8ce54fa333490a633b5b77638ef44434b3348fb88f0f8dc2192af9b0487532ba"
   },
   {
    "name": "fb_enemy_clockwork_drone_idle_07",
@@ -803,33 +803,33 @@
    "page": 0,
    "rect": [
     1303,
-    1360,
-    89,
-    97
+    1373,
+    92,
+    101
    ],
    "rect_unity": [
     1303,
-    79,
-    89,
-    97
+    62,
+    92,
+    101
    ],
    "pivot": [
-    0.55056,
-    -0.64962
+    0.54348,
+    -0.62389
    ],
    "source_size": [
     256,
     256
    ],
    "trim_offset": [
-    79,
-    72
+    78,
+    68
    ],
    "id": "clockwork_drone",
    "variant": null,
    "state": "idle",
    "frame": 7,
-   "source_sha256": "31696879e8ab376ea5d1faf030eaf0af89c74da9c88fffa6149fecc6c25ca4ad"
+   "source_sha256": "c3d500952988f95d394cf7bb77aac47716ef8805fbf7a3390e4c0ff7acad765c"
   },
   {
    "name": "fb_enemy_iron_conscript_idle_00",
@@ -1448,13 +1448,13 @@
    "file": "enemy/static_wisp/fb_enemy_static_wisp_idle_02.png",
    "page": 0,
    "rect": [
-    223,
+    226,
     1394,
     90,
     92
    ],
    "rect_unity": [
-    223,
+    226,
     50,
     90,
     92

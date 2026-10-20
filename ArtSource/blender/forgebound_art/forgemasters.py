@@ -42,7 +42,7 @@ HERO = {
     "hexblade":    ("scythe", "shadow", "reap", 1.45, 165, 0, 1.1),
     "summoner":    ("tome", "arcane", "cast_tome", 0.42, 175, 25, 1.1),
     "duelist":     ("dagger", "steel", "thrust", 0.78, 100, 0, 1.12),
-    "warden":      ("bulwark", "earth", "bash", 1.05, 180, 55, 1.08),
+    "warden":      ("bulwark", "earth", "bash", 0.92, 180, 55, 1.08),
 }
 YAW = -25.0
 

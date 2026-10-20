@@ -609,8 +609,8 @@ STAT_SYMBOLS = {
     "regen": "plus", "thorns": "thorns", "evasion": "feather", "leech": "fang", "damageVsElite": "crown", "damageVsBoss": "horned_skull",
     "damageVsStatus": "eye", "lowHpDamage": "cracked_heart", "shopDiscount": "coin", "rerollDiscount": "cycle", "goldGain": "coins",
     "essenceGain": "crystal", "restHeal": "campfire", "shopOffers": "scroll", "rewardChoices": "cards", "healingPower": "chalice",
-    "firstStrike": "bolt", "boardWidth": "grid", "boardHeight": "grid", "summonPower": "ghost", "meleeDamage": "sword",
-    "rangedDamage": "bow", "resistAll": "shield_ring", "incomingDamage": "broken_shield", "enemyHp": "heart_horns",
+    "firstStrike": "bolt", "boardWidth": "grid", "boardHeight": "bars_up", "summonPower": "ghost", "meleeDamage": "sword",
+    "rangedDamage": "bow", "resistAll": "shield_ring", "range": "reach", "incomingDamage": "broken_shield", "enemyHp": "heart_horns",
     "enemyDamage": "claw", "enemySpeed": "chevrons", "modifierSlots": "socket",
 }
 TAG_SYMBOLS = {"blade": "sword", "heavy": "hammer", "Fire": "flame", "Frost": "snowflake", "Lightning": "bolt", "Arcane": "arcane_star",
@@ -636,7 +636,7 @@ STAT_FAMILY = {
     "armor": "guard", "shieldOnStart": "guard", "thorns": "guard", "resistAll": "guard", "incomingDamage": "guard",
     "damageVsElite": "hunt", "damageVsBoss": "hunt", "enemyHp": "hunt", "enemyDamage": "hunt",
     "shopDiscount": "wealth", "rerollDiscount": "wealth", "goldGain": "wealth", "essenceGain": "wealth", "shopOffers": "wealth",
-    "rewardChoices": "wealth", "boardWidth": "wealth", "boardHeight": "wealth", "damageTypeBonus": "element",
+    "rewardChoices": "wealth", "boardWidth": "wealth", "boardHeight": "wealth", "damageTypeBonus": "element", "range": "precision",
 }
 FAMILY_COLORS = {
     "life": "#3FBF5A", "blood": "#C42A3A", "might": "#D2552A", "precision": "#E8B030", "speed": "#36B8C8", "status": "#8CC83A",
@@ -670,7 +670,9 @@ def blessing_design(b):
             esym = {"burn": "flame", "poison": "drop", "bleed": "drop", "chill": "snowflake", "stun": "star_crack", "weaken": "broken_shield",
                     "slow": "hourglass", "curse": "crescent"}.get(eff.get("status"), "flask")
         if sym is None:
-            sym, sec, fam = tsym, esym, "rule"
+            # rule blessings: the EFFECT is the main symbol, the trigger the badge, and the
+            # enamel follows the trigger family, so "on wave start: X" blessings differ at a glance
+            sym, sec, fam = (esym or tsym), tsym, "trig_" + TRIGGER_FAMILY.get(r.get("trigger"), "strike")
         elif sec is None:
             sec = tsym
     return sym or "spark", (sec if sec != sym else None), fam

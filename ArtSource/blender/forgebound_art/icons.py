@@ -266,8 +266,14 @@ def build_blessing(root, job):
     curse = job.get("curse", False)
     trial = job.get("trial", False)
     fam = job["family"]
-    base = symbols.FAMILY_COLORS.get(fam, "#B07ADA")
-    base = _hex_shift(base, dh=0.07 * job.get("variant_index", 0), dv=-0.05 * (job.get("variant_index", 0) % 2))
+    vi = job.get("variant_index", 0)
+    if fam.startswith("trig_"):
+        base = symbols.TRIGGER_COLORS[fam[5:]][0]
+        base = palette.mix_hex(base, "#3A3050", 0.35)
+    else:
+        base = symbols.FAMILY_COLORS.get(fam, "#B07ADA")
+    # siblings sharing a design: strong hue + value step (plus pips below the symbol, see end)
+    base = _hex_shift(base, dh=0.16 * vi, dv=-0.12 * (vi % 2))
     if curse:
         en_col = palette.mix_hex(base, "#2A1838", 0.55)
         frame_mat = M.toon_material("FB_curse_iron_icon", "#3E3446", "#140E1A", "#7A6A8A", rim="#C080FF", rim_strength=0.9, metal=0.6,
@@ -318,6 +324,9 @@ def build_blessing(root, job):
         G.slab("sec_en", symbols.circle(0.56, -0.56, 0.23, 24), 0.04, dark, m=T((0, -0.16, 0)), bevel=0.01, parent=root, outline=False)
         relief(symbols.get(job["secondary"]), sym_mat, root, scale=0.17, y=-0.18, depth=0.03, hole_mat=dark, name="sec", x0=0.56, z0=-0.56,
                outline=False)
+    # sibling pips: 1..n small studs under the symbol (variant_index > 0)
+    for i in range(vi):
+        G.uvsphere(f"pip{i}", 0.055, sym_mat, m=T(((i - (vi - 1) / 2) * 0.15, -0.1, -0.52)), segs=10, rings=6, parent=root)
     # rarity gems on the top rim
     n = {"common": 0, "uncommon": 1, "rare": 3}.get(job.get("rarity"), 0)
     gem_mat = M.core_gem_material("arcane" if curse else "solar") if n else None
