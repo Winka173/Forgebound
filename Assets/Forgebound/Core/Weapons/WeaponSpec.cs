@@ -165,7 +165,11 @@ namespace Forgebound.Core.Weapons
             ApplyStats(s, heroStats);
             ApplyStats(s, supportStats);
 
-            s.BaseDamage = Math.Max(1, FMathI.Permille(s.BaseDamage, s.DamagePermille));
+            s.BaseDamage = Math.Max(1, FMathI.Permille(FMathI.Permille(s.BaseDamage, s.DamagePermille), db.Tuning.HeroDamagePermille));
+            s.CritDamage = Math.Min(s.CritDamage, db.Tuning.CritDamageCapPermille);
+            s.ProcPermille = FMathI.Permille(s.ProcPermille, db.Tuning.ProcGlobalPermille);
+            int projectiles = 1 + s.ProjectileAdd;
+            if (projectiles > 3) s.SplitDamagePermille = FMathI.Permille(s.SplitDamagePermille, db.Tuning.MultiProjectileFalloffPermille);
             s.CooldownTicks = Math.Max(4, s.CooldownTicks);
             s.CritChance = Clamp(s.CritChance, 0, 1000);
             s.RangeMilli = Math.Max(600, s.RangeMilli);

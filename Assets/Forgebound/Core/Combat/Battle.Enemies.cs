@@ -20,7 +20,9 @@ namespace Forgebound.Core.Combat
             u.ActiveAbilities.AddRange(ph.Abilities);
             u.SpeedPermille = ph.SpeedPermille;
             u.AttackSpeedPermille = ph.AttackSpeedPermille;
-            u.DamagePermille = FMath.Permille(1000 + Setup.Difficulty.SumUntagged(StatType.EnemyDamage), ph.DamagePermille);
+            var tuning = _db.Tuning;
+            int dmgScale = FMath.Permille(tuning.Chapter(tuning.EnemyDamageByChapter, Setup.Chapter), def.Rank == EnemyRank.Boss ? tuning.BossDamagePermille : (def.Rank == EnemyRank.Elite ? tuning.EliteDamagePermille : 1000));
+            u.DamagePermille = FMath.Permille(FMath.Permille(1000 + Setup.Difficulty.SumUntagged(StatType.EnemyDamage), ph.DamagePermille), dmgScale);
             foreach (var kv in def.Resist) u.Resist[(int)kv.Key] = kv.Value;
             foreach (var kv in ph.Resist) u.Resist[(int)kv.Key] = kv.Value;
             if (emit)
@@ -42,7 +44,9 @@ namespace Forgebound.Core.Combat
 
         private Unit EnemyTarget(Unit e)
         {
-            // Enemies engage the closest player-side unit (hero or familiar); taunting familiars could extend this.
+            // Ranged enemies aim at the Forgemaster over the summons' heads (readable rule; summons can't fully body-block).
+            if (e.Def.AttackRanged && Hero.Alive) return Hero;
+            // Melee enemies engage the closest player-side unit (hero or familiar).
             Unit best = null;
             int bestD = int.MaxValue;
             for (int i = 0; i < Units.Count; i++)
@@ -202,7 +206,8 @@ namespace Forgebound.Core.Combat
 
         public void ApplyStatusToHero(Unit hero, StatusApply sa, Unit src)
         {
-            int potency = src != null && src.Def != null ? Math.Max(1, src.Def.AttackDamage * 200 / 1000) : 1;
+            // Potency scales with the (tuned) attacker damage; ~6% of its hit per stack per second.
+            int potency = src != null && src.Def != null ? Math.Max(1, FMath.Permille(src.Def.AttackDamage, EnemyOutgoingPermille(src)) * 60 / 1000) : 1;
             ApplyStatus(hero, sa, null, false, 0, 0, potency);
         }
 

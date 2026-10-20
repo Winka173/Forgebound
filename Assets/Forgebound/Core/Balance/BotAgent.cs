@@ -41,20 +41,23 @@ namespace Forgebound.Core.Balance
         public void PlayToEnd()
         {
             int guard = 0;
-            while (Run.Phase != RunPhase.Finished && guard++ < MaxActions)
-            {
-                switch (Run.Phase)
-                {
-                    case RunPhase.ChoosingNode: ChooseNode(); break;
-                    case RunPhase.PreBattle: PrepareAndFight(); break;
-                    case RunPhase.InShop: Shop(); break;
-                    case RunPhase.InForge: Forge(); break;
-                    case RunPhase.InRest: Rest(); break;
-                    case RunPhase.InEvent: Event(); break;
-                    case RunPhase.InReward: Reward(); break;
-                }
-            }
+            while (Run.Phase != RunPhase.Finished && guard++ < MaxActions) Step();
             if (Run.Phase != RunPhase.Finished) { _c.Abandon(); Note("bot: action budget exhausted"); }
+        }
+
+        /// <summary>Take exactly one decision for the current phase.</summary>
+        public void Step()
+        {
+            switch (Run.Phase)
+            {
+                case RunPhase.ChoosingNode: ChooseNode(); break;
+                case RunPhase.PreBattle: PrepareAndFight(); break;
+                case RunPhase.InShop: Shop(); break;
+                case RunPhase.InForge: Forge(); break;
+                case RunPhase.InRest: Rest(); break;
+                case RunPhase.InEvent: Event(); break;
+                case RunPhase.InReward: Reward(); break;
+            }
         }
 
         // ------------------------------------------------------------------ route
@@ -67,8 +70,8 @@ namespace Forgebound.Core.Balance
             {
                 case NodeType.Battle: s = 50; break;
                 case NodeType.Elite: s = hpPct > 65 ? 60 : 10; if (Policy == BotPolicy.Aggressive) s += 30; if (Policy == BotPolicy.Cautious) s -= 30; break;
-                case NodeType.Shop: s = Run.Gold >= 60 ? 70 : 25; break;
-                case NodeType.Forge: s = 55 + (CanEvolveAny() ? 50 : 0); break;
+                case NodeType.Shop: s = Run.Gold >= 50 ? Math.Min(140, 40 + Run.Gold / 2) : 10; break;
+                case NodeType.Forge: s = 55 + (CanEvolveAny() ? 70 : 0) + (Run.Essence >= 2 ? 10 : 0); break;
                 case NodeType.Rest: s = hpPct < 50 ? 90 : 20; if (Policy == BotPolicy.Cautious) s += 20; break;
                 case NodeType.Event: s = 45; break;
                 case NodeType.Treasure: s = 80; break;
@@ -82,15 +85,40 @@ namespace Forgebound.Core.Balance
         {
             var nodes = _c.AvailableNodes();
             if (nodes.Count == 0) { _c.Abandon(); return; }
+            // Look-ahead route planning over the chapter graph (players see the whole map): value = node + best continuation.
+            var memo = new Dictionary<string, int>();
             MapNode best = null;
             int bestScore = int.MinValue;
             foreach (var n in nodes)
             {
-                int s = NodeScore(n);
+                int s = PathValue(n, Run.Gold, memo);
                 if (s > bestScore) { bestScore = s; best = n; }
             }
             var r = _c.ChooseNode(best.Id);
             Note("node " + best.Id + " " + best.Type + " -> " + r);
+        }
+
+        private int PathValue(MapNode n, int gold, Dictionary<string, int> memo)
+        {
+            int own = NodeScoreWithGold(n, gold);
+            int projected = gold + (n.Type == NodeType.Battle ? 18 : n.Type == NodeType.Elite ? 30 : 0) - (n.Type == NodeType.Shop ? gold : 0);
+            int bestNext = 0;
+            foreach (var id in n.Next)
+            {
+                var nx = Run.FindNode(id);
+                if (nx == null) continue;
+                bestNext = Math.Max(bestNext, PathValue(nx, Math.Max(0, projected), memo));
+            }
+            return own + bestNext * 9 / 10;
+        }
+
+        private int NodeScoreWithGold(MapNode n, int gold)
+        {
+            int saved = Run.Gold;
+            Run.Gold = gold;
+            int s = NodeScore(n);
+            Run.Gold = saved;
+            return s;
         }
 
         // ------------------------------------------------------------------ build management
@@ -331,8 +359,9 @@ namespace Forgebound.Core.Balance
         {
             ShopVisits++;
             AutoAssemble();
+            Note("shop gold=" + Run.Gold + " offers=" + Run.ShopOffers.Count);
             int reserve = Policy == BotPolicy.Aggressive ? 0 : 15;
-            for (int pass = 0; pass < 4; pass++)
+            for (int pass = 0; pass < 8; pass++)
             {
                 bool bought = false;
                 for (int i = 0; i < Run.ShopOffers.Count; i++)
@@ -350,15 +379,24 @@ namespace Forgebound.Core.Balance
                     if (Policy == BotPolicy.Random) v = _rng.Next(100);
                     if (v > bestVal) { bestVal = v; bestIdx = i; }
                 }
-                if (bestIdx >= 0 && bestVal >= 40)
+                if (bestIdx >= 0 && bestVal >= 30)
                 {
                     int price = Run.ShopOffers[bestIdx].Price;
-                    if (_c.Buy(bestIdx).Ok) { GoldSpent += price; ItemsBought++; bought = true; AutoAssemble(); }
+                    var o2 = Run.ShopOffers[bestIdx];
+                    if (_c.Buy(bestIdx).Ok) { GoldSpent += price; ItemsBought++; bought = true; Note("buy " + o2.Category + ":" + o2.Id + " for " + price); AutoAssemble(); }
                 }
                 if (!bought)
                 {
+                    // Spend on tier upgrades for active weapons (primary first) before rerolling.
+                    foreach (var w in BattleBuilder.ActiveWeapons(Run))
+                    {
+                        if (w.Tier >= AssemblyRules.MaxTier) continue;
+                        int up = _c.ShopUpgradeCost(w);
+                        if (Run.Gold - up >= reserve && _c.ShopUpgrade(w.Uid).Ok) { GoldSpent += up; bought = true; Note("temper w" + w.Uid + " for " + up); break; }
+                    }
+                    if (bought) continue;
                     int cost = _c.RerollCost();
-                    if (Run.Gold - cost >= 60 && Rerolls < 40 && pass < 2)
+                    if (Run.Gold - cost >= 45 && Rerolls < 60 && pass < 3)
                     {
                         if (_c.Reroll().Ok) { Rerolls++; GoldSpent += cost; continue; }
                     }

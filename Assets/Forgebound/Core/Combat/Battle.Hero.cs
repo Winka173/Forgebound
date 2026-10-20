@@ -20,6 +20,9 @@ namespace Forgebound.Core.Combat
     public sealed partial class Battle
     {
         private int _kiteDir;
+        /// <summary>Enemy DoTs on the hero tick once per second and cap at 3 stacks (readable, counterable pressure).</summary>
+        public const int HeroDotInterval = 30;
+        public const int HeroDotStackCap = 3;
 
         // ------------------------------------------------------------------ hero
 
@@ -44,6 +47,8 @@ namespace Forgebound.Core.Combat
         {
             if (!Hero.Alive) return;
             if (Tick % FMath.TicksPerSecond == 0 && Hero.RegenPerSecond > 0) HealHero(Hero.RegenPerSecond, -1, false);
+            if (Tick % FMath.TicksPerSecond == 0 && Hero.Shield > 0 && _db.Tuning.ShieldDecayPermille > 0)
+                Hero.Shield = Math.Max(0, Hero.Shield - Math.Max(1, FMath.Permille(Hero.Shield, _db.Tuning.ShieldDecayPermille)));
             if (Tick % FMath.TicksPerSecond == 0 && Hero.Status.Has(StatusType.Regen)) HealHero(Math.Max(1, Hero.MaxHp * 15 / 1000) * Hero.Status.Get(StatusType.Regen), -1, false);
 
             for (int i = 0; i < Weapons.Length; i++)
@@ -390,12 +395,12 @@ namespace Forgebound.Core.Combat
                 Id = _nextUnitId++,
                 Team = 0,
                 IsFamiliar = true,
-                MaxHp = Math.Max(10, Hero.MaxHp / 4),
+                MaxHp = Math.Max(8, Hero.MaxHp / 10),
                 X = Hero.X + 600,
                 Radius = 300,
                 Speed = 90,
                 OwnerWeapon = w.Index,
-                LifeTicks = 12 * FMath.TicksPerSecond,
+                LifeTicks = 9 * FMath.TicksPerSecond,
                 FamiliarDamage = Math.Max(1, FMath.Permille(dmg, 700 * power / 1000)),
                 AttackCooldown = 10
             };
@@ -464,6 +469,7 @@ namespace Forgebound.Core.Combat
                 if (radiantTurn && target.Status.Has(StatusType.Curse)) amount = FMath.Permille(amount, 1500);
                 if (!radiantTurn && target.Status.Has(StatusType.Mark)) amount = FMath.Permille(amount, 1500);
             }
+            if (target.Flying && step != null && step.Kind == StepKind.Melee && !spec.Tags.Contains("reach")) amount = FMath.Permille(amount, 700);
             var stats = Setup.Hero.Stats;
             if (target.IsElite) amount = FMath.Permille(amount, 1000 + stats.SumUntagged(StatType.DamageVsElite));
             if (target.IsBoss) amount = FMath.Permille(amount, 1000 + stats.SumUntagged(StatType.DamageVsBoss));
@@ -739,7 +745,7 @@ namespace Forgebound.Core.Combat
         public void GainShield(int amount, int weapon)
         {
             if (!Hero.Alive || amount <= 0) return;
-            int cap = Hero.MaxHp;
+            int cap = Math.Max(1, FMath.Permille(Hero.MaxHp, _db.Tuning.ShieldCapPermille));
             int before = Hero.Shield;
             Hero.Shield = Math.Min(cap, Hero.Shield + amount);
             int gained = Hero.Shield - before;
@@ -871,7 +877,8 @@ namespace Forgebound.Core.Combat
             }
             else
             {
-                st.Stacks[idx] = Math.Min(MaxStacks(s), st.Stacks[idx] + sa.Stacks);
+                int cap = target.Team == 0 && (s == StatusType.Burn || s == StatusType.Poison || s == StatusType.Bleed) ? HeroDotStackCap : MaxStacks(s);
+                st.Stacks[idx] = Math.Min(cap, st.Stacks[idx] + sa.Stacks);
                 st.Ticks[idx] = Math.Max(st.Ticks[idx], duration);
             }
             if (s == StatusType.Stun || s == StatusType.Freeze) InterruptWindupSilently(target);
@@ -918,7 +925,8 @@ namespace Forgebound.Core.Combat
                 for (int s = 1; s < (int)StatusType.Count; s++)
                 {
                     if (st.Stacks[s] <= 0) continue;
-                    if (Tick % DotInterval == 0 && (s == (int)StatusType.Burn || s == (int)StatusType.Poison || s == (int)StatusType.Bleed))
+                    int interval = u.Team == 0 ? HeroDotInterval : DotInterval;
+                    if (Tick % interval == 0 && (s == (int)StatusType.Burn || s == (int)StatusType.Poison || s == (int)StatusType.Bleed))
                     {
                         int dmg = st.Potency[s] * st.Stacks[s];
                         var type = s == (int)StatusType.Burn ? DamageType.Fire : (s == (int)StatusType.Poison ? DamageType.Poison : DamageType.Physical);

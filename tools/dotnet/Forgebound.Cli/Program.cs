@@ -15,6 +15,9 @@ namespace Forgebound.Cli
                 {
                     case "validate": return ValidateCmd(args);
                     case "play": return PlayCmd(args);
+                    case "sim": return BalanceCommands.Sim(args);
+                    case "duel": return DuelCommand.Run(args);
+                    case "tournament": return TournamentCommand.Run(args);
                     default: Usage(); return 2;
                 }
             }

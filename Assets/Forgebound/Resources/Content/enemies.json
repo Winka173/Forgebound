@@ -1231,7 +1231,7 @@
   {
    "id": "glass_wyrm",
    "rank": "boss",
-   "hp": 1450,
+   "hp": 1250,
    "armor": 0,
    "speed": 1.2,
    "radius": 1.0,
@@ -1263,7 +1263,7 @@
      "abilities": [
       {
        "type": "volley",
-       "value": 8,
+       "value": 6,
        "count": 3,
        "cooldown": 4.5,
        "windup": 0.7
@@ -1289,7 +1289,7 @@
       },
       {
        "type": "volley",
-       "value": 9,
+       "value": 7,
        "count": 4,
        "cooldown": 4,
        "windup": 0.7
@@ -1771,7 +1771,7 @@
    ],
    "sprite": "fb_enemy_storm_sentinel",
    "resist": {
-    "lightning": 0.5
+    "lightning": 0.15
    },
    "abilities": [
     {
@@ -1810,7 +1810,7 @@
    ],
    "sprite": "fb_enemy_arc_mage",
    "resist": {
-    "lightning": 0.5
+    "lightning": 0.15
    },
    "abilities": [
     {
@@ -2063,7 +2063,7 @@
    ],
    "sprite": "fb_enemy_storm_paragon",
    "resist": {
-    "lightning": 0.6
+    "lightning": 0.25
    },
    "abilities": [
     {
@@ -2110,7 +2110,7 @@
    ],
    "sprite": "fb_enemy_storm_tyrant",
    "resist": {
-    "lightning": 0.7,
+    "lightning": 0.3,
     "arcane": 0.3
    },
    "phases": [

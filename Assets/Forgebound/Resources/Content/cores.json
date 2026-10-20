@@ -18,9 +18,9 @@
     },
     {
       "id": "lightning", "tags": ["element", "lightning", "chain"], "damageType": "lightning", "color": "#ffe24a", "rarity": "common", "cost": 70,
-      "status": { "status": "shock", "chance": 0.3, "stacks": 1, "duration": 3 },
-      "runes": [ { "id": "core_lightning_arc", "trigger": "onHit", "chance": 0.25,
-        "effects": [ { "type": "chain", "power": 0.45, "count": 2, "radius": 3.5, "damageType": "lightning" } ], "icd": 0.3 } ],
+      "status": { "status": "shock", "chance": 0.4, "stacks": 1, "duration": 3 },
+      "runes": [ { "id": "core_lightning_arc", "trigger": "onHit", "chance": 0.35,
+        "effects": [ { "type": "chain", "power": 0.5, "count": 2, "radius": 3.5, "damageType": "lightning" } ], "icd": 0.3 } ],
       "sfx": "sfx_core_lightning", "vfx": "vfx_spark_chain"
     },
     {
@@ -33,7 +33,7 @@
     {
       "id": "life", "tags": ["utility", "life", "sustain"], "color": "#7dff8a", "rarity": "uncommon", "cost": 75,
       "runes": [
-        { "id": "core_life_ward", "trigger": "onHit", "effects": [ { "type": "shield", "power": 0.15 } ], "icd": 0.25 },
+        { "id": "core_life_ward", "trigger": "onHit", "effects": [ { "type": "shield", "power": 0.08 } ], "icd": 0.5 },
         { "id": "core_life_bloom", "trigger": "onKill", "effects": [ { "type": "heal", "flat": 2 } ], "icd": 0.5 }
       ],
       "sfx": "sfx_core_life", "vfx": "vfx_leaf_glow"

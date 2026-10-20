@@ -24,6 +24,7 @@ namespace Forgebound.Core.Economy
         public const int BoardExpandCost = 70;
         public const int RestHealPermille = 300;
         public const int SkipRewardGold = 12;
+        public const int ShopUpgradeSurcharge = 15;
 
         public static int RarityPricePermille(Rarity r)
         {

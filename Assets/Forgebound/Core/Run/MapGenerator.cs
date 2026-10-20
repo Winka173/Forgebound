@@ -76,6 +76,12 @@ namespace Forgebound.Core.Run
                 rows.Add(list);
                 map.Nodes.AddRange(list);
             }
+            // Guarantee services per chapter: at least one Shop (rows 1-2) and one Forge or Rest (row 3) so every
+            // chapter offers a spending/crafting opportunity regardless of RNG.
+            EnsureType(rows, new[] { 1, 2 }, NodeType.Shop, rng);
+            if (!RowHas(rows[3], NodeType.Forge) && !RowHas(rows[3], NodeType.Rest)) EnsureType(rows, new[] { 3 }, chapter == 0 ? NodeType.Rest : NodeType.Forge, rng);
+            if (chapter > 0) EnsureType(rows, new[] { 1, 2, 3 }, NodeType.Forge, rng);
+
             // Edges: each node links to the column-nearest nodes in the next row; every next-row node gets an incoming edge.
             for (int r = 0; r < rows.Count - 1; r++)
             {
@@ -103,6 +109,32 @@ namespace Forgebound.Core.Run
                 foreach (var n in cur) n.Next.Sort(StringComparer.Ordinal);
             }
             return map;
+        }
+
+        private static bool RowHas(List<MapNode> row, NodeType t)
+        {
+            foreach (var n in row) if (n.Type == t) return true;
+            return false;
+        }
+
+        private static void EnsureType(List<List<MapNode>> rows, int[] candidateRows, NodeType t, DetRandom rng)
+        {
+            foreach (var r in candidateRows) if (RowHas(rows[r], t)) return;
+            // Convert a node that keeps at least one fight in the row (rows always have >= 2 nodes before the boss).
+            int ri = candidateRows[rng.Next(candidateRows.Length)];
+            var row = rows[ri];
+            MapNode pick = null;
+            for (int i = row.Count - 1; i >= 0; i--)
+            {
+                var n = row[i];
+                int fights = 0;
+                foreach (var m in row) if (m != n && (m.Type == NodeType.Battle || m.Type == NodeType.Elite)) fights++;
+                if (fights > 0 && n.Type != t) { pick = n; break; }
+            }
+            if (pick == null) return;
+            pick.Type = t;
+            pick.EncounterId = null;
+            pick.EventId = null;
         }
 
         private static void Fill(ContentDatabase db, MapNode n, string biome, int chapter, DetRandom rng, HashSet<string> usedEnc, HashSet<string> usedEvt)

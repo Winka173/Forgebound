@@ -1,0 +1,102 @@
+{
+  "errors": 0,
+  "warnings": 16,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "proc_cycle",
+      "subject": "proc-graph",
+      "message": "potential feedback loop corpse_blast -> corpse_blast (bounded at runtime by self-trigger guard, depth cap and per-tick proc cap)"
+    },
+    {
+      "severity": "warning",
+      "code": "proc_cycle",
+      "subject": "proc-graph",
+      "message": "potential feedback loop deep_freeze -> corpse_blast -> plague_seed -> deep_freeze (bounded at runtime by self-trigger guard, depth cap and per-tick proc cap)"
+    },
+    {
+      "severity": "warning",
+      "code": "proc_cycle",
+      "subject": "proc-graph",
+      "message": "potential feedback loop corpse_blast -> plague_seed -> stagger_lock -> corpse_blast (bounded at runtime by self-trigger guard, depth cap and per-tick proc cap)"
+    },
+    {
+      "severity": "warning",
+      "code": "proc_cycle",
+      "subject": "proc-graph",
+      "message": "potential feedback loop plague_seed -> stagger_lock -> plague_seed (bounded at runtime by self-trigger guard, depth cap and per-tick proc cap)"
+    },
+    {
+      "severity": "warning",
+      "code": "proc_cycle",
+      "subject": "proc-graph",
+      "message": "potential feedback loop corpse_blast -> plague_seed -> stagger_lock -> core_fire_combust -> corpse_blast (bounded at runtime by self-trigger guard, depth cap and per-tick proc cap)"
+    },
+    {
+      "severity": "warning",
+      "code": "proc_cycle",
+      "subject": "proc-graph",
+      "message": "potential feedback loop plague_seed -> stagger_lock -> core_fire_combust -> plague_seed (bounded at runtime by self-trigger guard, depth cap and per-tick proc cap)"
+    },
+    {
+      "severity": "warning",
+      "code": "proc_cycle",
+      "subject": "proc-graph",
+      "message": "potential feedback loop core_fire_combust -> core_fire_combust (bounded at runtime by self-trigger guard, depth cap and per-tick proc cap)"
+    },
+    {
+      "severity": "warning",
+      "code": "proc_cycle",
+      "subject": "proc-graph",
+      "message": "potential feedback loop deep_freeze -> corpse_blast -> plague_seed -> stagger_lock -> core_fire_combust -> core_venom_bloom -> deep_freeze (bounded at runtime by self-trigger guard, depth cap and per-tick proc cap)"
+    },
+    {
+      "severity": "warning",
+      "code": "proc_cycle",
+      "subject": "proc-graph",
+      "message": "potential feedback loop stagger_lock -> core_fire_combust -> core_venom_bloom -> stagger_lock (bounded at runtime by self-trigger guard, depth cap and per-tick proc cap)"
+    },
+    {
+      "severity": "warning",
+      "code": "proc_cycle",
+      "subject": "proc-graph",
+      "message": "potential feedback loop corpse_blast -> plague_seed -> stagger_lock -> core_fire_combust -> core_venom_bloom -> core_frost_crack -> corpse_blast (bounded at runtime by self-trigger guard, depth cap and per-tick proc cap)"
+    },
+    {
+      "severity": "warning",
+      "code": "proc_cycle",
+      "subject": "proc-graph",
+      "message": "potential feedback loop plague_seed -> stagger_lock -> core_fire_combust -> core_venom_bloom -> core_frost_crack -> plague_seed (bounded at runtime by self-trigger guard, depth cap and per-tick proc cap)"
+    },
+    {
+      "severity": "warning",
+      "code": "proc_cycle",
+      "subject": "proc-graph",
+      "message": "potential feedback loop core_fire_combust -> core_venom_bloom -> core_frost_crack -> core_fire_combust (bounded at runtime by self-trigger guard, depth cap and per-tick proc cap)"
+    },
+    {
+      "severity": "warning",
+      "code": "proc_cycle",
+      "subject": "proc-graph",
+      "message": "potential feedback loop core_venom_bloom -> core_frost_crack -> core_venom_bloom (bounded at runtime by self-trigger guard, depth cap and per-tick proc cap)"
+    },
+    {
+      "severity": "warning",
+      "code": "proc_cycle",
+      "subject": "proc-graph",
+      "message": "potential feedback loop deep_freeze -> corpse_blast -> plague_seed -> stagger_lock -> core_fire_combust -> core_venom_bloom -> core_frost_crack -> fm_alchemist_catalyst -> deep_freeze (bounded at runtime by self-trigger guard, depth cap and per-tick proc cap)"
+    },
+    {
+      "severity": "warning",
+      "code": "proc_cycle",
+      "subject": "proc-graph",
+      "message": "potential feedback loop stagger_lock -> core_fire_combust -> core_venom_bloom -> core_frost_crack -> fm_alchemist_catalyst -> stagger_lock (bounded at runtime by self-trigger guard, depth cap and per-tick proc cap)"
+    },
+    {
+      "severity": "warning",
+      "code": "proc_cycle",
+      "subject": "proc-graph",
+      "message": "potential feedback loop core_frost_crack -> fm_alchemist_catalyst -> core_frost_crack (bounded at runtime by self-trigger guard, depth cap and per-tick proc cap)"
+    }
+  ]
+}

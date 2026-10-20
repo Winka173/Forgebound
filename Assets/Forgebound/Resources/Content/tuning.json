@@ -1,0 +1,18 @@
+// Global balance knobs. Every change must be followed by `forgebound sim` and a diff against reports/balance/baseline.
+{
+  "version": 1,
+  "enemyHpByChapter": [1.0, 1.0, 1.0],
+  "enemyDamageByChapter": [0.6, 0.56, 0.64],
+  "bossHp": 0.8,
+  "bossDamage": 0.6,
+  "eliteHp": 1.0,
+  "eliteDamage": 0.85,
+  "heroDamage": 1.0,
+  "procGlobal": 1.0,
+  "multiProjectileFalloff": 0.85,
+  "critDamageCap": 4.0,
+  "leechCapPerSecond": 0.04,
+  "postBattleHeal": 0.15,
+  "shieldCap": 0.5,
+  "shieldDecayPerSecond": 0.06
+}

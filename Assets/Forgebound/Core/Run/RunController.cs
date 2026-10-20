@@ -327,6 +327,22 @@ namespace Forgebound.Core.Run
             return Log(ActionResult.Success, "buy", "i", index);
         }
 
+        /// <summary>Shop service: temper a weapon one tier for gold (gold sink; costs more than a Forge node's free upgrade).</summary>
+        public int ShopUpgradeCost(WeaponInstance w) { return EconomyRules.TierUpgradeCost(w.Tier) + EconomyRules.ShopUpgradeSurcharge; }
+
+        public ActionResult ShopUpgrade(int weaponUid)
+        {
+            if (Run.Phase != RunPhase.InShop) return ActionResult.Fail(ActionError.WrongPhase);
+            var w = Run.FindWeapon(weaponUid);
+            if (w == null) return ActionResult.Fail(ActionError.NotFound);
+            if (w.Tier >= AssemblyRules.MaxTier) return ActionResult.Fail(ActionError.Invalid, "max_tier");
+            int cost = ShopUpgradeCost(w);
+            if (Run.Gold < cost) return ActionResult.Fail(ActionError.NotEnoughGold, cost.ToString());
+            Run.Gold -= cost;
+            w.Tier++;
+            return Log(ActionResult.Success, "shopUpgrade", "w", weaponUid);
+        }
+
         /// <summary>Sell a loose inventory item (allowed anywhere outside battle; value is half the base cost).</summary>
         public ActionResult Sell(int itemUid)
         {
@@ -674,6 +690,7 @@ namespace Forgebound.Core.Run
                 return Log(ActionResult.Success, "fight");
             }
             Run.Hp = Math.Max(1, result.HeroHp);
+            if (Db.Tuning.PostBattleHealPermille > 0) Run.Hp = Math.Min(MaxHp(), Run.Hp + FMath.Permille(MaxHp(), Db.Tuning.PostBattleHealPermille));
             var stats = HeroStats();
             var enc = Db.Encounter(node.EncounterId);
             int gold = 0;
@@ -974,6 +991,7 @@ namespace Forgebound.Core.Run
                             break;
                         }
                     case "upgrade": r = ForgeUpgrade(a.Int("w")); break;
+                    case "shopUpgrade": r = ShopUpgrade(a.Int("w")); break;
                     case "expand": r = ForgeExpandBoard(); break;
                     case "evolve": r = ForgeEvolve(a.Int("w"), a.Str("id")); break;
                     case "restHeal": r = RestHeal(); break;

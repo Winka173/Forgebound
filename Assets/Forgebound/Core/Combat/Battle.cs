@@ -173,8 +173,15 @@ namespace Forgebound.Core.Combat
         public Unit SpawnEnemy(EnemyDef def, int x, int summonedBy)
         {
             var diff = Setup.Difficulty;
+            var tuning = _db.Tuning;
             int hpMul = 1000 + diff.SumUntagged(StatType.EnemyHp);
-            int chapterScale = 1000 + (Setup.Chapter - 1) * 0;   // chapter scaling is authored per-encounter, not HP sponge
+            // Chapter / rank knobs from tuning.json (authored stats stay readable; tuning shifts the curve).
+            int chapterScale = Setup.DummyMode ? 1000 : tuning.Chapter(tuning.EnemyHpByChapter, Setup.Chapter);
+            if (def.Rank == EnemyRank.Boss) chapterScale = FMath.Permille(chapterScale, tuning.BossHpPermille);
+            if (def.Rank == EnemyRank.Elite) chapterScale = FMath.Permille(chapterScale, tuning.EliteHpPermille);
+            int dmgScale = tuning.Chapter(tuning.EnemyDamageByChapter, Setup.Chapter);
+            if (def.Rank == EnemyRank.Boss) dmgScale = FMath.Permille(dmgScale, tuning.BossDamagePermille);
+            if (def.Rank == EnemyRank.Elite) dmgScale = FMath.Permille(dmgScale, tuning.EliteDamagePermille);
             var u = new Unit
             {
                 Id = _nextUnitId++,
@@ -190,7 +197,7 @@ namespace Forgebound.Core.Combat
                 Flying = def.Flying,
                 Threat = def.Threat,
                 Rank = def.Rank,
-                DamagePermille = 1000 + diff.SumUntagged(StatType.EnemyDamage),
+                DamagePermille = FMath.Permille(1000 + diff.SumUntagged(StatType.EnemyDamage), dmgScale),
                 SpawnOrder = _nextUnitId,
                 SummonedBy = summonedBy,
                 AttackCooldown = def.AttackCooldownTicks / 2 + _rng.Next(10)
@@ -232,7 +239,7 @@ namespace Forgebound.Core.Combat
             if (Finished) return;
             Tick++;
             _procsThisTick = 0;
-            if (Tick % FMath.TicksPerSecond == 1) _leechBudget = Math.Max(1, Hero.MaxHp * 40 / 1000);
+            if (Tick % FMath.TicksPerSecond == 1) _leechBudget = Math.Max(1, Hero.MaxHp * _db.Tuning.LeechCapPerSecondPermille / 1000);
 
             UpdateWaves();
             UpdateStatuses();
@@ -385,6 +392,7 @@ namespace Forgebound.Core.Combat
         private bool CanWeaponHit(WeaponSpec w, Unit u, bool melee)
         {
             if (!u.Targetable || u.Team != 1) return false;
+            if (melee && u.Burrowed) return false;
             if (melee && u.Flying && !w.Tags.Contains("reach") && u.State != UnitState.Windup) return false;
             return true;
         }

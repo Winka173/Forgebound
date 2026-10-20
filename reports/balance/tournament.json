@@ -1,0 +1,828 @@
+{
+  "builds": 600,
+  "gauntlet": "ember_foreman,verdant_boss_rootmother,frost_countess,crypt_boss_lich,storm_paragon",
+  "overallWinFraction": 0.8543,
+  "components": {
+    "core:arcane": {
+      "n": 91,
+      "winFraction": 0.9033,
+      "delta": 0.049
+    },
+    "core:earth": {
+      "n": 92,
+      "winFraction": 0.9087,
+      "delta": 0.0544
+    },
+    "core:fire": {
+      "n": 87,
+      "winFraction": 0.908,
+      "delta": 0.0537
+    },
+    "core:frost": {
+      "n": 105,
+      "winFraction": 0.9314,
+      "delta": 0.0771
+    },
+    "core:life": {
+      "n": 89,
+      "winFraction": 0.8966,
+      "delta": 0.0423
+    },
+    "core:lightning": {
+      "n": 85,
+      "winFraction": 0.8776,
+      "delta": 0.0233
+    },
+    "core:shadow": {
+      "n": 91,
+      "winFraction": 0.8791,
+      "delta": 0.0248
+    },
+    "core:solar": {
+      "n": 113,
+      "winFraction": 0.9186,
+      "delta": 0.0643
+    },
+    "core:steel": {
+      "n": 105,
+      "winFraction": 0.9029,
+      "delta": 0.0485
+    },
+    "core:venom": {
+      "n": 85,
+      "winFraction": 0.88,
+      "delta": 0.0257
+    },
+    "core:void": {
+      "n": 97,
+      "winFraction": 0.9237,
+      "delta": 0.0694
+    },
+    "core:wind": {
+      "n": 101,
+      "winFraction": 0.9149,
+      "delta": 0.0605
+    },
+    "forgemaster:alchemist": {
+      "n": 85,
+      "winFraction": 0.8141,
+      "delta": -0.0402
+    },
+    "forgemaster:artificer": {
+      "n": 72,
+      "winFraction": 0.7972,
+      "delta": -0.0571
+    },
+    "forgemaster:blacksmith": {
+      "n": 78,
+      "winFraction": 0.8692,
+      "delta": 0.0149
+    },
+    "forgemaster:duelist": {
+      "n": 64,
+      "winFraction": 0.8906,
+      "delta": 0.0363
+    },
+    "forgemaster:hexblade": {
+      "n": 81,
+      "winFraction": 0.8642,
+      "delta": 0.0099
+    },
+    "forgemaster:runecrafter": {
+      "n": 72,
+      "winFraction": 0.8444,
+      "delta": -0.0099
+    },
+    "forgemaster:summoner": {
+      "n": 69,
+      "winFraction": 0.8319,
+      "delta": -0.0224
+    },
+    "forgemaster:warden": {
+      "n": 79,
+      "winFraction": 0.9241,
+      "delta": 0.0697
+    },
+    "frame:bow": {
+      "n": 98,
+      "winFraction": 0.849,
+      "delta": -0.0054
+    },
+    "frame:bulwark": {
+      "n": 93,
+      "winFraction": 0.9247,
+      "delta": 0.0704
+    },
+    "frame:crossbow": {
+      "n": 97,
+      "winFraction": 0.8742,
+      "delta": 0.0199
+    },
+    "frame:dagger": {
+      "n": 96,
+      "winFraction": 0.9062,
+      "delta": 0.0519
+    },
+    "frame:greatsword": {
+      "n": 97,
+      "winFraction": 0.9361,
+      "delta": 0.0817
+    },
+    "frame:hammer": {
+      "n": 84,
+      "winFraction": 0.9286,
+      "delta": 0.0742
+    },
+    "frame:scythe": {
+      "n": 90,
+      "winFraction": 0.9222,
+      "delta": 0.0679
+    },
+    "frame:spear": {
+      "n": 90,
+      "winFraction": 0.9133,
+      "delta": 0.059
+    },
+    "frame:staff": {
+      "n": 89,
+      "winFraction": 0.8742,
+      "delta": 0.0198
+    },
+    "frame:sword": {
+      "n": 99,
+      "winFraction": 0.8727,
+      "delta": 0.0184
+    },
+    "frame:tome": {
+      "n": 100,
+      "winFraction": 0.934,
+      "delta": 0.0797
+    },
+    "frame:whip": {
+      "n": 88,
+      "winFraction": 0.9205,
+      "delta": 0.0661
+    },
+    "modifier:ambush": {
+      "n": 75,
+      "winFraction": 0.8907,
+      "delta": 0.0363
+    },
+    "modifier:armor_piercer": {
+      "n": 70,
+      "winFraction": 0.9057,
+      "delta": 0.0514
+    },
+    "modifier:barrage": {
+      "n": 27,
+      "winFraction": 0.9259,
+      "delta": 0.0716
+    },
+    "modifier:boomerang": {
+      "n": 19,
+      "winFraction": 0.7789,
+      "delta": -0.0754
+    },
+    "modifier:brutal": {
+      "n": 82,
+      "winFraction": 0.8927,
+      "delta": 0.0383
+    },
+    "modifier:cauterize": {
+      "n": 81,
+      "winFraction": 0.9086,
+      "delta": 0.0543
+    },
+    "modifier:charged": {
+      "n": 77,
+      "winFraction": 0.9273,
+      "delta": 0.0729
+    },
+    "modifier:delayed": {
+      "n": 76,
+      "winFraction": 0.9263,
+      "delta": 0.072
+    },
+    "modifier:executioner": {
+      "n": 83,
+      "winFraction": 0.9084,
+      "delta": 0.0541
+    },
+    "modifier:explosion": {
+      "n": 72,
+      "winFraction": 0.8833,
+      "delta": 0.029
+    },
+    "modifier:focus": {
+      "n": 71,
+      "winFraction": 0.9042,
+      "delta": 0.0499
+    },
+    "modifier:forked": {
+      "n": 83,
+      "winFraction": 0.894,
+      "delta": 0.0396
+    },
+    "modifier:frenzied": {
+      "n": 76,
+      "winFraction": 0.9184,
+      "delta": 0.0641
+    },
+    "modifier:frostbite_edge": {
+      "n": 84,
+      "winFraction": 0.8976,
+      "delta": 0.0433
+    },
+    "modifier:guarding": {
+      "n": 82,
+      "winFraction": 0.9293,
+      "delta": 0.0749
+    },
+    "modifier:heavy_head": {
+      "n": 48,
+      "winFraction": 0.9375,
+      "delta": 0.0832
+    },
+    "modifier:homing": {
+      "n": 31,
+      "winFraction": 0.8452,
+      "delta": -0.0092
+    },
+    "modifier:hunters_mark": {
+      "n": 75,
+      "winFraction": 0.9013,
+      "delta": 0.047
+    },
+    "modifier:infused": {
+      "n": 98,
+      "winFraction": 0.9184,
+      "delta": 0.064
+    },
+    "modifier:knockback": {
+      "n": 50,
+      "winFraction": 0.944,
+      "delta": 0.0897
+    },
+    "modifier:lingering": {
+      "n": 79,
+      "winFraction": 0.9519,
+      "delta": 0.0976
+    },
+    "modifier:long_reach": {
+      "n": 63,
+      "winFraction": 0.8984,
+      "delta": 0.0441
+    },
+    "modifier:overcharge": {
+      "n": 77,
+      "winFraction": 0.9117,
+      "delta": 0.0574
+    },
+    "modifier:overdrive_coil": {
+      "n": 79,
+      "winFraction": 0.8608,
+      "delta": 0.0064
+    },
+    "modifier:pierce": {
+      "n": 22,
+      "winFraction": 0.8091,
+      "delta": -0.0452
+    },
+    "modifier:precision": {
+      "n": 83,
+      "winFraction": 0.894,
+      "delta": 0.0396
+    },
+    "modifier:pull": {
+      "n": 82,
+      "winFraction": 0.8927,
+      "delta": 0.0383
+    },
+    "modifier:quickdraw": {
+      "n": 89,
+      "winFraction": 0.9393,
+      "delta": 0.085
+    },
+    "modifier:rapid": {
+      "n": 71,
+      "winFraction": 0.938,
+      "delta": 0.0837
+    },
+    "modifier:repeat": {
+      "n": 80,
+      "winFraction": 0.935,
+      "delta": 0.0807
+    },
+    "modifier:resonant": {
+      "n": 77,
+      "winFraction": 0.9013,
+      "delta": 0.047
+    },
+    "modifier:ricochet": {
+      "n": 33,
+      "winFraction": 0.8061,
+      "delta": -0.0483
+    },
+    "modifier:scatter": {
+      "n": 35,
+      "winFraction": 0.8686,
+      "delta": 0.0142
+    },
+    "modifier:serrated": {
+      "n": 34,
+      "winFraction": 0.9353,
+      "delta": 0.081
+    },
+    "modifier:shatter": {
+      "n": 90,
+      "winFraction": 0.8978,
+      "delta": 0.0434
+    },
+    "modifier:shockwave": {
+      "n": 44,
+      "winFraction": 0.95,
+      "delta": 0.0957
+    },
+    "modifier:siphon": {
+      "n": 83,
+      "winFraction": 0.8892,
+      "delta": 0.0348
+    },
+    "modifier:split": {
+      "n": 28,
+      "winFraction": 0.9286,
+      "delta": 0.0742
+    },
+    "modifier:sundering": {
+      "n": 84,
+      "winFraction": 0.9286,
+      "delta": 0.0742
+    },
+    "modifier:sweep": {
+      "n": 77,
+      "winFraction": 0.9221,
+      "delta": 0.0677
+    },
+    "modifier:tempo": {
+      "n": 64,
+      "winFraction": 0.9469,
+      "delta": 0.0925
+    },
+    "modifier:twin_strike": {
+      "n": 47,
+      "winFraction": 0.8894,
+      "delta": 0.035
+    },
+    "modifier:volatile": {
+      "n": 74,
+      "winFraction": 0.8973,
+      "delta": 0.043
+    },
+    "modifier:weighted": {
+      "n": 31,
+      "winFraction": 0.9677,
+      "delta": 0.1134
+    },
+    "piece:amplifier": {
+      "n": 24,
+      "winFraction": 0.8333,
+      "delta": -0.021
+    },
+    "piece:anvil": {
+      "n": 24,
+      "winFraction": 0.8417,
+      "delta": -0.0127
+    },
+    "piece:attack_echo": {
+      "n": 28,
+      "winFraction": 0.8786,
+      "delta": 0.0242
+    },
+    "piece:beacon": {
+      "n": 19,
+      "winFraction": 0.8632,
+      "delta": 0.0088
+    },
+    "piece:bellows": {
+      "n": 38,
+      "winFraction": 0.9368,
+      "delta": 0.0825
+    },
+    "piece:bent_conduit": {
+      "n": 24,
+      "winFraction": 0.8833,
+      "delta": 0.029
+    },
+    "piece:blood_basin": {
+      "n": 21,
+      "winFraction": 0.9143,
+      "delta": 0.06
+    },
+    "piece:capacitor": {
+      "n": 17,
+      "winFraction": 0.8824,
+      "delta": 0.028
+    },
+    "piece:conduit": {
+      "n": 33,
+      "winFraction": 0.8606,
+      "delta": 0.0063
+    },
+    "piece:crit_capacitor": {
+      "n": 22,
+      "winFraction": 0.8182,
+      "delta": -0.0362
+    },
+    "piece:crit_echo": {
+      "n": 23,
+      "winFraction": 0.8696,
+      "delta": 0.0152
+    },
+    "piece:delay_coil": {
+      "n": 31,
+      "winFraction": 0.8839,
+      "delta": 0.0295
+    },
+    "piece:echo_coil": {
+      "n": 20,
+      "winFraction": 0.85,
+      "delta": -0.0043
+    },
+    "piece:echo_relay": {
+      "n": 25,
+      "winFraction": 0.776,
+      "delta": -0.0783
+    },
+    "piece:fire_converter": {
+      "n": 22,
+      "winFraction": 0.8364,
+      "delta": -0.018
+    },
+    "piece:fletching_rack": {
+      "n": 25,
+      "winFraction": 0.888,
+      "delta": 0.0337
+    },
+    "piece:focus_lens": {
+      "n": 21,
+      "winFraction": 0.9143,
+      "delta": 0.06
+    },
+    "piece:frost_converter": {
+      "n": 18,
+      "winFraction": 0.8778,
+      "delta": 0.0234
+    },
+    "piece:governor": {
+      "n": 20,
+      "winFraction": 0.8,
+      "delta": -0.0543
+    },
+    "piece:grindstone": {
+      "n": 28,
+      "winFraction": 0.8714,
+      "delta": 0.0171
+    },
+    "piece:heavy_anvil": {
+      "n": 23,
+      "winFraction": 0.8957,
+      "delta": 0.0413
+    },
+    "piece:junction": {
+      "n": 33,
+      "winFraction": 0.9091,
+      "delta": 0.0548
+    },
+    "piece:kill_echo": {
+      "n": 20,
+      "winFraction": 0.87,
+      "delta": 0.0157
+    },
+    "piece:lens": {
+      "n": 26,
+      "winFraction": 0.9154,
+      "delta": 0.0611
+    },
+    "piece:prism": {
+      "n": 34,
+      "winFraction": 0.8412,
+      "delta": -0.0132
+    },
+    "piece:quench_basin": {
+      "n": 33,
+      "winFraction": 0.9212,
+      "delta": 0.0669
+    },
+    "piece:resonator": {
+      "n": 27,
+      "winFraction": 0.9333,
+      "delta": 0.079
+    },
+    "piece:rune_lamp": {
+      "n": 25,
+      "winFraction": 0.888,
+      "delta": 0.0337
+    },
+    "piece:shade_converter": {
+      "n": 22,
+      "winFraction": 0.8364,
+      "delta": -0.018
+    },
+    "piece:siphon_node": {
+      "n": 25,
+      "winFraction": 0.944,
+      "delta": 0.0897
+    },
+    "piece:splitter": {
+      "n": 22,
+      "winFraction": 0.8455,
+      "delta": -0.0089
+    },
+    "piece:status_echo": {
+      "n": 24,
+      "winFraction": 0.8917,
+      "delta": 0.0373
+    },
+    "piece:storm_converter": {
+      "n": 27,
+      "winFraction": 0.8815,
+      "delta": 0.0271
+    },
+    "piece:tesla_coil": {
+      "n": 29,
+      "winFraction": 0.9103,
+      "delta": 0.056
+    },
+    "piece:tri_splitter": {
+      "n": 32,
+      "winFraction": 0.9063,
+      "delta": 0.0519
+    },
+    "piece:whetstone": {
+      "n": 17,
+      "winFraction": 0.9294,
+      "delta": 0.0751
+    },
+    "rune:adrenal_rune": {
+      "n": 36,
+      "winFraction": 0.9111,
+      "delta": 0.0568
+    },
+    "rune:aegis_rune": {
+      "n": 27,
+      "winFraction": 0.7778,
+      "delta": -0.0766
+    },
+    "rune:arcane_pulse": {
+      "n": 33,
+      "winFraction": 0.9152,
+      "delta": 0.0608
+    },
+    "rune:bark_skin": {
+      "n": 30,
+      "winFraction": 0.92,
+      "delta": 0.0657
+    },
+    "rune:bleeding_edge": {
+      "n": 32,
+      "winFraction": 0.9438,
+      "delta": 0.0894
+    },
+    "rune:blood_rune": {
+      "n": 30,
+      "winFraction": 0.9067,
+      "delta": 0.0523
+    },
+    "rune:bounty_rune": {
+      "n": 25,
+      "winFraction": 0.896,
+      "delta": 0.0417
+    },
+    "rune:breaker_rune": {
+      "n": 35,
+      "winFraction": 0.9429,
+      "delta": 0.0885
+    },
+    "rune:bulwark_oath": {
+      "n": 37,
+      "winFraction": 0.9351,
+      "delta": 0.0808
+    },
+    "rune:combo_finisher": {
+      "n": 39,
+      "winFraction": 0.8821,
+      "delta": 0.0277
+    },
+    "rune:conductor": {
+      "n": 37,
+      "winFraction": 0.9081,
+      "delta": 0.0538
+    },
+    "rune:corpse_blast": {
+      "n": 43,
+      "winFraction": 0.9116,
+      "delta": 0.0573
+    },
+    "rune:crit_spark": {
+      "n": 23,
+      "winFraction": 0.9304,
+      "delta": 0.0761
+    },
+    "rune:deep_freeze": {
+      "n": 30,
+      "winFraction": 0.9333,
+      "delta": 0.079
+    },
+    "rune:detonator": {
+      "n": 26,
+      "winFraction": 0.9154,
+      "delta": 0.0611
+    },
+    "rune:echo_glyph": {
+      "n": 24,
+      "winFraction": 0.9167,
+      "delta": 0.0623
+    },
+    "rune:ember_etch": {
+      "n": 37,
+      "winFraction": 0.9135,
+      "delta": 0.0592
+    },
+    "rune:execution_rune": {
+      "n": 38,
+      "winFraction": 0.9421,
+      "delta": 0.0878
+    },
+    "rune:first_light": {
+      "n": 38,
+      "winFraction": 0.9474,
+      "delta": 0.093
+    },
+    "rune:flurry_rune": {
+      "n": 43,
+      "winFraction": 0.9395,
+      "delta": 0.0852
+    },
+    "rune:frost_glyph": {
+      "n": 19,
+      "winFraction": 0.9368,
+      "delta": 0.0825
+    },
+    "rune:giant_slayer": {
+      "n": 36,
+      "winFraction": 0.9611,
+      "delta": 0.1068
+    },
+    "rune:gravity_well": {
+      "n": 23,
+      "winFraction": 0.7826,
+      "delta": -0.0717
+    },
+    "rune:harvest_rune": {
+      "n": 24,
+      "winFraction": 0.9083,
+      "delta": 0.054
+    },
+    "rune:hex_rune": {
+      "n": 46,
+      "winFraction": 0.9261,
+      "delta": 0.0718
+    },
+    "rune:hunters_sight": {
+      "n": 21,
+      "winFraction": 0.9429,
+      "delta": 0.0885
+    },
+    "rune:kindling": {
+      "n": 31,
+      "winFraction": 0.8581,
+      "delta": 0.0037
+    },
+    "rune:last_stand": {
+      "n": 33,
+      "winFraction": 0.9333,
+      "delta": 0.079
+    },
+    "rune:malediction": {
+      "n": 26,
+      "winFraction": 0.9154,
+      "delta": 0.0611
+    },
+    "rune:mending_clock": {
+      "n": 28,
+      "winFraction": 0.9286,
+      "delta": 0.0742
+    },
+    "rune:momentum": {
+      "n": 34,
+      "winFraction": 0.9647,
+      "delta": 0.1104
+    },
+    "rune:opening_volley": {
+      "n": 14,
+      "winFraction": 0.8714,
+      "delta": 0.0171
+    },
+    "rune:plague_seed": {
+      "n": 23,
+      "winFraction": 0.9217,
+      "delta": 0.0674
+    },
+    "rune:pulse_clock": {
+      "n": 41,
+      "winFraction": 0.9171,
+      "delta": 0.0627
+    },
+    "rune:rending_glyph": {
+      "n": 36,
+      "winFraction": 0.9222,
+      "delta": 0.0679
+    },
+    "rune:retaliation": {
+      "n": 33,
+      "winFraction": 0.8909,
+      "delta": 0.0366
+    },
+    "rune:shard_burst": {
+      "n": 28,
+      "winFraction": 0.9214,
+      "delta": 0.0671
+    },
+    "rune:smiting_rune": {
+      "n": 29,
+      "winFraction": 0.9034,
+      "delta": 0.0491
+    },
+    "rune:soul_siphon": {
+      "n": 31,
+      "winFraction": 0.9677,
+      "delta": 0.1134
+    },
+    "rune:spite_rune": {
+      "n": 30,
+      "winFraction": 0.94,
+      "delta": 0.0857
+    },
+    "rune:stagger_lock": {
+      "n": 30,
+      "winFraction": 0.9533,
+      "delta": 0.099
+    },
+    "rune:static_sigil": {
+      "n": 33,
+      "winFraction": 0.9455,
+      "delta": 0.0911
+    },
+    "rune:storm_clock": {
+      "n": 31,
+      "winFraction": 0.929,
+      "delta": 0.0747
+    },
+    "rune:thunder_knot": {
+      "n": 24,
+      "winFraction": 0.8917,
+      "delta": 0.0373
+    },
+    "rune:toxin_burst": {
+      "n": 47,
+      "winFraction": 0.8766,
+      "delta": 0.0223
+    },
+    "rune:venom_mark": {
+      "n": 41,
+      "winFraction": 0.9561,
+      "delta": 0.1018
+    },
+    "rune:war_cry": {
+      "n": 29,
+      "winFraction": 0.9586,
+      "delta": 0.1043
+    },
+    "rune:ward_glyph": {
+      "n": 34,
+      "winFraction": 0.9118,
+      "delta": 0.0574
+    }
+  },
+  "flags": [],
+  "topBuilds": [
+    "5/5 trio warden [bulwark|arcane|overdrive_coil+forked|hex_rune+giant_slayer|t2|- || crossbow|fire|lingering+armor_piercer+quickdraw|aegis_rune|t2|- || sword|earth|lingering+delayed+repeat|ward_glyph|t2|-] pieces=quench_basin,splitter,heavy_anvil",
+    "5/5 legendary alchemist [hammer|shadow|frenzied||t2|cursed_heartforge || crossbow|wind|split+lingering+weighted|ember_etch|t2|-] pieces=bent_conduit,bellows",
+    "5/5 trio hexblade [bow|void|sundering+barrage+lingering|pulse_clock|t2|- || dagger|frost|siphon+infused|retaliation+giant_slayer|t2|- || crossbow|void|repeat+armor_piercer+quickdraw|flurry_rune|t2|-] pieces=resonator,tri_splitter",
+    "5/5 trio hexblade [sword|arcane|guarding+lingering+focus|retaliation|t2|- || bow|lightning|executioner+delayed+rapid|ward_glyph|t2|- || crossbow|steel|scatter+repeat+homing|bulwark_oath|t2|-] pieces=kill_echo",
+    "5/5 legendary blacksmith [hammer|shadow|frenzied||t2|cursed_heartforge || staff|life|scatter+precision+frenzied|volley_glyph+arcane_pulse|t2|- || crossbow|frost|pull+lingering+shatter|giant_slayer|t2|-] pieces=blood_basin,status_echo,conduit",
+    "5/5 trio warden [dagger|venom|forked+lingering|frost_glyph+corpse_blast|t2|- || hammer|wind|shatter+charged+siphon|ward_glyph|t2|- || tome|steel|forked+siphon|bleeding_edge+hunters_sight|t2|-] pieces=governor",
+    "5/5 trio alchemist [hammer|life|infused+heavy_head+overcharge|smiting_rune|t2|- || crossbow|void|lingering+overcharge+rapid|volley_glyph|t2|- || scythe|earth|frenzied+ambush+lingering|echo_glyph+static_sigil|t2|-] pieces=delay_coil",
+    "5/5 trio runecrafter [whip|void|infused+ambush+lingering|deep_freeze|t2|- || crossbow|life|cauterize+delayed+brutal|spite_rune|t2|- || bow|void|homing+lingering+split|hex_rune|t2|-] pieces=attack_echo,quench_basin",
+    "5/5 legendary summoner [hammer|lightning|charged||t2|thunder_maul || crossbow|arcane|overdrive_coil+executioner+homing|splinter_rune|t2|-] pieces=fire_converter,grindstone",
+    "5/5 legendary alchemist [dagger|shadow|ambush||t2|shadowstep_daggers || scythe|earth|focus+armor_piercer+overdrive_coil|momentum+thunder_knot|t2|- || greatsword|wind|serrated+lingering+sundering|pulse_clock+static_sigil|t2|-] pieces="
+  ],
+  "bottomBuilds": [
+    "1/5 legendary artificer [sword|lightning|resonant||t2|runeblade] pieces=fletching_rack,governor",
+    "1/5 single alchemist [staff|steel|siphon+boomerang+volatile|aegis_rune+pulse_clock|t2|-] pieces=",
+    "1/5 single summoner [spear|venom|long_reach+siphon+overdrive_coil|hex_rune|t2|-] pieces=delay_coil,grindstone",
+    "1/5 single blacksmith [staff|venom|explosion+hunters_mark+frostbite_edge|crit_spark+splinter_rune|t2|-] pieces=frost_converter",
+    "1/5 single blacksmith [bow|earth|shatter+forked+boomerang|bark_skin|t2|-] pieces="
+  ],
+  "ms": 4210
+}

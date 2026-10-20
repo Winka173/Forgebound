@@ -21,7 +21,8 @@ namespace Forgebound.Tests
                 _db = ContentDatabase.Load(new Forgebound.Presentation.ResourcesContentSource());
 #else
                 var files = new Dictionary<string, string>();
-                foreach (var name in ContentDatabase.FileNames)
+                var names = new List<string>(ContentDatabase.FileNames) { "tuning" };
+                foreach (var name in names)
                 {
                     var p = Path.Combine(FindRoot(), "Assets", "Forgebound", "Resources", "Content", name + ".json");
                     if (File.Exists(p)) files[name] = File.ReadAllText(p);

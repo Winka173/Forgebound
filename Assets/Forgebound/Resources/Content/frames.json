@@ -5,11 +5,11 @@
   "items": [
     {
       "id": "sword", "tags": ["melee", "blade", "light", "combo"], "stance": "melee", "range": 1.6,
-      "baseDamage": 10, "cooldown": 0.9, "windup": 0.15, "critChance": 0.08, "critDamage": 1.6,
+      "baseDamage": 12, "cooldown": 0.75, "windup": 0.15, "critChance": 0.1, "critDamage": 1.6,
       "steps": [
         { "kind": "melee", "shape": "single", "damage": 1.0 },
         { "kind": "melee", "shape": "single", "damage": 1.0 },
-        { "kind": "melee", "shape": "arc", "damage": 1.7, "width": 1.2, "maxTargets": 3, "windup": 0.22, "cooldown": 1.2 }
+        { "kind": "melee", "shape": "arc", "damage": 2.0, "width": 1.2, "maxTargets": 3, "windup": 0.22, "cooldown": 1.1, "stagger": 0.2 }
       ],
       "footprint": [[0,0],[1,0],[2,0]],
       "ports": [ { "cell": 0, "dir": "west", "kind": "in" }, { "cell": 2, "dir": "east", "kind": "out" }, { "cell": 1, "dir": "north", "kind": "both" } ],
@@ -82,7 +82,7 @@
     },
     {
       "id": "scythe", "tags": ["melee", "blade", "reach", "reaper"], "stance": "melee", "range": 2.2,
-      "baseDamage": 14, "cooldown": 1.3, "windup": 0.3, "critChance": 0.1, "critDamage": 1.7,
+      "baseDamage": 12, "cooldown": 1.3, "windup": 0.3, "critChance": 0.1, "critDamage": 1.7,
       "steps": [
         { "kind": "melee", "shape": "arc", "damage": 1.0, "width": 1.6, "maxTargets": 4, "pull": 0.6 },
         { "kind": "melee", "shape": "arc", "damage": 1.2, "width": 1.6, "maxTargets": 4, "status": { "status": "bleed", "chance": 0.5, "stacks": 1, "duration": 4 } }
@@ -95,8 +95,8 @@
       "id": "bulwark", "tags": ["melee", "defensive", "blunt", "shield"], "stance": "melee", "range": 1.5,
       "baseDamage": 9, "cooldown": 1.1, "windup": 0.2, "critChance": 0.03,
       "steps": [
-        { "kind": "melee", "shape": "single", "damage": 1.0, "shield": 0.7 },
-        { "kind": "melee", "shape": "single", "damage": 1.2, "shield": 0.7, "stagger": 0.35 }
+        { "kind": "melee", "shape": "single", "damage": 1.0, "shield": 0.25 },
+        { "kind": "melee", "shape": "single", "damage": 1.2, "shield": 0.25, "stagger": 0.35 }
       ],
       "footprint": [[0,0],[1,0],[0,1],[1,1]],
       "ports": [ { "cell": 0, "dir": "west", "kind": "in" }, { "cell": 1, "dir": "east", "kind": "out" }, { "cell": 2, "dir": "west", "kind": "both" }, { "cell": 3, "dir": "east", "kind": "both" } ],
@@ -115,8 +115,8 @@
       "baseDamage": 12, "cooldown": 1.4, "windup": 0.3, "projectileSpeed": 10, "damageType": "arcane", "critChance": 0.05,
       "steps": [
         { "kind": "summon", "damage": 1.0, "summonCap": 2, "windup": 0.5 },
-        { "kind": "projectile", "damage": 0.8 },
-        { "kind": "projectile", "damage": 0.8 }
+        { "kind": "projectile", "damage": 1.0 },
+        { "kind": "projectile", "damage": 1.0 }
       ],
       "footprint": [[0,0],[0,1]],
       "ports": [ { "cell": 0, "dir": "east", "kind": "out" }, { "cell": 1, "dir": "west", "kind": "in" }, { "cell": 1, "dir": "east", "kind": "both" } ],

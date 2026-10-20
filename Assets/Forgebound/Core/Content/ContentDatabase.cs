@@ -60,6 +60,7 @@ namespace Forgebound.Core.Content
         private readonly Dictionary<string, ChallengeDef> _challenges = new Dictionary<string, ChallengeDef>();
 
         public readonly List<string> LoadErrors = new List<string>();
+        public TuningDef Tuning = new TuningDef();
 
         public FrameDef Frame(string id) { return Get(_frames, id); }
         public CoreDef Core(string id) { return Get(_cores, id); }
@@ -126,6 +127,14 @@ namespace Forgebound.Core.Content
         {
             var db = new ContentDatabase();
             var errors = db.LoadErrors;
+            var tuningText = source.Read("tuning");
+            if (tuningText != null)
+            {
+                JsonValue tj;
+                string terr;
+                if (JsonParser.TryParse(tuningText, out tj, out terr)) db.Tuning = TuningDef.Parse(tj, errors);
+                else errors.Add("tuning: JSON parse error: " + terr);
+            }
             foreach (var name in FileNames)
             {
                 var text = source.Read(name);
