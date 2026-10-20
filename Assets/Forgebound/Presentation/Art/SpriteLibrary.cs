@@ -78,7 +78,9 @@ namespace Forgebound.Presentation
 
         public Sprite Icon(string category, string id)
         {
-            var s = Find("fb_" + category + "_" + id + "_icon", "fb_icon_" + category + "_" + id);
+            var s = Find("fb_" + category + "_" + id + "_icon", "fb_icon_" + category + "_" + id,
+                // Frames have no dedicated icon: show the plain steel tier-1 weapon of that frame.
+                category == "frame" ? "fb_weapon_" + id + "_steel-t1_icon_00" : null);
             if (s != null) return s;
             Missing.Add(category + ":" + id);
             return Fallback(category + "_" + id, Shape.Circle, category == "core" ? CoreColor(id) : Theme.Gold);

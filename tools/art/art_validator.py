@@ -709,14 +709,18 @@ def write_reports(rep: Report, root, outdir, cfg, make_html=True):
     sections = []
     for (cat, state), paths in sorted(groups.items()):
         paths = sorted(paths)
-        cols = 12 if len(paths) > 24 else 8
-        cell = 96 if len(paths) > 24 else 128
+        cols = 16 if len(paths) > 200 else (12 if len(paths) > 24 else 8)
+        cell = 80 if len(paths) > 200 else (96 if len(paths) > 24 else 128)
         full = contact_sheet(paths, root, cell, cols)
-        full.save(os.path.join(outdir, f"contact_{cat}_{state}.png"))
-        dark = contact_sheet(paths, root, 48, cols * 2, bg=(26, 28, 34, 255))
-        light = contact_sheet(paths, root, 48, cols * 2, bg=(228, 228, 228, 255))
+        sheet_name = f"contact_{cat}_{state}.png"
+        full.save(os.path.join(outdir, sheet_name))
+        # phone-scale previews: animated groups show frame 00 only to keep the report small
+        prev = [p for p in paths if not re.search(r"_(0[1-9]|[1-9][0-9])\.png$", p)] or paths
+        dark = contact_sheet(prev, root, 48, cols * 2, bg=(26, 28, 34, 255))
+        light = contact_sheet(prev, root, 48, cols * 2, bg=(228, 228, 228, 255))
+        # the full sheet is linked (it sits next to the HTML), not embedded: batch 2 has ~1,300 sprites
         sections.append(f"<h2>{cat} / {state} ({len(paths)})</h2>"
-                        f"<p>Contact sheet ({cell}px cells, checker = transparency):</p><img class=sheet src='data:image/png;base64,{_b64png(full)}'>"
+                        f"<p>Contact sheet ({cell}px cells, checker = transparency):</p><img class=sheet src='{sheet_name}'>"
                         f"<p>Actual phone scale (48px, 1:1 pixels) on dark and light UI backgrounds:</p>"
                         f"<img class=px src='data:image/png;base64,{_b64png(dark)}'><br><img class=px src='data:image/png;base64,{_b64png(light)}'>")
     rows = []
