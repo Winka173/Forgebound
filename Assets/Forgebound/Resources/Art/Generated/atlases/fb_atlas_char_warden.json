@@ -1,0 +1,597 @@
+{
+ "schema": "forgebound.art.atlas/1",
+ "group": "char_warden",
+ "ppu": 100,
+ "padding": 4,
+ "pages": [
+  {
+   "index": 0,
+   "image": "fb_atlas_char_warden.png",
+   "size": [
+    640,
+    896
+   ],
+   "sha256": "040ceca75e93cb6d286797fda60899fda66ee9ed91c6e131b186f336038f996e"
+  }
+ ],
+ "sprites": [
+  {
+   "name": "fb_char_warden_attack_00",
+   "file": "char/warden/fb_char_warden_attack_00.png",
+   "page": 0,
+   "rect": [
+    101,
+    4,
+    98,
+    218
+   ],
+   "rect_unity": [
+    101,
+    674,
+    98,
+    218
+   ],
+   "pivot": [
+    0.43878,
+    0.03205
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    85,
+    21
+   ],
+   "id": "warden",
+   "variant": null,
+   "state": "attack",
+   "frame": 0,
+   "source_sha256": "f547ac777fcfbda1f933a5b00db3cb90e7900062c678208dee223d793d7db740"
+  },
+  {
+   "name": "fb_char_warden_attack_01",
+   "file": "char/warden/fb_char_warden_attack_01.png",
+   "page": 0,
+   "rect": [
+    4,
+    4,
+    93,
+    219
+   ],
+   "rect_unity": [
+    4,
+    673,
+    93,
+    219
+   ],
+   "pivot": [
+    0.52688,
+    0.03191
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    79,
+    20
+   ],
+   "id": "warden",
+   "variant": null,
+   "state": "attack",
+   "frame": 1,
+   "source_sha256": "4ba83ddd34b87679b26df248884e396cdbfced1dfd5f07d502c2a1462cca6c57"
+  },
+  {
+   "name": "fb_char_warden_attack_02",
+   "file": "char/warden/fb_char_warden_attack_02.png",
+   "page": 0,
+   "rect": [
+    203,
+    4,
+    94,
+    218
+   ],
+   "rect_unity": [
+    203,
+    674,
+    94,
+    218
+   ],
+   "pivot": [
+    0.55319,
+    0.03205
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    76,
+    21
+   ],
+   "id": "warden",
+   "variant": null,
+   "state": "attack",
+   "frame": 2,
+   "source_sha256": "f6a1e8c25de4c792cc6a0664cf24e156a059ff9af405f0d07a829156237857e7"
+  },
+  {
+   "name": "fb_char_warden_attack_03",
+   "file": "char/warden/fb_char_warden_attack_03.png",
+   "page": 0,
+   "rect": [
+    538,
+    4,
+    97,
+    217
+   ],
+   "rect_unity": [
+    538,
+    675,
+    97,
+    217
+   ],
+   "pivot": [
+    0.57732,
+    0.02759
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    72,
+    21
+   ],
+   "id": "warden",
+   "variant": null,
+   "state": "attack",
+   "frame": 3,
+   "source_sha256": "7372444d255834f55c9ecb36480b45903de5d22d1e826aba4e3d6afdec496dbf"
+  },
+  {
+   "name": "fb_char_warden_attack_04",
+   "file": "char/warden/fb_char_warden_attack_04.png",
+   "page": 0,
+   "rect": [
+    379,
+    446,
+    110,
+    212
+   ],
+   "rect_unity": [
+    379,
+    238,
+    110,
+    212
+   ],
+   "pivot": [
+    0.29091,
+    0.02352
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    96,
+    25
+   ],
+   "id": "warden",
+   "variant": null,
+   "state": "attack",
+   "frame": 4,
+   "source_sha256": "6590268bbc55225581d6335a0a996397a5a19a944899bc3f7521dce4af4ac754"
+  },
+  {
+   "name": "fb_char_warden_attack_05",
+   "file": "char/warden/fb_char_warden_attack_05.png",
+   "page": 0,
+   "rect": [
+    379,
+    662,
+    116,
+    209
+   ],
+   "rect_unity": [
+    379,
+    25,
+    116,
+    209
+   ],
+   "pivot": [
+    0.25,
+    0.02386
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    99,
+    28
+   ],
+   "id": "warden",
+   "variant": null,
+   "state": "attack",
+   "frame": 5,
+   "source_sha256": "28548b4dfbdb2ccfd6b064e0130bf85e9c9b6d8fbaf94e9cab405bfd18340adb"
+  },
+  {
+   "name": "fb_char_warden_attack_06",
+   "file": "char/warden/fb_char_warden_attack_06.png",
+   "page": 0,
+   "rect": [
+    521,
+    445,
+    107,
+    213
+   ],
+   "rect_unity": [
+    521,
+    238,
+    107,
+    213
+   ],
+   "pivot": [
+    0.3271,
+    0.02341
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    93,
+    24
+   ],
+   "id": "warden",
+   "variant": null,
+   "state": "attack",
+   "frame": 6,
+   "source_sha256": "429563cd2782ede91d08e2edab50a206e85d688836291991ac268c49d19b970e"
+  },
+  {
+   "name": "fb_char_warden_attack_07",
+   "file": "char/warden/fb_char_warden_attack_07.png",
+   "page": 0,
+   "rect": [
+    418,
+    225,
+    99,
+    217
+   ],
+   "rect_unity": [
+    418,
+    454,
+    99,
+    217
+   ],
+   "pivot": [
+    0.40404,
+    0.0322
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    88,
+    22
+   ],
+   "id": "warden",
+   "variant": null,
+   "state": "attack",
+   "frame": 7,
+   "source_sha256": "eeb7fa4d7049fb31d7488849e99fc37006815c13e93fb451781fbea48df94c14"
+  },
+  {
+   "name": "fb_char_warden_idle_00",
+   "file": "char/warden/fb_char_warden_idle_00.png",
+   "page": 0,
+   "rect": [
+    101,
+    226,
+    120,
+    216
+   ],
+   "rect_unity": [
+    101,
+    454,
+    120,
+    216
+   ],
+   "pivot": [
+    0.35833,
+    0.02309
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    85,
+    21
+   ],
+   "id": "warden",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "bac50cb2741d5604d7fc97fb4abdfa8f26bf47cca00f4524edf2d7b72524e0b1"
+  },
+  {
+   "name": "fb_char_warden_idle_01",
+   "file": "char/warden/fb_char_warden_idle_01.png",
+   "page": 0,
+   "rect": [
+    301,
+    4,
+    116,
+    217
+   ],
+   "rect_unity": [
+    301,
+    675,
+    116,
+    217
+   ],
+   "pivot": [
+    0.37069,
+    0.02298
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    85,
+    20
+   ],
+   "id": "warden",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "ae1c1d224f222a34c4ef8778548c8f649776d963fb7350bdaba23ef1593b7c1b"
+  },
+  {
+   "name": "fb_char_warden_idle_02",
+   "file": "char/warden/fb_char_warden_idle_02.png",
+   "page": 0,
+   "rect": [
+    421,
+    4,
+    113,
+    217
+   ],
+   "rect_unity": [
+    421,
+    675,
+    113,
+    217
+   ],
+   "pivot": [
+    0.37168,
+    0.02298
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    86,
+    20
+   ],
+   "id": "warden",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "a8e2a13ead8b1a2312f66d3aa7586aff1dcddabf246f5055528182a9bc78ea67"
+  },
+  {
+   "name": "fb_char_warden_idle_03",
+   "file": "char/warden/fb_char_warden_idle_03.png",
+   "page": 0,
+   "rect": [
+    301,
+    225,
+    113,
+    217
+   ],
+   "rect_unity": [
+    301,
+    454,
+    113,
+    217
+   ],
+   "pivot": [
+    0.38053,
+    0.02298
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    85,
+    20
+   ],
+   "id": "warden",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "ae4d67b6045a96e41e40d01ee216e3380d079f381792c85594727fad9eee02b8"
+  },
+  {
+   "name": "fb_char_warden_idle_04",
+   "file": "char/warden/fb_char_warden_idle_04.png",
+   "page": 0,
+   "rect": [
+    521,
+    225,
+    115,
+    216
+   ],
+   "rect_unity": [
+    521,
+    455,
+    115,
+    216
+   ],
+   "pivot": [
+    0.37391,
+    0.02309
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    85,
+    21
+   ],
+   "id": "warden",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "396d715fadbb9f9c6328b1ffbc4ad831007ad899ca96763c5c55b7571872d57d"
+  },
+  {
+   "name": "fb_char_warden_idle_05",
+   "file": "char/warden/fb_char_warden_idle_05.png",
+   "page": 0,
+   "rect": [
+    130,
+    446,
+    119,
+    215
+   ],
+   "rect_unity": [
+    130,
+    235,
+    119,
+    215
+   ],
+   "pivot": [
+    0.36134,
+    0.0232
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    85,
+    22
+   ],
+   "id": "warden",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "2a197d32a63bf7e3b9ba925ad46ddfde7d0d9dc484e4b1f03eccac9f24b8dd91"
+  },
+  {
+   "name": "fb_char_warden_idle_06",
+   "file": "char/warden/fb_char_warden_idle_06.png",
+   "page": 0,
+   "rect": [
+    253,
+    446,
+    122,
+    214
+   ],
+   "rect_unity": [
+    253,
+    236,
+    122,
+    214
+   ],
+   "pivot": [
+    0.35246,
+    0.0233
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    85,
+    23
+   ],
+   "id": "warden",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "eb7332e5d5475ee65e2c039a47806c5e98aff21d6b4276909932dc670ab00806"
+  },
+  {
+   "name": "fb_char_warden_idle_07",
+   "file": "char/warden/fb_char_warden_idle_07.png",
+   "page": 0,
+   "rect": [
+    4,
+    446,
+    122,
+    215
+   ],
+   "rect_unity": [
+    4,
+    235,
+    122,
+    215
+   ],
+   "pivot": [
+    0.35246,
+    0.0232
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    85,
+    22
+   ],
+   "id": "warden",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "e8bd37192e1c9bcaa389832f4388384d4a341f86a8e8a06c72a8d9b667472b74"
+  }
+ ],
+ "clips": {
+  "warden/attack": {
+   "fps": 12,
+   "loop": false,
+   "frame_count": 8,
+   "frames": [
+    "fb_char_warden_attack_00",
+    "fb_char_warden_attack_01",
+    "fb_char_warden_attack_02",
+    "fb_char_warden_attack_03",
+    "fb_char_warden_attack_04",
+    "fb_char_warden_attack_05",
+    "fb_char_warden_attack_06",
+    "fb_char_warden_attack_07"
+   ],
+   "duration_s": 0.6667
+  },
+  "warden/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_char_warden_idle_00",
+    "fb_char_warden_idle_01",
+    "fb_char_warden_idle_02",
+    "fb_char_warden_idle_03",
+    "fb_char_warden_idle_04",
+    "fb_char_warden_idle_05",
+    "fb_char_warden_idle_06",
+    "fb_char_warden_idle_07"
+   ],
+   "duration_s": 1.0
+  }
+ }
+}

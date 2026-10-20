@@ -5,6 +5,7 @@
     python3 ArtSource/blender/build_all.py --scope smoke   # tiny subset
     python3 ArtSource/blender/build_all.py --only weapon board --workers 4
     python3 ArtSource/blender/build_all.py --post-only     # re-run post step from cache
+    python3 ArtSource/blender/build_all.py --only enemy --match 'slag|cinder'   # iterate on a few jobs
 
 Spawns headless Blender workers (Cycles CPU) that render raw supersampled PNGs
 into ArtSource/renders_cache/, then post-processes them into
@@ -52,11 +53,17 @@ def git_commit():
     return None
 
 
+JOB_COST = {"env": 40.0, "char": 14.0, "enemy": 12.0, "weapon": 1.0}
+
+
 def run_workers(jobs, workers, blender, cache, log_dir):
     chunks = [[] for _ in range(workers)]
-    # round-robin keeps heavy (animated) jobs spread over workers
-    for i, j in enumerate(sorted(jobs, key=lambda j: (j["category"] not in ("char", "enemy"), j["name"]))):
-        chunks[i % workers].append(j)
+    load = [0.0] * workers
+    # longest-processing-time-first: heavy (animated / background) jobs spread evenly over workers
+    for j in sorted(jobs, key=lambda j: (-JOB_COST.get(j["category"], 1.0), j["name"])):
+        k = min(range(workers), key=lambda i: load[i])
+        chunks[k].append(j)
+        load[k] += JOB_COST.get(j["category"], 1.0)
     threads = max(1, (os.cpu_count() or 4) // workers)
     procs = []
     for i, chunk in enumerate(chunks):
@@ -91,6 +98,10 @@ def final_relpath(job, img):
         sub = os.path.join("weapon", state)
     elif cat == "board":
         sub = os.path.join("board", "icon")
+    elif cat in spec.ITEM_CATEGORIES:
+        sub = os.path.join(cat, "icon")
+    elif cat == "env":
+        sub = "env"
     else:
         sub = os.path.join(cat, job["asset_id"])
     return os.path.join(sub, fname).replace(os.sep, "/")
@@ -109,12 +120,16 @@ def postprocess(results, out_dir, meta):
             os.makedirs(os.path.dirname(dst), exist_ok=True)
             if img.get("post") == "glow":
                 im = P.process_glow(img["raw"], spec.SUPERSAMPLE)
+            elif img.get("post") == "opaque":
+                im = P.process_opaque(img["raw"], spec.SUPERSAMPLE)
             else:
                 im = P.process_sprite(img["raw"], spec.SUPERSAMPLE)
             P.save_png(im, dst)
             state = img["state"]
             clip = spec.CLIPS.get(state)
-            params = {k: v for k, v in job.items() if k not in ("name", "function", "group")}
+            params = {k: v for k, v in job.items() if k not in ("name", "function", "group", "glyph", "data", "recipe")}
+            if job.get("recipe"):
+                params["recipe"] = {k: v for k, v in job["recipe"].items() if k in ("plan", "scale", "kit_parts")}
             entries.append({
                 "file": rel,
                 "id": job["asset_id"],
@@ -128,7 +143,7 @@ def postprocess(results, out_dir, meta):
                 "size": list(im.size),
                 "pivot": [round(float(v), 4) for v in img["pivot"]],
                 "ppu": spec.PPU,
-                "blend": "additive" if img.get("post") == "glow" else "alpha",
+                "blend": {"glow": "additive", "opaque": "opaque"}.get(img.get("post"), "alpha"),
                 "grounded": job.get("grounded"),
                 "group": job.get("group"),
                 "core": job.get("core"),
@@ -152,7 +167,9 @@ def postprocess(results, out_dir, meta):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--scope", default="full", choices=["full", "smoke"])
-    ap.add_argument("--only", nargs="*", default=None, help="categories: weapon board char enemy")
+    ap.add_argument("--only", nargs="*", default=None,
+                    help="categories: weapon board item (=core modifier rune blessing) char enemy env")
+    ap.add_argument("--match", default=None, help="regex on job names; renders only matching jobs and keeps other outputs")
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--blender", default=os.environ.get("BLENDER", "blender"))
     ap.add_argument("--out", default=OUT_DEFAULT)
@@ -160,9 +177,18 @@ def main():
     ap.add_argument("--post-only", action="store_true", help="skip rendering, reuse cached worker results")
     args = ap.parse_args()
 
-    jobs = J.all_jobs(args.scope)
+    only = None
     if args.only:
-        jobs = [j for j in jobs if j["category"] in args.only]
+        only = set(args.only)
+        if "item" in only:
+            only |= set(spec.ITEM_CATEGORIES)
+    jobs = J.all_jobs(args.scope, only)
+    if only:
+        jobs = [j for j in jobs if j["category"] in only]
+    if args.match:
+        import re
+        rx = re.compile(args.match)
+        jobs = [j for j in jobs if rx.search(j["name"])]
     os.makedirs(args.cache, exist_ok=True)
     os.makedirs(os.path.join(args.cache, "raw"), exist_ok=True)
     log_dir = os.path.join(args.cache, "logs")
@@ -186,18 +212,21 @@ def main():
     t_render = time.time() - t0
 
     cats = sorted({j["category"] for j in jobs})
-    for c in cats:  # remove stale outputs of the categories we rebuild
-        d = os.path.join(args.out, c)
-        if os.path.isdir(d):
-            shutil.rmtree(d)
+    if not args.match:
+        for c in cats:  # remove stale outputs of the categories we rebuild
+            d = os.path.join(args.out, c)
+            if os.path.isdir(d):
+                shutil.rmtree(d)
     t1 = time.time()
     entries = postprocess(results, args.out, meta)
     t_post = time.time() - t1
 
     man_path = os.path.join(args.out, "manifest.json")
     old = []
-    if os.path.exists(man_path) and args.only:
-        old = [e for e in json.load(open(man_path)).get("files", []) if e["category"] not in cats]
+    if os.path.exists(man_path) and (args.only or args.match):
+        new_files = {e["file"] for e in entries}
+        old = [e for e in json.load(open(man_path)).get("files", [])
+               if (e["category"] not in cats or args.match) and e["file"] not in new_files]
     all_entries = sorted(old + entries, key=lambda e: e["file"])
     manifest = {
         "schema": "forgebound.art.manifest/1",
@@ -206,7 +235,7 @@ def main():
         "blender_version": meta["blender_version"],
         "git_commit": meta["git_commit"],
         "ppu": spec.PPU,
-        "build": {"scope": args.scope, "only": args.only, "workers": args.workers,
+        "build": {"scope": args.scope, "only": args.only, "match": args.match, "workers": args.workers,
                   "render_seconds": round(t_render, 1), "post_seconds": round(t_post, 1),
                   "jobs": len(jobs), "jobs_failed": sum(1 for r in results if not r.get("ok")) + (len(jobs) - len(results))},
         "license": spec.LICENSE,

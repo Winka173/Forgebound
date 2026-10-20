@@ -1,0 +1,2325 @@
+{
+ "schema": "forgebound.art.atlas/1",
+ "group": "enemy_overgrowth",
+ "ppu": 100,
+ "padding": 4,
+ "pages": [
+  {
+   "index": 0,
+   "image": "fb_atlas_enemy_overgrowth.png",
+   "size": [
+    1536,
+    1152
+   ],
+   "sha256": "2a3e7029ded2c3145298d50b298c2022cfab082fbc15fedf4952a6aebf960ec9"
+  }
+ ],
+ "sprites": [
+  {
+   "name": "fb_enemy_briar_stalker_idle_00",
+   "file": "enemy/briar_stalker/fb_enemy_briar_stalker_idle_00.png",
+   "page": 0,
+   "rect": [
+    625,
+    412,
+    112,
+    174
+   ],
+   "rect_unity": [
+    625,
+    566,
+    112,
+    174
+   ],
+   "pivot": [
+    0.625,
+    0.02866
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    58,
+    63
+   ],
+   "id": "briar_stalker",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "2e1d81137ce0a01fac44867ef087ffc0717d97131a71cd362d1b4a53048e391f"
+  },
+  {
+   "name": "fb_enemy_briar_stalker_idle_01",
+   "file": "enemy/briar_stalker/fb_enemy_briar_stalker_idle_01.png",
+   "page": 0,
+   "rect": [
+    328,
+    235,
+    116,
+    175
+   ],
+   "rect_unity": [
+    328,
+    742,
+    116,
+    175
+   ],
+   "pivot": [
+    0.64655,
+    0.0285
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    53,
+    62
+   ],
+   "id": "briar_stalker",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "c7b9638199bb21c43aa8aa3c714293a73166e84fd123937817893547d96ddccf"
+  },
+  {
+   "name": "fb_enemy_briar_stalker_idle_02",
+   "file": "enemy/briar_stalker/fb_enemy_briar_stalker_idle_02.png",
+   "page": 0,
+   "rect": [
+    625,
+    233,
+    119,
+    175
+   ],
+   "rect_unity": [
+    625,
+    744,
+    119,
+    175
+   ],
+   "pivot": [
+    0.64706,
+    0.0285
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    51,
+    62
+   ],
+   "id": "briar_stalker",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "dc58632dae4cd5749c264f11682461d8bc9bdf02a2f538cad055939561dd62dc"
+  },
+  {
+   "name": "fb_enemy_briar_stalker_idle_03",
+   "file": "enemy/briar_stalker/fb_enemy_briar_stalker_idle_03.png",
+   "page": 0,
+   "rect": [
+    4,
+    237,
+    119,
+    174
+   ],
+   "rect_unity": [
+    4,
+    741,
+    119,
+    174
+   ],
+   "pivot": [
+    0.64706,
+    0.02866
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    51,
+    63
+   ],
+   "id": "briar_stalker",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "0b7ba7b1eef59012f936c9bce3295282e4aa2926ca10f94bee66f86ac8c725d3"
+  },
+  {
+   "name": "fb_enemy_briar_stalker_idle_04",
+   "file": "enemy/briar_stalker/fb_enemy_briar_stalker_idle_04.png",
+   "page": 0,
+   "rect": [
+    582,
+    590,
+    117,
+    172
+   ],
+   "rect_unity": [
+    582,
+    390,
+    117,
+    172
+   ],
+   "pivot": [
+    0.63248,
+    0.029
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    65
+   ],
+   "id": "briar_stalker",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "45d341c2aa8167fd914ce227f3d7f7e03d0f8381ef8dd364a31a071539cadb04"
+  },
+  {
+   "name": "fb_enemy_briar_stalker_idle_05",
+   "file": "enemy/briar_stalker/fb_enemy_briar_stalker_idle_05.png",
+   "page": 0,
+   "rect": [
+    4,
+    592,
+    112,
+    171
+   ],
+   "rect_unity": [
+    4,
+    389,
+    112,
+    171
+   ],
+   "pivot": [
+    0.61607,
+    0.02916
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    59,
+    66
+   ],
+   "id": "briar_stalker",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "3fc842f7d1efe61d7f86fadba4caecc5780fe0af6812670d82ba6709422112b4"
+  },
+  {
+   "name": "fb_enemy_briar_stalker_idle_06",
+   "file": "enemy/briar_stalker/fb_enemy_briar_stalker_idle_06.png",
+   "page": 0,
+   "rect": [
+    1268,
+    602,
+    109,
+    171
+   ],
+   "rect_unity": [
+    1268,
+    379,
+    109,
+    171
+   ],
+   "pivot": [
+    0.6055,
+    0.02916
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    62,
+    66
+   ],
+   "id": "briar_stalker",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "52cc9833b54fdc96d7811c890e82d516989a474a71be6d893ee4074f29d9f473"
+  },
+  {
+   "name": "fb_enemy_briar_stalker_idle_07",
+   "file": "enemy/briar_stalker/fb_enemy_briar_stalker_idle_07.png",
+   "page": 0,
+   "rect": [
+    267,
+    591,
+    110,
+    172
+   ],
+   "rect_unity": [
+    267,
+    389,
+    110,
+    172
+   ],
+   "pivot": [
+    0.60909,
+    0.029
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    61,
+    65
+   ],
+   "id": "briar_stalker",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "7042b88b3a49a1b824f9ac733afcee491ea539f35278eba7ae9c7ce5bf989ef3"
+  },
+  {
+   "name": "fb_enemy_elder_treant_idle_00",
+   "file": "enemy/elder_treant/fb_enemy_elder_treant_idle_00.png",
+   "page": 0,
+   "rect": [
+    451,
+    4,
+    145,
+    225
+   ],
+   "rect_unity": [
+    451,
+    923,
+    145,
+    225
+   ],
+   "pivot": [
+    0.51724,
+    0.02217
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    53,
+    12
+   ],
+   "id": "elder_treant",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "d59727934b32208662f57b5fd03e7ea592d8f7e9526ee3231c7bf622e20d1625"
+  },
+  {
+   "name": "fb_enemy_elder_treant_idle_01",
+   "file": "enemy/elder_treant/fb_enemy_elder_treant_idle_01.png",
+   "page": 0,
+   "rect": [
+    304,
+    4,
+    143,
+    227
+   ],
+   "rect_unity": [
+    304,
+    921,
+    143,
+    227
+   ],
+   "pivot": [
+    0.53147,
+    0.02197
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    52,
+    10
+   ],
+   "id": "elder_treant",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "0e5ece370fb8d3b14d94b542263bf36fa772f06bd021964ea86c512eb3a8605f"
+  },
+  {
+   "name": "fb_enemy_elder_treant_idle_02",
+   "file": "enemy/elder_treant/fb_enemy_elder_treant_idle_02.png",
+   "page": 0,
+   "rect": [
+    4,
+    4,
+    146,
+    229
+   ],
+   "rect_unity": [
+    4,
+    919,
+    146,
+    229
+   ],
+   "pivot": [
+    0.54795,
+    0.02178
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    48,
+    8
+   ],
+   "id": "elder_treant",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "9c7f27b15c398faa336edaa745540a0d051b31b452604b1e8a9e4dc22f7563d5"
+  },
+  {
+   "name": "fb_enemy_elder_treant_idle_03",
+   "file": "enemy/elder_treant/fb_enemy_elder_treant_idle_03.png",
+   "page": 0,
+   "rect": [
+    154,
+    4,
+    146,
+    227
+   ],
+   "rect_unity": [
+    154,
+    921,
+    146,
+    227
+   ],
+   "pivot": [
+    0.5411,
+    0.02197
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    49,
+    10
+   ],
+   "id": "elder_treant",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "1ed36f0d0793824fa855e03cbccaef6735f2a9f01fdc84a8ec6980cc1051af75"
+  },
+  {
+   "name": "fb_enemy_elder_treant_idle_04",
+   "file": "enemy/elder_treant/fb_enemy_elder_treant_idle_04.png",
+   "page": 0,
+   "rect": [
+    600,
+    4,
+    144,
+    225
+   ],
+   "rect_unity": [
+    600,
+    923,
+    144,
+    225
+   ],
+   "pivot": [
+    0.51389,
+    0.02217
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    12
+   ],
+   "id": "elder_treant",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "fc1194f88ffeb7df7421ffe2b6409c630f88947ffe674d93866d7efdf2549a4f"
+  },
+  {
+   "name": "fb_enemy_elder_treant_idle_05",
+   "file": "enemy/elder_treant/fb_enemy_elder_treant_idle_05.png",
+   "page": 0,
+   "rect": [
+    900,
+    4,
+    147,
+    222
+   ],
+   "rect_unity": [
+    900,
+    926,
+    147,
+    222
+   ],
+   "pivot": [
+    0.5034,
+    0.02246
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    15
+   ],
+   "id": "elder_treant",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "ab9dfd35e3602d490ce16fa5d18638964753ca2b2dba5d7a21f1b53347a2321f"
+  },
+  {
+   "name": "fb_enemy_elder_treant_idle_06",
+   "file": "enemy/elder_treant/fb_enemy_elder_treant_idle_06.png",
+   "page": 0,
+   "rect": [
+    1051,
+    4,
+    149,
+    220
+   ],
+   "rect_unity": [
+    1051,
+    928,
+    149,
+    220
+   ],
+   "pivot": [
+    0.50336,
+    0.02267
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    53,
+    17
+   ],
+   "id": "elder_treant",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "9e215bcc97b173a716972130e364a8c69f8660253febe742ccadb83397af7dcd"
+  },
+  {
+   "name": "fb_enemy_elder_treant_idle_07",
+   "file": "enemy/elder_treant/fb_enemy_elder_treant_idle_07.png",
+   "page": 0,
+   "rect": [
+    748,
+    4,
+    148,
+    222
+   ],
+   "rect_unity": [
+    748,
+    926,
+    148,
+    222
+   ],
+   "pivot": [
+    0.50676,
+    0.02246
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    53,
+    15
+   ],
+   "id": "elder_treant",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "db569f3a1de6936facaa4e046b906207ab58ea5aecc77f9bcb3406ae68b0e2b8"
+  },
+  {
+   "name": "fb_enemy_mire_toad_idle_00",
+   "file": "enemy/mire_toad/fb_enemy_mire_toad_idle_00.png",
+   "page": 0,
+   "rect": [
+    1200,
+    909,
+    139,
+    111
+   ],
+   "rect_unity": [
+    1200,
+    132,
+    139,
+    111
+   ],
+   "pivot": [
+    0.59712,
+    0.02691
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    45,
+    124
+   ],
+   "id": "mire_toad",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "4c9a68fb23f79022f3c7862274259f68bd7ddbdb796c7595f11923e938236787"
+  },
+  {
+   "name": "fb_enemy_mire_toad_idle_01",
+   "file": "enemy/mire_toad/fb_enemy_mire_toad_idle_01.png",
+   "page": 0,
+   "rect": [
+    501,
+    895,
+    142,
+    113
+   ],
+   "rect_unity": [
+    501,
+    144,
+    142,
+    113
+   ],
+   "pivot": [
+    0.59859,
+    0.03528
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    43,
+    123
+   ],
+   "id": "mire_toad",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "59ac30b6be3194ce8a0b4e0bbe9c86bb0633f43348b5c596ccf0fdbaf1ba3e98"
+  },
+  {
+   "name": "fb_enemy_mire_toad_idle_02",
+   "file": "enemy/mire_toad/fb_enemy_mire_toad_idle_02.png",
+   "page": 0,
+   "rect": [
+    679,
+    885,
+    143,
+    115
+   ],
+   "rect_unity": [
+    679,
+    152,
+    143,
+    115
+   ],
+   "pivot": [
+    0.6014,
+    0.04337
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    42,
+    122
+   ],
+   "id": "mire_toad",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "515ee1d440557a174d29860bd9c31ce2796928bb093748a5506df673d90e74c1"
+  },
+  {
+   "name": "fb_enemy_mire_toad_idle_03",
+   "file": "enemy/mire_toad/fb_enemy_mire_toad_idle_03.png",
+   "page": 0,
+   "rect": [
+    161,
+    896,
+    142,
+    113
+   ],
+   "rect_unity": [
+    161,
+    143,
+    142,
+    113
+   ],
+   "pivot": [
+    0.59859,
+    0.03528
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    43,
+    123
+   ],
+   "id": "mire_toad",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "92228f75b49318ec346a5a95d77dcaf3c803254c079c7d15f77859b90ebe5660"
+  },
+  {
+   "name": "fb_enemy_mire_toad_idle_04",
+   "file": "enemy/mire_toad/fb_enemy_mire_toad_idle_04.png",
+   "page": 0,
+   "rect": [
+    1343,
+    909,
+    139,
+    111
+   ],
+   "rect_unity": [
+    1343,
+    132,
+    139,
+    111
+   ],
+   "pivot": [
+    0.59712,
+    0.02691
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    45,
+    124
+   ],
+   "id": "mire_toad",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "23a7955c7c8b07f1d19c6180a88b0b36eeab3944f541d1d41659a8a58a52732f"
+  },
+  {
+   "name": "fb_enemy_mire_toad_idle_05",
+   "file": "enemy/mire_toad/fb_enemy_mire_toad_idle_05.png",
+   "page": 0,
+   "rect": [
+    826,
+    911,
+    136,
+    109
+   ],
+   "rect_unity": [
+    826,
+    132,
+    136,
+    109
+   ],
+   "pivot": [
+    0.59559,
+    0.02741
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    47,
+    126
+   ],
+   "id": "mire_toad",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "08f4a1b6b0b1b82ea601fc3a3dfd9f0b62f49cf55c098561325ee6ca0e88b4eb"
+  },
+  {
+   "name": "fb_enemy_mire_toad_idle_06",
+   "file": "enemy/mire_toad/fb_enemy_mire_toad_idle_06.png",
+   "page": 0,
+   "rect": [
+    647,
+    1004,
+    135,
+    109
+   ],
+   "rect_unity": [
+    647,
+    39,
+    135,
+    109
+   ],
+   "pivot": [
+    0.59259,
+    0.02741
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    48,
+    126
+   ],
+   "id": "mire_toad",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "174a0c67fbfc0ec9bb16e8a7762b8feb13bac66d7c37bd44fb267afcd18967e7"
+  },
+  {
+   "name": "fb_enemy_mire_toad_idle_07",
+   "file": "enemy/mire_toad/fb_enemy_mire_toad_idle_07.png",
+   "page": 0,
+   "rect": [
+    966,
+    911,
+    136,
+    109
+   ],
+   "rect_unity": [
+    966,
+    132,
+    136,
+    109
+   ],
+   "pivot": [
+    0.59559,
+    0.02741
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    47,
+    126
+   ],
+   "id": "mire_toad",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "42278c4a669645f17c584fecc03385221c366083c6bf7f8dc5f2c557f50ad2c6"
+  },
+  {
+   "name": "fb_enemy_moss_golem_idle_00",
+   "file": "enemy/moss_golem/fb_enemy_moss_golem_idle_00.png",
+   "page": 0,
+   "rect": [
+    451,
+    233,
+    170,
+    195
+   ],
+   "rect_unity": [
+    451,
+    724,
+    170,
+    195
+   ],
+   "pivot": [
+    0.53529,
+    0.02558
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    37,
+    42
+   ],
+   "id": "moss_golem",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "7045b93ad86f653e958deb90bb1523f009f2f3c37b21b2f685125af867ded7c5"
+  },
+  {
+   "name": "fb_enemy_moss_golem_idle_01",
+   "file": "enemy/moss_golem/fb_enemy_moss_golem_idle_01.png",
+   "page": 0,
+   "rect": [
+    1204,
+    4,
+    167,
+    196
+   ],
+   "rect_unity": [
+    1204,
+    952,
+    167,
+    196
+   ],
+   "pivot": [
+    0.53293,
+    0.02544
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    39,
+    41
+   ],
+   "id": "moss_golem",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "381b81c47bc42f7c842f717d6075cf08029c687b3fd679d685a485919da5be9f"
+  },
+  {
+   "name": "fb_enemy_moss_golem_idle_02",
+   "file": "enemy/moss_golem/fb_enemy_moss_golem_idle_02.png",
+   "page": 0,
+   "rect": [
+    748,
+    230,
+    164,
+    196
+   ],
+   "rect_unity": [
+    748,
+    726,
+    164,
+    196
+   ],
+   "pivot": [
+    0.52439,
+    0.02544
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    42,
+    41
+   ],
+   "id": "moss_golem",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "65b0ac9936da838a540ee7600a0484ffe45f2a889c053bb988d1ec281d4e954e"
+  },
+  {
+   "name": "fb_enemy_moss_golem_idle_03",
+   "file": "enemy/moss_golem/fb_enemy_moss_golem_idle_03.png",
+   "page": 0,
+   "rect": [
+    916,
+    230,
+    164,
+    196
+   ],
+   "rect_unity": [
+    916,
+    726,
+    164,
+    196
+   ],
+   "pivot": [
+    0.52439,
+    0.02544
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    42,
+    41
+   ],
+   "id": "moss_golem",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "0027c1053e12dfbd166ccd59688d9849ba81647df8e65377c1c97db963bec433"
+  },
+  {
+   "name": "fb_enemy_moss_golem_idle_04",
+   "file": "enemy/moss_golem/fb_enemy_moss_golem_idle_04.png",
+   "page": 0,
+   "rect": [
+    1204,
+    204,
+    166,
+    196
+   ],
+   "rect_unity": [
+    1204,
+    752,
+    166,
+    196
+   ],
+   "pivot": [
+    0.5241,
+    0.02544
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    41,
+    41
+   ],
+   "id": "moss_golem",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "36762591e60fc9df94f596c1f77dd71df0d6acf9b9081fd3aba7b8e64ef356a1"
+  },
+  {
+   "name": "fb_enemy_moss_golem_idle_05",
+   "file": "enemy/moss_golem/fb_enemy_moss_golem_idle_05.png",
+   "page": 0,
+   "rect": [
+    154,
+    235,
+    170,
+    195
+   ],
+   "rect_unity": [
+    154,
+    722,
+    170,
+    195
+   ],
+   "pivot": [
+    0.52941,
+    0.02558
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    38,
+    42
+   ],
+   "id": "moss_golem",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "2a8bceb54f73431706aa84c638e1622b5793e473cd691fa880795a3d1bc70d1f"
+  },
+  {
+   "name": "fb_enemy_moss_golem_idle_06",
+   "file": "enemy/moss_golem/fb_enemy_moss_golem_idle_06.png",
+   "page": 0,
+   "rect": [
+    1260,
+    404,
+    171,
+    194
+   ],
+   "rect_unity": [
+    1260,
+    554,
+    171,
+    194
+   ],
+   "pivot": [
+    0.53216,
+    0.02571
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    37,
+    43
+   ],
+   "id": "moss_golem",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "edbccbc829c8274874353ed0964a57fb677dc006d1e18960cc1f3c02e77ebad5"
+  },
+  {
+   "name": "fb_enemy_moss_golem_idle_07",
+   "file": "enemy/moss_golem/fb_enemy_moss_golem_idle_07.png",
+   "page": 0,
+   "rect": [
+    1084,
+    404,
+    172,
+    194
+   ],
+   "rect_unity": [
+    1084,
+    554,
+    172,
+    194
+   ],
+   "pivot": [
+    0.53488,
+    0.02571
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    36,
+    43
+   ],
+   "id": "moss_golem",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "a1366b4bbeaebbefa171889ded66398602c059e4697752d0a86ff4df19a45399"
+  },
+  {
+   "name": "fb_enemy_seed_pod_idle_00",
+   "file": "enemy/seed_pod/fb_enemy_seed_pod_idle_00.png",
+   "page": 0,
+   "rect": [
+    120,
+    746,
+    120,
+    131
+   ],
+   "rect_unity": [
+    120,
+    275,
+    120,
+    131
+   ],
+   "pivot": [
+    0.45833,
+    0.01517
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    73,
+    103
+   ],
+   "id": "seed_pod",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "66767332a200cfc6c0c909bb31fd4dd28633f562c2883dcfcaef5a82c4611fde"
+  },
+  {
+   "name": "fb_enemy_seed_pod_idle_01",
+   "file": "enemy/seed_pod/fb_enemy_seed_pod_idle_01.png",
+   "page": 0,
+   "rect": [
+    831,
+    607,
+    124,
+    137
+   ],
+   "rect_unity": [
+    831,
+    408,
+    124,
+    137
+   ],
+   "pivot": [
+    0.47581,
+    0.0218
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    69,
+    98
+   ],
+   "id": "seed_pod",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "3bce418152d4316886b3f135edcc16ef87f2cfb904c72b5066c74dc58c631459"
+  },
+  {
+   "name": "fb_enemy_seed_pod_idle_02",
+   "file": "enemy/seed_pod/fb_enemy_seed_pod_idle_02.png",
+   "page": 0,
+   "rect": [
+    1381,
+    602,
+    125,
+    140
+   ],
+   "rect_unity": [
+    1381,
+    410,
+    125,
+    140
+   ],
+   "pivot": [
+    0.496,
+    0.02134
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    66,
+    95
+   ],
+   "id": "seed_pod",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "2b88c985818a999cf0e94d342410a4d2cf651bc5631b6f26fd8db03b1c681f52"
+  },
+  {
+   "name": "fb_enemy_seed_pod_idle_03",
+   "file": "enemy/seed_pod/fb_enemy_seed_pod_idle_03.png",
+   "page": 0,
+   "rect": [
+    703,
+    607,
+    124,
+    138
+   ],
+   "rect_unity": [
+    703,
+    407,
+    124,
+    138
+   ],
+   "pivot": [
+    0.51613,
+    0.02165
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    64,
+    97
+   ],
+   "id": "seed_pod",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "0d5c8036bd0a19aa1c0fac47d6fdde2e26e494431a93c061f83f5843e364f2f1"
+  },
+  {
+   "name": "fb_enemy_seed_pod_idle_04",
+   "file": "enemy/seed_pod/fb_enemy_seed_pod_idle_04.png",
+   "page": 0,
+   "rect": [
+    120,
+    610,
+    120,
+    132
+   ],
+   "rect_unity": [
+    120,
+    410,
+    120,
+    132
+   ],
+   "pivot": [
+    0.54167,
+    0.02263
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    63,
+    103
+   ],
+   "id": "seed_pod",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "aaff59fd7ace5834809284a44f92b01ab303e29ba0c8e6c72a89c0a834d6526f"
+  },
+  {
+   "name": "fb_enemy_seed_pod_idle_05",
+   "file": "enemy/seed_pod/fb_enemy_seed_pod_idle_05.png",
+   "page": 0,
+   "rect": [
+    551,
+    766,
+    124,
+    125
+   ],
+   "rect_unity": [
+    551,
+    261,
+    124,
+    125
+   ],
+   "pivot": [
+    0.52419,
+    0.0159
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    63,
+    109
+   ],
+   "id": "seed_pod",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "13ff4aefd97c8eee767d962a2fcc3de0da64cdac931956d155c6ba17d7edd741"
+  },
+  {
+   "name": "fb_enemy_seed_pod_idle_06",
+   "file": "enemy/seed_pod/fb_enemy_seed_pod_idle_06.png",
+   "page": 0,
+   "rect": [
+    372,
+    882,
+    125,
+    123
+   ],
+   "rect_unity": [
+    372,
+    147,
+    125,
+    123
+   ],
+   "pivot": [
+    0.504,
+    0.01616
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    65,
+    111
+   ],
+   "id": "seed_pod",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "c10e08fffbf265bf8827d6bd9c1c6223dce7e493a2dc9c3076f1d7416972f42c"
+  },
+  {
+   "name": "fb_enemy_seed_pod_idle_07",
+   "file": "enemy/seed_pod/fb_enemy_seed_pod_idle_07.png",
+   "page": 0,
+   "rect": [
+    244,
+    767,
+    124,
+    125
+   ],
+   "rect_unity": [
+    244,
+    260,
+    124,
+    125
+   ],
+   "pivot": [
+    0.48387,
+    0.0159
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    68,
+    109
+   ],
+   "id": "seed_pod",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "6e67b40f7d875e591333a8cd58d1bf2f16ae06df967e1b835dca4e2b6f6c2fc2"
+  },
+  {
+   "name": "fb_enemy_spore_shaman_idle_00",
+   "file": "enemy/spore_shaman/fb_enemy_spore_shaman_idle_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    415,
+    129,
+    173
+   ],
+   "rect_unity": [
+    4,
+    564,
+    129,
+    173
+   ],
+   "pivot": [
+    0.53488,
+    -7e-05
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    59,
+    59
+   ],
+   "id": "spore_shaman",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "2763e6d906724b9f178a84cb22ca4f7b7d8220e2700658126bb231e20d0d52d3"
+  },
+  {
+   "name": "fb_enemy_spore_shaman_idle_01",
+   "file": "enemy/spore_shaman/fb_enemy_spore_shaman_idle_01.png",
+   "page": 0,
+   "rect": [
+    741,
+    430,
+    123,
+    173
+   ],
+   "rect_unity": [
+    741,
+    549,
+    123,
+    173
+   ],
+   "pivot": [
+    0.52033,
+    -7e-05
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    64,
+    59
+   ],
+   "id": "spore_shaman",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "ff2fda518430f60fa0833b053cc2e99fc8aed7744a9310df7097e581a391cce6"
+  },
+  {
+   "name": "fb_enemy_spore_shaman_idle_02",
+   "file": "enemy/spore_shaman/fb_enemy_spore_shaman_idle_02.png",
+   "page": 0,
+   "rect": [
+    328,
+    414,
+    119,
+    173
+   ],
+   "rect_unity": [
+    328,
+    565,
+    119,
+    173
+   ],
+   "pivot": [
+    0.5042,
+    -7e-05
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    68,
+    59
+   ],
+   "id": "spore_shaman",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "7c73b34b1e63a1d4913e84c2ea95aac646e25190d43b21137e83793796b29f8c"
+  },
+  {
+   "name": "fb_enemy_spore_shaman_idle_03",
+   "file": "enemy/spore_shaman/fb_enemy_spore_shaman_idle_03.png",
+   "page": 0,
+   "rect": [
+    868,
+    430,
+    122,
+    173
+   ],
+   "rect_unity": [
+    868,
+    549,
+    122,
+    173
+   ],
+   "pivot": [
+    0.48361,
+    -7e-05
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    69,
+    59
+   ],
+   "id": "spore_shaman",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "afdb15726d5efc610d523072a8a9e868cb9b06fdf28af572011d760ffe048a95"
+  },
+  {
+   "name": "fb_enemy_spore_shaman_idle_04",
+   "file": "enemy/spore_shaman/fb_enemy_spore_shaman_idle_04.png",
+   "page": 0,
+   "rect": [
+    137,
+    434,
+    126,
+    172
+   ],
+   "rect_unity": [
+    137,
+    546,
+    126,
+    172
+   ],
+   "pivot": [
+    0.5,
+    -7e-05
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    65,
+    60
+   ],
+   "id": "spore_shaman",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "913c6d5fdb747af385220777eb7b914f689abec325152b1339ce7c4ebed07a71"
+  },
+  {
+   "name": "fb_enemy_spore_shaman_idle_05",
+   "file": "enemy/spore_shaman/fb_enemy_spore_shaman_idle_05.png",
+   "page": 0,
+   "rect": [
+    451,
+    432,
+    127,
+    172
+   ],
+   "rect_unity": [
+    451,
+    548,
+    127,
+    172
+   ],
+   "pivot": [
+    0.53543,
+    -7e-05
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    60,
+    60
+   ],
+   "id": "spore_shaman",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "b2021e41945f84fec3643bddf29336fa2ac2869810303d8e26cef75aeacee40f"
+  },
+  {
+   "name": "fb_enemy_spore_shaman_idle_06",
+   "file": "enemy/spore_shaman/fb_enemy_spore_shaman_idle_06.png",
+   "page": 0,
+   "rect": [
+    1132,
+    602,
+    132,
+    171
+   ],
+   "rect_unity": [
+    1132,
+    379,
+    132,
+    171
+   ],
+   "pivot": [
+    0.54545,
+    -7e-05
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    56,
+    61
+   ],
+   "id": "spore_shaman",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "193c122f787822e26e72695a85a3a0372a19d9defb86458b2c833a8f74bac7f1"
+  },
+  {
+   "name": "fb_enemy_spore_shaman_idle_07",
+   "file": "enemy/spore_shaman/fb_enemy_spore_shaman_idle_07.png",
+   "page": 0,
+   "rect": [
+    994,
+    602,
+    134,
+    171
+   ],
+   "rect_unity": [
+    994,
+    379,
+    134,
+    171
+   ],
+   "pivot": [
+    0.53731,
+    -7e-05
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    56,
+    61
+   ],
+   "id": "spore_shaman",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "23b6ff818c9bb71fc834d04e518d5f378ebcd2f4e86e44a46ff7b1a81614d580"
+  },
+  {
+   "name": "fb_enemy_thorn_beast_idle_00",
+   "file": "enemy/thorn_beast/fb_enemy_thorn_beast_idle_00.png",
+   "page": 0,
+   "rect": [
+    1037,
+    777,
+    159,
+    130
+   ],
+   "rect_unity": [
+    1037,
+    245,
+    159,
+    130
+   ],
+   "pivot": [
+    0.62893,
+    0.03836
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    28,
+    107
+   ],
+   "id": "thorn_beast",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "0b45897b6df3b42748455ff4c2636869a69bf7c845ecc516ce578813a6f81474"
+  },
+  {
+   "name": "fb_enemy_thorn_beast_idle_01",
+   "file": "enemy/thorn_beast/fb_enemy_thorn_beast_idle_01.png",
+   "page": 0,
+   "rect": [
+    703,
+    749,
+    164,
+    132
+   ],
+   "rect_unity": [
+    703,
+    271,
+    164,
+    132
+   ],
+   "pivot": [
+    0.63415,
+    0.03778
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    24,
+    105
+   ],
+   "id": "thorn_beast",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "92baa8a10672ffdce0fc82b4f019b9787eb1a1f00748a275dd930e3c0e0beb75"
+  },
+  {
+   "name": "fb_enemy_thorn_beast_idle_02",
+   "file": "enemy/thorn_beast/fb_enemy_thorn_beast_idle_02.png",
+   "page": 0,
+   "rect": [
+    381,
+    608,
+    168,
+    134
+   ],
+   "rect_unity": [
+    381,
+    410,
+    168,
+    134
+   ],
+   "pivot": [
+    0.6369,
+    0.04468
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    21,
+    104
+   ],
+   "id": "thorn_beast",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "b3ccbbd40f54cb1a9d620fcca8790be6b289981a9424fba63268b2e7aa8c0cb5"
+  },
+  {
+   "name": "fb_enemy_thorn_beast_idle_03",
+   "file": "enemy/thorn_beast/fb_enemy_thorn_beast_idle_03.png",
+   "page": 0,
+   "rect": [
+    381,
+    746,
+    166,
+    132
+   ],
+   "rect_unity": [
+    381,
+    274,
+    166,
+    132
+   ],
+   "pivot": [
+    0.63855,
+    0.03778
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    22,
+    105
+   ],
+   "id": "thorn_beast",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "58291e926e4006ad1f70b6c1f9ccb809754d014260b301e1c3bd18ce280172e6"
+  },
+  {
+   "name": "fb_enemy_thorn_beast_idle_04",
+   "file": "enemy/thorn_beast/fb_enemy_thorn_beast_idle_04.png",
+   "page": 0,
+   "rect": [
+    871,
+    777,
+    162,
+    130
+   ],
+   "rect_unity": [
+    871,
+    245,
+    162,
+    130
+   ],
+   "pivot": [
+    0.6358,
+    0.03836
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    25,
+    107
+   ],
+   "id": "thorn_beast",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "1e5cdb783146fe2af199dea662e6635b9b4765d02f6110708946abc0827ab3ad"
+  },
+  {
+   "name": "fb_enemy_thorn_beast_idle_05",
+   "file": "enemy/thorn_beast/fb_enemy_thorn_beast_idle_05.png",
+   "page": 0,
+   "rect": [
+    1200,
+    777,
+    156,
+    128
+   ],
+   "rect_unity": [
+    1200,
+    247,
+    156,
+    128
+   ],
+   "pivot": [
+    0.62821,
+    0.03115
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    30,
+    108
+   ],
+   "id": "thorn_beast",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "1abf7a8a345357aeee26246597e524366c54cb7ac9e1d89d7ecf2d051fc206a7"
+  },
+  {
+   "name": "fb_enemy_thorn_beast_idle_06",
+   "file": "enemy/thorn_beast/fb_enemy_thorn_beast_idle_06.png",
+   "page": 0,
+   "rect": [
+    4,
+    881,
+    153,
+    127
+   ],
+   "rect_unity": [
+    4,
+    144,
+    153,
+    127
+   ],
+   "pivot": [
+    0.62745,
+    0.0314
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    32,
+    109
+   ],
+   "id": "thorn_beast",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "5f4d864c147b96545dcc67effff4f468d877f3f23e34ac3cd0f05f7aee74bfb7"
+  },
+  {
+   "name": "fb_enemy_thorn_beast_idle_07",
+   "file": "enemy/thorn_beast/fb_enemy_thorn_beast_idle_07.png",
+   "page": 0,
+   "rect": [
+    1360,
+    777,
+    155,
+    128
+   ],
+   "rect_unity": [
+    1360,
+    247,
+    155,
+    128
+   ],
+   "pivot": [
+    0.62581,
+    0.03115
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    31,
+    108
+   ],
+   "id": "thorn_beast",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "9b59ab783d8af883a5d7600e7564ac74a5f691da64dc04fcab4c05b38cdf4c37"
+  },
+  {
+   "name": "fb_enemy_vine_crawler_idle_00",
+   "file": "enemy/vine_crawler/fb_enemy_vine_crawler_idle_00.png",
+   "page": 0,
+   "rect": [
+    786,
+    1024,
+    137,
+    73
+   ],
+   "rect_unity": [
+    786,
+    55,
+    137,
+    73
+   ],
+   "pivot": [
+    0.60584,
+    0.01352
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    45,
+    160
+   ],
+   "id": "vine_crawler",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "00728f4e5c1e9e4c76a29ded6a7f2e53138fcb42557e3a04c9671ee4a8aa7510"
+  },
+  {
+   "name": "fb_enemy_vine_crawler_idle_01",
+   "file": "enemy/vine_crawler/fb_enemy_vine_crawler_idle_01.png",
+   "page": 0,
+   "rect": [
+    450,
+    1012,
+    139,
+    77
+   ],
+   "rect_unity": [
+    450,
+    63,
+    139,
+    77
+   ],
+   "pivot": [
+    0.60432,
+    0.02581
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    44,
+    157
+   ],
+   "id": "vine_crawler",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "1ac4c8135b049a82ad242bd59fe044b3d309f5f163f840aad84b51ca4e2ce1c8"
+  },
+  {
+   "name": "fb_enemy_vine_crawler_idle_02",
+   "file": "enemy/vine_crawler/fb_enemy_vine_crawler_idle_02.png",
+   "page": 0,
+   "rect": [
+    307,
+    1009,
+    139,
+    78
+   ],
+   "rect_unity": [
+    307,
+    65,
+    139,
+    78
+   ],
+   "pivot": [
+    0.60432,
+    0.02548
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    44,
+    156
+   ],
+   "id": "vine_crawler",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "f84e2236a31f84708f37989374cc0bde67bfb9145eb5495098a309cce5404269"
+  },
+  {
+   "name": "fb_enemy_vine_crawler_idle_03",
+   "file": "enemy/vine_crawler/fb_enemy_vine_crawler_idle_03.png",
+   "page": 0,
+   "rect": [
+    4,
+    1012,
+    138,
+    78
+   ],
+   "rect_unity": [
+    4,
+    62,
+    138,
+    78
+   ],
+   "pivot": [
+    0.60145,
+    0.02548
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    45,
+    156
+   ],
+   "id": "vine_crawler",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "d431908934eed59e1b0ba6d4beab5499c817b493bb34ce6f1536d47ddd0a288d"
+  },
+  {
+   "name": "fb_enemy_vine_crawler_idle_04",
+   "file": "enemy/vine_crawler/fb_enemy_vine_crawler_idle_04.png",
+   "page": 0,
+   "rect": [
+    146,
+    1013,
+    136,
+    75
+   ],
+   "rect_unity": [
+    146,
+    64,
+    136,
+    75
+   ],
+   "pivot": [
+    0.60294,
+    0.01316
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    46,
+    158
+   ],
+   "id": "vine_crawler",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "335d4bc6e6bfe69d7909616162a7a1650af175cabb611453cab49366bbdbced2"
+  },
+  {
+   "name": "fb_enemy_vine_crawler_idle_05",
+   "file": "enemy/vine_crawler/fb_enemy_vine_crawler_idle_05.png",
+   "page": 0,
+   "rect": [
+    927,
+    1024,
+    135,
+    72
+   ],
+   "rect_unity": [
+    927,
+    56,
+    135,
+    72
+   ],
+   "pivot": [
+    0.6,
+    -0.00018
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    47,
+    160
+   ],
+   "id": "vine_crawler",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "87d3458e80891fed3623ff36e3a4b08e1b3ad53a3f90d91300f2268459b36870"
+  },
+  {
+   "name": "fb_enemy_vine_crawler_idle_06",
+   "file": "enemy/vine_crawler/fb_enemy_vine_crawler_idle_06.png",
+   "page": 0,
+   "rect": [
+    1066,
+    1024,
+    135,
+    71
+   ],
+   "rect_unity": [
+    1066,
+    57,
+    135,
+    71
+   ],
+   "pivot": [
+    0.6,
+    -0.00018
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    47,
+    161
+   ],
+   "id": "vine_crawler",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "1683e4fae04a6a4fb466ce2f4ce04843663427229e5153ffe60f21455945d751"
+  },
+  {
+   "name": "fb_enemy_vine_crawler_idle_07",
+   "file": "enemy/vine_crawler/fb_enemy_vine_crawler_idle_07.png",
+   "page": 0,
+   "rect": [
+    1205,
+    1024,
+    135,
+    71
+   ],
+   "rect_unity": [
+    1205,
+    57,
+    135,
+    71
+   ],
+   "pivot": [
+    0.6,
+    -0.00018
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    47,
+    161
+   ],
+   "id": "vine_crawler",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "01953d767e990acdb95697ab5316d596cd4ffd9f1f17515fc16e39388f366677"
+  }
+ ],
+ "clips": {
+  "briar_stalker/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_briar_stalker_idle_00",
+    "fb_enemy_briar_stalker_idle_01",
+    "fb_enemy_briar_stalker_idle_02",
+    "fb_enemy_briar_stalker_idle_03",
+    "fb_enemy_briar_stalker_idle_04",
+    "fb_enemy_briar_stalker_idle_05",
+    "fb_enemy_briar_stalker_idle_06",
+    "fb_enemy_briar_stalker_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "elder_treant/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_elder_treant_idle_00",
+    "fb_enemy_elder_treant_idle_01",
+    "fb_enemy_elder_treant_idle_02",
+    "fb_enemy_elder_treant_idle_03",
+    "fb_enemy_elder_treant_idle_04",
+    "fb_enemy_elder_treant_idle_05",
+    "fb_enemy_elder_treant_idle_06",
+    "fb_enemy_elder_treant_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "mire_toad/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_mire_toad_idle_00",
+    "fb_enemy_mire_toad_idle_01",
+    "fb_enemy_mire_toad_idle_02",
+    "fb_enemy_mire_toad_idle_03",
+    "fb_enemy_mire_toad_idle_04",
+    "fb_enemy_mire_toad_idle_05",
+    "fb_enemy_mire_toad_idle_06",
+    "fb_enemy_mire_toad_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "moss_golem/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_moss_golem_idle_00",
+    "fb_enemy_moss_golem_idle_01",
+    "fb_enemy_moss_golem_idle_02",
+    "fb_enemy_moss_golem_idle_03",
+    "fb_enemy_moss_golem_idle_04",
+    "fb_enemy_moss_golem_idle_05",
+    "fb_enemy_moss_golem_idle_06",
+    "fb_enemy_moss_golem_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "seed_pod/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_seed_pod_idle_00",
+    "fb_enemy_seed_pod_idle_01",
+    "fb_enemy_seed_pod_idle_02",
+    "fb_enemy_seed_pod_idle_03",
+    "fb_enemy_seed_pod_idle_04",
+    "fb_enemy_seed_pod_idle_05",
+    "fb_enemy_seed_pod_idle_06",
+    "fb_enemy_seed_pod_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "spore_shaman/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_spore_shaman_idle_00",
+    "fb_enemy_spore_shaman_idle_01",
+    "fb_enemy_spore_shaman_idle_02",
+    "fb_enemy_spore_shaman_idle_03",
+    "fb_enemy_spore_shaman_idle_04",
+    "fb_enemy_spore_shaman_idle_05",
+    "fb_enemy_spore_shaman_idle_06",
+    "fb_enemy_spore_shaman_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "thorn_beast/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_thorn_beast_idle_00",
+    "fb_enemy_thorn_beast_idle_01",
+    "fb_enemy_thorn_beast_idle_02",
+    "fb_enemy_thorn_beast_idle_03",
+    "fb_enemy_thorn_beast_idle_04",
+    "fb_enemy_thorn_beast_idle_05",
+    "fb_enemy_thorn_beast_idle_06",
+    "fb_enemy_thorn_beast_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "vine_crawler/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_vine_crawler_idle_00",
+    "fb_enemy_vine_crawler_idle_01",
+    "fb_enemy_vine_crawler_idle_02",
+    "fb_enemy_vine_crawler_idle_03",
+    "fb_enemy_vine_crawler_idle_04",
+    "fb_enemy_vine_crawler_idle_05",
+    "fb_enemy_vine_crawler_idle_06",
+    "fb_enemy_vine_crawler_idle_07"
+   ],
+   "duration_s": 1.0
+  }
+ }
+}

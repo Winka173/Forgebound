@@ -337,3 +337,59 @@ def test_cli_exit_codes_and_reports(tmp_path):
 def test_generated_art_has_no_failures():
     rep = V.Validator(V.DEFAULT_ROOT, CFG, os.path.join(V.DEFAULT_ROOT, "atlases")).run()
     assert not rep.has_fail(), [vars(f) for f in rep.findings if f.level == "FAIL"][:10]
+
+
+# ------------------------------------------------- regeneration batch 2 rules
+def _unframed(root, arr, cat="core", aid="fire", state="icon", frame_suffix=False, size=(128, 128)):
+    fn = f"fb_{cat}_{aid}_{state}" + ("_00" if frame_suffix else "") + ".png"
+    rel = f"{cat}/{state}/{fn}"
+    p = os.path.join(root, rel)
+    os.makedirs(os.path.dirname(p), exist_ok=True)
+    mode = "RGBA" if arr.shape[-1] == 4 else "RGB"
+    Image.fromarray(np.clip(np.round(arr * 255), 0, 255).astype(np.uint8), mode).save(p)
+    return entry(root, rel, cat=cat, aid=aid, variant=None, state=state, size=size)
+
+
+def test_unframed_icon_names_pass_and_framed_variant_fails(tmp_path):
+    good = _unframed(str(tmp_path), disc_sprite(size=128, radius=50))
+    bad = _unframed(str(tmp_path), disc_sprite(size=128, radius=40, seed=3, hue=(0.3, 0.6, 0.9)), aid="frost", frame_suffix=True)
+    write_manifest(tmp_path, [good, bad])
+    rep = run(tmp_path)
+    assert "naming" not in checks(rep, file=good["file"])
+    assert "naming" in checks(rep, file=bad["file"])
+
+
+def test_env_background_rules(tmp_path):
+    rng = np.random.default_rng(1)
+    h, w = 1080, 1920
+    yy = np.linspace(0, 1, h)[:, None, None]
+    bg = np.concatenate([np.broadcast_to(0.1 + 0.8 * yy, (h, w, 1)), np.broadcast_to(0.15 + 0.6 * yy, (h, w, 1)),
+                         np.broadcast_to(0.3 + 0.4 * yy, (h, w, 1))], -1).copy()
+    bg[int(h * 0.65):, :, :] *= 0.3  # a dark ground band below the 35 % ground line
+    bg = np.round(bg * 16) / 16  # posterised like the real backgrounds (small PNG)
+    del rng
+    e = _unframed(str(tmp_path), bg, cat="env", aid="ember_foundry", state="bg", size=(w, h))
+    # the same opaque full-frame image in a sprite category must still FAIL
+    small = np.concatenate([np.full((128, 128, 3), 0.5), np.ones((128, 128, 1))], -1)
+    s = _unframed(str(tmp_path), small, cat="core", aid="earth")
+    write_manifest(tmp_path, [e, s])
+    rep = run(tmp_path)
+    assert not checks(rep, "FAIL", file=e["file"]), [vars(f) for f in rep.findings if f.file == e["file"]]
+    assert {"opaque_background", "alpha"} <= checks(rep, "FAIL", file=s["file"])
+    # a flat (featureless) background is flagged
+    flat = np.full((h, w, 3), 0.3)
+    e2 = _unframed(str(tmp_path), flat, cat="env", aid="frostspire", state="bg", size=(w, h))
+    write_manifest(tmp_path, [e2])
+    rep2 = run(tmp_path)
+    assert "legibility" in checks(rep2, "WARN", file=e2["file"])
+
+
+def test_duplicate_exempt_ids(tmp_path):
+    a = disc_sprite(seed=1)
+    es = [add_still(tmp_path, a, aid="dummy_a", variant=None, cat="enemy", state="idle"),
+          add_still(tmp_path, a, aid="dummy_b", variant=None, cat="enemy", state="idle")]
+    write_manifest(tmp_path, es)
+    assert any(f.check == "duplicate" for f in run(tmp_path).findings)
+    cfg = dict(CFG, duplicate_exempt_ids=["dummy_a", "dummy_b"])
+    rep = V.Validator(str(tmp_path), cfg, None).run()
+    assert not any(f.check == "duplicate" for f in rep.findings)

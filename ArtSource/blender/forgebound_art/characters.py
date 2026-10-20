@@ -57,10 +57,17 @@ def bind(arm, obj, bone):
     obj.matrix_world = world
 
 
-def _key(arm, frame, rots=None, scales=None, root_loc=None):
+def _key(arm, frame, rots=None, scales=None, root_loc=None, locs=None):
+    """Key every pose bone.  rots: {bone: [(axis, deg), ...]} around ARMATURE axes;
+    locs: {bone: (x, y, z)} offsets in ARMATURE space (converted to bone-local)."""
     rots = rots or {}
     scales = scales or {}
+    locs = locs or {}
     for pb in arm.pose.bones:
+        if pb.name in locs:
+            rest = pb.bone.matrix_local.to_3x3()
+            pb.location = rest.inverted() @ Vector(locs[pb.name])
+            pb.keyframe_insert("location", frame=frame)
         rest = pb.bone.matrix_local.to_3x3()
         q = Quaternion()
         for axis, deg in rots.get(pb.name, []):
@@ -108,7 +115,9 @@ def _lib(key, seed, rim="#FFD9A0"):
 
 def build_blacksmith(seed):
     arm = make_armature("rig_blacksmith", HUMANOID)
-    skin, shirt, apron, beard = _lib("skin", seed), _lib("shirt", seed), _lib("apron", seed), _lib("beard", seed)
+    # batch 2: value-separated outfit (lighter shirt, near-black apron, warm grey trousers, ginger beard)
+    skin, shirt, apron, beard = _lib("skin", seed), _lib("bs_shirt", seed), _lib("bs_apron", seed), _lib("bs_beard", seed)
+    trousers = _lib("bs_trousers", seed)
     leather, iron, steel, gold = _lib("leather_wrap", seed), _lib("dark_iron", seed), _lib("forged_steel", seed), _lib("gold_trim", seed)
     cloth, wood = _lib("cloth_red", seed), _lib("wood", seed)
     eye = M.toon_material("FB_eye", "#1B1412", "#000000", "#FFFFFF", rim_strength=0.0, spec_amt=1.0, spec_size=0.2)
@@ -151,8 +160,8 @@ def build_blacksmith(seed):
         P(G.uvsphere(f"hand_{side}", 0.09, skin, m=T(tuple(ha + (ha - el).normalized() * 0.05))), f"fore_{side}")
     # legs
     for side, y in (("f", -1), ("b", 1)):
-        P(G.tube(f"thigh_{side}", [(0.0, 0.15 * y, 0.62), (0.02, 0.15 * y, 0.32)], [0.12, 0.1], apron, segs=10), f"thigh_{side}")
-        P(G.tube(f"shin_{side}", [(0.02, 0.15 * y, 0.34), (0.0, 0.15 * y, 0.12)], [0.095, 0.09], apron, segs=10), f"shin_{side}")
+        P(G.tube(f"thigh_{side}", [(0.0, 0.15 * y, 0.62), (0.02, 0.15 * y, 0.32)], [0.12, 0.1], trousers, segs=10), f"thigh_{side}")
+        P(G.tube(f"shin_{side}", [(0.02, 0.15 * y, 0.34), (0.0, 0.15 * y, 0.12)], [0.095, 0.09], trousers, segs=10), f"shin_{side}")
         P(G.box(f"boot_{side}", (0.3, 0.16, 0.14), leather, m=T((0.06, 0.15 * y, 0.07)), bevel=0.05, segs=2, smooth=True), f"shin_{side}")
     # hammer in front hand, continuing the forearm direction
     el = Vector((0.06, -0.38, 0.8))
@@ -319,6 +328,9 @@ from .characters_meta import GROUNDED  # noqa: E402,F401
 
 
 def build(asset, seed):
+    if asset not in BUILDERS:
+        from . import forgemasters
+        return forgemasters.build(asset, seed)
     arm = BUILDERS[asset](seed)
     arm.rotation_euler = (0, 0, math.radians(YAW[asset]))
     s = SCALE.get(asset, 1.0)
@@ -393,6 +405,9 @@ def _bat_idle(arm, n):
 
 
 def apply_action(arm, asset, clip):
+    if asset not in BUILDERS:
+        from . import forgemasters
+        return forgemasters.apply_action(arm, asset, clip)
     n, fps, loop = spec.CLIPS[clip]
     new_action(arm, f"{asset}_{clip}")
     scene = bpy.context.scene
@@ -404,7 +419,8 @@ def apply_action(arm, asset, clip):
     elif clip == "attack" and asset == "blacksmith":
         _blacksmith_attack(arm, n)
     else:
-        _humanoid_idle(arm, n, heavy=1.6 if asset == "golem" else 1.0)
+        # batch 2: the blacksmith idle breathes a little deeper (batch-1 review: motion too subtle)
+        _humanoid_idle(arm, n, heavy={"golem": 1.6, "blacksmith": 1.5}.get(asset, 1.0))
     for fc in arm.animation_data.action.fcurves:
         for kp in fc.keyframe_points:
             kp.interpolation = "LINEAR"

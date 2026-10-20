@@ -111,7 +111,7 @@ BIOME_SCENES = {
                       "accent": "#FF6A2A", "light": "#FFB347"},
     "verdant_ruins": {"sky": ("#0E1E16", "#4E7A4A"), "far": "#22402C", "mid": "#2E4E34", "near": "#14261A", "ground": "#3E5A3A",
                       "accent": "#7DFF8A", "light": "#C6A15B"},
-    "frostspire":    {"sky": ("#0E1A2A", "#5A86AE"), "far": "#2A4A6A", "mid": "#3A5A7A", "near": "#1A2C44", "ground": "#C8E0F0",
+    "frostspire":    {"sky": ("#0E1A2A", "#3E6488"), "far": "#22405E", "mid": "#3A5A7A", "near": "#1A2C44", "ground": "#C8E0F0",
                       "accent": "#7FD8FF", "light": "#E8F6FF"},
     "sunken_crypt":  {"sky": ("#0A0810", "#2E2648"), "far": "#1E1A2C", "mid": "#2A2A3A", "near": "#120F1A", "ground": "#3A3A4A",
                       "accent": "#7A4BD6", "light": "#9AB0A0"},

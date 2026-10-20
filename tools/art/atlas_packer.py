@@ -24,7 +24,9 @@ from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
 DEFAULT_ROOT = os.path.join(REPO, "Assets", "Forgebound", "Resources", "Art", "Generated")
-DEFAULT_GROUPS = ["weapon_ingame", "board_icon", "char_blacksmith", "enemy"]
+# In-battle / on-board sprites are packed; UI icons (weapon/core/modifier/rune/blessing)
+# and backgrounds stay as single sprites.  Default = every manifest group matching these prefixes.
+DEFAULT_GROUP_PREFIXES = ["weapon_ingame", "board_icon", "char_", "enemy"]
 
 
 def bleed_page(page: Image.Image, iterations=4) -> Image.Image:
@@ -195,14 +197,25 @@ def build_group(root, entries, group, out_dir, pad, max_size, ppu):
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--root", default=DEFAULT_ROOT)
-    ap.add_argument("--groups", nargs="*", default=DEFAULT_GROUPS)
+    ap.add_argument("--groups", nargs="*", default=None, help="default: all groups matching DEFAULT_GROUP_PREFIXES")
     ap.add_argument("--padding", type=int, default=4)
     ap.add_argument("--max-size", type=int, default=2048)
     args = ap.parse_args(argv)
     man = json.load(open(os.path.join(args.root, "manifest.json")))
     out_dir = os.path.join(args.root, "atlases")
     os.makedirs(out_dir, exist_ok=True)
-    for g in args.groups:
+    groups = args.groups
+    if groups is None:
+        groups = sorted({e["group"] for e in man["files"] if e.get("group") and any(e["group"].startswith(p) for p in DEFAULT_GROUP_PREFIXES)})
+        # drop atlases of groups that no longer exist
+        for fn in os.listdir(out_dir):
+            if fn.startswith("fb_atlas_") and fn.endswith(".json") and fn[len("fb_atlas_"):-5] not in groups:
+                meta = json.load(open(os.path.join(out_dir, fn)))
+                for pg in meta.get("pages", []):
+                    if os.path.exists(os.path.join(out_dir, pg["image"])):
+                        os.remove(os.path.join(out_dir, pg["image"]))
+                os.remove(os.path.join(out_dir, fn))
+    for g in groups:
         for fn in os.listdir(out_dir):
             if fn.startswith(f"fb_atlas_{g}.") or fn.startswith(f"fb_atlas_{g}_"):
                 os.remove(os.path.join(out_dir, fn))

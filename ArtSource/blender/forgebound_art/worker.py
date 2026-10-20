@@ -98,8 +98,11 @@ def job_board(job, cache):
     scene = S.reset_scene()
     cam = S.setup_camera(scene, "board_icon")
     root = _root()
-    board.build_piece(root, job["piece"], job["seed"])
-    s = _normalise(scene, cam, root, Matrix.Rotation(math.radians(job.get("yaw", 0)), 4, "Z"), 0.78, "board_icon",
+    data = job.get("data") or {}
+    board.build_piece(root, job["piece"], job["seed"], data)
+    # relays are not yawed so their port channels keep board directions (W=left, E=right)
+    yaw = job.get("yaw", 0 if data.get("kind") == "relay" else 18)
+    s = _normalise(scene, cam, root, Matrix.Rotation(math.radians(yaw), 4, "Z"), 0.84, "board_icon",
                    extra_ok=True)
     S.add_outlines(S.mesh_objects(), "board_icon")
     path = os.path.join(cache, job["name"] + ".png")
@@ -107,15 +110,49 @@ def job_board(job, cache):
     return [{"raw": path, "state": "icon", "frame": 0, "pivot": (0.5, 0.5), "scale": s}]
 
 
+def job_icon(job, cache):
+    from forgebound_art import icons
+    scene = S.reset_scene()
+    cam = S.setup_camera(scene, "item_icon")
+    root = _root()
+    info = icons.build_icon(root, job) or {}
+    tilt, yaw = info.get("rot", (10, -10))
+    # tilt the face slightly up (toward the key light) and yaw it a little left
+    R = Matrix.Rotation(math.radians(yaw), 4, "Z") @ Matrix.Rotation(math.radians(-tilt), 4, "X")
+    s = _normalise(scene, cam, root, R, info.get("fit", 0.86), "item_icon", extra_ok=True)
+    S.add_outlines(S.mesh_objects(), "item_icon")
+    path = os.path.join(cache, job["name"] + ".png")
+    S.render_to(scene, path)
+    return [{"raw": path, "state": "icon", "frame": 0, "pivot": (0.5, 0.5), "scale": s}]
+
+
+def job_env(job, cache):
+    from forgebound_art import environments
+    scene = S.reset_scene()
+    cam = S.setup_camera(scene, "env")
+    environments.build_env(scene, job)
+    path = os.path.join(cache, job["name"] + ".png")
+    S.render_to(scene, path)
+    return [{"raw": path, "state": "bg", "frame": 0, "pivot": (0.5, 0.5), "scale": 1.0, "post": "opaque"}]
+
+
 def job_character(job, cache):
     from forgebound_art import characters
     scene = S.reset_scene()
     cam = S.setup_camera(scene, "character")
-    rig = characters.build(job["asset"], job["seed"])
-    S.add_outlines(S.mesh_objects(), "character")
     clip = job["clip"]
     n, fps, loop = spec.CLIPS[clip]
-    characters.apply_action(rig, job["asset"], clip)
+    if job.get("kit"):
+        # kit enemies are fitted to the canvas by their Action (fit_to_canvas), so
+        # outlines are added afterwards to keep the 2 px outline width exact
+        from forgebound_art import enemykit
+        rig = enemykit.build(job)
+        enemykit.apply_action(rig, job, clip)
+        S.add_outlines(S.mesh_objects(), "character")
+    else:
+        rig = characters.build(job["asset"], job["seed"])
+        S.add_outlines(S.mesh_objects(), "character")
+        characters.apply_action(rig, job["asset"], clip)
     scene.render.fps = fps
     out = []
     w, h = spec.CAMERAS["character"]["final_px"]
@@ -129,7 +166,8 @@ def job_character(job, cache):
     return out
 
 
-HANDLERS = {"weapon": job_weapon, "board": job_board, "char": job_character, "enemy": job_character}
+HANDLERS = {"weapon": job_weapon, "board": job_board, "char": job_character, "enemy": job_character, "env": job_env,
+            "core": job_icon, "modifier": job_icon, "rune": job_icon, "blessing": job_icon}
 
 
 def main():

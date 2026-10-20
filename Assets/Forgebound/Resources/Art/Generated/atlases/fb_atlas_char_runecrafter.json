@@ -1,0 +1,597 @@
+{
+ "schema": "forgebound.art.atlas/1",
+ "group": "char_runecrafter",
+ "ppu": 100,
+ "padding": 4,
+ "pages": [
+  {
+   "index": 0,
+   "image": "fb_atlas_char_runecrafter.png",
+   "size": [
+    896,
+    768
+   ],
+   "sha256": "e8bd0f3965e6370a4335b4157a4271a1e0a475499a1ee526295f8fa1ad090c36"
+  }
+ ],
+ "sprites": [
+  {
+   "name": "fb_char_runecrafter_attack_00",
+   "file": "char/runecrafter/fb_char_runecrafter_attack_00.png",
+   "page": 0,
+   "rect": [
+    136,
+    474,
+    128,
+    226
+   ],
+   "rect_unity": [
+    136,
+    68,
+    128,
+    226
+   ],
+   "pivot": [
+    0.57812,
+    0.02207
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    11
+   ],
+   "id": "runecrafter",
+   "variant": null,
+   "state": "attack",
+   "frame": 0,
+   "source_sha256": "9159e1d12d0f429fa307f8375061cae6b8c164762b3807d35c7939014ebcc0cf"
+  },
+  {
+   "name": "fb_char_runecrafter_attack_01",
+   "file": "char/runecrafter/fb_char_runecrafter_attack_01.png",
+   "page": 0,
+   "rect": [
+    268,
+    474,
+    128,
+    226
+   ],
+   "rect_unity": [
+    268,
+    68,
+    128,
+    226
+   ],
+   "pivot": [
+    0.59375,
+    0.02207
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    52,
+    11
+   ],
+   "id": "runecrafter",
+   "variant": null,
+   "state": "attack",
+   "frame": 1,
+   "source_sha256": "a06b9f5725b2f8874193c1943dc565800fde8d80df0021fc4abcf588711ad1c3"
+  },
+  {
+   "name": "fb_char_runecrafter_attack_02",
+   "file": "char/runecrafter/fb_char_runecrafter_attack_02.png",
+   "page": 0,
+   "rect": [
+    4,
+    242,
+    135,
+    228
+   ],
+   "rect_unity": [
+    4,
+    298,
+    135,
+    228
+   ],
+   "pivot": [
+    0.62222,
+    0.02187
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    44,
+    9
+   ],
+   "id": "runecrafter",
+   "variant": null,
+   "state": "attack",
+   "frame": 2,
+   "source_sha256": "217f92fad60a7bab973b0933383bdd176cb36a9aea79d7b2172ea3f6f0c96260"
+  },
+  {
+   "name": "fb_char_runecrafter_attack_03",
+   "file": "char/runecrafter/fb_char_runecrafter_attack_03.png",
+   "page": 0,
+   "rect": [
+    562,
+    240,
+    155,
+    231
+   ],
+   "rect_unity": [
+    562,
+    297,
+    155,
+    231
+   ],
+   "pivot": [
+    0.67097,
+    0.02159
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    24,
+    6
+   ],
+   "id": "runecrafter",
+   "variant": null,
+   "state": "attack",
+   "frame": 3,
+   "source_sha256": "dfb1394068e0dbbcb2549f17451413301d6c15b4cf065ee00d1d3b4f7ed9eb2c"
+  },
+  {
+   "name": "fb_char_runecrafter_attack_04",
+   "file": "char/runecrafter/fb_char_runecrafter_attack_04.png",
+   "page": 0,
+   "rect": [
+    269,
+    4,
+    157,
+    233
+   ],
+   "rect_unity": [
+    269,
+    531,
+    157,
+    233
+   ],
+   "pivot": [
+    0.44586,
+    0.0214
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    58,
+    4
+   ],
+   "id": "runecrafter",
+   "variant": null,
+   "state": "attack",
+   "frame": 4,
+   "source_sha256": "5324675055ef1c86750761794362f5e1f3fad9383f7fe041b971ce70d4975ea0"
+  },
+  {
+   "name": "fb_char_runecrafter_attack_05",
+   "file": "char/runecrafter/fb_char_runecrafter_attack_05.png",
+   "page": 0,
+   "rect": [
+    4,
+    4,
+    129,
+    234
+   ],
+   "rect_unity": [
+    4,
+    530,
+    129,
+    234
+   ],
+   "pivot": [
+    0.52713,
+    0.02131
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    60,
+    3
+   ],
+   "id": "runecrafter",
+   "variant": null,
+   "state": "attack",
+   "frame": 5,
+   "source_sha256": "396b8e5e749b505faefc0c2c9ffef4c3a2d695c490cb2ad0fe9d3c609720b07e"
+  },
+  {
+   "name": "fb_char_runecrafter_attack_06",
+   "file": "char/runecrafter/fb_char_runecrafter_attack_06.png",
+   "page": 0,
+   "rect": [
+    562,
+    4,
+    145,
+    232
+   ],
+   "rect_unity": [
+    562,
+    532,
+    145,
+    232
+   ],
+   "pivot": [
+    0.48966,
+    0.0215
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    57,
+    5
+   ],
+   "id": "runecrafter",
+   "variant": null,
+   "state": "attack",
+   "frame": 6,
+   "source_sha256": "d380d7c03f43a2f5c03404a66db4a3619166b1f46901f712a03f1ddce4189267"
+  },
+  {
+   "name": "fb_char_runecrafter_attack_07",
+   "file": "char/runecrafter/fb_char_runecrafter_attack_07.png",
+   "page": 0,
+   "rect": [
+    269,
+    241,
+    137,
+    229
+   ],
+   "rect_unity": [
+    269,
+    298,
+    137,
+    229
+   ],
+   "pivot": [
+    0.53285,
+    0.02178
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    55,
+    8
+   ],
+   "id": "runecrafter",
+   "variant": null,
+   "state": "attack",
+   "frame": 7,
+   "source_sha256": "427ea3bc1a573c4d6f3b9151e7945572dea6f00b6bbbb4d086e9e496dee12bee"
+  },
+  {
+   "name": "fb_char_runecrafter_idle_00",
+   "file": "char/runecrafter/fb_char_runecrafter_idle_00.png",
+   "page": 0,
+   "rect": [
+    400,
+    474,
+    128,
+    226
+   ],
+   "rect_unity": [
+    400,
+    68,
+    128,
+    226
+   ],
+   "pivot": [
+    0.57812,
+    0.02207
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    11
+   ],
+   "id": "runecrafter",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "dd92a7892e0e4af7c02fc3cee77f73d64410dd1e3d10173e7a6dc87d656d2fb3"
+  },
+  {
+   "name": "fb_char_runecrafter_idle_01",
+   "file": "char/runecrafter/fb_char_runecrafter_idle_01.png",
+   "page": 0,
+   "rect": [
+    532,
+    475,
+    128,
+    226
+   ],
+   "rect_unity": [
+    532,
+    67,
+    128,
+    226
+   ],
+   "pivot": [
+    0.57812,
+    0.02207
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    11
+   ],
+   "id": "runecrafter",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "9e43cdc50f9c67772facfcb28c8d8b65faa92e8864b6d934a1078429308d634b"
+  },
+  {
+   "name": "fb_char_runecrafter_idle_02",
+   "file": "char/runecrafter/fb_char_runecrafter_idle_02.png",
+   "page": 0,
+   "rect": [
+    4,
+    474,
+    128,
+    228
+   ],
+   "rect_unity": [
+    4,
+    66,
+    128,
+    228
+   ],
+   "pivot": [
+    0.57812,
+    0.02187
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    9
+   ],
+   "id": "runecrafter",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "98abfdef785b4f56b0ba4a74d978100dfa102453e6414eabb057255abd29f1f6"
+  },
+  {
+   "name": "fb_char_runecrafter_idle_03",
+   "file": "char/runecrafter/fb_char_runecrafter_idle_03.png",
+   "page": 0,
+   "rect": [
+    721,
+    240,
+    128,
+    231
+   ],
+   "rect_unity": [
+    721,
+    297,
+    128,
+    231
+   ],
+   "pivot": [
+    0.57812,
+    0.02159
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    6
+   ],
+   "id": "runecrafter",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "11629fbb18309e681b2ce4d4f2322400979c049c70bccbdc08e856bfa737abda"
+  },
+  {
+   "name": "fb_char_runecrafter_idle_04",
+   "file": "char/runecrafter/fb_char_runecrafter_idle_04.png",
+   "page": 0,
+   "rect": [
+    430,
+    4,
+    128,
+    233
+   ],
+   "rect_unity": [
+    430,
+    531,
+    128,
+    233
+   ],
+   "pivot": [
+    0.57812,
+    0.0214
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    4
+   ],
+   "id": "runecrafter",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "860827b4054b94d5d29bc49e5e8c2657a555b249439ba7e03506d9d49dd03967"
+  },
+  {
+   "name": "fb_char_runecrafter_idle_05",
+   "file": "char/runecrafter/fb_char_runecrafter_idle_05.png",
+   "page": 0,
+   "rect": [
+    137,
+    4,
+    128,
+    234
+   ],
+   "rect_unity": [
+    137,
+    530,
+    128,
+    234
+   ],
+   "pivot": [
+    0.57812,
+    0.02131
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    3
+   ],
+   "id": "runecrafter",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "825df69c836d518df71e36da1b6f610f085034a348db0a7ba16771d4e870c529"
+  },
+  {
+   "name": "fb_char_runecrafter_idle_06",
+   "file": "char/runecrafter/fb_char_runecrafter_idle_06.png",
+   "page": 0,
+   "rect": [
+    711,
+    4,
+    128,
+    232
+   ],
+   "rect_unity": [
+    711,
+    532,
+    128,
+    232
+   ],
+   "pivot": [
+    0.57812,
+    0.0215
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    5
+   ],
+   "id": "runecrafter",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "5c4b3ca493c743817d9adffcc5bb14fc22fdeb4b85942d52f2e5320755316b98"
+  },
+  {
+   "name": "fb_char_runecrafter_idle_07",
+   "file": "char/runecrafter/fb_char_runecrafter_idle_07.png",
+   "page": 0,
+   "rect": [
+    410,
+    241,
+    128,
+    229
+   ],
+   "rect_unity": [
+    410,
+    298,
+    128,
+    229
+   ],
+   "pivot": [
+    0.57812,
+    0.02178
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    8
+   ],
+   "id": "runecrafter",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "898f00ea26e2c2d79af7838bce6182f70dfc75d8ddd9a46ce4d4d86bd94a37e9"
+  }
+ ],
+ "clips": {
+  "runecrafter/attack": {
+   "fps": 12,
+   "loop": false,
+   "frame_count": 8,
+   "frames": [
+    "fb_char_runecrafter_attack_00",
+    "fb_char_runecrafter_attack_01",
+    "fb_char_runecrafter_attack_02",
+    "fb_char_runecrafter_attack_03",
+    "fb_char_runecrafter_attack_04",
+    "fb_char_runecrafter_attack_05",
+    "fb_char_runecrafter_attack_06",
+    "fb_char_runecrafter_attack_07"
+   ],
+   "duration_s": 0.6667
+  },
+  "runecrafter/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_char_runecrafter_idle_00",
+    "fb_char_runecrafter_idle_01",
+    "fb_char_runecrafter_idle_02",
+    "fb_char_runecrafter_idle_03",
+    "fb_char_runecrafter_idle_04",
+    "fb_char_runecrafter_idle_05",
+    "fb_char_runecrafter_idle_06",
+    "fb_char_runecrafter_idle_07"
+   ],
+   "duration_s": 1.0
+  }
+ }
+}

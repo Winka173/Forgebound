@@ -11,7 +11,7 @@
     768,
     1024
    ],
-   "sha256": "ee9edfefca7cd3bab835fe5c363ab18ce53aa5255ef380a389b8d2890854118e"
+   "sha256": "069e1251cf382c70006e3d5e5254e122979d191757e3caac4f485efc6d383cde"
   }
  ],
  "sprites": [
@@ -183,7 +183,7 @@
    "variant": null,
    "state": "idle",
    "frame": 4,
-   "source_sha256": "19f806bc86ac916f489e452b1e97a834a6fe8b909a315f95edcf0b2e17db3748"
+   "source_sha256": "94bb1c3916e4fea8fd46c9b844739fc3990a0a309c9633042339d1bbc854ac6b"
   },
   {
    "name": "fb_enemy_bat_idle_05",

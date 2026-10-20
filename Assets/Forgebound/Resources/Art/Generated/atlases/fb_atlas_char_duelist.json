@@ -1,0 +1,597 @@
+{
+ "schema": "forgebound.art.atlas/1",
+ "group": "char_duelist",
+ "ppu": 100,
+ "padding": 4,
+ "pages": [
+  {
+   "index": 0,
+   "image": "fb_atlas_char_duelist.png",
+   "size": [
+    896,
+    768
+   ],
+   "sha256": "7394b2fee585224a946a168539e772a6483ce56264111460ddae316a3d5c2226"
+  }
+ ],
+ "sprites": [
+  {
+   "name": "fb_char_duelist_attack_00",
+   "file": "char/duelist/fb_char_duelist_attack_00.png",
+   "page": 0,
+   "rect": [
+    158,
+    224,
+    156,
+    214
+   ],
+   "rect_unity": [
+    158,
+    330,
+    156,
+    214
+   ],
+   "pivot": [
+    0.48718,
+    0.0233
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    52,
+    23
+   ],
+   "id": "duelist",
+   "variant": null,
+   "state": "attack",
+   "frame": 0,
+   "source_sha256": "699a108a3338cba5c5a9b9a3153cee9620f43efeea7967a8ddd002dd394c5234"
+  },
+  {
+   "name": "fb_char_duelist_attack_01",
+   "file": "char/duelist/fb_char_duelist_attack_01.png",
+   "page": 0,
+   "rect": [
+    307,
+    442,
+    143,
+    213
+   ],
+   "rect_unity": [
+    307,
+    113,
+    143,
+    213
+   ],
+   "pivot": [
+    0.52448,
+    0.02341
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    53,
+    24
+   ],
+   "id": "duelist",
+   "variant": null,
+   "state": "attack",
+   "frame": 1,
+   "source_sha256": "84b4c897925c045ade623e8b11d0ca7cd55fb4338ba9426e4645c871c5130879"
+  },
+  {
+   "name": "fb_char_duelist_attack_02",
+   "file": "char/duelist/fb_char_duelist_attack_02.png",
+   "page": 0,
+   "rect": [
+    752,
+    442,
+    131,
+    212
+   ],
+   "rect_unity": [
+    752,
+    114,
+    131,
+    212
+   ],
+   "pivot": [
+    0.56489,
+    0.02352
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    25
+   ],
+   "id": "duelist",
+   "variant": null,
+   "state": "attack",
+   "frame": 2,
+   "source_sha256": "474be3e55438f5c5cc86583b6880318a4f3cb10e2151734d787c8939d99cf3ce"
+  },
+  {
+   "name": "fb_char_duelist_attack_03",
+   "file": "char/duelist/fb_char_duelist_attack_03.png",
+   "page": 0,
+   "rect": [
+    4,
+    443,
+    131,
+    211
+   ],
+   "rect_unity": [
+    4,
+    114,
+    131,
+    211
+   ],
+   "pivot": [
+    0.58015,
+    0.02364
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    52,
+    26
+   ],
+   "id": "duelist",
+   "variant": null,
+   "state": "attack",
+   "frame": 3,
+   "source_sha256": "9ee6b696982378fbc8f22034fc5f855a08c8387df2b6b601d9418c37b99db9e7"
+  },
+  {
+   "name": "fb_char_duelist_attack_04",
+   "file": "char/duelist/fb_char_duelist_attack_04.png",
+   "page": 0,
+   "rect": [
+    4,
+    4,
+    171,
+    216
+   ],
+   "rect_unity": [
+    4,
+    548,
+    171,
+    216
+   ],
+   "pivot": [
+    0.4386,
+    0.02309
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    53,
+    21
+   ],
+   "id": "duelist",
+   "variant": null,
+   "state": "attack",
+   "frame": 4,
+   "source_sha256": "92dbd1868fadfc748fdbd40c60f00eb49115c0d62d3e3741f600423770ace724"
+  },
+  {
+   "name": "fb_char_duelist_attack_05",
+   "file": "char/duelist/fb_char_duelist_attack_05.png",
+   "page": 0,
+   "rect": [
+    500,
+    4,
+    172,
+    215
+   ],
+   "rect_unity": [
+    500,
+    549,
+    172,
+    215
+   ],
+   "pivot": [
+    0.43023,
+    0.0232
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    22
+   ],
+   "id": "duelist",
+   "variant": null,
+   "state": "attack",
+   "frame": 5,
+   "source_sha256": "d301a66f091e6fb3820a74a64848c93e6fbe42a2ac792f5d04672636b58ff335"
+  },
+  {
+   "name": "fb_char_duelist_attack_06",
+   "file": "char/duelist/fb_char_duelist_attack_06.png",
+   "page": 0,
+   "rect": [
+    676,
+    4,
+    171,
+    215
+   ],
+   "rect_unity": [
+    676,
+    549,
+    171,
+    215
+   ],
+   "pivot": [
+    0.44444,
+    0.0232
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    52,
+    22
+   ],
+   "id": "duelist",
+   "variant": null,
+   "state": "attack",
+   "frame": 6,
+   "source_sha256": "8d53435018aee7b6a8588646fc18eb17dbbdb1d20cf61f35c3c2f3debc4ded3d"
+  },
+  {
+   "name": "fb_char_duelist_attack_07",
+   "file": "char/duelist/fb_char_duelist_attack_07.png",
+   "page": 0,
+   "rect": [
+    500,
+    223,
+    163,
+    215
+   ],
+   "rect_unity": [
+    500,
+    330,
+    163,
+    215
+   ],
+   "pivot": [
+    0.46012,
+    0.0232
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    53,
+    22
+   ],
+   "id": "duelist",
+   "variant": null,
+   "state": "attack",
+   "frame": 7,
+   "source_sha256": "3b251d1732687b5d39977467837af4d94ff360f6d238033d6fc68c8b20ddd75d"
+  },
+  {
+   "name": "fb_char_duelist_idle_00",
+   "file": "char/duelist/fb_char_duelist_idle_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    224,
+    150,
+    215
+   ],
+   "rect_unity": [
+    4,
+    329,
+    150,
+    215
+   ],
+   "pivot": [
+    0.50667,
+    0.0232
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    52,
+    22
+   ],
+   "id": "duelist",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "8f45e3005a184adf837e93f8f276428b34d49b9c56b7f7452a5cdbec5fa34105"
+  },
+  {
+   "name": "fb_char_duelist_idle_01",
+   "file": "char/duelist/fb_char_duelist_idle_01.png",
+   "page": 0,
+   "rect": [
+    341,
+    4,
+    155,
+    216
+   ],
+   "rect_unity": [
+    341,
+    548,
+    155,
+    216
+   ],
+   "pivot": [
+    0.50323,
+    0.02309
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    50,
+    21
+   ],
+   "id": "duelist",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "513454d5d389a5cdf17862bf17085659fafe4198270907f193c48f1febe4b80c"
+  },
+  {
+   "name": "fb_char_duelist_idle_02",
+   "file": "char/duelist/fb_char_duelist_idle_02.png",
+   "page": 0,
+   "rect": [
+    179,
+    4,
+    158,
+    216
+   ],
+   "rect_unity": [
+    179,
+    548,
+    158,
+    216
+   ],
+   "pivot": [
+    0.5,
+    0.02309
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    49,
+    21
+   ],
+   "id": "duelist",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "1b186ceada87190cfb5f499aef66a6abe72015cb87e6371e992c40968a72e68a"
+  },
+  {
+   "name": "fb_char_duelist_idle_03",
+   "file": "char/duelist/fb_char_duelist_idle_03.png",
+   "page": 0,
+   "rect": [
+    667,
+    223,
+    157,
+    215
+   ],
+   "rect_unity": [
+    667,
+    330,
+    157,
+    215
+   ],
+   "pivot": [
+    0.49682,
+    0.0232
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    50,
+    22
+   ],
+   "id": "duelist",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "b464367aaf3dd33c18469a2adb030a391ff725be51a2345b31fb9bbab4ba6a75"
+  },
+  {
+   "name": "fb_char_duelist_idle_04",
+   "file": "char/duelist/fb_char_duelist_idle_04.png",
+   "page": 0,
+   "rect": [
+    318,
+    224,
+    153,
+    214
+   ],
+   "rect_unity": [
+    318,
+    330,
+    153,
+    214
+   ],
+   "pivot": [
+    0.49673,
+    0.0233
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    52,
+    23
+   ],
+   "id": "duelist",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "9c5e1c7fc942e4a64f43142cebf8313b350221c61b54e12f5c35f2d62ab636f6"
+  },
+  {
+   "name": "fb_char_duelist_idle_05",
+   "file": "char/duelist/fb_char_duelist_idle_05.png",
+   "page": 0,
+   "rect": [
+    454,
+    442,
+    147,
+    212
+   ],
+   "rect_unity": [
+    454,
+    114,
+    147,
+    212
+   ],
+   "pivot": [
+    0.5034,
+    0.02352
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    25
+   ],
+   "id": "duelist",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "8ebb7321a2a737bc03262d1d32c381a5f478a21c5ae9c30c8df445d667a9b383"
+  },
+  {
+   "name": "fb_char_duelist_idle_06",
+   "file": "char/duelist/fb_char_duelist_idle_06.png",
+   "page": 0,
+   "rect": [
+    605,
+    442,
+    143,
+    212
+   ],
+   "rect_unity": [
+    605,
+    114,
+    143,
+    212
+   ],
+   "pivot": [
+    0.51049,
+    0.02352
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    55,
+    25
+   ],
+   "id": "duelist",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "29785245e3a30c4f486450dd563c7d90af21f9d1a89a820df0c47616dbb55c9b"
+  },
+  {
+   "name": "fb_char_duelist_idle_07",
+   "file": "char/duelist/fb_char_duelist_idle_07.png",
+   "page": 0,
+   "rect": [
+    158,
+    442,
+    145,
+    213
+   ],
+   "rect_unity": [
+    158,
+    113,
+    145,
+    213
+   ],
+   "pivot": [
+    0.51034,
+    0.02341
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    24
+   ],
+   "id": "duelist",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "5a485edd673eea638cf33864ebbc71bf43f52fde9f9a28621da218065022eebe"
+  }
+ ],
+ "clips": {
+  "duelist/attack": {
+   "fps": 12,
+   "loop": false,
+   "frame_count": 8,
+   "frames": [
+    "fb_char_duelist_attack_00",
+    "fb_char_duelist_attack_01",
+    "fb_char_duelist_attack_02",
+    "fb_char_duelist_attack_03",
+    "fb_char_duelist_attack_04",
+    "fb_char_duelist_attack_05",
+    "fb_char_duelist_attack_06",
+    "fb_char_duelist_attack_07"
+   ],
+   "duration_s": 0.6667
+  },
+  "duelist/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_char_duelist_idle_00",
+    "fb_char_duelist_idle_01",
+    "fb_char_duelist_idle_02",
+    "fb_char_duelist_idle_03",
+    "fb_char_duelist_idle_04",
+    "fb_char_duelist_idle_05",
+    "fb_char_duelist_idle_06",
+    "fb_char_duelist_idle_07"
+   ],
+   "duration_s": 1.0
+  }
+ }
+}

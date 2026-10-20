@@ -11,7 +11,7 @@
     640,
     768
    ],
-   "sha256": "08e56f0cee0247a44d4d32c5971a781a1c210a1bc3da8d57eb0f92efd0e7da84"
+   "sha256": "7237faa274f177fd9bd2bbc9444143b96565966309375a2c69cd9d4cccf6c591"
   }
  ],
  "sprites": [
@@ -47,7 +47,7 @@
    "variant": null,
    "state": "attack",
    "frame": 0,
-   "source_sha256": "c4874ff7a89bc53151607a6b4c1637d9cdc0b4d129f95655264b53ada7682e57"
+   "source_sha256": "6d6eee4aa94dafcc1e31985e4bce0b1274e4ee66cf51991e9ada6ed0c3261e6d"
   },
   {
    "name": "fb_char_blacksmith_attack_01",
@@ -81,7 +81,7 @@
    "variant": null,
    "state": "attack",
    "frame": 1,
-   "source_sha256": "08b039d22cb5e71da2930e6d9e2d77ea138b852e66757d33c35a8da10e22fb86"
+   "source_sha256": "4c987b98f8b1b33742d8541543c7f7950c431db93134781e78b5be805337c942"
   },
   {
    "name": "fb_char_blacksmith_attack_02",
@@ -115,7 +115,7 @@
    "variant": null,
    "state": "attack",
    "frame": 2,
-   "source_sha256": "44cf999243763a7e39a4e5668bb6ef5bb0d82acd165e3a90adc572109249d0ea"
+   "source_sha256": "1d47209d71d70aec18e7dce76b13a98815b0b72df431954a820cfb8f23dc87f6"
   },
   {
    "name": "fb_char_blacksmith_attack_03",
@@ -149,7 +149,7 @@
    "variant": null,
    "state": "attack",
    "frame": 3,
-   "source_sha256": "a43865f4c1a356d87ad4bc56c773b1e861e15773de7c37100392c972bde82577"
+   "source_sha256": "0f5538dd7fea8e4ecb9bc5a3a93ebb93d17d3dae41171d2a96602e019b072f15"
   },
   {
    "name": "fb_char_blacksmith_attack_04",
@@ -183,7 +183,7 @@
    "variant": null,
    "state": "attack",
    "frame": 4,
-   "source_sha256": "c2fbc832bcc8257330bcbe3a572258ce47745510071fcb845a5ccffc1828865d"
+   "source_sha256": "ffaa601aa8f419f0266f47b82bd8da35d8e516be4722a53878aa60e575ce25d9"
   },
   {
    "name": "fb_char_blacksmith_attack_05",
@@ -217,7 +217,7 @@
    "variant": null,
    "state": "attack",
    "frame": 5,
-   "source_sha256": "564c8bafd396031ea0603ae483af7523c70bc0bd1878817ac331b7a3f9a18587"
+   "source_sha256": "0f7609b3f6c9431285922db4190726eb5483e18cfee8193d7a1f5d06ccbb6a74"
   },
   {
    "name": "fb_char_blacksmith_attack_06",
@@ -251,7 +251,7 @@
    "variant": null,
    "state": "attack",
    "frame": 6,
-   "source_sha256": "0b9870a5b42470a6ec103ab565e0ac08f8cf7f676a7aae8f7bdb359212a8b774"
+   "source_sha256": "d99400eede11fcf7fe5da51a712690dbb97e755311bbc26415e6d672a4337fa0"
   },
   {
    "name": "fb_char_blacksmith_attack_07",
@@ -285,7 +285,7 @@
    "variant": null,
    "state": "attack",
    "frame": 7,
-   "source_sha256": "d79ee741cf3684f9d3509c821d9dbb1a4d964b14f42727c87df6600835aa50b6"
+   "source_sha256": "422c56bbfee713a8e075728bae319d3218a6d38ea4098788a1a2227834268d03"
   },
   {
    "name": "fb_char_blacksmith_idle_00",
@@ -319,7 +319,7 @@
    "variant": null,
    "state": "idle",
    "frame": 0,
-   "source_sha256": "cd3c3de74c62f5a55c50ce7921b9f814c360399bbd97ca128cefd71ff01a8a1d"
+   "source_sha256": "4a8ba7adf01e3c6e8ed75f44482a18b905d3ca1e072d4cc0ad550b4eea07e665"
   },
   {
    "name": "fb_char_blacksmith_idle_01",
@@ -328,17 +328,17 @@
    "rect": [
     233,
     4,
-    110,
+    109,
     187
    ],
    "rect_unity": [
     233,
     577,
-    110,
+    109,
     187
    ],
    "pivot": [
-    0.36364,
+    0.36697,
     0.02667
    ],
    "source_size": [
@@ -353,20 +353,20 @@
    "variant": null,
    "state": "idle",
    "frame": 1,
-   "source_sha256": "c309649f80ef0094528100865f3f05381d4b5d11256c3729a1bbfc3e8b37b202"
+   "source_sha256": "b67f14c12981e8b46e586df9e34d00073dd67d053b79a0c241416b465ac6d91b"
   },
   {
    "name": "fb_char_blacksmith_idle_02",
    "file": "char/blacksmith/fb_char_blacksmith_idle_02.png",
    "page": 0,
    "rect": [
-    347,
+    346,
     4,
     106,
     187
    ],
    "rect_unity": [
-    347,
+    346,
     577,
     106,
     187
@@ -387,20 +387,20 @@
    "variant": null,
    "state": "idle",
    "frame": 2,
-   "source_sha256": "643d27d8302b81ffe4385ef5e69d14375f1f7b14e81eda745073b1f897edccbd"
+   "source_sha256": "92032f4df5825d278f3856978edadb939ae4e52e13b5a1fd167004372ea71356"
   },
   {
    "name": "fb_char_blacksmith_idle_03",
    "file": "char/blacksmith/fb_char_blacksmith_idle_03.png",
    "page": 0,
    "rect": [
-    457,
+    456,
     4,
     106,
     187
    ],
    "rect_unity": [
-    457,
+    456,
     577,
     106,
     187
@@ -421,7 +421,7 @@
    "variant": null,
    "state": "idle",
    "frame": 3,
-   "source_sha256": "639cd35f8304a751da042a921c78af8b8a2abbec11135df8403d5ef2e72cd975"
+   "source_sha256": "cb8a9bf1ed8541604d7b3fb030c644868f9b3268394245aba71ca19bc280ada2"
   },
   {
    "name": "fb_char_blacksmith_idle_04",
@@ -455,7 +455,7 @@
    "variant": null,
    "state": "idle",
    "frame": 4,
-   "source_sha256": "f4a58997db6b6aa113ed3201107615b3488feec24a750315908817d4f4f66f44"
+   "source_sha256": "3f82eff7817c75d0a76c484e46451e746e89df81af6a179c48070f2849288a75"
   },
   {
    "name": "fb_char_blacksmith_idle_05",
@@ -489,45 +489,11 @@
    "variant": null,
    "state": "idle",
    "frame": 5,
-   "source_sha256": "182f3a42efba6150c1c1097e72671b7107cc57d265c49a0eca8214fbd3b60d91"
+   "source_sha256": "d4332eeabba5222bc5854bdcccf70ddc9229df33bb59316a2f2c25f6aa02bfa7"
   },
   {
    "name": "fb_char_blacksmith_idle_06",
    "file": "char/blacksmith/fb_char_blacksmith_idle_06.png",
-   "page": 0,
-   "rect": [
-    444,
-    385,
-    114,
-    185
-   ],
-   "rect_unity": [
-    444,
-    198,
-    114,
-    185
-   ],
-   "pivot": [
-    0.35088,
-    0.02696
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    88,
-    52
-   ],
-   "id": "blacksmith",
-   "variant": null,
-   "state": "idle",
-   "frame": 6,
-   "source_sha256": "de36d98bd59780e5330dac6a2755b5ccc2f875a1d47211648441650961709dd7"
-  },
-  {
-   "name": "fb_char_blacksmith_idle_07",
-   "file": "char/blacksmith/fb_char_blacksmith_idle_07.png",
    "page": 0,
    "rect": [
     325,
@@ -556,8 +522,42 @@
    "id": "blacksmith",
    "variant": null,
    "state": "idle",
+   "frame": 6,
+   "source_sha256": "0a018e7e595d3281a3f2c7707d79d632f9dbdc06e06265b5dc0d8f32724ca85f"
+  },
+  {
+   "name": "fb_char_blacksmith_idle_07",
+   "file": "char/blacksmith/fb_char_blacksmith_idle_07.png",
+   "page": 0,
+   "rect": [
+    444,
+    385,
+    115,
+    185
+   ],
+   "rect_unity": [
+    444,
+    198,
+    115,
+    185
+   ],
+   "pivot": [
+    0.34783,
+    0.02696
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    88,
+    52
+   ],
+   "id": "blacksmith",
+   "variant": null,
+   "state": "idle",
    "frame": 7,
-   "source_sha256": "d6c66ec3cc3bb0a8e48bea8e8cc607c63dca77c4bc22949662584a7ef449d41f"
+   "source_sha256": "0cc8def71f047170b6654cd2a70b542793a43d65f334ead966615b0eabff5d8e"
   }
  ],
  "clips": {

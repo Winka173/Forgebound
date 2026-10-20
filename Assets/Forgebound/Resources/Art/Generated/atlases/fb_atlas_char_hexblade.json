@@ -1,0 +1,597 @@
+{
+ "schema": "forgebound.art.atlas/1",
+ "group": "char_hexblade",
+ "ppu": 100,
+ "padding": 4,
+ "pages": [
+  {
+   "index": 0,
+   "image": "fb_atlas_char_hexblade.png",
+   "size": [
+    896,
+    640
+   ],
+   "sha256": "4bc9d9384c31744fc6a7f6c6a7cf8bf61c676a54f38ffdf274782e96b26d7b3c"
+  }
+ ],
+ "sprites": [
+  {
+   "name": "fb_char_hexblade_attack_00",
+   "file": "char/hexblade/fb_char_hexblade_attack_00.png",
+   "page": 0,
+   "rect": [
+    248,
+    427,
+    118,
+    206
+   ],
+   "rect_unity": [
+    248,
+    7,
+    118,
+    206
+   ],
+   "pivot": [
+    0.59322,
+    0.02421
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    58,
+    31
+   ],
+   "id": "hexblade",
+   "variant": null,
+   "state": "attack",
+   "frame": 0,
+   "source_sha256": "6ed24275658c1483b3a8181c11a0bd3a164b61e9aab5b36d4c9d4af75c0cfe2d"
+  },
+  {
+   "name": "fb_char_hexblade_attack_01",
+   "file": "char/hexblade/fb_char_hexblade_attack_01.png",
+   "page": 0,
+   "rect": [
+    4,
+    4,
+    117,
+    221
+   ],
+   "rect_unity": [
+    4,
+    415,
+    117,
+    221
+   ],
+   "pivot": [
+    0.61538,
+    0.02257
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    56,
+    16
+   ],
+   "id": "hexblade",
+   "variant": null,
+   "state": "attack",
+   "frame": 1,
+   "source_sha256": "ccb27a2aa4b4a074e8a4e9031d4fe62c758f6ad632adf6dc085953ef7e98cdcd"
+  },
+  {
+   "name": "fb_char_hexblade_attack_02",
+   "file": "char/hexblade/fb_char_hexblade_attack_02.png",
+   "page": 0,
+   "rect": [
+    315,
+    4,
+    151,
+    208
+   ],
+   "rect_unity": [
+    315,
+    428,
+    151,
+    208
+   ],
+   "pivot": [
+    0.66225,
+    0.02398
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    28,
+    29
+   ],
+   "id": "hexblade",
+   "variant": null,
+   "state": "attack",
+   "frame": 2,
+   "source_sha256": "e780c4df3c21b0d0bd7b9a0cc7b2de7fb3d255f472331aa85192256864e5a40b"
+  },
+  {
+   "name": "fb_char_hexblade_attack_03",
+   "file": "char/hexblade/fb_char_hexblade_attack_03.png",
+   "page": 0,
+   "rect": [
+    520,
+    427,
+    159,
+    194
+   ],
+   "rect_unity": [
+    520,
+    19,
+    159,
+    194
+   ],
+   "pivot": [
+    0.72327,
+    0.02571
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    13,
+    43
+   ],
+   "id": "hexblade",
+   "variant": null,
+   "state": "attack",
+   "frame": 3,
+   "source_sha256": "c718a1a056eef43d5457706b786da09dec5d46ffa4e921d9afb3e33c62f86567"
+  },
+  {
+   "name": "fb_char_hexblade_attack_04",
+   "file": "char/hexblade/fb_char_hexblade_attack_04.png",
+   "page": 0,
+   "rect": [
+    125,
+    4,
+    186,
+    214
+   ],
+   "rect_unity": [
+    125,
+    422,
+    186,
+    214
+   ],
+   "pivot": [
+    0.39247,
+    0.0233
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    55,
+    23
+   ],
+   "id": "hexblade",
+   "variant": null,
+   "state": "attack",
+   "frame": 4,
+   "source_sha256": "76cbd3276c11145df5ea60dd5edd9fe9c9985705a808f26186fb27bc2e3033f6"
+  },
+  {
+   "name": "fb_char_hexblade_attack_05",
+   "file": "char/hexblade/fb_char_hexblade_attack_05.png",
+   "page": 0,
+   "rect": [
+    4,
+    432,
+    182,
+    190
+   ],
+   "rect_unity": [
+    4,
+    18,
+    182,
+    190
+   ],
+   "pivot": [
+    0.42857,
+    0.02625
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    50,
+    47
+   ],
+   "id": "hexblade",
+   "variant": null,
+   "state": "attack",
+   "frame": 5,
+   "source_sha256": "9d2a723530f2462e1c9a23d8baebb71165ae0a63c21625222712445c8fa9587b"
+  },
+  {
+   "name": "fb_char_hexblade_attack_06",
+   "file": "char/hexblade/fb_char_hexblade_attack_06.png",
+   "page": 0,
+   "rect": [
+    683,
+    427,
+    180,
+    192
+   ],
+   "rect_unity": [
+    683,
+    21,
+    180,
+    192
+   ],
+   "pivot": [
+    0.41111,
+    0.02598
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    45
+   ],
+   "id": "hexblade",
+   "variant": null,
+   "state": "attack",
+   "frame": 6,
+   "source_sha256": "cc559cca5583f9b9b9c4bffbaed05a2472c6b1e0a4b8f6b768842a7f14f899e5"
+  },
+  {
+   "name": "fb_char_hexblade_attack_07",
+   "file": "char/hexblade/fb_char_hexblade_attack_07.png",
+   "page": 0,
+   "rect": [
+    370,
+    427,
+    146,
+    197
+   ],
+   "rect_unity": [
+    370,
+    16,
+    146,
+    197
+   ],
+   "pivot": [
+    0.49315,
+    0.02532
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    56,
+    40
+   ],
+   "id": "hexblade",
+   "variant": null,
+   "state": "attack",
+   "frame": 7,
+   "source_sha256": "e13422170efca1cb963986f7c7b253fba3c6e4d3c355ee69bd3c17bdc1d73ae8"
+  },
+  {
+   "name": "fb_char_hexblade_idle_00",
+   "file": "char/hexblade/fb_char_hexblade_idle_00.png",
+   "page": 0,
+   "rect": [
+    470,
+    4,
+    117,
+    208
+   ],
+   "rect_unity": [
+    470,
+    428,
+    117,
+    208
+   ],
+   "pivot": [
+    0.59829,
+    0.02398
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    58,
+    29
+   ],
+   "id": "hexblade",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "c82d9751d37276c7210ce1cbf71ba850f556b61c4142abfd84381ef9ae55ea0e"
+  },
+  {
+   "name": "fb_char_hexblade_idle_01",
+   "file": "char/hexblade/fb_char_hexblade_idle_01.png",
+   "page": 0,
+   "rect": [
+    439,
+    216,
+    119,
+    207
+   ],
+   "rect_unity": [
+    439,
+    217,
+    119,
+    207
+   ],
+   "pivot": [
+    0.60504,
+    0.02409
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    56,
+    30
+   ],
+   "id": "hexblade",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "621d4aa055375fd133b326869370a379d4976a5d83cec9a71272981f9d821335"
+  },
+  {
+   "name": "fb_char_hexblade_idle_02",
+   "file": "char/hexblade/fb_char_hexblade_idle_02.png",
+   "page": 0,
+   "rect": [
+    315,
+    216,
+    120,
+    207
+   ],
+   "rect_unity": [
+    315,
+    217,
+    120,
+    207
+   ],
+   "pivot": [
+    0.60833,
+    0.02409
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    55,
+    30
+   ],
+   "id": "hexblade",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "5cd04e1851d9714c279cec8370462dc0bd10caa1bf604345c22216abad3f985f"
+  },
+  {
+   "name": "fb_char_hexblade_idle_03",
+   "file": "char/hexblade/fb_char_hexblade_idle_03.png",
+   "page": 0,
+   "rect": [
+    125,
+    222,
+    119,
+    206
+   ],
+   "rect_unity": [
+    125,
+    212,
+    119,
+    206
+   ],
+   "pivot": [
+    0.60504,
+    0.02421
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    56,
+    31
+   ],
+   "id": "hexblade",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "c5110f31dfa1f35b20f5748fdea49cf7de5ae20dd09d499da4685bd6b002da1f"
+  },
+  {
+   "name": "fb_char_hexblade_idle_04",
+   "file": "char/hexblade/fb_char_hexblade_idle_04.png",
+   "page": 0,
+   "rect": [
+    562,
+    216,
+    117,
+    207
+   ],
+   "rect_unity": [
+    562,
+    217,
+    117,
+    207
+   ],
+   "pivot": [
+    0.59829,
+    0.02409
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    58,
+    30
+   ],
+   "id": "hexblade",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "9695eba2051e7e0a45077d3fce4f68f2e7bb3b009dcf27ed284aa7ca568ebee8"
+  },
+  {
+   "name": "fb_char_hexblade_idle_05",
+   "file": "char/hexblade/fb_char_hexblade_idle_05.png",
+   "page": 0,
+   "rect": [
+    683,
+    216,
+    114,
+    207
+   ],
+   "rect_unity": [
+    683,
+    217,
+    114,
+    207
+   ],
+   "pivot": [
+    0.58772,
+    0.02409
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    61,
+    30
+   ],
+   "id": "hexblade",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "47f9ff26621d0a4b180bf1140a74b34134ca8d1426275e3f0654ca6521c75b73"
+  },
+  {
+   "name": "fb_char_hexblade_idle_06",
+   "file": "char/hexblade/fb_char_hexblade_idle_06.png",
+   "page": 0,
+   "rect": [
+    709,
+    4,
+    113,
+    208
+   ],
+   "rect_unity": [
+    709,
+    428,
+    113,
+    208
+   ],
+   "pivot": [
+    0.58407,
+    0.02398
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    62,
+    29
+   ],
+   "id": "hexblade",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "4675fc5ae50ba152ff7db8c8a539e3e74594c9ca63dc374d4b4f116a2616d94e"
+  },
+  {
+   "name": "fb_char_hexblade_idle_07",
+   "file": "char/hexblade/fb_char_hexblade_idle_07.png",
+   "page": 0,
+   "rect": [
+    591,
+    4,
+    114,
+    208
+   ],
+   "rect_unity": [
+    591,
+    428,
+    114,
+    208
+   ],
+   "pivot": [
+    0.58772,
+    0.02398
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    61,
+    29
+   ],
+   "id": "hexblade",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "e53a1ca4969d4e02a799786d296399ce151d422b110e0928b8462d33f999bcdb"
+  }
+ ],
+ "clips": {
+  "hexblade/attack": {
+   "fps": 12,
+   "loop": false,
+   "frame_count": 8,
+   "frames": [
+    "fb_char_hexblade_attack_00",
+    "fb_char_hexblade_attack_01",
+    "fb_char_hexblade_attack_02",
+    "fb_char_hexblade_attack_03",
+    "fb_char_hexblade_attack_04",
+    "fb_char_hexblade_attack_05",
+    "fb_char_hexblade_attack_06",
+    "fb_char_hexblade_attack_07"
+   ],
+   "duration_s": 0.6667
+  },
+  "hexblade/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_char_hexblade_idle_00",
+    "fb_char_hexblade_idle_01",
+    "fb_char_hexblade_idle_02",
+    "fb_char_hexblade_idle_03",
+    "fb_char_hexblade_idle_04",
+    "fb_char_hexblade_idle_05",
+    "fb_char_hexblade_idle_06",
+    "fb_char_hexblade_idle_07"
+   ],
+   "duration_s": 1.0
+  }
+ }
+}

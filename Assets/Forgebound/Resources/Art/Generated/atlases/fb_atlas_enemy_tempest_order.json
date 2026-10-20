@@ -1,0 +1,2901 @@
+{
+ "schema": "forgebound.art.atlas/1",
+ "group": "enemy_tempest_order",
+ "ppu": 100,
+ "padding": 4,
+ "pages": [
+  {
+   "index": 0,
+   "image": "fb_atlas_enemy_tempest_order.png",
+   "size": [
+    1408,
+    1536
+   ],
+   "sha256": "151d5000f1a6e6a445ccf7eca2e139f1423993d66a8953fdf0d7a2ca3a32bb0c"
+  }
+ ],
+ "sprites": [
+  {
+   "name": "fb_enemy_aegis_construct_idle_00",
+   "file": "enemy/aegis_construct/fb_enemy_aegis_construct_idle_00.png",
+   "page": 0,
+   "rect": [
+    744,
+    864,
+    149,
+    189
+   ],
+   "rect_unity": [
+    744,
+    483,
+    149,
+    189
+   ],
+   "pivot": [
+    0.5302,
+    0.02639
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    49,
+    48
+   ],
+   "id": "aegis_construct",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "b331c93f5c41bfc199c4f09d6d8f01d704314b0a23c4768f868d9789291fa488"
+  },
+  {
+   "name": "fb_enemy_aegis_construct_idle_01",
+   "file": "enemy/aegis_construct/fb_enemy_aegis_construct_idle_01.png",
+   "page": 0,
+   "rect": [
+    133,
+    672,
+    151,
+    190
+   ],
+   "rect_unity": [
+    133,
+    674,
+    151,
+    190
+   ],
+   "pivot": [
+    0.53642,
+    0.02625
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    47,
+    47
+   ],
+   "id": "aegis_construct",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "e7468a1b6f6f4676ca2a2935659b6f5f403e5728db9a7531e4aa357386819c30"
+  },
+  {
+   "name": "fb_enemy_aegis_construct_idle_02",
+   "file": "enemy/aegis_construct/fb_enemy_aegis_construct_idle_02.png",
+   "page": 0,
+   "rect": [
+    744,
+    669,
+    152,
+    191
+   ],
+   "rect_unity": [
+    744,
+    676,
+    152,
+    191
+   ],
+   "pivot": [
+    0.53947,
+    0.02611
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    46,
+    46
+   ],
+   "id": "aegis_construct",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "b34487fdf5afa20c39ec1935dfc0592b647160ce20522859337f328e713b5d2a"
+  },
+  {
+   "name": "fb_enemy_aegis_construct_idle_03",
+   "file": "enemy/aegis_construct/fb_enemy_aegis_construct_idle_03.png",
+   "page": 0,
+   "rect": [
+    900,
+    669,
+    152,
+    191
+   ],
+   "rect_unity": [
+    900,
+    676,
+    152,
+    191
+   ],
+   "pivot": [
+    0.53947,
+    0.02611
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    46,
+    46
+   ],
+   "id": "aegis_construct",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "b6be047d4c2ddf6da8ff08383a7ea9b3b4c878c32498f386b33ca978c07c2be5"
+  },
+  {
+   "name": "fb_enemy_aegis_construct_idle_04",
+   "file": "enemy/aegis_construct/fb_enemy_aegis_construct_idle_04.png",
+   "page": 0,
+   "rect": [
+    1056,
+    860,
+    151,
+    189
+   ],
+   "rect_unity": [
+    1056,
+    487,
+    151,
+    189
+   ],
+   "pivot": [
+    0.53642,
+    0.02639
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    47,
+    48
+   ],
+   "id": "aegis_construct",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "35a4825c5ee0db477e5f185d8c8418c45877e8da01f9b016539beb2a2a3d06cd"
+  },
+  {
+   "name": "fb_enemy_aegis_construct_idle_05",
+   "file": "enemy/aegis_construct/fb_enemy_aegis_construct_idle_05.png",
+   "page": 0,
+   "rect": [
+    4,
+    866,
+    148,
+    188
+   ],
+   "rect_unity": [
+    4,
+    482,
+    148,
+    188
+   ],
+   "pivot": [
+    0.52703,
+    0.02653
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    50,
+    49
+   ],
+   "id": "aegis_construct",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "27edf83e360f7efa4776414b081b8ae0adb7440e233d35d2e01e1cc62d1fe43d"
+  },
+  {
+   "name": "fb_enemy_aegis_construct_idle_06",
+   "file": "enemy/aegis_construct/fb_enemy_aegis_construct_idle_06.png",
+   "page": 0,
+   "rect": [
+    156,
+    866,
+    147,
+    188
+   ],
+   "rect_unity": [
+    156,
+    482,
+    147,
+    188
+   ],
+   "pivot": [
+    0.52381,
+    0.02653
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    51,
+    49
+   ],
+   "id": "aegis_construct",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "d335aeaf0aba9730d5916467c855ee2f791a80b4967b44d26ec8b496fc227be7"
+  },
+  {
+   "name": "fb_enemy_aegis_construct_idle_07",
+   "file": "enemy/aegis_construct/fb_enemy_aegis_construct_idle_07.png",
+   "page": 0,
+   "rect": [
+    307,
+    866,
+    147,
+    188
+   ],
+   "rect_unity": [
+    307,
+    482,
+    147,
+    188
+   ],
+   "pivot": [
+    0.52381,
+    0.02653
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    51,
+    49
+   ],
+   "id": "aegis_construct",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "d155525b8c398d2afffd1dba7277a974dec5a0150089783b79b206b1382a86a3"
+  },
+  {
+   "name": "fb_enemy_arc_mage_idle_00",
+   "file": "enemy/arc_mage/fb_enemy_arc_mage_idle_00.png",
+   "page": 0,
+   "rect": [
+    113,
+    237,
+    126,
+    206
+   ],
+   "rect_unity": [
+    113,
+    1093,
+    126,
+    206
+   ],
+   "pivot": [
+    0.54762,
+    0.02421
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    59,
+    31
+   ],
+   "id": "arc_mage",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "e0be5d17889f7139d189f0ce994082cf98acde878c41e223533c59b8d2dedefb"
+  },
+  {
+   "name": "fb_enemy_arc_mage_idle_01",
+   "file": "enemy/arc_mage/fb_enemy_arc_mage_idle_01.png",
+   "page": 0,
+   "rect": [
+    1211,
+    236,
+    121,
+    207
+   ],
+   "rect_unity": [
+    1211,
+    1093,
+    121,
+    207
+   ],
+   "pivot": [
+    0.52893,
+    0.02409
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    64,
+    30
+   ],
+   "id": "arc_mage",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "c2860b02b7c89612159b94a656a11582ceddd301d24a9b8d98a30c68cca84286"
+  },
+  {
+   "name": "fb_enemy_arc_mage_idle_02",
+   "file": "enemy/arc_mage/fb_enemy_arc_mage_idle_02.png",
+   "page": 0,
+   "rect": [
+    1094,
+    236,
+    113,
+    208
+   ],
+   "rect_unity": [
+    1094,
+    1092,
+    113,
+    208
+   ],
+   "pivot": [
+    0.53097,
+    0.02398
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    68,
+    29
+   ],
+   "id": "arc_mage",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "a6ed360a0cc73d876995409ec7464e5ae45c70da65e657a9c7ae956a1377b89b"
+  },
+  {
+   "name": "fb_enemy_arc_mage_idle_03",
+   "file": "enemy/arc_mage/fb_enemy_arc_mage_idle_03.png",
+   "page": 0,
+   "rect": [
+    4,
+    237,
+    105,
+    207
+   ],
+   "rect_unity": [
+    4,
+    1092,
+    105,
+    207
+   ],
+   "pivot": [
+    0.5619,
+    0.02409
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    69,
+    30
+   ],
+   "id": "arc_mage",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "c31536336669522c0fce2c67d9d77810f7863ba15e6b5da246e183d87514d475"
+  },
+  {
+   "name": "fb_enemy_arc_mage_idle_04",
+   "file": "enemy/arc_mage/fb_enemy_arc_mage_idle_04.png",
+   "page": 0,
+   "rect": [
+    113,
+    447,
+    111,
+    206
+   ],
+   "rect_unity": [
+    113,
+    883,
+    111,
+    206
+   ],
+   "pivot": [
+    0.56757,
+    0.02421
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    65,
+    31
+   ],
+   "id": "arc_mage",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "48974f4ebfad7c851ed52b55a75b682a2048e6422acceaf6237c36ebc08ace0c"
+  },
+  {
+   "name": "fb_enemy_arc_mage_idle_05",
+   "file": "enemy/arc_mage/fb_enemy_arc_mage_idle_05.png",
+   "page": 0,
+   "rect": [
+    1211,
+    447,
+    120,
+    205
+   ],
+   "rect_unity": [
+    1211,
+    884,
+    120,
+    205
+   ],
+   "pivot": [
+    0.56667,
+    0.02433
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    60,
+    32
+   ],
+   "id": "arc_mage",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "626735d6d37644f0e3808c0996d30cd1550443d4e203dc006a16ecd93ff312aa"
+  },
+  {
+   "name": "fb_enemy_arc_mage_idle_06",
+   "file": "enemy/arc_mage/fb_enemy_arc_mage_idle_06.png",
+   "page": 0,
+   "rect": [
+    863,
+    461,
+    125,
+    204
+   ],
+   "rect_unity": [
+    863,
+    871,
+    125,
+    204
+   ],
+   "pivot": [
+    0.568,
+    0.02445
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    57,
+    33
+   ],
+   "id": "arc_mage",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "3764c20fe64f4b19b5e6ca1bddc75f0767c6b735935a6642967e8c48fcec11b7"
+  },
+  {
+   "name": "fb_enemy_arc_mage_idle_07",
+   "file": "enemy/arc_mage/fb_enemy_arc_mage_idle_07.png",
+   "page": 0,
+   "rect": [
+    992,
+    461,
+    125,
+    204
+   ],
+   "rect_unity": [
+    992,
+    871,
+    125,
+    204
+   ],
+   "pivot": [
+    0.576,
+    0.02445
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    56,
+    33
+   ],
+   "id": "arc_mage",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "74e35f483fabd54eca1080941679dac70b888fa11e5577bef245a7e7c5a71a3a"
+  },
+  {
+   "name": "fb_enemy_clockwork_drone_idle_00",
+   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_00.png",
+   "page": 0,
+   "rect": [
+    1309,
+    1156,
+    93,
+    98
+   ],
+   "rect_unity": [
+    1309,
+    282,
+    93,
+    98
+   ],
+   "pivot": [
+    0.48387,
+    -0.69401
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    83,
+    66
+   ],
+   "id": "clockwork_drone",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "c318cc1dbe8f24d473b59b2950f1cbb78469a7c2ec5dd493cd58a8134d1f7ec3"
+  },
+  {
+   "name": "fb_enemy_clockwork_drone_idle_01",
+   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_01.png",
+   "page": 0,
+   "rect": [
+    1212,
+    1242,
+    91,
+    98
+   ],
+   "rect_unity": [
+    1212,
+    196,
+    91,
+    98
+   ],
+   "pivot": [
+    0.42857,
+    -0.75523
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    89,
+    60
+   ],
+   "id": "clockwork_drone",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "0722c0060a6c1787e2be51268dea6a856c08ed692a0379772c171b1f87ef3515"
+  },
+  {
+   "name": "fb_enemy_clockwork_drone_idle_02",
+   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_02.png",
+   "page": 0,
+   "rect": [
+    1307,
+    1258,
+    90,
+    98
+   ],
+   "rect_unity": [
+    1307,
+    180,
+    90,
+    98
+   ],
+   "pivot": [
+    0.42222,
+    -0.77564
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    90,
+    58
+   ],
+   "id": "clockwork_drone",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "b066061426f485cbe70fe95884beb4e498560d9439a791c8b87f1b8d88385118"
+  },
+  {
+   "name": "fb_enemy_clockwork_drone_idle_03",
+   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_03.png",
+   "page": 0,
+   "rect": [
+    130,
+    1334,
+    89,
+    98
+   ],
+   "rect_unity": [
+    130,
+    104,
+    89,
+    98
+   ],
+   "pivot": [
+    0.44944,
+    -0.75523
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    88,
+    60
+   ],
+   "id": "clockwork_drone",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "931bb29b025e23441e2de0f93cda0fed815fec3757af293131fe3752c6e50fbb"
+  },
+  {
+   "name": "fb_enemy_clockwork_drone_idle_04",
+   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_04.png",
+   "page": 0,
+   "rect": [
+    130,
+    1232,
+    93,
+    98
+   ],
+   "rect_unity": [
+    130,
+    206,
+    93,
+    98
+   ],
+   "pivot": [
+    0.51613,
+    -0.69401
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    80,
+    66
+   ],
+   "id": "clockwork_drone",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "a2965f1828651dc3d1dd439ec2e05a0254eac19f005a92194011df1fe67cfe2f"
+  },
+  {
+   "name": "fb_enemy_clockwork_drone_idle_05",
+   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_05.png",
+   "page": 0,
+   "rect": [
+    1309,
+    1053,
+    91,
+    99
+   ],
+   "rect_unity": [
+    1309,
+    384,
+    91,
+    99
+   ],
+   "pivot": [
+    0.57143,
+    -0.61629
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    76,
+    72
+   ],
+   "id": "clockwork_drone",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "0ad4e49560d8cd0631032f96ae655d8d7536b399ef14900fae23e47184b97ee9"
+  },
+  {
+   "name": "fb_enemy_clockwork_drone_idle_06",
+   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_06.png",
+   "page": 0,
+   "rect": [
+    1212,
+    1344,
+    87,
+    98
+   ],
+   "rect_unity": [
+    1212,
+    94,
+    87,
+    98
+   ],
+   "pivot": [
+    0.5977,
+    -0.61238
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    76,
+    74
+   ],
+   "id": "clockwork_drone",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "e9a0b0bd16a87353e8a3812d43e7953d82cdb5385854fa673c12e919643aaebf"
+  },
+  {
+   "name": "fb_enemy_clockwork_drone_idle_07",
+   "file": "enemy/clockwork_drone/fb_enemy_clockwork_drone_idle_07.png",
+   "page": 0,
+   "rect": [
+    1303,
+    1360,
+    89,
+    97
+   ],
+   "rect_unity": [
+    1303,
+    79,
+    89,
+    97
+   ],
+   "pivot": [
+    0.55056,
+    -0.64962
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    79,
+    72
+   ],
+   "id": "clockwork_drone",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "31696879e8ab376ea5d1faf030eaf0af89c74da9c88fffa6149fecc6c25ca4ad"
+  },
+  {
+   "name": "fb_enemy_iron_conscript_idle_00",
+   "file": "enemy/iron_conscript/fb_enemy_iron_conscript_idle_00.png",
+   "page": 0,
+   "rect": [
+    639,
+    236,
+    109,
+    224
+   ],
+   "rect_unity": [
+    639,
+    1076,
+    109,
+    224
+   ],
+   "pivot": [
+    0.68807,
+    0.02226
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    53,
+    13
+   ],
+   "id": "iron_conscript",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "33bc68a808909bd276e45edfe79c42d5b3e51feb1f8a9d8ab83cd53da4f7409b"
+  },
+  {
+   "name": "fb_enemy_iron_conscript_idle_01",
+   "file": "enemy/iron_conscript/fb_enemy_iron_conscript_idle_01.png",
+   "page": 0,
+   "rect": [
+    326,
+    236,
+    103,
+    227
+   ],
+   "rect_unity": [
+    326,
+    1073,
+    103,
+    227
+   ],
+   "pivot": [
+    0.6699,
+    0.02197
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    59,
+    10
+   ],
+   "id": "iron_conscript",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "86733b9a67107270db62bb60eb700a61343aa77b290f40e2f28d8a53debd2d06"
+  },
+  {
+   "name": "fb_enemy_iron_conscript_idle_02",
+   "file": "enemy/iron_conscript/fb_enemy_iron_conscript_idle_02.png",
+   "page": 0,
+   "rect": [
+    1293,
+    4,
+    98,
+    228
+   ],
+   "rect_unity": [
+    1293,
+    1304,
+    98,
+    228
+   ],
+   "pivot": [
+    0.66327,
+    0.02187
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    63,
+    9
+   ],
+   "id": "iron_conscript",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "454259aa07ad2583036bd0215f419845d11a62c86752bc2c2e5bcf30aec7cab1"
+  },
+  {
+   "name": "fb_enemy_iron_conscript_idle_03",
+   "file": "enemy/iron_conscript/fb_enemy_iron_conscript_idle_03.png",
+   "page": 0,
+   "rect": [
+    433,
+    236,
+    97,
+    227
+   ],
+   "rect_unity": [
+    433,
+    1073,
+    97,
+    227
+   ],
+   "pivot": [
+    0.65979,
+    0.02197
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    64,
+    10
+   ],
+   "id": "iron_conscript",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "fc8642d806fb86c77ef9d67292548563a360b24cb6d6eabc4ed528eeef03aa11"
+  },
+  {
+   "name": "fb_enemy_iron_conscript_idle_04",
+   "file": "enemy/iron_conscript/fb_enemy_iron_conscript_idle_04.png",
+   "page": 0,
+   "rect": [
+    534,
+    236,
+    101,
+    226
+   ],
+   "rect_unity": [
+    534,
+    1074,
+    101,
+    226
+   ],
+   "pivot": [
+    0.67327,
+    0.02207
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    60,
+    11
+   ],
+   "id": "iron_conscript",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "c7748afa540ed4365ec8a64a0ee2d3893aaf48b96f0ec8d0647c0b5a26a207ea"
+  },
+  {
+   "name": "fb_enemy_iron_conscript_idle_05",
+   "file": "enemy/iron_conscript/fb_enemy_iron_conscript_idle_05.png",
+   "page": 0,
+   "rect": [
+    752,
+    236,
+    107,
+    223
+   ],
+   "rect_unity": [
+    752,
+    1077,
+    107,
+    223
+   ],
+   "pivot": [
+    0.68224,
+    0.02236
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    55,
+    14
+   ],
+   "id": "iron_conscript",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "ca15e97cc71b4e498df24c518223c4454efdba3cdc624a3d5bdec77ef5cd2096"
+  },
+  {
+   "name": "fb_enemy_iron_conscript_idle_06",
+   "file": "enemy/iron_conscript/fb_enemy_iron_conscript_idle_06.png",
+   "page": 0,
+   "rect": [
+    979,
+    236,
+    111,
+    221
+   ],
+   "rect_unity": [
+    979,
+    1079,
+    111,
+    221
+   ],
+   "pivot": [
+    0.69369,
+    0.02257
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    51,
+    16
+   ],
+   "id": "iron_conscript",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "b59393507e427bd372869ab81ab3b0a6815982c9dfbdec81b3ddeac77f03f651"
+  },
+  {
+   "name": "fb_enemy_iron_conscript_idle_07",
+   "file": "enemy/iron_conscript/fb_enemy_iron_conscript_idle_07.png",
+   "page": 0,
+   "rect": [
+    863,
+    236,
+    112,
+    221
+   ],
+   "rect_unity": [
+    863,
+    1079,
+    112,
+    221
+   ],
+   "pivot": [
+    0.69643,
+    0.02257
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    50,
+    16
+   ],
+   "id": "iron_conscript",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "9532ea1e097c8cb4668f1d2c251a5f75a7e5e54e16cbf9a8b2c9eb0bcedb10a1"
+  },
+  {
+   "name": "fb_enemy_sky_lancer_idle_00",
+   "file": "enemy/sky_lancer/fb_enemy_sky_lancer_idle_00.png",
+   "page": 0,
+   "rect": [
+    288,
+    672,
+    133,
+    190
+   ],
+   "rect_unity": [
+    288,
+    674,
+    133,
+    190
+   ],
+   "pivot": [
+    0.4812,
+    0.02099
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    64,
+    46
+   ],
+   "id": "sky_lancer",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "f83deab6f0c5f4cc7e8f223dd05d65de2aca2764e90b582a1a71bf5023658d71"
+  },
+  {
+   "name": "fb_enemy_sky_lancer_idle_01",
+   "file": "enemy/sky_lancer/fb_enemy_sky_lancer_idle_01.png",
+   "page": 0,
+   "rect": [
+    458,
+    866,
+    134,
+    188
+   ],
+   "rect_unity": [
+    458,
+    482,
+    134,
+    188
+   ],
+   "pivot": [
+    0.48507,
+    0.02121
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    63,
+    48
+   ],
+   "id": "sky_lancer",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "6dbf69f1269a9ae03d7f6d873304bb3962cc1d8da84a82bc0139f32d16353fbf"
+  },
+  {
+   "name": "fb_enemy_sky_lancer_idle_02",
+   "file": "enemy/sky_lancer/fb_enemy_sky_lancer_idle_02.png",
+   "page": 0,
+   "rect": [
+    1034,
+    1053,
+    134,
+    185
+   ],
+   "rect_unity": [
+    1034,
+    298,
+    134,
+    185
+   ],
+   "pivot": [
+    0.48507,
+    0.02155
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    63,
+    51
+   ],
+   "id": "sky_lancer",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "3c7095f70424e2c69f02c7e5eada2d30e6f3b581da5a450bfe4e8540591e8826"
+  },
+  {
+   "name": "fb_enemy_sky_lancer_idle_03",
+   "file": "enemy/sky_lancer/fb_enemy_sky_lancer_idle_03.png",
+   "page": 0,
+   "rect": [
+    1172,
+    1053,
+    133,
+    185
+   ],
+   "rect_unity": [
+    1172,
+    298,
+    133,
+    185
+   ],
+   "pivot": [
+    0.4812,
+    0.02155
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    64,
+    51
+   ],
+   "id": "sky_lancer",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "723f6ff784f52f268d8d0e8ebb65e15696916a7aaea8d0f5d7d41eda3583682a"
+  },
+  {
+   "name": "fb_enemy_sky_lancer_idle_04",
+   "file": "enemy/sky_lancer/fb_enemy_sky_lancer_idle_04.png",
+   "page": 0,
+   "rect": [
+    596,
+    871,
+    133,
+    187
+   ],
+   "rect_unity": [
+    596,
+    478,
+    133,
+    187
+   ],
+   "pivot": [
+    0.4812,
+    0.02132
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    64,
+    49
+   ],
+   "id": "sky_lancer",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "eef73bdf1eba51b10cea012424a540f437191523b2395e740a953a931f96a32b"
+  },
+  {
+   "name": "fb_enemy_sky_lancer_idle_05",
+   "file": "enemy/sky_lancer/fb_enemy_sky_lancer_idle_05.png",
+   "page": 0,
+   "rect": [
+    897,
+    864,
+    133,
+    189
+   ],
+   "rect_unity": [
+    897,
+    483,
+    133,
+    189
+   ],
+   "pivot": [
+    0.4812,
+    0.0211
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    64,
+    47
+   ],
+   "id": "sky_lancer",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "89a4e0c6c1c9f7033bb65c488068bd04437f1751bdfe818528a0d93614ea45b7"
+  },
+  {
+   "name": "fb_enemy_sky_lancer_idle_06",
+   "file": "enemy/sky_lancer/fb_enemy_sky_lancer_idle_06.png",
+   "page": 0,
+   "rect": [
+    425,
+    672,
+    133,
+    190
+   ],
+   "rect_unity": [
+    425,
+    674,
+    133,
+    190
+   ],
+   "pivot": [
+    0.4812,
+    0.02099
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    64,
+    46
+   ],
+   "id": "sky_lancer",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "d28949f5f1c82a62dd2be218bdd9cd571f651885c8923927b24c853a8bdaad4e"
+  },
+  {
+   "name": "fb_enemy_sky_lancer_idle_07",
+   "file": "enemy/sky_lancer/fb_enemy_sky_lancer_idle_07.png",
+   "page": 0,
+   "rect": [
+    1249,
+    859,
+    133,
+    190
+   ],
+   "rect_unity": [
+    1249,
+    487,
+    133,
+    190
+   ],
+   "pivot": [
+    0.4812,
+    0.02099
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    64,
+    46
+   ],
+   "id": "sky_lancer",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "47c48db1a185ee3ee8098b5d3e35e3b7cecc5371d4d63e053032be1867f342c0"
+  },
+  {
+   "name": "fb_enemy_static_wisp_idle_00",
+   "file": "enemy/static_wisp/fb_enemy_static_wisp_idle_00.png",
+   "page": 0,
+   "rect": [
+    668,
+    1394,
+    92,
+    88
+   ],
+   "rect_unity": [
+    668,
+    54,
+    92,
+    88
+   ],
+   "pivot": [
+    0.5,
+    -0.80696
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    82,
+    73
+   ],
+   "id": "static_wisp",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "74eff80937c312f87036b48433d8d2f2debf69a114499ceafc525b13de4db27f"
+  },
+  {
+   "name": "fb_enemy_static_wisp_idle_01",
+   "file": "enemy/static_wisp/fb_enemy_static_wisp_idle_01.png",
+   "page": 0,
+   "rect": [
+    480,
+    1394,
+    90,
+    91
+   ],
+   "rect_unity": [
+    480,
+    51,
+    90,
+    91
+   ],
+   "pivot": [
+    0.5,
+    -0.82432
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    83,
+    66
+   ],
+   "id": "static_wisp",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "0d07b03614b64d818b4776b0f4e2fb7c198f0d4f491f0d215fb62250be3780c5"
+  },
+  {
+   "name": "fb_enemy_static_wisp_idle_02",
+   "file": "enemy/static_wisp/fb_enemy_static_wisp_idle_02.png",
+   "page": 0,
+   "rect": [
+    223,
+    1394,
+    90,
+    92
+   ],
+   "rect_unity": [
+    223,
+    50,
+    90,
+    92
+   ],
+   "pivot": [
+    0.51111,
+    -0.8371
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    82,
+    63
+   ],
+   "id": "static_wisp",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "60a32ac955521ba36c0153de6bb08a5e8c798b9d50071a3f3f24ac5971222bfd"
+  },
+  {
+   "name": "fb_enemy_static_wisp_idle_03",
+   "file": "enemy/static_wisp/fb_enemy_static_wisp_idle_03.png",
+   "page": 0,
+   "rect": [
+    574,
+    1394,
+    90,
+    91
+   ],
+   "rect_unity": [
+    574,
+    51,
+    90,
+    91
+   ],
+   "pivot": [
+    0.5,
+    -0.82432
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    83,
+    66
+   ],
+   "id": "static_wisp",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "f6e6d6fce7fbafb7631af38507ba01e52531c11e6241337ad52124943bc89796"
+  },
+  {
+   "name": "fb_enemy_static_wisp_idle_04",
+   "file": "enemy/static_wisp/fb_enemy_static_wisp_idle_04.png",
+   "page": 0,
+   "rect": [
+    934,
+    1402,
+    92,
+    88
+   ],
+   "rect_unity": [
+    934,
+    46,
+    92,
+    88
+   ],
+   "pivot": [
+    0.5,
+    -0.80696
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    82,
+    73
+   ],
+   "id": "static_wisp",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "8f2b85a2e9edc19e29899523d197f24a8e1669b0b491d28aefddb852c2a80b9b"
+  },
+  {
+   "name": "fb_enemy_static_wisp_idle_05",
+   "file": "enemy/static_wisp/fb_enemy_static_wisp_idle_05.png",
+   "page": 0,
+   "rect": [
+    4,
+    1394,
+    96,
+    92
+   ],
+   "rect_unity": [
+    4,
+    50,
+    96,
+    92
+   ],
+   "pivot": [
+    0.5,
+    -0.68492
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    80,
+    77
+   ],
+   "id": "static_wisp",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "e8cf8326c4128abffc995c584b5a8199dd2bab38d29921e8f41db812131212e1"
+  },
+  {
+   "name": "fb_enemy_static_wisp_idle_06",
+   "file": "enemy/static_wisp/fb_enemy_static_wisp_idle_06.png",
+   "page": 0,
+   "rect": [
+    828,
+    1393,
+    102,
+    92
+   ],
+   "rect_unity": [
+    828,
+    51,
+    102,
+    92
+   ],
+   "pivot": [
+    0.5,
+    -0.66318
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    77,
+    79
+   ],
+   "id": "static_wisp",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "9fb9057df4efdf9c83aa2b179a09cf987764bc9b07247639aeb8ceab495ae3a7"
+  },
+  {
+   "name": "fb_enemy_static_wisp_idle_07",
+   "file": "enemy/static_wisp/fb_enemy_static_wisp_idle_07.png",
+   "page": 0,
+   "rect": [
+    372,
+    1393,
+    104,
+    92
+   ],
+   "rect_unity": [
+    372,
+    51,
+    104,
+    92
+   ],
+   "pivot": [
+    0.5,
+    -0.68492
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    76,
+    77
+   ],
+   "id": "static_wisp",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "11ce562e2a5ed84256b9506ae68674e2a45e9f48b8b07a7a740c701baa6152a7"
+  },
+  {
+   "name": "fb_enemy_storm_paragon_idle_00",
+   "file": "enemy/storm_paragon/fb_enemy_storm_paragon_idle_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    4,
+    158,
+    229
+   ],
+   "rect_unity": [
+    4,
+    1303,
+    158,
+    229
+   ],
+   "pivot": [
+    0.51266,
+    0.02178
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    47,
+    8
+   ],
+   "id": "storm_paragon",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "645b1d0d89979230cda1e5714b3f81b39c60c54e83804ccf8fe38eb4823c2079"
+  },
+  {
+   "name": "fb_enemy_storm_paragon_idle_01",
+   "file": "enemy/storm_paragon/fb_enemy_storm_paragon_idle_01.png",
+   "page": 0,
+   "rect": [
+    166,
+    4,
+    156,
+    229
+   ],
+   "rect_unity": [
+    166,
+    1303,
+    156,
+    229
+   ],
+   "pivot": [
+    0.51282,
+    0.02178
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    48,
+    8
+   ],
+   "id": "storm_paragon",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "515b881e16b687dcdaeb36ca9025fbf0bb2b8ba27b3b75121f91bae4d4859cfc"
+  },
+  {
+   "name": "fb_enemy_storm_paragon_idle_02",
+   "file": "enemy/storm_paragon/fb_enemy_storm_paragon_idle_02.png",
+   "page": 0,
+   "rect": [
+    977,
+    4,
+    154,
+    228
+   ],
+   "rect_unity": [
+    977,
+    1304,
+    154,
+    228
+   ],
+   "pivot": [
+    0.51299,
+    0.02187
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    49,
+    9
+   ],
+   "id": "storm_paragon",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "a1bb403e38d2c835907ff1d449c01b4d2eba729a5f86295991571a6fbe8376d0"
+  },
+  {
+   "name": "fb_enemy_storm_paragon_idle_03",
+   "file": "enemy/storm_paragon/fb_enemy_storm_paragon_idle_03.png",
+   "page": 0,
+   "rect": [
+    1135,
+    4,
+    154,
+    228
+   ],
+   "rect_unity": [
+    1135,
+    1304,
+    154,
+    228
+   ],
+   "pivot": [
+    0.50649,
+    0.02187
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    50,
+    9
+   ],
+   "id": "storm_paragon",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "9b8032e06028457239372c3345be952d5d856a49153398d5a11f7c025983e616"
+  },
+  {
+   "name": "fb_enemy_storm_paragon_idle_04",
+   "file": "enemy/storm_paragon/fb_enemy_storm_paragon_idle_04.png",
+   "page": 0,
+   "rect": [
+    817,
+    4,
+    156,
+    228
+   ],
+   "rect_unity": [
+    817,
+    1304,
+    156,
+    228
+   ],
+   "pivot": [
+    0.50641,
+    0.02187
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    49,
+    9
+   ],
+   "id": "storm_paragon",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "617f07fc87fb951d49a429cfc500e53bef6f3a7dfc1abc5ff8693d0389617834"
+  },
+  {
+   "name": "fb_enemy_storm_paragon_idle_05",
+   "file": "enemy/storm_paragon/fb_enemy_storm_paragon_idle_05.png",
+   "page": 0,
+   "rect": [
+    654,
+    4,
+    159,
+    228
+   ],
+   "rect_unity": [
+    654,
+    1304,
+    159,
+    228
+   ],
+   "pivot": [
+    0.50943,
+    0.02187
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    47,
+    9
+   ],
+   "id": "storm_paragon",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "d32f6e7c7a3cdf7b0e845726ef3759183aec00b24629434cf9256b6fb6ac7ebb"
+  },
+  {
+   "name": "fb_enemy_storm_paragon_idle_06",
+   "file": "enemy/storm_paragon/fb_enemy_storm_paragon_idle_06.png",
+   "page": 0,
+   "rect": [
+    326,
+    4,
+    160,
+    228
+   ],
+   "rect_unity": [
+    326,
+    1304,
+    160,
+    228
+   ],
+   "pivot": [
+    0.5125,
+    0.02187
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    46,
+    9
+   ],
+   "id": "storm_paragon",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "5c49a15294faf3ac4b9490c5bc01009ed7818f0df6afee39e49e43a53944c812"
+  },
+  {
+   "name": "fb_enemy_storm_paragon_idle_07",
+   "file": "enemy/storm_paragon/fb_enemy_storm_paragon_idle_07.png",
+   "page": 0,
+   "rect": [
+    490,
+    4,
+    160,
+    228
+   ],
+   "rect_unity": [
+    490,
+    1304,
+    160,
+    228
+   ],
+   "pivot": [
+    0.5125,
+    0.02187
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    46,
+    9
+   ],
+   "id": "storm_paragon",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "1f31ace95fd19cdd139b42e19fe69a6d3438cc00b00d7b5c8f36c7ac7e810c5d"
+  },
+  {
+   "name": "fb_enemy_storm_sentinel_idle_00",
+   "file": "enemy/storm_sentinel/fb_enemy_storm_sentinel_idle_00.png",
+   "page": 0,
+   "rect": [
+    483,
+    467,
+    127,
+    200
+   ],
+   "rect_unity": [
+    483,
+    869,
+    127,
+    200
+   ],
+   "pivot": [
+    0.6063,
+    0.02494
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    51,
+    37
+   ],
+   "id": "storm_sentinel",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "569c65c1fd12ef6bc0f7106c8a1b217b26024f5ad969d199aa55a90d96e74260"
+  },
+  {
+   "name": "fb_enemy_storm_sentinel_idle_01",
+   "file": "enemy/storm_sentinel/fb_enemy_storm_sentinel_idle_01.png",
+   "page": 0,
+   "rect": [
+    639,
+    464,
+    125,
+    201
+   ],
+   "rect_unity": [
+    639,
+    871,
+    125,
+    201
+   ],
+   "pivot": [
+    0.6,
+    0.02481
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    53,
+    36
+   ],
+   "id": "storm_sentinel",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "c3d817acbcea88abafa87722e057db6d36104ae5984d442b338066526cbf22b2"
+  },
+  {
+   "name": "fb_enemy_storm_sentinel_idle_02",
+   "file": "enemy/storm_sentinel/fb_enemy_storm_sentinel_idle_02.png",
+   "page": 0,
+   "rect": [
+    228,
+    467,
+    124,
+    201
+   ],
+   "rect_unity": [
+    228,
+    868,
+    124,
+    201
+   ],
+   "pivot": [
+    0.58871,
+    0.02481
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    55,
+    36
+   ],
+   "id": "storm_sentinel",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "842caa5b8cfed5133e7e1b8cc479879f55fb5412cbe8c520aee818d70aa53afb"
+  },
+  {
+   "name": "fb_enemy_storm_sentinel_idle_03",
+   "file": "enemy/storm_sentinel/fb_enemy_storm_sentinel_idle_03.png",
+   "page": 0,
+   "rect": [
+    356,
+    467,
+    123,
+    201
+   ],
+   "rect_unity": [
+    356,
+    868,
+    123,
+    201
+   ],
+   "pivot": [
+    0.5935,
+    0.02481
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    55,
+    36
+   ],
+   "id": "storm_sentinel",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "eb93fb46f52cec79bdd0e0b27c8f9c4bf175d88e1584b6766e27a26e19c686cf"
+  },
+  {
+   "name": "fb_enemy_storm_sentinel_idle_04",
+   "file": "enemy/storm_sentinel/fb_enemy_storm_sentinel_idle_04.png",
+   "page": 0,
+   "rect": [
+    1121,
+    656,
+    124,
+    200
+   ],
+   "rect_unity": [
+    1121,
+    680,
+    124,
+    200
+   ],
+   "pivot": [
+    0.59677,
+    0.02494
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    37
+   ],
+   "id": "storm_sentinel",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "19594708a5ebc795134c790f0e24c876dcc9ffe7967707313b6c4828a9b297bb"
+  },
+  {
+   "name": "fb_enemy_storm_sentinel_idle_05",
+   "file": "enemy/storm_sentinel/fb_enemy_storm_sentinel_idle_05.png",
+   "page": 0,
+   "rect": [
+    4,
+    657,
+    125,
+    199
+   ],
+   "rect_unity": [
+    4,
+    680,
+    125,
+    199
+   ],
+   "pivot": [
+    0.608,
+    0.02506
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    52,
+    38
+   ],
+   "id": "storm_sentinel",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "d7299b44761d822e858b61061dacf933279b7c82bfabbe2e3ba8c023ba07ffff"
+  },
+  {
+   "name": "fb_enemy_storm_sentinel_idle_06",
+   "file": "enemy/storm_sentinel/fb_enemy_storm_sentinel_idle_06.png",
+   "page": 0,
+   "rect": [
+    614,
+    669,
+    126,
+    198
+   ],
+   "rect_unity": [
+    614,
+    669,
+    126,
+    198
+   ],
+   "pivot": [
+    0.61111,
+    0.02519
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    51,
+    39
+   ],
+   "id": "storm_sentinel",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "1423dc5252556eeb1ab6494af56d4762fa1df6c32d1e208bf0a26f7b3df5421a"
+  },
+  {
+   "name": "fb_enemy_storm_sentinel_idle_07",
+   "file": "enemy/storm_sentinel/fb_enemy_storm_sentinel_idle_07.png",
+   "page": 0,
+   "rect": [
+    1249,
+    656,
+    127,
+    199
+   ],
+   "rect_unity": [
+    1249,
+    681,
+    127,
+    199
+   ],
+   "pivot": [
+    0.61417,
+    0.02506
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    50,
+    38
+   ],
+   "id": "storm_sentinel",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "630e1e2f237c8070726061d04ff58389cb17ccbdacfa180fb0bc0796ae5a76f1"
+  },
+  {
+   "name": "fb_enemy_tempest_adept_idle_00",
+   "file": "enemy/tempest_adept/fb_enemy_tempest_adept_idle_00.png",
+   "page": 0,
+   "rect": [
+    123,
+    1058,
+    112,
+    170
+   ],
+   "rect_unity": [
+    123,
+    308,
+    112,
+    170
+   ],
+   "pivot": [
+    0.58036,
+    0.02934
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    63,
+    67
+   ],
+   "id": "tempest_adept",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "fb931efb1a8935a73478b827870fbed7d19a240b77807a4c946a395e1be831e7"
+  },
+  {
+   "name": "fb_enemy_tempest_adept_idle_01",
+   "file": "enemy/tempest_adept/fb_enemy_tempest_adept_idle_01.png",
+   "page": 0,
+   "rect": [
+    4,
+    1058,
+    115,
+    171
+   ],
+   "rect_unity": [
+    4,
+    307,
+    115,
+    171
+   ],
+   "pivot": [
+    0.5913,
+    0.02916
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    60,
+    66
+   ],
+   "id": "tempest_adept",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "1a8c1fa0b3e068885175979c9d3ec03dd38c2b6a7db8b36f24ef968634ba172d"
+  },
+  {
+   "name": "fb_enemy_tempest_adept_idle_02",
+   "file": "enemy/tempest_adept/fb_enemy_tempest_adept_idle_02.png",
+   "page": 0,
+   "rect": [
+    854,
+    1057,
+    116,
+    171
+   ],
+   "rect_unity": [
+    854,
+    308,
+    116,
+    171
+   ],
+   "pivot": [
+    0.59483,
+    0.02916
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    59,
+    66
+   ],
+   "id": "tempest_adept",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "96fbf181be619d67db2e7e9d746d5c21b72c7632afa11c8d0ef9c960e11afd38"
+  },
+  {
+   "name": "fb_enemy_tempest_adept_idle_03",
+   "file": "enemy/tempest_adept/fb_enemy_tempest_adept_idle_03.png",
+   "page": 0,
+   "rect": [
+    733,
+    1057,
+    117,
+    171
+   ],
+   "rect_unity": [
+    733,
+    308,
+    117,
+    171
+   ],
+   "pivot": [
+    0.58974,
+    0.02916
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    59,
+    66
+   ],
+   "id": "tempest_adept",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "ae99139cf7d4dc82580736ce6dfc5350b7f8725bcb322457d1710b0cdfa86972"
+  },
+  {
+   "name": "fb_enemy_tempest_adept_idle_04",
+   "file": "enemy/tempest_adept/fb_enemy_tempest_adept_idle_04.png",
+   "page": 0,
+   "rect": [
+    239,
+    1058,
+    115,
+    169
+   ],
+   "rect_unity": [
+    239,
+    309,
+    115,
+    169
+   ],
+   "pivot": [
+    0.58261,
+    0.02951
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    61,
+    68
+   ],
+   "id": "tempest_adept",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "c0cd7d09dd5b8744353850b03b72816988d742c6d7c72f0663b4d85ad27c1f6f"
+  },
+  {
+   "name": "fb_enemy_tempest_adept_idle_05",
+   "file": "enemy/tempest_adept/fb_enemy_tempest_adept_idle_05.png",
+   "page": 0,
+   "rect": [
+    472,
+    1058,
+    113,
+    168
+   ],
+   "rect_unity": [
+    472,
+    310,
+    113,
+    168
+   ],
+   "pivot": [
+    0.56637,
+    0.02969
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    64,
+    69
+   ],
+   "id": "tempest_adept",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "47a0e36050b299435fb40f94b2c630484f3d58ff4e4b042bebc3bcd45ccd2705"
+  },
+  {
+   "name": "fb_enemy_tempest_adept_idle_06",
+   "file": "enemy/tempest_adept/fb_enemy_tempest_adept_idle_06.png",
+   "page": 0,
+   "rect": [
+    589,
+    1062,
+    111,
+    168
+   ],
+   "rect_unity": [
+    589,
+    306,
+    111,
+    168
+   ],
+   "pivot": [
+    0.56757,
+    0.02969
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    65,
+    69
+   ],
+   "id": "tempest_adept",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "b916f6eb4f7c5f65759f0419bc240bab44ac4089f7e4a0a0d7e018fed11047b4"
+  },
+  {
+   "name": "fb_enemy_tempest_adept_idle_07",
+   "file": "enemy/tempest_adept/fb_enemy_tempest_adept_idle_07.png",
+   "page": 0,
+   "rect": [
+    358,
+    1058,
+    110,
+    169
+   ],
+   "rect_unity": [
+    358,
+    309,
+    110,
+    169
+   ],
+   "pivot": [
+    0.57273,
+    0.02951
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    65,
+    68
+   ],
+   "id": "tempest_adept",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "ea30cf8702b0dc3aa625f7004a5617bbb672b53328efd16cb199e2392d38af32"
+  },
+  {
+   "name": "fb_enemy_thunder_hound_idle_00",
+   "file": "enemy/thunder_hound/fb_enemy_thunder_hound_idle_00.png",
+   "page": 0,
+   "rect": [
+    828,
+    1232,
+    129,
+    157
+   ],
+   "rect_unity": [
+    828,
+    147,
+    129,
+    157
+   ],
+   "pivot": [
+    0.54264,
+    0.01903
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    58,
+    78
+   ],
+   "id": "thunder_hound",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "a43ffc92e6bc304c1a1281380958e9af071a1bb1804066825a58b13670a47492"
+  },
+  {
+   "name": "fb_enemy_thunder_hound_idle_01",
+   "file": "enemy/thunder_hound/fb_enemy_thunder_hound_idle_01.png",
+   "page": 0,
+   "rect": [
+    239,
+    1231,
+    129,
+    159
+   ],
+   "rect_unity": [
+    239,
+    146,
+    129,
+    159
+   ],
+   "pivot": [
+    0.55814,
+    0.02508
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    56,
+    77
+   ],
+   "id": "thunder_hound",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "5549be4282c358478fa88f3cd2b7b5bc5ad47ff6b6bf662fa5906c95b7243055"
+  },
+  {
+   "name": "fb_enemy_thunder_hound_idle_02",
+   "file": "enemy/thunder_hound/fb_enemy_thunder_hound_idle_02.png",
+   "page": 0,
+   "rect": [
+    372,
+    1231,
+    124,
+    158
+   ],
+   "rect_unity": [
+    372,
+    147,
+    124,
+    158
+   ],
+   "pivot": [
+    0.58871,
+    0.02524
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    55,
+    78
+   ],
+   "id": "thunder_hound",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "4f2afa741743a7b4cebbc2ebb5e7d8c6eb2f4601e6e26532758c932e424e6244"
+  },
+  {
+   "name": "fb_enemy_thunder_hound_idle_03",
+   "file": "enemy/thunder_hound/fb_enemy_thunder_hound_idle_03.png",
+   "page": 0,
+   "rect": [
+    704,
+    1232,
+    120,
+    158
+   ],
+   "rect_unity": [
+    704,
+    146,
+    120,
+    158
+   ],
+   "pivot": [
+    0.60833,
+    0.02524
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    55,
+    78
+   ],
+   "id": "thunder_hound",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "c93fedb1ec336fe981f9a10d75eef5e16bfa05537a837e8097277171d455c539"
+  },
+  {
+   "name": "fb_enemy_thunder_hound_idle_04",
+   "file": "enemy/thunder_hound/fb_enemy_thunder_hound_idle_04.png",
+   "page": 0,
+   "rect": [
+    4,
+    1233,
+    122,
+    157
+   ],
+   "rect_unity": [
+    4,
+    146,
+    122,
+    157
+   ],
+   "pivot": [
+    0.58197,
+    0.01903
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    57,
+    78
+   ],
+   "id": "thunder_hound",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "f41ae78087176964f467a1a3ebc0a079e6904cd77d44769c7f8227bf6848855f"
+  },
+  {
+   "name": "fb_enemy_thunder_hound_idle_05",
+   "file": "enemy/thunder_hound/fb_enemy_thunder_hound_idle_05.png",
+   "page": 0,
+   "rect": [
+    500,
+    1234,
+    124,
+    156
+   ],
+   "rect_unity": [
+    500,
+    146,
+    124,
+    156
+   ],
+   "pivot": [
+    0.55645,
+    0.01274
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    59,
+    78
+   ],
+   "id": "thunder_hound",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "7eeeb7c7c7d5c2c5e61800a374bf3f67d5f65fa29ac2bf35f2e7e7dfea2ca5ef"
+  },
+  {
+   "name": "fb_enemy_thunder_hound_idle_06",
+   "file": "enemy/thunder_hound/fb_enemy_thunder_hound_idle_06.png",
+   "page": 0,
+   "rect": [
+    961,
+    1242,
+    123,
+    156
+   ],
+   "rect_unity": [
+    961,
+    138,
+    123,
+    156
+   ],
+   "pivot": [
+    0.55285,
+    0.01274
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    60,
+    78
+   ],
+   "id": "thunder_hound",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "11df185e7f6b37e87e3102d288483e9667b89bacb8ab0df4a06a75dd6a550242"
+  },
+  {
+   "name": "fb_enemy_thunder_hound_idle_07",
+   "file": "enemy/thunder_hound/fb_enemy_thunder_hound_idle_07.png",
+   "page": 0,
+   "rect": [
+    1088,
+    1242,
+    120,
+    156
+   ],
+   "rect_unity": [
+    1088,
+    138,
+    120,
+    156
+   ],
+   "pivot": [
+    0.56667,
+    0.01274
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    60,
+    78
+   ],
+   "id": "thunder_hound",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "3bd08e868788aad5b1c3647b7437979d446d4f8ba968308583f50bba7c43c158"
+  }
+ ],
+ "clips": {
+  "aegis_construct/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_aegis_construct_idle_00",
+    "fb_enemy_aegis_construct_idle_01",
+    "fb_enemy_aegis_construct_idle_02",
+    "fb_enemy_aegis_construct_idle_03",
+    "fb_enemy_aegis_construct_idle_04",
+    "fb_enemy_aegis_construct_idle_05",
+    "fb_enemy_aegis_construct_idle_06",
+    "fb_enemy_aegis_construct_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "arc_mage/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_arc_mage_idle_00",
+    "fb_enemy_arc_mage_idle_01",
+    "fb_enemy_arc_mage_idle_02",
+    "fb_enemy_arc_mage_idle_03",
+    "fb_enemy_arc_mage_idle_04",
+    "fb_enemy_arc_mage_idle_05",
+    "fb_enemy_arc_mage_idle_06",
+    "fb_enemy_arc_mage_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "clockwork_drone/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_clockwork_drone_idle_00",
+    "fb_enemy_clockwork_drone_idle_01",
+    "fb_enemy_clockwork_drone_idle_02",
+    "fb_enemy_clockwork_drone_idle_03",
+    "fb_enemy_clockwork_drone_idle_04",
+    "fb_enemy_clockwork_drone_idle_05",
+    "fb_enemy_clockwork_drone_idle_06",
+    "fb_enemy_clockwork_drone_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "iron_conscript/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_iron_conscript_idle_00",
+    "fb_enemy_iron_conscript_idle_01",
+    "fb_enemy_iron_conscript_idle_02",
+    "fb_enemy_iron_conscript_idle_03",
+    "fb_enemy_iron_conscript_idle_04",
+    "fb_enemy_iron_conscript_idle_05",
+    "fb_enemy_iron_conscript_idle_06",
+    "fb_enemy_iron_conscript_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "sky_lancer/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_sky_lancer_idle_00",
+    "fb_enemy_sky_lancer_idle_01",
+    "fb_enemy_sky_lancer_idle_02",
+    "fb_enemy_sky_lancer_idle_03",
+    "fb_enemy_sky_lancer_idle_04",
+    "fb_enemy_sky_lancer_idle_05",
+    "fb_enemy_sky_lancer_idle_06",
+    "fb_enemy_sky_lancer_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "static_wisp/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_static_wisp_idle_00",
+    "fb_enemy_static_wisp_idle_01",
+    "fb_enemy_static_wisp_idle_02",
+    "fb_enemy_static_wisp_idle_03",
+    "fb_enemy_static_wisp_idle_04",
+    "fb_enemy_static_wisp_idle_05",
+    "fb_enemy_static_wisp_idle_06",
+    "fb_enemy_static_wisp_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "storm_paragon/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_storm_paragon_idle_00",
+    "fb_enemy_storm_paragon_idle_01",
+    "fb_enemy_storm_paragon_idle_02",
+    "fb_enemy_storm_paragon_idle_03",
+    "fb_enemy_storm_paragon_idle_04",
+    "fb_enemy_storm_paragon_idle_05",
+    "fb_enemy_storm_paragon_idle_06",
+    "fb_enemy_storm_paragon_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "storm_sentinel/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_storm_sentinel_idle_00",
+    "fb_enemy_storm_sentinel_idle_01",
+    "fb_enemy_storm_sentinel_idle_02",
+    "fb_enemy_storm_sentinel_idle_03",
+    "fb_enemy_storm_sentinel_idle_04",
+    "fb_enemy_storm_sentinel_idle_05",
+    "fb_enemy_storm_sentinel_idle_06",
+    "fb_enemy_storm_sentinel_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "tempest_adept/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_tempest_adept_idle_00",
+    "fb_enemy_tempest_adept_idle_01",
+    "fb_enemy_tempest_adept_idle_02",
+    "fb_enemy_tempest_adept_idle_03",
+    "fb_enemy_tempest_adept_idle_04",
+    "fb_enemy_tempest_adept_idle_05",
+    "fb_enemy_tempest_adept_idle_06",
+    "fb_enemy_tempest_adept_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "thunder_hound/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_thunder_hound_idle_00",
+    "fb_enemy_thunder_hound_idle_01",
+    "fb_enemy_thunder_hound_idle_02",
+    "fb_enemy_thunder_hound_idle_03",
+    "fb_enemy_thunder_hound_idle_04",
+    "fb_enemy_thunder_hound_idle_05",
+    "fb_enemy_thunder_hound_idle_06",
+    "fb_enemy_thunder_hound_idle_07"
+   ],
+   "duration_s": 1.0
+  }
+ }
+}

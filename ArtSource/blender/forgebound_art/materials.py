@@ -91,6 +91,7 @@ def build_group():
     inp("Emit", "NodeSocketFloat", 0.0)
     inp("Glow", "NodeSocketColor", (1, 1, 1, 1))
     inp("Seed", "NodeSocketFloat", 0.0)
+    inp("FillAmt", "NodeSocketFloat", 1.0)  # batch 2: backgrounds damp the cool fill (default 1 = unchanged)
     iface.new_socket("Shader", in_out="OUTPUT", socket_type="NodeSocketShader")
 
     nodes, links = g.nodes, g.links
@@ -121,7 +122,7 @@ def build_group():
     # cool fill into the shadow side
     fill = spec.LIGHT_RIG["fill"]
     ndf = _maprange(nodes, links, _dot(nodes, links, N, fill["dir"]), 0.1, 0.6)
-    fill_amt = _math(nodes, links, "MULTIPLY", ndf, fill["intensity"] * 0.5)
+    fill_amt = _math(nodes, links, "MULTIPLY", _math(nodes, links, "MULTIPLY", ndf, fill["intensity"] * 0.5), gi.outputs["FillAmt"])
     fill_col = palette.hex_to_linear(fill["color"])
     col = _mix_rgb(nodes, links, fill_amt, col, fill_col, blend="SCREEN")
 
@@ -143,7 +144,14 @@ def build_group():
 
     # rim light (fresnel x rim direction), tinted by Core colour
     rim = spec.LIGHT_RIG["rim"]
-    ndv = _dot(nodes, links, N, spec.VIEW_DIR)
+    # true view vector (Geometry.Incoming): identical to spec.VIEW_DIR for the
+    # un-pitched cameras, correct for the 30° board camera (batch 1 used the
+    # constant, which rim-lit every upward face of board plates -> pale plates).
+    ndv_n = nodes.new("ShaderNodeVectorMath")
+    ndv_n.operation = "DOT_PRODUCT"
+    links.new(N, ndv_n.inputs[0])
+    links.new(geo.outputs["Incoming"], ndv_n.inputs[1])
+    ndv = ndv_n.outputs["Value"]
     fres = _maprange(nodes, links, _math(nodes, links, "SUBTRACT", 1.0, ndv), 0.55, 0.72)
     ndr = _maprange(nodes, links, _dot(nodes, links, N, rim["dir"]), 0.15, 0.35)
     rimm = _math(nodes, links, "MULTIPLY", _math(nodes, links, "MULTIPLY", fres, ndr), gi.outputs["RimStrength"])
@@ -161,7 +169,7 @@ def build_group():
 
 
 def toon_material(name, base, shadow, highlight, rim="#FFE8C8", rim_strength=0.8, metal=0.0,
-                  spec_amt=0.5, spec_size=0.05, paint=0.2, emit=0.0, glow="#FFFFFF", seed=0.0):
+                  spec_amt=0.5, spec_size=0.05, paint=0.2, emit=0.0, glow="#FFFFFF", seed=0.0, fill=1.0):
     if name in bpy.data.materials:
         return bpy.data.materials[name]
     grp = build_group()
@@ -178,6 +186,7 @@ def toon_material(name, base, shadow, highlight, rim="#FFE8C8", rim_strength=0.8
         "Highlight": palette.hex_to_linear(highlight), "Rim": palette.hex_to_linear(rim),
         "RimStrength": rim_strength, "Metal": metal, "Spec": spec_amt, "SpecSize": spec_size,
         "Paint": paint, "Emit": emit, "Glow": palette.hex_to_linear(glow), "Seed": float(seed % 1000) / 10.0,
+        "FillAmt": fill,
     }
     for k, v in vals.items():
         gn.inputs[k].default_value = v

@@ -1,0 +1,2901 @@
+{
+ "schema": "forgebound.art.atlas/1",
+ "group": "enemy_boss",
+ "ppu": 100,
+ "padding": 4,
+ "pages": [
+  {
+   "index": 0,
+   "image": "fb_atlas_enemy_boss.png",
+   "size": [
+    1920,
+    1664
+   ],
+   "sha256": "0d070bc4181c13d1b31a3d3b8fc06da6b6f5bb6efd3123b5f8ee210cb5001408"
+  }
+ ],
+ "sprites": [
+  {
+   "name": "fb_enemy_clockwork_colossus_idle_00",
+   "file": "enemy/clockwork_colossus/fb_enemy_clockwork_colossus_idle_00.png",
+   "page": 0,
+   "rect": [
+    1131,
+    236,
+    144,
+    225
+   ],
+   "rect_unity": [
+    1131,
+    1203,
+    144,
+    225
+   ],
+   "pivot": [
+    0.55556,
+    0.02217
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    48,
+    12
+   ],
+   "id": "clockwork_colossus",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "7423d2fcc599d12cbf689bf9057225f36d8022d2da5c5a782ae09e8e085f1b8f"
+  },
+  {
+   "name": "fb_enemy_clockwork_colossus_idle_01",
+   "file": "enemy/clockwork_colossus/fb_enemy_clockwork_colossus_idle_01.png",
+   "page": 0,
+   "rect": [
+    1283,
+    4,
+    140,
+    228
+   ],
+   "rect_unity": [
+    1283,
+    1432,
+    140,
+    228
+   ],
+   "pivot": [
+    0.56429,
+    0.02187
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    49,
+    9
+   ],
+   "id": "clockwork_colossus",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "88dd93956a3ab80c5fa1cf60471287d7a4847f0a44f4a4314056eebc5490ab7a"
+  },
+  {
+   "name": "fb_enemy_clockwork_colossus_idle_02",
+   "file": "enemy/clockwork_colossus/fb_enemy_clockwork_colossus_idle_02.png",
+   "page": 0,
+   "rect": [
+    669,
+    4,
+    137,
+    229
+   ],
+   "rect_unity": [
+    669,
+    1431,
+    137,
+    229
+   ],
+   "pivot": [
+    0.56204,
+    0.02178
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    51,
+    8
+   ],
+   "id": "clockwork_colossus",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "ee4811de0fcd7094a309aff191efc232bda103174618532d265761c879a43396"
+  },
+  {
+   "name": "fb_enemy_clockwork_colossus_idle_03",
+   "file": "enemy/clockwork_colossus/fb_enemy_clockwork_colossus_idle_03.png",
+   "page": 0,
+   "rect": [
+    1427,
+    4,
+    138,
+    228
+   ],
+   "rect_unity": [
+    1427,
+    1432,
+    138,
+    228
+   ],
+   "pivot": [
+    0.55797,
+    0.02187
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    51,
+    9
+   ],
+   "id": "clockwork_colossus",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "35df858b1e0afb16fa004cb276c750583fd0c6c8d5f1ead6124e3cfb3866bf22"
+  },
+  {
+   "name": "fb_enemy_clockwork_colossus_idle_04",
+   "file": "enemy/clockwork_colossus/fb_enemy_clockwork_colossus_idle_04.png",
+   "page": 0,
+   "rect": [
+    1279,
+    236,
+    142,
+    225
+   ],
+   "rect_unity": [
+    1279,
+    1203,
+    142,
+    225
+   ],
+   "pivot": [
+    0.5493,
+    0.02217
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    50,
+    12
+   ],
+   "id": "clockwork_colossus",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "fa6e0e87f36afd78ae34c23ce0b554e1630512ca868cba844c5f192d6e296af3"
+  },
+  {
+   "name": "fb_enemy_clockwork_colossus_idle_05",
+   "file": "enemy/clockwork_colossus/fb_enemy_clockwork_colossus_idle_05.png",
+   "page": 0,
+   "rect": [
+    1502,
+    465,
+    148,
+    222
+   ],
+   "rect_unity": [
+    1502,
+    977,
+    148,
+    222
+   ],
+   "pivot": [
+    0.54054,
+    0.02246
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    48,
+    15
+   ],
+   "id": "clockwork_colossus",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "ae4fc9c064057bd00cd032d4aa0838f0deecf601e453bce6458bd6a77b7e6d5d"
+  },
+  {
+   "name": "fb_enemy_clockwork_colossus_idle_06",
+   "file": "enemy/clockwork_colossus/fb_enemy_clockwork_colossus_idle_06.png",
+   "page": 0,
+   "rect": [
+    1495,
+    691,
+    150,
+    221
+   ],
+   "rect_unity": [
+    1495,
+    752,
+    150,
+    221
+   ],
+   "pivot": [
+    0.54,
+    0.02257
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    47,
+    16
+   ],
+   "id": "clockwork_colossus",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "e5294426a74ee9310a0c3ff659d6e6ebb5eb04628fa8b1ad0aeb450a700ba86c"
+  },
+  {
+   "name": "fb_enemy_clockwork_colossus_idle_07",
+   "file": "enemy/clockwork_colossus/fb_enemy_clockwork_colossus_idle_07.png",
+   "page": 0,
+   "rect": [
+    1349,
+    465,
+    149,
+    222
+   ],
+   "rect_unity": [
+    1349,
+    977,
+    149,
+    222
+   ],
+   "pivot": [
+    0.54362,
+    0.02246
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    47,
+    15
+   ],
+   "id": "clockwork_colossus",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "2784246eef3d931d7b4036b3771b7af8fb33b6afb32b0b8c564261d98569567d"
+  },
+  {
+   "name": "fb_enemy_drowned_choir_idle_00",
+   "file": "enemy/drowned_choir/fb_enemy_drowned_choir_idle_00.png",
+   "page": 0,
+   "rect": [
+    1184,
+    1126,
+    142,
+    184
+   ],
+   "rect_unity": [
+    1184,
+    354,
+    142,
+    184
+   ],
+   "pivot": [
+    0.47183,
+    -0.17398
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    61,
+    16
+   ],
+   "id": "drowned_choir",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "5e85b67a455706456a581aa1de9faeeabcf2f94e581977cc827af61212de6b5f"
+  },
+  {
+   "name": "fb_enemy_drowned_choir_idle_01",
+   "file": "enemy/drowned_choir/fb_enemy_drowned_choir_idle_01.png",
+   "page": 0,
+   "rect": [
+    1035,
+    1128,
+    143,
+    180
+   ],
+   "rect_unity": [
+    1035,
+    356,
+    143,
+    180
+   ],
+   "pivot": [
+    0.41259,
+    -0.22785
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    69,
+    11
+   ],
+   "id": "drowned_choir",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "59f288b36f742ef16cd5d25bbb778bb0e5a18d2023c68c11ec7f805a446c115d"
+  },
+  {
+   "name": "fb_enemy_drowned_choir_idle_02",
+   "file": "enemy/drowned_choir/fb_enemy_drowned_choir_idle_02.png",
+   "page": 0,
+   "rect": [
+    315,
+    1127,
+    155,
+    182
+   ],
+   "rect_unity": [
+    315,
+    355,
+    155,
+    182
+   ],
+   "pivot": [
+    0.4,
+    -0.22535
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    66,
+    9
+   ],
+   "id": "drowned_choir",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "0fea1f884556cbcfecc9b506b0ab2c2bb115caa27d94ce04efc8adeaf38ddd47"
+  },
+  {
+   "name": "fb_enemy_drowned_choir_idle_03",
+   "file": "enemy/drowned_choir/fb_enemy_drowned_choir_idle_03.png",
+   "page": 0,
+   "rect": [
+    475,
+    1126,
+    158,
+    184
+   ],
+   "rect_unity": [
+    475,
+    354,
+    158,
+    184
+   ],
+   "pivot": [
+    0.39873,
+    -0.20116
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    65,
+    11
+   ],
+   "id": "drowned_choir",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "f22fca4bb675fd99636fe2a881531882a49a524d3a83f55516dd43fc4e863112"
+  },
+  {
+   "name": "fb_enemy_drowned_choir_idle_04",
+   "file": "enemy/drowned_choir/fb_enemy_drowned_choir_idle_04.png",
+   "page": 0,
+   "rect": [
+    4,
+    1130,
+    153,
+    180
+   ],
+   "rect_unity": [
+    4,
+    354,
+    153,
+    180
+   ],
+   "pivot": [
+    0.4183,
+    -0.20007
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    64,
+    16
+   ],
+   "id": "drowned_choir",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "78e6b969f2dcc8fe420988bea05f4b6fdefcccde22ac9610ad990890bbc4d5f4"
+  },
+  {
+   "name": "fb_enemy_drowned_choir_idle_05",
+   "file": "enemy/drowned_choir/fb_enemy_drowned_choir_idle_05.png",
+   "page": 0,
+   "rect": [
+    883,
+    1128,
+    148,
+    182
+   ],
+   "rect_unity": [
+    883,
+    354,
+    148,
+    182
+   ],
+   "pivot": [
+    0.47973,
+    -0.15392
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    57,
+    22
+   ],
+   "id": "drowned_choir",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "953b09d97d5c3b53ccdf29f79af772de2736370f2524688a1352ce7d3ffa941a"
+  },
+  {
+   "name": "fb_enemy_drowned_choir_idle_06",
+   "file": "enemy/drowned_choir/fb_enemy_drowned_choir_idle_06.png",
+   "page": 0,
+   "rect": [
+    1364,
+    1125,
+    141,
+    189
+   ],
+   "rect_unity": [
+    1364,
+    350,
+    141,
+    189
+   ],
+   "pivot": [
+    0.53191,
+    -0.1006
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    53,
+    24
+   ],
+   "id": "drowned_choir",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "4923b178836ddb151bd1cf3a512b12ff96b078e4276f7bd28d4f87e1b2e1e50b"
+  },
+  {
+   "name": "fb_enemy_drowned_choir_idle_07",
+   "file": "enemy/drowned_choir/fb_enemy_drowned_choir_idle_07.png",
+   "page": 0,
+   "rect": [
+    4,
+    915,
+    139,
+    192
+   ],
+   "rect_unity": [
+    4,
+    557,
+    139,
+    192
+   ],
+   "pivot": [
+    0.53957,
+    -0.09382
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    53,
+    22
+   ],
+   "id": "drowned_choir",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "ac3945d01fb29d7ffd99582463432b3fdf9000af2af222e4d154087d532befa8"
+  },
+  {
+   "name": "fb_enemy_frost_sovereign_idle_00",
+   "file": "enemy/frost_sovereign/fb_enemy_frost_sovereign_idle_00.png",
+   "page": 0,
+   "rect": [
+    1569,
+    4,
+    162,
+    227
+   ],
+   "rect_unity": [
+    1569,
+    1433,
+    162,
+    227
+   ],
+   "pivot": [
+    0.50617,
+    0.02197
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    46,
+    10
+   ],
+   "id": "frost_sovereign",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "68b0e152439cf5fb7378791d09b82225aaf999fda931a17922089a8c1e98fb05"
+  },
+  {
+   "name": "fb_enemy_frost_sovereign_idle_01",
+   "file": "enemy/frost_sovereign/fb_enemy_frost_sovereign_idle_01.png",
+   "page": 0,
+   "rect": [
+    178,
+    4,
+    165,
+    229
+   ],
+   "rect_unity": [
+    178,
+    1431,
+    165,
+    229
+   ],
+   "pivot": [
+    0.49091,
+    0.02178
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    47,
+    8
+   ],
+   "id": "frost_sovereign",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "4f8544dd87fbb738531632e52acfea1549ac332a3583e9460808d7b80cc3ff35"
+  },
+  {
+   "name": "fb_enemy_frost_sovereign_idle_02",
+   "file": "enemy/frost_sovereign/fb_enemy_frost_sovereign_idle_02.png",
+   "page": 0,
+   "rect": [
+    4,
+    4,
+    170,
+    229
+   ],
+   "rect_unity": [
+    4,
+    1431,
+    170,
+    229
+   ],
+   "pivot": [
+    0.49412,
+    0.02178
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    44,
+    8
+   ],
+   "id": "frost_sovereign",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "161fef284a530d6689936527e4b1abdbc57c86c4a30ba04ee2df4894854c8e77"
+  },
+  {
+   "name": "fb_enemy_frost_sovereign_idle_03",
+   "file": "enemy/frost_sovereign/fb_enemy_frost_sovereign_idle_03.png",
+   "page": 0,
+   "rect": [
+    347,
+    4,
+    165,
+    229
+   ],
+   "rect_unity": [
+    347,
+    1431,
+    165,
+    229
+   ],
+   "pivot": [
+    0.49091,
+    0.02178
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    47,
+    8
+   ],
+   "id": "frost_sovereign",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "ffa2ac2e14ff5b5a5eb236d058656bb09d87ceee479946a8dbb64c7487eca48c"
+  },
+  {
+   "name": "fb_enemy_frost_sovereign_idle_04",
+   "file": "enemy/frost_sovereign/fb_enemy_frost_sovereign_idle_04.png",
+   "page": 0,
+   "rect": [
+    810,
+    4,
+    159,
+    228
+   ],
+   "rect_unity": [
+    810,
+    1432,
+    159,
+    228
+   ],
+   "pivot": [
+    0.49686,
+    0.02187
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    49,
+    9
+   ],
+   "id": "frost_sovereign",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "e00437ab2dd9318b78f51671fc5715d75d2eac513edd1446a5c3e8965448cff1"
+  },
+  {
+   "name": "fb_enemy_frost_sovereign_idle_05",
+   "file": "enemy/frost_sovereign/fb_enemy_frost_sovereign_idle_05.png",
+   "page": 0,
+   "rect": [
+    1569,
+    235,
+    159,
+    226
+   ],
+   "rect_unity": [
+    1569,
+    1203,
+    159,
+    226
+   ],
+   "pivot": [
+    0.51572,
+    0.02207
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    46,
+    11
+   ],
+   "id": "frost_sovereign",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "b9c43ee3da76837789e1ef590f6c7b45bea415e669e09c1842475aeec8adf7ef"
+  },
+  {
+   "name": "fb_enemy_frost_sovereign_idle_06",
+   "file": "enemy/frost_sovereign/fb_enemy_frost_sovereign_idle_06.png",
+   "page": 0,
+   "rect": [
+    1735,
+    234,
+    168,
+    226
+   ],
+   "rect_unity": [
+    1735,
+    1204,
+    168,
+    226
+   ],
+   "pivot": [
+    0.5119,
+    0.02207
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    42,
+    11
+   ],
+   "id": "frost_sovereign",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "23453ea9d07f5d9ef66d8184fd3f2106cfdb9caf299ffc07511d57558b2ef14e"
+  },
+  {
+   "name": "fb_enemy_frost_sovereign_idle_07",
+   "file": "enemy/frost_sovereign/fb_enemy_frost_sovereign_idle_07.png",
+   "page": 0,
+   "rect": [
+    1735,
+    4,
+    170,
+    226
+   ],
+   "rect_unity": [
+    1735,
+    1434,
+    170,
+    226
+   ],
+   "pivot": [
+    0.50588,
+    0.02207
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    42,
+    11
+   ],
+   "id": "frost_sovereign",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "3f960d1a368254037e18c70090913c158bada4065954775b1acb33265cfd630b"
+  },
+  {
+   "name": "fb_enemy_glass_wyrm_idle_00",
+   "file": "enemy/glass_wyrm/fb_enemy_glass_wyrm_idle_00.png",
+   "page": 0,
+   "rect": [
+    1509,
+    1301,
+    209,
+    164
+   ],
+   "rect_unity": [
+    1509,
+    199,
+    209,
+    164
+   ],
+   "pivot": [
+    0.55981,
+    -0.22569
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    11,
+    31
+   ],
+   "id": "glass_wyrm",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "f1ab8759c5346e3323539e2b4f18f3fb6c5ece2cc9a0085a789f24c731d74bc0"
+  },
+  {
+   "name": "fb_enemy_glass_wyrm_idle_01",
+   "file": "enemy/glass_wyrm/fb_enemy_glass_wyrm_idle_01.png",
+   "page": 0,
+   "rect": [
+    570,
+    1324,
+    217,
+    153
+   ],
+   "rect_unity": [
+    570,
+    187,
+    217,
+    153
+   ],
+   "pivot": [
+    0.53456,
+    -0.35956
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    12,
+    24
+   ],
+   "id": "glass_wyrm",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "69c2e1e9e1b49f73d42b445d9e0125d8b701c78ef60057e1807fd00ebf57890a"
+  },
+  {
+   "name": "fb_enemy_glass_wyrm_idle_02",
+   "file": "enemy/glass_wyrm/fb_enemy_glass_wyrm_idle_02.png",
+   "page": 0,
+   "rect": [
+    4,
+    1480,
+    228,
+    135
+   ],
+   "rect_unity": [
+    4,
+    49,
+    228,
+    135
+   ],
+   "pivot": [
+    0.50877,
+    -0.55565
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    12,
+    22
+   ],
+   "id": "glass_wyrm",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "8642568510a3ddb335cc7fd6fd4693b6abd4730c3dc58e352f59ffd0ca1690ad"
+  },
+  {
+   "name": "fb_enemy_glass_wyrm_idle_03",
+   "file": "enemy/glass_wyrm/fb_enemy_glass_wyrm_idle_03.png",
+   "page": 0,
+   "rect": [
+    236,
+    1480,
+    234,
+    132
+   ],
+   "rect_unity": [
+    236,
+    52,
+    234,
+    132
+   ],
+   "pivot": [
+    0.49573,
+    -0.56828
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    12,
+    25
+   ],
+   "id": "glass_wyrm",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "9f2ca09fe2c4c4efd9219080c2710b9eaf7f449a1ba382bb436eb92bf1671bf6"
+  },
+  {
+   "name": "fb_enemy_glass_wyrm_idle_04",
+   "file": "enemy/glass_wyrm/fb_enemy_glass_wyrm_idle_04.png",
+   "page": 0,
+   "rect": [
+    791,
+    1474,
+    235,
+    136
+   ],
+   "rect_unity": [
+    791,
+    54,
+    235,
+    136
+   ],
+   "pivot": [
+    0.49787,
+    -0.47804
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    11,
+    31
+   ],
+   "id": "glass_wyrm",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "6931a53461fb656e2b58acce66bfa2aba67d9d27280fbe724945b78c1cd168f5"
+  },
+  {
+   "name": "fb_enemy_glass_wyrm_idle_05",
+   "file": "enemy/glass_wyrm/fb_enemy_glass_wyrm_idle_05.png",
+   "page": 0,
+   "rect": [
+    1079,
+    1472,
+    229,
+    139
+   ],
+   "rect_unity": [
+    1079,
+    53,
+    229,
+    139
+   ],
+   "pivot": [
+    0.51092,
+    -0.39578
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    11,
+    38
+   ],
+   "id": "glass_wyrm",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "86ecbfcc0b3b39774486de51d501e3702279e9d5c9e27a6f54b7544e8eed07c0"
+  },
+  {
+   "name": "fb_enemy_glass_wyrm_idle_06",
+   "file": "enemy/glass_wyrm/fb_enemy_glass_wyrm_idle_06.png",
+   "page": 0,
+   "rect": [
+    1079,
+    1314,
+    217,
+    154
+   ],
+   "rect_unity": [
+    1079,
+    196,
+    217,
+    154
+   ],
+   "pivot": [
+    0.53917,
+    -0.23385
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    11,
+    42
+   ],
+   "id": "glass_wyrm",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "14bf8dc4b5e4ec80c99031e2218009f30be08994c654dbcc5519ccae23aee9fe"
+  },
+  {
+   "name": "fb_enemy_glass_wyrm_idle_07",
+   "file": "enemy/glass_wyrm/fb_enemy_glass_wyrm_idle_07.png",
+   "page": 0,
+   "rect": [
+    161,
+    1313,
+    209,
+    163
+   ],
+   "rect_unity": [
+    161,
+    188,
+    209,
+    163
+   ],
+   "pivot": [
+    0.55981,
+    -0.18413
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    11,
+    39
+   ],
+   "id": "glass_wyrm",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "99651c8fe541e1353c00e7b8f97e27c65dae7c46ae1844403d57cc3adb2f858d"
+  },
+  {
+   "name": "fb_enemy_hollow_bloom_idle_00",
+   "file": "enemy/hollow_bloom/fb_enemy_hollow_bloom_idle_00.png",
+   "page": 0,
+   "rect": [
+    883,
+    1314,
+    192,
+    156
+   ],
+   "rect_unity": [
+    883,
+    194,
+    192,
+    156
+   ],
+   "pivot": [
+    0.625,
+    0.01274
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    8,
+    78
+   ],
+   "id": "hollow_bloom",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "ac7ec32b51a74f8f1250f11126f82634c93ee0153f4d28f6d875cacf8923f635"
+  },
+  {
+   "name": "fb_enemy_hollow_bloom_idle_01",
+   "file": "enemy/hollow_bloom/fb_enemy_hollow_bloom_idle_01.png",
+   "page": 0,
+   "rect": [
+    1722,
+    1130,
+    194,
+    164
+   ],
+   "rect_unity": [
+    1722,
+    370,
+    194,
+    164
+   ],
+   "pivot": [
+    0.62371,
+    0.01821
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    7,
+    71
+   ],
+   "id": "hollow_bloom",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "a105a9b1d0a2f705ec9038df3e5231acd0c0825a52504468a899d23d276da5d0"
+  },
+  {
+   "name": "fb_enemy_hollow_bloom_idle_02",
+   "file": "enemy/hollow_bloom/fb_enemy_hollow_bloom_idle_02.png",
+   "page": 0,
+   "rect": [
+    1509,
+    1130,
+    195,
+    167
+   ],
+   "rect_unity": [
+    1509,
+    367,
+    195,
+    167
+   ],
+   "pivot": [
+    0.61538,
+    0.01789
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    8,
+    68
+   ],
+   "id": "hollow_bloom",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "9565500e8a09f8299ccdbd47e4e33e5ad2ff8c6c73f2091803769083b502f9f0"
+  },
+  {
+   "name": "fb_enemy_hollow_bloom_idle_03",
+   "file": "enemy/hollow_bloom/fb_enemy_hollow_bloom_idle_03.png",
+   "page": 0,
+   "rect": [
+    1722,
+    1298,
+    194,
+    164
+   ],
+   "rect_unity": [
+    1722,
+    202,
+    194,
+    164
+   ],
+   "pivot": [
+    0.6134,
+    0.01821
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    9,
+    71
+   ],
+   "id": "hollow_bloom",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "5ea8e7da2e9aefbcdd0cd201310dc15c8b8d49c61f0dc30043b2c44bc04dd6fa"
+  },
+  {
+   "name": "fb_enemy_hollow_bloom_idle_04",
+   "file": "enemy/hollow_bloom/fb_enemy_hollow_bloom_idle_04.png",
+   "page": 0,
+   "rect": [
+    374,
+    1314,
+    192,
+    157
+   ],
+   "rect_unity": [
+    374,
+    193,
+    192,
+    157
+   ],
+   "pivot": [
+    0.60938,
+    0.01903
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    11,
+    78
+   ],
+   "id": "hollow_bloom",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "8905b6a40da296fb0cd4dfdf230913c13f124221c9718b6fc7a2b6ffa3272f51"
+  },
+  {
+   "name": "fb_enemy_hollow_bloom_idle_05",
+   "file": "enemy/hollow_bloom/fb_enemy_hollow_bloom_idle_05.png",
+   "page": 0,
+   "rect": [
+    1722,
+    1466,
+    190,
+    150
+   ],
+   "rect_unity": [
+    1722,
+    48,
+    190,
+    150
+   ],
+   "pivot": [
+    0.61579,
+    0.01325
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    11,
+    84
+   ],
+   "id": "hollow_bloom",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "9fd5bdce17d862a3235a73dd2efa845841fc26a6cdf7154dee33bf7fb71efbe0"
+  },
+  {
+   "name": "fb_enemy_hollow_bloom_idle_06",
+   "file": "enemy/hollow_bloom/fb_enemy_hollow_bloom_idle_06.png",
+   "page": 0,
+   "rect": [
+    1495,
+    1469,
+    189,
+    147
+   ],
+   "rect_unity": [
+    1495,
+    48,
+    189,
+    147
+   ],
+   "pivot": [
+    0.61905,
+    0.01352
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    11,
+    87
+   ],
+   "id": "hollow_bloom",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "6093e45da1e6fdeaf559d4e9eb3d45f8a6e5047eddf08a5ef411dc8a6bdaeebd"
+  },
+  {
+   "name": "fb_enemy_hollow_bloom_idle_07",
+   "file": "enemy/hollow_bloom/fb_enemy_hollow_bloom_idle_07.png",
+   "page": 0,
+   "rect": [
+    1300,
+    1318,
+    191,
+    150
+   ],
+   "rect_unity": [
+    1300,
+    196,
+    191,
+    150
+   ],
+   "pivot": [
+    0.62304,
+    0.01325
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    9,
+    84
+   ],
+   "id": "hollow_bloom",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "55ae1cb936a73ddec3a78f830db3fffb9b93d6f4a9f9f2515434affa0f27aad2"
+  },
+  {
+   "name": "fb_enemy_kaldur_forge_tyrant_idle_00",
+   "file": "enemy/kaldur_forge_tyrant/fb_enemy_kaldur_forge_tyrant_idle_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    692,
+    140,
+    219
+   ],
+   "rect_unity": [
+    4,
+    753,
+    140,
+    219
+   ],
+   "pivot": [
+    0.53571,
+    0.01821
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    53,
+    17
+   ],
+   "id": "kaldur_forge_tyrant",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "98e1c23f0111ea981874f9cf1ac2ea301029f5ee7f58cdd0d46d38d70dc0b7d3"
+  },
+  {
+   "name": "fb_enemy_kaldur_forge_tyrant_idle_01",
+   "file": "enemy/kaldur_forge_tyrant/fb_enemy_kaldur_forge_tyrant_idle_01.png",
+   "page": 0,
+   "rect": [
+    563,
+    692,
+    155,
+    217
+   ],
+   "rect_unity": [
+    563,
+    755,
+    155,
+    217
+   ],
+   "pivot": [
+    0.56129,
+    0.01837
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    41,
+    19
+   ],
+   "id": "kaldur_forge_tyrant",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "26d3baa89369fd000f12dec93edc36a189fdcb11dee48dac09f815ba5cb3f6a4"
+  },
+  {
+   "name": "fb_enemy_kaldur_forge_tyrant_idle_02",
+   "file": "enemy/kaldur_forge_tyrant/fb_enemy_kaldur_forge_tyrant_idle_02.png",
+   "page": 0,
+   "rect": [
+    148,
+    912,
+    163,
+    214
+   ],
+   "rect_unity": [
+    148,
+    538,
+    163,
+    214
+   ],
+   "pivot": [
+    0.57669,
+    0.01863
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    34,
+    22
+   ],
+   "id": "kaldur_forge_tyrant",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "7e163bf17071457f598ca6bcdab498f46bdb56ab102633edf7df7c565da89bac"
+  },
+  {
+   "name": "fb_enemy_kaldur_forge_tyrant_idle_03",
+   "file": "enemy/kaldur_forge_tyrant/fb_enemy_kaldur_forge_tyrant_idle_03.png",
+   "page": 0,
+   "rect": [
+    1649,
+    912,
+    161,
+    214
+   ],
+   "rect_unity": [
+    1649,
+    538,
+    161,
+    214
+   ],
+   "pivot": [
+    0.57764,
+    0.01863
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    35,
+    22
+   ],
+   "id": "kaldur_forge_tyrant",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "21153cda53ea9f84d4d82faa9d9e380aa0c8ff8d290ac47106e3e5c7d431b8bd"
+  },
+  {
+   "name": "fb_enemy_kaldur_forge_tyrant_idle_04",
+   "file": "enemy/kaldur_forge_tyrant/fb_enemy_kaldur_forge_tyrant_idle_04.png",
+   "page": 0,
+   "rect": [
+    1649,
+    692,
+    149,
+    216
+   ],
+   "rect_unity": [
+    1649,
+    756,
+    149,
+    216
+   ],
+   "pivot": [
+    0.56376,
+    0.01846
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    44,
+    20
+   ],
+   "id": "kaldur_forge_tyrant",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "401b5c50ff263ac7ed9c1fb9d5107ab603657ef93ad63d713ab7965958bfa8ff"
+  },
+  {
+   "name": "fb_enemy_kaldur_forge_tyrant_idle_05",
+   "file": "enemy/kaldur_forge_tyrant/fb_enemy_kaldur_forge_tyrant_idle_05.png",
+   "page": 0,
+   "rect": [
+    425,
+    692,
+    134,
+    218
+   ],
+   "rect_unity": [
+    425,
+    754,
+    134,
+    218
+   ],
+   "pivot": [
+    0.54478,
+    0.01829
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    55,
+    18
+   ],
+   "id": "kaldur_forge_tyrant",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "aacc5d04427570d15371d75bd541b1554df3918052f68ec17fa756b2d0aa67fd"
+  },
+  {
+   "name": "fb_enemy_kaldur_forge_tyrant_idle_06",
+   "file": "enemy/kaldur_forge_tyrant/fb_enemy_kaldur_forge_tyrant_idle_06.png",
+   "page": 0,
+   "rect": [
+    148,
+    689,
+    128,
+    219
+   ],
+   "rect_unity": [
+    148,
+    756,
+    128,
+    219
+   ],
+   "pivot": [
+    0.51562,
+    0.01821
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    62,
+    17
+   ],
+   "id": "kaldur_forge_tyrant",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "6e5c9863f475398951504cf40182d7ab5e55cf691937f49c5cc739703cb5a464"
+  },
+  {
+   "name": "fb_enemy_kaldur_forge_tyrant_idle_07",
+   "file": "enemy/kaldur_forge_tyrant/fb_enemy_kaldur_forge_tyrant_idle_07.png",
+   "page": 0,
+   "rect": [
+    148,
+    466,
+    130,
+    219
+   ],
+   "rect_unity": [
+    148,
+    979,
+    130,
+    219
+   ],
+   "pivot": [
+    0.52308,
+    0.01821
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    60,
+    17
+   ],
+   "id": "kaldur_forge_tyrant",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "480e44fef4d849056d96df8d2a74137d1c29fc3fc57215c24312b1b4956f6a50"
+  },
+  {
+   "name": "fb_enemy_lich_regent_idle_00",
+   "file": "enemy/lich_regent/fb_enemy_lich_regent_idle_00.png",
+   "page": 0,
+   "rect": [
+    563,
+    913,
+    156,
+    209
+   ],
+   "rect_unity": [
+    563,
+    542,
+    156,
+    209
+   ],
+   "pivot": [
+    0.5,
+    -0.03834
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    50,
+    15
+   ],
+   "id": "lich_regent",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "c06e181aa3610d764294463fa0f6c2a61d0a0eb1d44128801f6df8b5578effe4"
+  },
+  {
+   "name": "fb_enemy_lich_regent_idle_01",
+   "file": "enemy/lich_regent/fb_enemy_lich_regent_idle_01.png",
+   "page": 0,
+   "rect": [
+    723,
+    904,
+    132,
+    207
+   ],
+   "rect_unity": [
+    723,
+    553,
+    132,
+    207
+   ],
+   "pivot": [
+    0.5,
+    -0.07253
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    62,
+    10
+   ],
+   "id": "lich_regent",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "b3bcbff52a36e5f994af521b3c1f241ff04fd854e8dde5fb71a731419992bd1f"
+  },
+  {
+   "name": "fb_enemy_lich_regent_idle_02",
+   "file": "enemy/lich_regent/fb_enemy_lich_regent_idle_02.png",
+   "page": 0,
+   "rect": [
+    723,
+    1115,
+    156,
+    205
+   ],
+   "rect_unity": [
+    723,
+    344,
+    156,
+    205
+   ],
+   "pivot": [
+    0.5,
+    -0.09275
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    50,
+    8
+   ],
+   "id": "lich_regent",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "78e1ed6edf53633c0099335e9806d15346a360caf0f2b384763e76446d421c5b"
+  },
+  {
+   "name": "fb_enemy_lich_regent_idle_03",
+   "file": "enemy/lich_regent/fb_enemy_lich_regent_idle_03.png",
+   "page": 0,
+   "rect": [
+    1364,
+    916,
+    172,
+    205
+   ],
+   "rect_unity": [
+    1364,
+    543,
+    172,
+    205
+   ],
+   "pivot": [
+    0.5,
+    -0.08299
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    42,
+    10
+   ],
+   "id": "lich_regent",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "a752ae47adae11fe8d3e1b6d376a611350137611e3bb97f4f144989fdb58aa77"
+  },
+  {
+   "name": "fb_enemy_lich_regent_idle_04",
+   "file": "enemy/lich_regent/fb_enemy_lich_regent_idle_04.png",
+   "page": 0,
+   "rect": [
+    1184,
+    916,
+    176,
+    206
+   ],
+   "rect_unity": [
+    1184,
+    542,
+    176,
+    206
+   ],
+   "pivot": [
+    0.5,
+    -0.05346
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    40,
+    15
+   ],
+   "id": "lich_regent",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "c206a99c2fc223516331e54b263de87f81dcadbff1b67a5afdb59072e5449e33"
+  },
+  {
+   "name": "fb_enemy_lich_regent_idle_05",
+   "file": "enemy/lich_regent/fb_enemy_lich_regent_idle_05.png",
+   "page": 0,
+   "rect": [
+    1008,
+    916,
+    172,
+    208
+   ],
+   "rect_unity": [
+    1008,
+    540,
+    172,
+    208
+   ],
+   "pivot": [
+    0.5,
+    -0.01448
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    42,
+    21
+   ],
+   "id": "lich_regent",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "894e52e5cbb58a8c94aa5b39a718591abb865a3300ac282125941e8796ef51d3"
+  },
+  {
+   "name": "fb_enemy_lich_regent_idle_06",
+   "file": "enemy/lich_regent/fb_enemy_lich_regent_idle_06.png",
+   "page": 0,
+   "rect": [
+    315,
+    914,
+    156,
+    209
+   ],
+   "rect_unity": [
+    315,
+    541,
+    156,
+    209
+   ],
+   "pivot": [
+    0.5,
+    -6e-05
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    50,
+    23
+   ],
+   "id": "lich_regent",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "1564b325120840d46225029564883ab586b25aaec7d615a12e8aac67201aaf51"
+  },
+  {
+   "name": "fb_enemy_lich_regent_idle_07",
+   "file": "enemy/lich_regent/fb_enemy_lich_regent_idle_07.png",
+   "page": 0,
+   "rect": [
+    723,
+    692,
+    132,
+    208
+   ],
+   "rect_unity": [
+    723,
+    764,
+    132,
+    208
+   ],
+   "pivot": [
+    0.5,
+    -0.01448
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    62,
+    21
+   ],
+   "id": "lich_regent",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "209e44f8e4280aa722e1d766c17908456c8964842db4689ba2cc0e6070a5e81c"
+  },
+  {
+   "name": "fb_enemy_rootmother_idle_00",
+   "file": "enemy/rootmother/fb_enemy_rootmother_idle_00.png",
+   "page": 0,
+   "rect": [
+    425,
+    465,
+    149,
+    223
+   ],
+   "rect_unity": [
+    425,
+    976,
+    149,
+    223
+   ],
+   "pivot": [
+    0.48993,
+    0.00891
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    55,
+    11
+   ],
+   "id": "rootmother",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "84aeaaabbbe12696743393843d19591975d959f7d6322cc1a5bace874d5ee0bb"
+  },
+  {
+   "name": "fb_enemy_rootmother_idle_01",
+   "file": "enemy/rootmother/fb_enemy_rootmother_idle_01.png",
+   "page": 0,
+   "rect": [
+    286,
+    237,
+    139,
+    224
+   ],
+   "rect_unity": [
+    286,
+    1203,
+    139,
+    224
+   ],
+   "pivot": [
+    0.48201,
+    0.00887
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    61,
+    10
+   ],
+   "id": "rootmother",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "4f5cc1a3d228e5a79b3d5c63984d98bc3641a0ba14e9cb3d59bbf0ab8aff85cc"
+  },
+  {
+   "name": "fb_enemy_rootmother_idle_02",
+   "file": "enemy/rootmother/fb_enemy_rootmother_idle_02.png",
+   "page": 0,
+   "rect": [
+    148,
+    237,
+    134,
+    225
+   ],
+   "rect_unity": [
+    148,
+    1202,
+    134,
+    225
+   ],
+   "pivot": [
+    0.47015,
+    0.00883
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    65,
+    9
+   ],
+   "id": "rootmother",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "51752dccdfb636278417fca6c8583a11c6c77250f652468d8e0ed890d67fcce3"
+  },
+  {
+   "name": "fb_enemy_rootmother_idle_03",
+   "file": "enemy/rootmother/fb_enemy_rootmother_idle_03.png",
+   "page": 0,
+   "rect": [
+    1732,
+    464,
+    135,
+    224
+   ],
+   "rect_unity": [
+    1732,
+    976,
+    135,
+    224
+   ],
+   "pivot": [
+    0.46667,
+    0.00887
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    65,
+    10
+   ],
+   "id": "rootmother",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "b88e3e2792acf482cc666d2a373ba48144769c5df63350da8d3539c624b8e913"
+  },
+  {
+   "name": "fb_enemy_rootmother_idle_04",
+   "file": "enemy/rootmother/fb_enemy_rootmother_idle_04.png",
+   "page": 0,
+   "rect": [
+    578,
+    465,
+    143,
+    223
+   ],
+   "rect_unity": [
+    578,
+    976,
+    143,
+    223
+   ],
+   "pivot": [
+    0.46853,
+    0.00891
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    61,
+    11
+   ],
+   "id": "rootmother",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "38dd243eb753445fe39f95d766bf360fb348021e254fa9f0ec4d43f2e6fd41ea"
+  },
+  {
+   "name": "fb_enemy_rootmother_idle_05",
+   "file": "enemy/rootmother/fb_enemy_rootmother_idle_05.png",
+   "page": 0,
+   "rect": [
+    1193,
+    465,
+    152,
+    222
+   ],
+   "rect_unity": [
+    1193,
+    977,
+    152,
+    222
+   ],
+   "pivot": [
+    0.48026,
+    0.00895
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    55,
+    12
+   ],
+   "id": "rootmother",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "aa57de7c80bba1bc7ea80d0906314fdbd8d4e985a42c5198949b2d70d8ffed18"
+  },
+  {
+   "name": "fb_enemy_rootmother_idle_06",
+   "file": "enemy/rootmother/fb_enemy_rootmother_idle_06.png",
+   "page": 0,
+   "rect": [
+    1174,
+    691,
+    157,
+    221
+   ],
+   "rect_unity": [
+    1174,
+    752,
+    157,
+    221
+   ],
+   "pivot": [
+    0.49045,
+    0.00899
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    51,
+    13
+   ],
+   "id": "rootmother",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "2ce289f0c3a9256d3d4ed86d54e30f3aa614352ca3581148c14079a911b006f2"
+  },
+  {
+   "name": "fb_enemy_rootmother_idle_07",
+   "file": "enemy/rootmother/fb_enemy_rootmother_idle_07.png",
+   "page": 0,
+   "rect": [
+    1335,
+    691,
+    156,
+    221
+   ],
+   "rect_unity": [
+    1335,
+    752,
+    156,
+    221
+   ],
+   "pivot": [
+    0.49359,
+    0.00899
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    51,
+    13
+   ],
+   "id": "rootmother",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "a650949ac364be67c6e163fb0f0d5a9f934eb79dda7b69f1c80834b6a2a5eaa7"
+  },
+  {
+   "name": "fb_enemy_slag_titan_idle_00",
+   "file": "enemy/slag_titan/fb_enemy_slag_titan_idle_00.png",
+   "page": 0,
+   "rect": [
+    810,
+    236,
+    158,
+    225
+   ],
+   "rect_unity": [
+    810,
+    1203,
+    158,
+    225
+   ],
+   "pivot": [
+    0.55696,
+    0.02217
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    40,
+    12
+   ],
+   "id": "slag_titan",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "6e2dd02073893b001b830097675ae01ebf27559590ec37bf3209394edca047ed"
+  },
+  {
+   "name": "fb_enemy_slag_titan_idle_01",
+   "file": "enemy/slag_titan/fb_enemy_slag_titan_idle_01.png",
+   "page": 0,
+   "rect": [
+    973,
+    4,
+    152,
+    228
+   ],
+   "rect_unity": [
+    973,
+    1432,
+    152,
+    228
+   ],
+   "pivot": [
+    0.55921,
+    0.02187
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    43,
+    9
+   ],
+   "id": "slag_titan",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "d68a6a7fd311e31833ba73b8ff93ea28094ddffbf2e9b8bd86382896c615033d"
+  },
+  {
+   "name": "fb_enemy_slag_titan_idle_02",
+   "file": "enemy/slag_titan/fb_enemy_slag_titan_idle_02.png",
+   "page": 0,
+   "rect": [
+    516,
+    4,
+    149,
+    229
+   ],
+   "rect_unity": [
+    516,
+    1431,
+    149,
+    229
+   ],
+   "pivot": [
+    0.55705,
+    0.02178
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    45,
+    8
+   ],
+   "id": "slag_titan",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "c30a6d7f9827be15812b1133a96124eb38d30d45c4ff0d34edcc06ec2777bd17"
+  },
+  {
+   "name": "fb_enemy_slag_titan_idle_03",
+   "file": "enemy/slag_titan/fb_enemy_slag_titan_idle_03.png",
+   "page": 0,
+   "rect": [
+    1129,
+    4,
+    150,
+    228
+   ],
+   "rect_unity": [
+    1129,
+    1432,
+    150,
+    228
+   ],
+   "pivot": [
+    0.55333,
+    0.02187
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    45,
+    9
+   ],
+   "id": "slag_titan",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "158ad5b415fa58614fb0ba04d5f28f290209dc6b0a9c7f39590a21102e1264bf"
+  },
+  {
+   "name": "fb_enemy_slag_titan_idle_04",
+   "file": "enemy/slag_titan/fb_enemy_slag_titan_idle_04.png",
+   "page": 0,
+   "rect": [
+    972,
+    236,
+    155,
+    225
+   ],
+   "rect_unity": [
+    972,
+    1203,
+    155,
+    225
+   ],
+   "pivot": [
+    0.54839,
+    0.02217
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    43,
+    12
+   ],
+   "id": "slag_titan",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "c9d5bf640fb8f96f88c866e0e45d653005432b1f4dd3c7976354b288109a7ce8"
+  },
+  {
+   "name": "fb_enemy_slag_titan_idle_05",
+   "file": "enemy/slag_titan/fb_enemy_slag_titan_idle_05.png",
+   "page": 0,
+   "rect": [
+    1030,
+    465,
+    159,
+    222
+   ],
+   "rect_unity": [
+    1030,
+    977,
+    159,
+    222
+   ],
+   "pivot": [
+    0.54717,
+    0.02246
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    41,
+    15
+   ],
+   "id": "slag_titan",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "bc40329d6c6a7847175ed561d526cd8188d0c3bcb1e277f3eca4007b41e5a95e"
+  },
+  {
+   "name": "fb_enemy_slag_titan_idle_06",
+   "file": "enemy/slag_titan/fb_enemy_slag_titan_idle_06.png",
+   "page": 0,
+   "rect": [
+    1008,
+    691,
+    162,
+    221
+   ],
+   "rect_unity": [
+    1008,
+    752,
+    162,
+    221
+   ],
+   "pivot": [
+    0.54938,
+    0.02257
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    39,
+    16
+   ],
+   "id": "slag_titan",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "d7961fe01e69c553e00ff416833f9b474e9d764c10b3d929d22b5528a4cd160d"
+  },
+  {
+   "name": "fb_enemy_slag_titan_idle_07",
+   "file": "enemy/slag_titan/fb_enemy_slag_titan_idle_07.png",
+   "page": 0,
+   "rect": [
+    865,
+    465,
+    161,
+    222
+   ],
+   "rect_unity": [
+    865,
+    977,
+    161,
+    222
+   ],
+   "pivot": [
+    0.5528,
+    0.02246
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    39,
+    15
+   ],
+   "id": "slag_titan",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "2b89a3cd1ad56066a2e02970ba888843b7a51e502a1f0b71a4c3f755ffa7e736"
+  },
+  {
+   "name": "fb_enemy_storm_tyrant_idle_00",
+   "file": "enemy/storm_tyrant/fb_enemy_storm_tyrant_idle_00.png",
+   "page": 0,
+   "rect": [
+    429,
+    237,
+    138,
+    224
+   ],
+   "rect_unity": [
+    429,
+    1203,
+    138,
+    224
+   ],
+   "pivot": [
+    0.50725,
+    0.02226
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    58,
+    13
+   ],
+   "id": "storm_tyrant",
+   "variant": null,
+   "state": "idle",
+   "frame": 0,
+   "source_sha256": "c05d074e94c6558e89b7bf7baf3126d6789eb13e1c716023363ef4424b4829fe"
+  },
+  {
+   "name": "fb_enemy_storm_tyrant_idle_01",
+   "file": "enemy/storm_tyrant/fb_enemy_storm_tyrant_idle_01.png",
+   "page": 0,
+   "rect": [
+    1425,
+    236,
+    140,
+    225
+   ],
+   "rect_unity": [
+    1425,
+    1203,
+    140,
+    225
+   ],
+   "pivot": [
+    0.48571,
+    0.02217
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    60,
+    12
+   ],
+   "id": "storm_tyrant",
+   "variant": null,
+   "state": "idle",
+   "frame": 1,
+   "source_sha256": "98c972ba1c4e4ab31bac05d7bda0c45b9bd6074531b0fc0c9567c5b85f0566d8"
+  },
+  {
+   "name": "fb_enemy_storm_tyrant_idle_02",
+   "file": "enemy/storm_tyrant/fb_enemy_storm_tyrant_idle_02.png",
+   "page": 0,
+   "rect": [
+    4,
+    237,
+    140,
+    225
+   ],
+   "rect_unity": [
+    4,
+    1202,
+    140,
+    225
+   ],
+   "pivot": [
+    0.47857,
+    0.02217
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    61,
+    12
+   ],
+   "id": "storm_tyrant",
+   "variant": null,
+   "state": "idle",
+   "frame": 2,
+   "source_sha256": "b0ed2abf2e1a340fad716cb179326a39d95f7a3f522f5ff7d3cb408cc8f9cf2c"
+  },
+  {
+   "name": "fb_enemy_storm_tyrant_idle_03",
+   "file": "enemy/storm_tyrant/fb_enemy_storm_tyrant_idle_03.png",
+   "page": 0,
+   "rect": [
+    571,
+    237,
+    138,
+    224
+   ],
+   "rect_unity": [
+    571,
+    1203,
+    138,
+    224
+   ],
+   "pivot": [
+    0.47826,
+    0.02226
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    62,
+    13
+   ],
+   "id": "storm_tyrant",
+   "variant": null,
+   "state": "idle",
+   "frame": 3,
+   "source_sha256": "f471893d2e4854bf22839aca65c8f4ae2f694104c638ee27ded0775a90cce7aa"
+  },
+  {
+   "name": "fb_enemy_storm_tyrant_idle_04",
+   "file": "enemy/storm_tyrant/fb_enemy_storm_tyrant_idle_04.png",
+   "page": 0,
+   "rect": [
+    286,
+    465,
+    135,
+    224
+   ],
+   "rect_unity": [
+    286,
+    975,
+    135,
+    224
+   ],
+   "pivot": [
+    0.4963,
+    0.02226
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    61,
+    13
+   ],
+   "id": "storm_tyrant",
+   "variant": null,
+   "state": "idle",
+   "frame": 4,
+   "source_sha256": "bb91230fba131422bc90122a701b2a9266e704302ce939b8b9464a8e7d956162"
+  },
+  {
+   "name": "fb_enemy_storm_tyrant_idle_05",
+   "file": "enemy/storm_tyrant/fb_enemy_storm_tyrant_idle_05.png",
+   "page": 0,
+   "rect": [
+    725,
+    465,
+    136,
+    223
+   ],
+   "rect_unity": [
+    725,
+    976,
+    136,
+    223
+   ],
+   "pivot": [
+    0.51471,
+    0.02236
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    58,
+    14
+   ],
+   "id": "storm_tyrant",
+   "variant": null,
+   "state": "idle",
+   "frame": 5,
+   "source_sha256": "27b7f75c107947ce7be94ce863672ee9d32578bd8571d5606c439da53c5ef989"
+  },
+  {
+   "name": "fb_enemy_storm_tyrant_idle_06",
+   "file": "enemy/storm_tyrant/fb_enemy_storm_tyrant_idle_06.png",
+   "page": 0,
+   "rect": [
+    865,
+    691,
+    139,
+    222
+   ],
+   "rect_unity": [
+    865,
+    751,
+    139,
+    222
+   ],
+   "pivot": [
+    0.52518,
+    0.02246
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    55,
+    15
+   ],
+   "id": "storm_tyrant",
+   "variant": null,
+   "state": "idle",
+   "frame": 6,
+   "source_sha256": "211267f8f2e712e5b217df17225ae7ffe76c71db23643726d0ad329252dd4d5a"
+  },
+  {
+   "name": "fb_enemy_storm_tyrant_idle_07",
+   "file": "enemy/storm_tyrant/fb_enemy_storm_tyrant_idle_07.png",
+   "page": 0,
+   "rect": [
+    4,
+    466,
+    140,
+    222
+   ],
+   "rect_unity": [
+    4,
+    976,
+    140,
+    222
+   ],
+   "pivot": [
+    0.52857,
+    0.02246
+   ],
+   "source_size": [
+    256,
+    256
+   ],
+   "trim_offset": [
+    54,
+    15
+   ],
+   "id": "storm_tyrant",
+   "variant": null,
+   "state": "idle",
+   "frame": 7,
+   "source_sha256": "b589baf416b9a319bd9d8c3c914bd55feb0cd7a95f3dfda750dd8cc062cac35f"
+  }
+ ],
+ "clips": {
+  "clockwork_colossus/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_clockwork_colossus_idle_00",
+    "fb_enemy_clockwork_colossus_idle_01",
+    "fb_enemy_clockwork_colossus_idle_02",
+    "fb_enemy_clockwork_colossus_idle_03",
+    "fb_enemy_clockwork_colossus_idle_04",
+    "fb_enemy_clockwork_colossus_idle_05",
+    "fb_enemy_clockwork_colossus_idle_06",
+    "fb_enemy_clockwork_colossus_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "drowned_choir/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_drowned_choir_idle_00",
+    "fb_enemy_drowned_choir_idle_01",
+    "fb_enemy_drowned_choir_idle_02",
+    "fb_enemy_drowned_choir_idle_03",
+    "fb_enemy_drowned_choir_idle_04",
+    "fb_enemy_drowned_choir_idle_05",
+    "fb_enemy_drowned_choir_idle_06",
+    "fb_enemy_drowned_choir_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "frost_sovereign/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_frost_sovereign_idle_00",
+    "fb_enemy_frost_sovereign_idle_01",
+    "fb_enemy_frost_sovereign_idle_02",
+    "fb_enemy_frost_sovereign_idle_03",
+    "fb_enemy_frost_sovereign_idle_04",
+    "fb_enemy_frost_sovereign_idle_05",
+    "fb_enemy_frost_sovereign_idle_06",
+    "fb_enemy_frost_sovereign_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "glass_wyrm/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_glass_wyrm_idle_00",
+    "fb_enemy_glass_wyrm_idle_01",
+    "fb_enemy_glass_wyrm_idle_02",
+    "fb_enemy_glass_wyrm_idle_03",
+    "fb_enemy_glass_wyrm_idle_04",
+    "fb_enemy_glass_wyrm_idle_05",
+    "fb_enemy_glass_wyrm_idle_06",
+    "fb_enemy_glass_wyrm_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "hollow_bloom/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_hollow_bloom_idle_00",
+    "fb_enemy_hollow_bloom_idle_01",
+    "fb_enemy_hollow_bloom_idle_02",
+    "fb_enemy_hollow_bloom_idle_03",
+    "fb_enemy_hollow_bloom_idle_04",
+    "fb_enemy_hollow_bloom_idle_05",
+    "fb_enemy_hollow_bloom_idle_06",
+    "fb_enemy_hollow_bloom_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "kaldur_forge_tyrant/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_kaldur_forge_tyrant_idle_00",
+    "fb_enemy_kaldur_forge_tyrant_idle_01",
+    "fb_enemy_kaldur_forge_tyrant_idle_02",
+    "fb_enemy_kaldur_forge_tyrant_idle_03",
+    "fb_enemy_kaldur_forge_tyrant_idle_04",
+    "fb_enemy_kaldur_forge_tyrant_idle_05",
+    "fb_enemy_kaldur_forge_tyrant_idle_06",
+    "fb_enemy_kaldur_forge_tyrant_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "lich_regent/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_lich_regent_idle_00",
+    "fb_enemy_lich_regent_idle_01",
+    "fb_enemy_lich_regent_idle_02",
+    "fb_enemy_lich_regent_idle_03",
+    "fb_enemy_lich_regent_idle_04",
+    "fb_enemy_lich_regent_idle_05",
+    "fb_enemy_lich_regent_idle_06",
+    "fb_enemy_lich_regent_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "rootmother/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_rootmother_idle_00",
+    "fb_enemy_rootmother_idle_01",
+    "fb_enemy_rootmother_idle_02",
+    "fb_enemy_rootmother_idle_03",
+    "fb_enemy_rootmother_idle_04",
+    "fb_enemy_rootmother_idle_05",
+    "fb_enemy_rootmother_idle_06",
+    "fb_enemy_rootmother_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "slag_titan/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_slag_titan_idle_00",
+    "fb_enemy_slag_titan_idle_01",
+    "fb_enemy_slag_titan_idle_02",
+    "fb_enemy_slag_titan_idle_03",
+    "fb_enemy_slag_titan_idle_04",
+    "fb_enemy_slag_titan_idle_05",
+    "fb_enemy_slag_titan_idle_06",
+    "fb_enemy_slag_titan_idle_07"
+   ],
+   "duration_s": 1.0
+  },
+  "storm_tyrant/idle": {
+   "fps": 8,
+   "loop": true,
+   "frame_count": 8,
+   "frames": [
+    "fb_enemy_storm_tyrant_idle_00",
+    "fb_enemy_storm_tyrant_idle_01",
+    "fb_enemy_storm_tyrant_idle_02",
+    "fb_enemy_storm_tyrant_idle_03",
+    "fb_enemy_storm_tyrant_idle_04",
+    "fb_enemy_storm_tyrant_idle_05",
+    "fb_enemy_storm_tyrant_idle_06",
+    "fb_enemy_storm_tyrant_idle_07"
+   ],
+   "duration_s": 1.0
+  }
+ }
+}

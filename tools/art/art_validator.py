@@ -298,7 +298,11 @@ class Validator:
         parts = ["fb", e.get("category", ""), e.get("id", "")]
         if e.get("variant"):
             parts.append(e["variant"])
-        parts += [e.get("state", ""), f"{int(e.get('frame', -1)):02d}"]
+        parts.append(e.get("state", ""))
+        if e.get("category") not in self.cfg.get("unframed_categories", []):
+            parts.append(f"{int(e.get('frame', -1)):02d}")
+        elif int(e.get("frame", 0)) != 0:
+            self.r.add("naming", "FAIL", f, "unframed (single-image) category must have frame 0")
         expect = "_".join(parts) + ".png"
         if base != expect:
             self.r.add("naming", "FAIL", f, f"filename does not match manifest fields (expected {expect})")
@@ -321,16 +325,23 @@ class Validator:
             self.r.add("scale_ppu", "FAIL", f, f"pivot {pv} outside 0..1")
 
     # -- per-image pixel checks -------------------------------------------
+    def rules(self, e):
+        return self.cfg.get("category_rules", {}).get(e.get("category"), {})
+
     def check_image(self, e, im, fmt, mode, arr):
         f = e["file"]
         c = self.cfg
         additive = e.get("blend") == "additive"
+        rules = self.rules(e)
+        skip = set(rules.get("skip", []))
         if fmt != "PNG":
             self.r.add("format", "FAIL", f, f"format {fmt} (PNG required)")
-        if mode != "RGBA":
+        if mode != "RGBA" and not (rules.get("allow_rgb") and mode == "RGB"):
             self.r.add("format", "FAIL", f, f"mode {mode} (RGBA required)")
-        if not check_alpha_present(arr):
+        if "alpha" not in skip and not check_alpha_present(arr):
             self.r.add("alpha", "FAIL", f, "no transparency (alpha channel fully opaque or fully empty)")
+        if skip:
+            return self._check_image_reduced(e, f, arr, skip, rules)
         ob = c["opaque_background"]
         v = border_opaque_frac(arr, ob["border_px"], ob["alpha"])
         lv = grade(v, ob["warn_frac"], ob["fail_frac"])
@@ -400,6 +411,31 @@ class Validator:
             self.r.add("budget", lv, f, f"file size {kb:.0f} KB", kb, b["file_fail_kb"])
         self.r.metrics[f] = {k: round(float(v), 4) for k, v in metrics.items()}
 
+    def _check_image_reduced(self, e, f, arr, skip, rules):
+        """Checks that still apply to categories with skipped sprite checks (env backgrounds)."""
+        c = self.cfg
+        metrics = {}
+        os_ = c["oversaturation"]
+        if "oversaturation" not in skip:
+            val = oversat_frac(arr, os_["s"], os_["v"])
+            metrics["oversat"] = val
+            lv = grade(val, os_["warn_frac"], os_["fail_frac"])
+            if lv != "PASS":
+                self.r.add("oversaturation", lv, f, f"{val:.1%} of texels clipped at full saturation/value", val, os_["fail_frac"])
+        # a background must not be a flat fill: value spread on a 48 px thumbnail
+        lum = lstar(area_downsample(arr, 48)[..., :3])
+        metrics["lstd"] = float(lum.std())
+        if lum.std() < c["legibility"]["warn_min_lstd"]:
+            self.r.add("legibility", "WARN", f, f"flat background value structure (L* std {lum.std():.1f})", float(lum.std()),
+                       c["legibility"]["fail_min_lstd"])
+        b = c["budget"]
+        kb = os.path.getsize(os.path.join(self.root, f)) / 1024
+        metrics["kb"] = kb
+        lv = grade(kb, rules.get("file_warn_kb", b["file_warn_kb"]), rules.get("file_fail_kb", b["file_fail_kb"]))
+        if lv != "PASS":
+            self.r.add("budget", lv, f, f"file size {kb:.0f} KB", kb, rules.get("file_fail_kb", b["file_fail_kb"]))
+        self.r.metrics[f] = {k: round(float(v), 4) for k, v in metrics.items()}
+
     # -- group checks ---------------------------------------------------------
     def check_animations(self, entries):
         c = self.cfg
@@ -466,7 +502,8 @@ class Validator:
 
     def check_duplicates(self, entries):
         d = self.cfg["duplicate"]
-        stills = [e for e in entries if e["file"] in self.arrays]
+        exempt = set(self.cfg.get("duplicate_exempt_ids", []))
+        stills = [e for e in entries if e["file"] in self.arrays and e.get("id") not in exempt]
         by_sha = defaultdict(list)
         for e in stills:
             by_sha[e.get("sha256") or hashlib.sha256(open(os.path.join(self.root, e["file"]), "rb").read()).hexdigest()].append(e)

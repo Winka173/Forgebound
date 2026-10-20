@@ -79,6 +79,12 @@ def process_sprite(raw_path, factor):
     return to_image(bleed(s))
 
 
+def process_opaque(raw_path, factor):
+    """Full-frame backgrounds: plain box downsample, alpha forced to 1, RGB only."""
+    p = box_down(load_rgba(raw_path), factor)
+    return Image.fromarray(np.clip(np.round(p[..., :3] * 255.0), 0, 255).astype(np.uint8), "RGB")
+
+
 def process_glow(raw_path, factor):
     p = box_down(premultiply(load_rgba(raw_path)), factor)
     img = Image.fromarray(np.clip(p * 255, 0, 255).astype(np.uint8), "RGBA")

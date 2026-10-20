@@ -8,10 +8,10 @@
    "index": 0,
    "image": "fb_atlas_board_icon.png",
    "size": [
-    640,
-    512
+    768,
+    640
    ],
-   "sha256": "4c031fe30ed8a67925a6bdbd5c0654e43694b006d747993af00f8266c6925677"
+   "sha256": "67955c05802a4299d0ccc6c1578146287a76ecdb44d498e6b15a487ca26687f1"
   }
  ],
  "sprites": [
@@ -20,204 +20,1224 @@
    "file": "board/icon/fb_board_amplifier_icon_00.png",
    "page": 0,
    "rect": [
-    200,
-    4,
-    190,
-    204
-   ],
-   "rect_unity": [
-    200,
-    304,
-    190,
-    204
-   ],
-   "pivot": [
-    0.5,
-    0.5049
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    33,
-    27
-   ],
-   "id": "amplifier",
-   "variant": null,
-   "state": "icon",
-   "frame": 0,
-   "source_sha256": "4943af2e8b6dc8ee91441ce8ecb456858c88105064b18ac04b8bfce4d8f71bd6"
-  },
-  {
-   "name": "fb_board_capacitor_icon_00",
-   "file": "board/icon/fb_board_capacitor_icon_00.png",
-   "page": 0,
-   "rect": [
     4,
     4,
-    192,
-    205
+    110,
+    112
    ],
    "rect_unity": [
     4,
-    303,
-    192,
-    205
-   ],
-   "pivot": [
-    0.5,
-    0.49756
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    32,
-    25
-   ],
-   "id": "capacitor",
-   "variant": null,
-   "state": "icon",
-   "frame": 0,
-   "source_sha256": "21fb8b72e58748756f704abffc52b814af241a7818ffc7800c6a785c8ff0aa6f"
-  },
-  {
-   "name": "fb_board_conduit_icon_00",
-   "file": "board/icon/fb_board_conduit_icon_00.png",
-   "page": 0,
-   "rect": [
-    4,
-    353,
-    204,
-    126
-   ],
-   "rect_unity": [
-    4,
-    33,
-    204,
-    126
-   ],
-   "pivot": [
-    0.5,
-    0.49206
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    26,
-    64
-   ],
-   "id": "conduit",
-   "variant": null,
-   "state": "icon",
-   "frame": 0,
-   "source_sha256": "da61269e6eef951d3541a515f6f015c7eed79a75ae03af6f292a3a88f0d8ebdd"
-  },
-  {
-   "name": "fb_board_echo_relay_icon_00",
-   "file": "board/icon/fb_board_echo_relay_icon_00.png",
-   "page": 0,
-   "rect": [
-    394,
-    4,
-    204,
-    202
-   ],
-   "rect_unity": [
-    394,
-    306,
-    204,
-    202
-   ],
-   "pivot": [
-    0.5,
-    0.4901
-   ],
-   "source_size": [
-    256,
-    256
-   ],
-   "trim_offset": [
-    26,
-    25
-   ],
-   "id": "echo_relay",
-   "variant": null,
-   "state": "icon",
-   "frame": 0,
-   "source_sha256": "bb87d0f06d3f86815835ca49e4c85afabfb6774c75876bae5da34950f453f978"
-  },
-  {
-   "name": "fb_board_splitter_icon_00",
-   "file": "board/icon/fb_board_splitter_icon_00.png",
-   "page": 0,
-   "rect": [
-    4,
-    213,
-    204,
-    136
-   ],
-   "rect_unity": [
-    4,
-    163,
-    204,
-    136
+    524,
+    110,
+    112
    ],
    "pivot": [
     0.5,
     0.5
    ],
    "source_size": [
-    256,
-    256
+    128,
+    128
    ],
    "trim_offset": [
-    26,
-    60
+    9,
+    8
+   ],
+   "id": "amplifier",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "4cb8bcbfd10621825eef187c8be41a734b63f46eab116c716f2720e8df1e6330"
+  },
+  {
+   "name": "fb_board_anvil_icon_00",
+   "file": "board/icon/fb_board_anvil_icon_00.png",
+   "page": 0,
+   "rect": [
+    524,
+    350,
+    112,
+    104
+   ],
+   "rect_unity": [
+    524,
+    186,
+    112,
+    104
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    8,
+    12
+   ],
+   "id": "anvil",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "dbdd5d91c295167457f17d77ff484a1cc8420512791f3deb86a973a69fdb93c9"
+  },
+  {
+   "name": "fb_board_attack_echo_icon_00",
+   "file": "board/icon/fb_board_attack_echo_icon_00.png",
+   "page": 0,
+   "rect": [
+    657,
+    120,
+    85,
+    112
+   ],
+   "rect_unity": [
+    657,
+    408,
+    85,
+    112
+   ],
+   "pivot": [
+    0.49412,
+    0.50893
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    22,
+    9
+   ],
+   "id": "attack_echo",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "cda7d1c15fb4731a53ca77f9b8fee2f7a1304bed3d028c49dc110001d0c84f5e"
+  },
+  {
+   "name": "fb_board_beacon_icon_00",
+   "file": "board/icon/fb_board_beacon_icon_00.png",
+   "page": 0,
+   "rect": [
+    228,
+    4,
+    101,
+    112
+   ],
+   "rect_unity": [
+    228,
+    524,
+    101,
+    112
+   ],
+   "pivot": [
+    0.50495,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    13,
+    8
+   ],
+   "id": "beacon",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "93866c834b454d14b8d8d1af14574d0df2303a8647f316d6f3946f2e10bd1ec8"
+  },
+  {
+   "name": "fb_board_bellows_icon_00",
+   "file": "board/icon/fb_board_bellows_icon_00.png",
+   "page": 0,
+   "rect": [
+    640,
+    535,
+    110,
+    68
+   ],
+   "rect_unity": [
+    640,
+    37,
+    110,
+    68
+   ],
+   "pivot": [
+    0.50909,
+    0.51471
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    8,
+    31
+   ],
+   "id": "bellows",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "3f02f43ca2b550f78022aa23d228b2c2dec6880943dae0a2023d242ed80b35dc"
+  },
+  {
+   "name": "fb_board_bent_conduit_icon_00",
+   "file": "board/icon/fb_board_bent_conduit_icon_00.png",
+   "page": 0,
+   "rect": [
+    640,
+    458,
+    112,
+    73
+   ],
+   "rect_unity": [
+    640,
+    109,
+    112,
+    73
+   ],
+   "pivot": [
+    0.5,
+    0.47945
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    8,
+    26
+   ],
+   "id": "bent_conduit",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "3b02f0e50981e90548a45eae4ca1b70acf8c68f7520e3913f5fc0e3a9ed41743"
+  },
+  {
+   "name": "fb_board_blood_basin_icon_00",
+   "file": "board/icon/fb_board_blood_basin_icon_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    351,
+    112,
+    102
+   ],
+   "rect_unity": [
+    4,
+    187,
+    112,
+    102
+   ],
+   "pivot": [
+    0.5,
+    0.48039
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    8,
+    11
+   ],
+   "id": "blood_basin",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "5a25ea41df88df9d349eba9ac134ca1a7bb423798b3949f69f06b2e246113b41"
+  },
+  {
+   "name": "fb_board_capacitor_icon_00",
+   "file": "board/icon/fb_board_capacitor_icon_00.png",
+   "page": 0,
+   "rect": [
+    475,
+    120,
+    87,
+    112
+   ],
+   "rect_unity": [
+    475,
+    408,
+    87,
+    112
+   ],
+   "pivot": [
+    0.50575,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    20,
+    8
+   ],
+   "id": "capacitor",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "76bd995e2533357b1d28e9eeb40ab8a30f076c0de2c9734a901d5bb4d8ec6889"
+  },
+  {
+   "name": "fb_board_conduit_icon_00",
+   "file": "board/icon/fb_board_conduit_icon_00.png",
+   "page": 0,
+   "rect": [
+    350,
+    464,
+    112,
+    73
+   ],
+   "rect_unity": [
+    350,
+    103,
+    112,
+    73
+   ],
+   "pivot": [
+    0.5,
+    0.47945
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    8,
+    26
+   ],
+   "id": "conduit",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "16affcf7af6d5cb546900671ec03480ccc4d71ded4bf5516d60eaa0fd4f33f62"
+  },
+  {
+   "name": "fb_board_crit_capacitor_icon_00",
+   "file": "board/icon/fb_board_crit_capacitor_icon_00.png",
+   "page": 0,
+   "rect": [
+    566,
+    120,
+    87,
+    112
+   ],
+   "rect_unity": [
+    566,
+    408,
+    87,
+    112
+   ],
+   "pivot": [
+    0.50575,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    20,
+    8
+   ],
+   "id": "crit_capacitor",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "70f152cd0966c07c54c29884cbb5ddb8a78fb28e2dfa6a422b822b797386ca29"
+  },
+  {
+   "name": "fb_board_crit_echo_icon_00",
+   "file": "board/icon/fb_board_crit_echo_icon_00.png",
+   "page": 0,
+   "rect": [
+    340,
+    236,
+    88,
+    111
+   ],
+   "rect_unity": [
+    340,
+    293,
+    88,
+    111
+   ],
+   "pivot": [
+    0.5,
+    0.5045
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    20,
+    9
+   ],
+   "id": "crit_echo",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "b36bdd3bc4cd5ac1cb6c65e36e190baa7c1c03c128ea76755ca5d6bb18517c7d"
+  },
+  {
+   "name": "fb_board_delay_coil_icon_00",
+   "file": "board/icon/fb_board_delay_coil_icon_00.png",
+   "page": 0,
+   "rect": [
+    290,
+    120,
+    89,
+    112
+   ],
+   "rect_unity": [
+    290,
+    408,
+    89,
+    112
+   ],
+   "pivot": [
+    0.50562,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    19,
+    8
+   ],
+   "id": "delay_coil",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "42f96e8d3190cc833c0d90d75c37314254e849fde508e698832c521453b72978"
+  },
+  {
+   "name": "fb_board_echo_coil_icon_00",
+   "file": "board/icon/fb_board_echo_coil_icon_00.png",
+   "page": 0,
+   "rect": [
+    466,
+    537,
+    112,
+    66
+   ],
+   "rect_unity": [
+    466,
+    37,
+    112,
+    66
+   ],
+   "pivot": [
+    0.5,
+    0.54545
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    8,
+    34
+   ],
+   "id": "echo_coil",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "f1610f138ff80bc0c9ff5efc5d7d92b32311441404afb21bbfab0d3c59dd9fd7"
+  },
+  {
+   "name": "fb_board_echo_relay_icon_00",
+   "file": "board/icon/fb_board_echo_relay_icon_00.png",
+   "page": 0,
+   "rect": [
+    435,
+    4,
+    94,
+    112
+   ],
+   "rect_unity": [
+    435,
+    524,
+    94,
+    112
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    17,
+    8
+   ],
+   "id": "echo_relay",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "9e8c3b8ae07593afb2df33c2983eabb56fb66424b8e995d55100c12f57053f5a"
+  },
+  {
+   "name": "fb_board_fire_converter_icon_00",
+   "file": "board/icon/fb_board_fire_converter_icon_00.png",
+   "page": 0,
+   "rect": [
+    533,
+    4,
+    92,
+    112
+   ],
+   "rect_unity": [
+    533,
+    524,
+    92,
+    112
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    8
+   ],
+   "id": "fire_converter",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "e7b04eb83b32ba20266175e0a40f12e00a6dccb883d836f99697a826886cacb7"
+  },
+  {
+   "name": "fb_board_fletching_rack_icon_00",
+   "file": "board/icon/fb_board_fletching_rack_icon_00.png",
+   "page": 0,
+   "rect": [
+    524,
+    458,
+    112,
+    75
+   ],
+   "rect_unity": [
+    524,
+    107,
+    112,
+    75
+   ],
+   "pivot": [
+    0.5,
+    0.53333
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    8,
+    29
+   ],
+   "id": "fletching_rack",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "1485c369de9fb250fcd6384cb3e3a25ad1fa220f69231e3dbf118fec5fb6e36c"
+  },
+  {
+   "name": "fb_board_focus_lens_icon_00",
+   "file": "board/icon/fb_board_focus_lens_icon_00.png",
+   "page": 0,
+   "rect": [
+    234,
+    236,
+    102,
+    111
+   ],
+   "rect_unity": [
+    234,
+    293,
+    102,
+    111
+   ],
+   "pivot": [
+    0.5,
+    0.4955
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    13,
+    8
+   ],
+   "id": "focus_lens",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "fc761c55ca0f2781f191b73eec07cebe519d9d6247e56e32e2e337ab5cc566b4"
+  },
+  {
+   "name": "fb_board_frost_converter_icon_00",
+   "file": "board/icon/fb_board_frost_converter_icon_00.png",
+   "page": 0,
+   "rect": [
+    629,
+    4,
+    92,
+    112
+   ],
+   "rect_unity": [
+    629,
+    524,
+    92,
+    112
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    8
+   ],
+   "id": "frost_converter",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "7c99d859f9457501be17e353d3e84e7583544b998ee77e39c44e611fe4a56e2f"
+  },
+  {
+   "name": "fb_board_governor_icon_00",
+   "file": "board/icon/fb_board_governor_icon_00.png",
+   "page": 0,
+   "rect": [
+    333,
+    4,
+    98,
+    112
+   ],
+   "rect_unity": [
+    333,
+    524,
+    98,
+    112
+   ],
+   "pivot": [
+    0.5,
+    0.49107
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    15,
+    7
+   ],
+   "id": "governor",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "67048342d5bd932d2101bd135db42534e8ff20df5117a93d7955b986e6c5374f"
+  },
+  {
+   "name": "fb_board_grindstone_icon_00",
+   "file": "board/icon/fb_board_grindstone_icon_00.png",
+   "page": 0,
+   "rect": [
+    120,
+    236,
+    110,
+    111
+   ],
+   "rect_unity": [
+    120,
+    293,
+    110,
+    111
+   ],
+   "pivot": [
+    0.5,
+    0.4955
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    9,
+    8
+   ],
+   "id": "grindstone",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "d7a7edf05b14bfd8476b714192e4134c68528edc4ad03b3abd0256ddef7550e4"
+  },
+  {
+   "name": "fb_board_heavy_anvil_icon_00",
+   "file": "board/icon/fb_board_heavy_anvil_icon_00.png",
+   "page": 0,
+   "rect": [
+    234,
+    351,
+    112,
+    94
+   ],
+   "rect_unity": [
+    234,
+    195,
+    112,
+    94
+   ],
+   "pivot": [
+    0.5,
+    0.53191
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    8,
+    20
+   ],
+   "id": "heavy_anvil",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "1b6cd40e4a814c034a37ceb7dc6226bb2304ba9d481349f02e5d1723a6167ad7"
+  },
+  {
+   "name": "fb_board_junction_icon_00",
+   "file": "board/icon/fb_board_junction_icon_00.png",
+   "page": 0,
+   "rect": [
+    234,
+    449,
+    112,
+    89
+   ],
+   "rect_unity": [
+    234,
+    102,
+    112,
+    89
+   ],
+   "pivot": [
+    0.5,
+    0.48315
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    8,
+    18
+   ],
+   "id": "junction",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "7a9909a7dd60f5fdcbca629367c6a717b43ceae55b6aff8a16471896afd6fa94"
+  },
+  {
+   "name": "fb_board_kill_echo_icon_00",
+   "file": "board/icon/fb_board_kill_echo_icon_00.png",
+   "page": 0,
+   "rect": [
+    196,
+    120,
+    90,
+    112
+   ],
+   "rect_unity": [
+    196,
+    408,
+    90,
+    112
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    19,
+    8
+   ],
+   "id": "kill_echo",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "1e012c0d179a51ad87f3c66247a015383339870f5c73c988910b1992652026aa"
+  },
+  {
+   "name": "fb_board_lens_icon_00",
+   "file": "board/icon/fb_board_lens_icon_00.png",
+   "page": 0,
+   "rect": [
+    118,
+    4,
+    106,
+    112
+   ],
+   "rect_unity": [
+    118,
+    524,
+    106,
+    112
+   ],
+   "pivot": [
+    0.5,
+    0.48214
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    11,
+    6
+   ],
+   "id": "lens",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "a525bd8b931ca0118ffabb24b7d342461ca59be5ec67ec35ace4681922790882"
+  },
+  {
+   "name": "fb_board_prism_icon_00",
+   "file": "board/icon/fb_board_prism_icon_00.png",
+   "page": 0,
+   "rect": [
+    120,
+    351,
+    110,
+    97
+   ],
+   "rect_unity": [
+    120,
+    192,
+    110,
+    97
+   ],
+   "pivot": [
+    0.50909,
+    0.49485
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    8,
+    15
+   ],
+   "id": "prism",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "2d4b4a8003fa4f51e351ea970d80634c3ec93f2a5a723303997f5c09ca386d69"
+  },
+  {
+   "name": "fb_board_quench_basin_icon_00",
+   "file": "board/icon/fb_board_quench_basin_icon_00.png",
+   "page": 0,
+   "rect": [
+    432,
+    236,
+    100,
+    110
+   ],
+   "rect_unity": [
+    432,
+    294,
+    100,
+    110
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    14,
+    9
+   ],
+   "id": "quench_basin",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "457eca1291baf3f796665e852229df33bd0f5a74597e8f4a47ad309dec4717b7"
+  },
+  {
+   "name": "fb_board_resonator_icon_00",
+   "file": "board/icon/fb_board_resonator_icon_00.png",
+   "page": 0,
+   "rect": [
+    536,
+    236,
+    96,
+    110
+   ],
+   "rect_unity": [
+    536,
+    294,
+    96,
+    110
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    16,
+    9
+   ],
+   "id": "resonator",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "6060efb82e0b7efe0a6ecebe833c24b6e8101d0e887e745e525ec7206ab6e670"
+  },
+  {
+   "name": "fb_board_rune_lamp_icon_00",
+   "file": "board/icon/fb_board_rune_lamp_icon_00.png",
+   "page": 0,
+   "rect": [
+    640,
+    350,
+    112,
+    104
+   ],
+   "rect_unity": [
+    640,
+    186,
+    112,
+    104
+   ],
+   "pivot": [
+    0.5,
+    0.48077
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    8,
+    10
+   ],
+   "id": "rune_lamp",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "683cbd763be23dda8d29cb54a6334c8aefae4cc802f9cd9ae9349b123ccbcfd0"
+  },
+  {
+   "name": "fb_board_shade_converter_icon_00",
+   "file": "board/icon/fb_board_shade_converter_icon_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    120,
+    92,
+    112
+   ],
+   "rect_unity": [
+    4,
+    408,
+    92,
+    112
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    8
+   ],
+   "id": "shade_converter",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "cdd2eca36547671665a7f717cca28f94443f1c6b0562d54c8fbbb21b72feed7c"
+  },
+  {
+   "name": "fb_board_siphon_node_icon_00",
+   "file": "board/icon/fb_board_siphon_node_icon_00.png",
+   "page": 0,
+   "rect": [
+    432,
+    350,
+    88,
+    110
+   ],
+   "rect_unity": [
+    432,
+    180,
+    88,
+    110
+   ],
+   "pivot": [
+    0.5,
+    0.50909
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    20,
+    10
+   ],
+   "id": "siphon_node",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "ef3d73ebf3b5438d529081b6c3266209489bf8839fe3ddc4f0556af5cd460eb8"
+  },
+  {
+   "name": "fb_board_splitter_icon_00",
+   "file": "board/icon/fb_board_splitter_icon_00.png",
+   "page": 0,
+   "rect": [
+    119,
+    457,
+    111,
+    79
+   ],
+   "rect_unity": [
+    119,
+    104,
+    111,
+    79
+   ],
+   "pivot": [
+    0.4955,
+    0.49367
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    9,
+    24
    ],
    "id": "splitter",
    "variant": null,
    "state": "icon",
    "frame": 0,
-   "source_sha256": "ebc78798fe5d6a2ee11be45926d7da5c7d227601ae99e699dc8281928a9f5c5a"
+   "source_sha256": "3e886f1214d4a44a94a865d0c32af42f8aa2fc76b329824c83202140815aaf9b"
+  },
+  {
+   "name": "fb_board_status_echo_icon_00",
+   "file": "board/icon/fb_board_status_echo_icon_00.png",
+   "page": 0,
+   "rect": [
+    383,
+    120,
+    88,
+    112
+   ],
+   "rect_unity": [
+    383,
+    408,
+    88,
+    112
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    20,
+    8
+   ],
+   "id": "status_echo",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "310596c1e7b92668c33d8f6232ef3f02ef7d6b2c964b344f468215507d4a715d"
+  },
+  {
+   "name": "fb_board_storm_converter_icon_00",
+   "file": "board/icon/fb_board_storm_converter_icon_00.png",
+   "page": 0,
+   "rect": [
+    100,
+    120,
+    92,
+    112
+   ],
+   "rect_unity": [
+    100,
+    408,
+    92,
+    112
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    8
+   ],
+   "id": "storm_converter",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "1b38e1ae51c20e1e4fc05bee332bb4398eb54d2d5602427fb4cea5f1390b66d3"
+  },
+  {
+   "name": "fb_board_tesla_coil_icon_00",
+   "file": "board/icon/fb_board_tesla_coil_icon_00.png",
+   "page": 0,
+   "rect": [
+    636,
+    236,
+    92,
+    110
+   ],
+   "rect_unity": [
+    636,
+    294,
+    92,
+    110
+   ],
+   "pivot": [
+    0.5,
+    0.5
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    18,
+    9
+   ],
+   "id": "tesla_coil",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "eff11f316e44d68e4850c6ccac8861245a515e0302ba89e17227e3f0cc2d1793"
+  },
+  {
+   "name": "fb_board_tri_splitter_icon_00",
+   "file": "board/icon/fb_board_tri_splitter_icon_00.png",
+   "page": 0,
+   "rect": [
+    4,
+    457,
+    111,
+    81
+   ],
+   "rect_unity": [
+    4,
+    102,
+    111,
+    81
+   ],
+   "pivot": [
+    0.4955,
+    0.49383
+   ],
+   "source_size": [
+    128,
+    128
+   ],
+   "trim_offset": [
+    9,
+    23
+   ],
+   "id": "tri_splitter",
+   "variant": null,
+   "state": "icon",
+   "frame": 0,
+   "source_sha256": "d5e5bc40bd48dec4f03969a4b93a9aa6c7ee054e362bfdc6e69dbaa9a7676013"
   },
   {
    "name": "fb_board_whetstone_icon_00",
    "file": "board/icon/fb_board_whetstone_icon_00.png",
    "page": 0,
    "rect": [
-    394,
-    210,
-    204,
-    188
+    4,
+    236,
+    112,
+    111
    ],
    "rect_unity": [
-    394,
-    114,
-    204,
-    188
+    4,
+    293,
+    112,
+    111
    ],
    "pivot": [
     0.5,
-    0.49468
+    0.48649
    ],
    "source_size": [
-    256,
-    256
+    128,
+    128
    ],
    "trim_offset": [
-    26,
-    33
+    8,
+    7
    ],
    "id": "whetstone",
    "variant": null,
    "state": "icon",
    "frame": 0,
-   "source_sha256": "36f2b6bed460591011f703b40c64e6491a4e355b5089e6e1c66e019a86750d68"
+   "source_sha256": "0c4b2ea0dc295a39d2f9e3f075eac2f666156b28300b3873b6b4d6040f8afccb"
   }
  ],
  "clips": {}

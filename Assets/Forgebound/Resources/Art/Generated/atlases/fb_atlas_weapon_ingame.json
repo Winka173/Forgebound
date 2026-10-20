@@ -11,7 +11,7 @@
     1536,
     768
    ],
-   "sha256": "bfdd791d2ad8bc135abf9050909b132d244768ab98afee6e94be426cfc7a6bbb"
+   "sha256": "555faf5d7715e1aa462baa1d5e6e1f9c9bd1d6706402a04a85c17033f391cc8c"
   }
  ],
  "sprites": [
@@ -3787,7 +3787,7 @@
    "variant": "fire-t1",
    "state": "ingame",
    "frame": 0,
-   "source_sha256": "7352631e95d613d10caae623ab2f79ea2225aef5920d2e5b7cf90131289b3f59"
+   "source_sha256": "0430bb2fbe4e8776c47ed7e8e870d6de86137c349850baa59aed162d726eb520"
   },
   {
    "name": "fb_weapon_sword_frost-t1_ingame_00",
