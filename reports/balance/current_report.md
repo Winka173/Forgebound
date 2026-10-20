@@ -1,139 +1,145 @@
 # Balance report: current
 
-Runs: 640, battles: 5403, content hash `86d1d3c46f1a3316`.
+Runs: 1600, battles: 13049, content hash `ce04d8bfd0aba868`.
 Bots are deterministic heuristic agents; these are trends, not proof of fun. Human playtests are still required.
 
-**Overall win rate:** 38.3% (95% CI 34.6%–42.1%) (Δ vs baseline +0.0 pp)
+**Overall win rate:** 38.2% (95% CI 35.8%–40.6%) (Δ vs baseline -0.1 pp)
 
 ## Win rate by Forgemaster
 | key | n | win | 95% CI | Δ baseline |
 |---|---:|---:|---|---:|
-| alchemist | 80 | 37.5% | 27.7%–48.5% | 0.0 pp |
-| artificer | 80 | 18.8% | 11.7%–28.7% | 0.0 pp |
-| blacksmith | 80 | 28.8% | 20.0%–39.5% | 0.0 pp |
-| duelist | 80 | 35.0% | 25.5%–45.9% | 0.0 pp |
-| hexblade | 80 | 38.8% | 28.8%–49.7% | 0.0 pp |
-| runecrafter | 80 | 26.3% | 17.9%–36.8% | 0.0 pp |
-| summoner | 80 | 57.5% | 46.6%–67.7% | 0.0 pp |
-| warden | 80 | 63.8% | 52.8%–73.4% | 0.0 pp |
+| alchemist | 200 | 43.0% | 36.3%–49.9% | +5.5 pp |
+| artificer | 200 | 36.0% | 29.7%–42.9% | +17.3 pp |
+| blacksmith | 200 | 27.5% | 21.8%–34.1% | -1.3 pp |
+| duelist | 200 | 40.5% | 33.9%–47.4% | +5.5 pp |
+| hexblade | 200 | 32.0% | 25.9%–38.8% | -6.8 pp |
+| runecrafter | 200 | 27.0% | 21.3%–33.5% | +0.8 pp |
+| summoner | 200 | 45.0% | 38.3%–51.9% | -12.5 pp |
+| warden | 200 | 54.5% | 47.6%–61.3% | -9.2 pp |
 
 ## Win rate by policy
 | key | n | win | 95% CI | Δ baseline |
 |---|---:|---:|---|---:|
-| Aggressive | 128 | 40.6% | 32.5%–49.3% | 0.0 pp |
-| Balanced | 128 | 40.6% | 32.5%–49.3% | 0.0 pp |
-| Cautious | 128 | 40.6% | 32.5%–49.3% | 0.0 pp |
-| Circuit | 128 | 30.5% | 23.2%–38.9% | 0.0 pp |
-| Status | 128 | 39.1% | 31.1%–47.7% | 0.0 pp |
+| Aggressive | 320 | 41.6% | 36.3%–47.0% | +0.9 pp |
+| Balanced | 320 | 42.8% | 37.5%–48.3% | +2.2 pp |
+| Cautious | 320 | 40.3% | 35.1%–45.8% | -0.3 pp |
+| Circuit | 320 | 27.2% | 22.6%–32.3% | -3.3 pp |
+| Status | 320 | 39.1% | 33.9%–44.5% | 0.0 pp |
 
 ## Win rate by primary frame
 | key | n | win | 95% CI | Δ baseline |
 |---|---:|---:|---|---:|
-| bow | 1 | 0.0% | 0.0%–79.4% | 0.0 pp |
-| bulwark | 36 | 44.4% | 29.5%–60.4% | 0.0 pp |
-| crossbow | 7 | 100.0% | 64.6%–100.0% | 0.0 pp |
-| dagger | 199 | 34.7% | 28.4%–41.5% | 0.0 pp |
-| greatsword | 1 | 100.0% | 20.7%–100.0% | 0.0 pp |
-| hammer | 130 | 38.5% | 30.5%–47.0% | 0.0 pp |
-| scythe | 68 | 39.7% | 28.9%–51.6% | 0.0 pp |
-| spear | 7 | 42.9% | 15.8%–75.0% | 0.0 pp |
-| staff | 54 | 46.3% | 33.7%–59.4% | 0.0 pp |
-| sword | 117 | 34.2% | 26.2%–43.2% | 0.0 pp |
-| tome | 20 | 35.0% | 18.1%–56.7% | 0.0 pp |
+| bow | 16 | 31.3% | 14.2%–55.6% | +31.3 pp |
+| bulwark | 121 | 38.0% | 29.9%–46.9% | -6.4 pp |
+| crossbow | 12 | 83.3% | 55.2%–95.3% | -16.7 pp |
+| dagger | 442 | 41.2% | 36.7%–45.8% | +6.5 pp |
+| greatsword | 3 | 66.7% | 20.8%–93.9% | -33.3 pp |
+| hammer | 285 | 39.7% | 34.1%–45.4% | +1.2 pp |
+| scythe | 165 | 29.7% | 23.3%–37.1% | -10.0 pp |
+| spear | 16 | 50.0% | 28.0%–72.0% | +7.1 pp |
+| staff | 164 | 44.5% | 37.1%–52.2% | -1.8 pp |
+| sword | 272 | 33.5% | 28.1%–39.3% | -0.7 pp |
+| tome | 96 | 27.1% | 19.2%–36.7% | -7.9 pp |
+| whip | 8 | 75.0% | 40.9%–92.9% |  |
 
 ## Win rate by primary core
 | key | n | win | 95% CI | Δ baseline |
 |---|---:|---:|---|---:|
-| - | 3 | 33.3% | 6.2%–79.2% | 0.0 pp |
-| arcane | 59 | 45.8% | 33.7%–58.3% | 0.0 pp |
-| earth | 126 | 35.7% | 27.9%–44.4% | 0.0 pp |
-| fire | 43 | 34.9% | 22.4%–49.8% | 0.0 pp |
-| frost | 21 | 57.1% | 36.6%–75.5% | 0.0 pp |
-| life | 16 | 62.5% | 38.6%–81.5% | 0.0 pp |
-| lightning | 98 | 35.7% | 26.9%–45.6% | 0.0 pp |
-| shadow | 75 | 36.0% | 26.1%–47.3% | 0.0 pp |
-| solar | 27 | 44.4% | 27.6%–62.7% | 0.0 pp |
-| steel | 86 | 37.2% | 27.8%–47.8% | 0.0 pp |
-| venom | 62 | 35.5% | 24.7%–47.9% | 0.0 pp |
-| void | 15 | 6.7% | 1.2%–29.8% | 0.0 pp |
-| wind | 9 | 66.7% | 35.4%–87.9% | 0.0 pp |
+| - | 11 | 9.1% | 1.6%–37.7% | -24.2 pp |
+| arcane | 162 | 43.2% | 35.8%–50.9% | -2.6 pp |
+| earth | 343 | 33.5% | 28.7%–38.7% | -2.2 pp |
+| fire | 95 | 53.7% | 43.7%–63.4% | +18.8 pp |
+| frost | 24 | 45.8% | 27.9%–64.9% | -11.3 pp |
+| life | 16 | 75.0% | 50.5%–89.8% | +12.5 pp |
+| lightning | 246 | 32.5% | 27.0%–38.6% | -3.2 pp |
+| shadow | 174 | 31.0% | 24.6%–38.3% | -5.0 pp |
+| solar | 37 | 37.8% | 24.1%–53.9% | -6.6 pp |
+| steel | 220 | 40.9% | 34.6%–47.5% | +3.7 pp |
+| venom | 202 | 40.1% | 33.6%–47.0% | +4.6 pp |
+| void | 28 | 46.4% | 29.5%–64.2% | +39.8 pp |
+| wind | 42 | 45.2% | 31.2%–60.1% | -21.4 pp |
 
 ## Chapter progression
-- chapter1: reached 640, clear rate 93.4%
-- chapter2: reached 598, clear rate 81.1%
-- chapter3: reached 485, clear rate 50.5%
+- chapter1: reached 1600, clear rate 91.3%
+- chapter2: reached 1460, clear rate 79.8%
+- chapter3: reached 1165, clear rate 52.5%
 
 ## Hardest encounters (loss rate, n ≥ 5)
 | encounter | n | loss | median s | p90 s | median HP loss % |
 |---|---:|---:|---:|---:|---:|
-| storm_boss_tyrant | 193 | 46.6% | 30.3 | 57.6 | 46 |
-| storm_boss_colossus | 229 | 38.0% | 38.4 | 67 | 43.1 |
-| frost_boss_wyrm | 210 | 29.5% | 34.7 | 50.5 | 58.1 |
-| storm_paragon | 79 | 24.1% | 20.7 | 37.1 | 31 |
-| frost_boss_sovereign | 148 | 12.8% | 24.4 | 48 | 36.9 |
-| storm_drone_swarm | 187 | 12.3% | 12.5 | 18.5 | 46.4 |
-| crypt_bat_swarm | 36 | 11.1% | 21.8 | 57 | 36 |
-| storm_lancer_charge | 132 | 10.6% | 6.1 | 8.3 | 29.1 |
-| verdant_boss_bloom | 76 | 9.2% | 24.3 | 53 | 27.3 |
-| ember_wisp_flock | 232 | 9.1% | 10.7 | 24.4 | 3.2 |
+| storm_boss_colossus | 357 | 37.8% | 32.9 | 56.3 | 41 |
+| storm_boss_tyrant | 623 | 37.6% | 28.7 | 53.2 | 43.1 |
+| frost_boss_wyrm | 402 | 31.1% | 33 | 50.5 | 56.8 |
+| storm_paragon | 368 | 24.7% | 19.7 | 30.1 | 38.5 |
+| storm_drone_swarm | 286 | 18.2% | 12.4 | 18.6 | 48.6 |
+| crypt_boss_lich | 231 | 13.4% | 26 | 44.5 | 31.3 |
+| crypt_bat_swarm | 233 | 11.2% | 18.7 | 31.5 | 23.6 |
+| verdant_treant | 359 | 10.6% | 19.9 | 130.4 | 17.7 |
+| verdant_boss_bloom | 270 | 10.4% | 23.4 | 45.4 | 25.7 |
+| frost_boss_sovereign | 372 | 9.1% | 24.5 | 42.3 | 33.3 |
 
 ## Weapon DPS by frame (median per battle)
-- bow: 12.98 (p90 25.57, n 1370), per cell 4.33
-- bulwark: 8.02 (p90 18.22, n 784), per cell 2.01
-- crossbow: 28.4 (p90 57.18, n 109), per cell 7.1
-- dagger: 18.42 (p90 36.87, n 1660), per cell 9.21
-- greatsword: 11.81 (p90 30.11, n 27), per cell 2.36
-- hammer: 17.9 (p90 38.57, n 1001), per cell 3.58
-- scythe: 18.11 (p90 42.42, n 928), per cell 4.53
-- spear: 18.13 (p90 31.01, n 191), per cell 4.53
-- staff: 18.12 (p90 38.83, n 1236), per cell 4.53
-- sword: 19.04 (p90 36.28, n 1014), per cell 6.35
-- tome: 13.97 (p90 26.61, n 860), per cell 6.98
-- whip: 14.35 (p90 23.39, n 114), per cell 4.78
+- bow: 14.45 (p90 28.77, n 3730), per cell 4.82
+- bulwark: 7.88 (p90 17.15, n 1767), per cell 1.97
+- crossbow: 26.22 (p90 47.46, n 243), per cell 6.56
+- dagger: 19.07 (p90 38.1, n 3768), per cell 9.53
+- greatsword: 20 (p90 47.32, n 90), per cell 4
+- hammer: 17.86 (p90 39.69, n 2404), per cell 3.57
+- scythe: 18.32 (p90 39.81, n 1835), per cell 4.58
+- spear: 16.35 (p90 33.13, n 440), per cell 4.09
+- staff: 18.83 (p90 42.86, n 2694), per cell 4.71
+- sword: 20.33 (p90 40.26, n 2451), per cell 6.78
+- tome: 12.94 (p90 24.34, n 2022), per cell 6.47
+- whip: 14.06 (p90 23.19, n 525), per cell 4.69
 
 ## Economy
-- shopDeadOfferRate: 0.1295
+- shopDeadOfferRate: 0.141
 - avgRerollsPerRun: 0.41
-- avgGoldSpent: 177.9
-- avgGoldUnspentAtEnd: 93.3
-- avgItemsBought: 3.54
-- runsWithLegendary: 25
+- avgGoldSpent: 179.2
+- avgGoldUnspentAtEnd: 86.7
+- avgItemsBought: 3.48
+- runsWithLegendary: 64
 - medianFirstLegendaryStep: 14
 ## Sustain
-- healingPctOfDamageTaken: 8.4
-- shieldPctOfDamageTaken: 48
+- healingPctOfDamageTaken: 9.4
+- shieldPctOfDamageTaken: 37.4
 ## Diversity
-- uniquePrimaryBuilds: 45
-- simpsonIndex: 0.9259
+- uniquePrimaryBuilds: 64
+- simpsonIndex: 0.9209
 - mostCommon: "dagger+steel"
-- mostCommonShare: 0.1344
+- mostCommonShare: 0.1312
 ## Procs & simulation performance
 - procs.maxPerTickMedian: 2
 - procs.maxPerTickP90: 4
-- procs.maxPerTickMax: 16
+- procs.maxPerTickMax: 21
 - procs.maxChainDepth: 3
-- procs.suppressedTotal: 73
-- performance.battleSimMsMedian: 2.37
-- performance.battleSimMsP90: 5.27
+- procs.suppressedTotal: 117
+- performance.battleSimMsMedian: 2.38
+- performance.battleSimMsP90: 5.4
 - performance.peakProjectilesP90: 4
-- performance.peakProjectilesMax: 14
+- performance.peakProjectilesMax: 22
 - performance.note: "Headless desktop CPU timing of the simulation only; not a device frame-rate measurement."
 ## Runes never triggered while equipped (≥3 battles)
-deep_freeze, last_stand, shard_burst
+deep_freeze
 ## Runes never equipped by bots
-pack_leader
+
 ## Legendary outcomes
-- (none): n 615, win 37.4%
-- bloodmoon_scythe: n 4, win 100.0%
-- earthshaker_bulwark: n 9, win 66.7%
-- grimoire_of_legions: n 1, win 100.0%
-- runeblade: n 1, win 0.0%
-- windrunner_bow: n 2, win 0.0%
-- worldbreaker: n 8, win 50.0%
+- (none): n 1536, win 37.2%
+- bloodmoon_scythe: n 9, win 100.0%
+- earthshaker_bulwark: n 17, win 70.6%
+- frostfang_daggers: n 1, win 0.0%
+- grimoire_of_legions: n 2, win 50.0%
+- runeblade: n 5, win 0.0%
+- soul_harvester: n 1, win 100.0%
+- stormpiercer: n 1, win 0.0%
+- thousandfold_edge: n 8, win 75.0%
+- thunder_maul: n 1, win 100.0%
+- windrunner_bow: n 5, win 20.0%
+- worldbreaker: n 14, win 57.1%
 ## Flags
-- underperformer: forgemaster artificer win 0.1875 (CI high 0.2866) vs overall 0.383
-- overperformer: forgemaster summoner win 0.575 (CI low 0.4657) vs overall 0.383
-- overperformer: forgemaster warden win 0.6375 (CI low 0.5281) vs overall 0.383
-- underperformer: core void win 0.0667 (CI high 0.2982) vs overall 0.383
-- difficulty_spike: encounter storm_boss_colossus loss rate 0.3799
-- difficulty_spike: encounter storm_boss_tyrant loss rate 0.4663
+- overperformer: forgemaster warden win 0.545 (CI low 0.4758) vs overall 0.382
+- overperformer: frame crossbow win 0.8333 (CI low 0.552) vs overall 0.382
+- overperformer: core fire win 0.5368 (CI low 0.4371) vs overall 0.382
+- overperformer: core life win 0.75 (CI low 0.505) vs overall 0.382
+- difficulty_spike: encounter storm_boss_colossus loss rate 0.3782
+- difficulty_spike: encounter storm_boss_tyrant loss rate 0.3756

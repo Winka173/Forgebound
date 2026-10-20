@@ -13,7 +13,7 @@ Không có Unity Editor trong môi trường này → mọi thứ phụ thuộc 
 | 5 — Mở rộng nội dung | ✅ | 8 Forgemaster, 12 Frame, 12 Core, 45 Modifier, 52 Rune, 36 mảnh board, 42 Legendary, 52 kẻ địch (10 boss), 5 biome, 44 event, 110 phước/nguyền (35 nguyền) — validator 0 lỗi |
 | 6 — Art + Audio | ✅ pipeline / 🟡 chất lượng | Blender pipeline + Art Quality Validator (0 FAIL) + 23 test; 450 sprite batch 1; batch 2 xem dưới; 67 clip âm thanh gốc + validator |
 | 7 — Game feel / UX | 🟡 | VFX pool, telegraph, số sát thương, link beam, âm thanh giới hạn tần suất, undo/redo, gợi ý, cài đặt trợ năng, EN/VI 0 thiếu khóa — cần kiểm chứng trong Unity |
-| 8 — Balance & Stability | ✅ công cụ / 🟡 số liệu | Simulator, tournament, duel, 54/54 kịch bản adversarial PASS; Normal 38.3% (bot) — còn lệch Forgemaster (KI-05) |
+| 8 — Balance & Stability | ✅ công cụ / 🟡 số liệu | Simulator, tournament, duel, 54/54 kịch bản adversarial PASS; Normal 38.2% (bot, 3200 run) — còn lệch Forgemaster 27–54.5% (KI-05) |
 | 9 — Release Candidate | ❌ | Chưa build Windows/Android/iOS (cần Unity) — KI-01/KI-02 |
 
 ## Lệnh đã chạy & kết quả gần nhất
@@ -21,7 +21,7 @@ Không có Unity Editor trong môi trường này → mọi thứ phụ thuộc 
 - `forgebound validate` → 0 lỗi, 16 cảnh báo (vòng proc tiềm năng, đã có chặn runtime).
 - `forgebound loc-check` → EN 1363 / VI 1363 chuỗi, 0 thiếu.
 - `forgebound scenarios` → 54/54 PASS.
-- `forgebound sim --seeds 16` → 640 run, thắng 38.3% (CI 34.6–42.1%); Story 80.8%, Hard 16.3%.
+- `forgebound sim --seeds 40` → 3200 run, thắng 38.2% (CI 35.8–40.6%); Story 80.8%, Hard 16.3%.
 - `forgebound tournament --builds 600` → không thành phần nào lệch quá ±15pp.
 - `art_validator.py` → 446 PASS / 4 WARN / 0 FAIL (batch 1); `audio_validator.py` → 62 clip, 0 FAIL.
 - `PresentationCheck` (stub Unity API) → build thành công.

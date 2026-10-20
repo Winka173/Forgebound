@@ -95,8 +95,8 @@
       "id": "bulwark", "tags": ["melee", "defensive", "blunt", "shield"], "stance": "melee", "range": 1.5,
       "baseDamage": 9, "cooldown": 1.1, "windup": 0.2, "critChance": 0.03,
       "steps": [
-        { "kind": "melee", "shape": "single", "damage": 1.0, "shield": 0.25 },
-        { "kind": "melee", "shape": "single", "damage": 1.2, "shield": 0.25, "stagger": 0.35 }
+        { "kind": "melee", "shape": "single", "damage": 1.0, "shield": 0.22 },
+        { "kind": "melee", "shape": "single", "damage": 1.2, "shield": 0.22, "stagger": 0.35 }
       ],
       "footprint": [[0,0],[1,0],[0,1],[1,1]],
       "ports": [ { "cell": 0, "dir": "west", "kind": "in" }, { "cell": 1, "dir": "east", "kind": "out" }, { "cell": 2, "dir": "west", "kind": "both" }, { "cell": 3, "dir": "east", "kind": "both" } ],

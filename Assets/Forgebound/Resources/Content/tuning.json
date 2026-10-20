@@ -2,7 +2,7 @@
 {
   "version": 1,
   "enemyHpByChapter": [1.0, 1.0, 1.0],
-  "enemyDamageByChapter": [0.6, 0.56, 0.64],
+  "enemyDamageByChapter": [0.6, 0.56, 0.6],
   "bossHp": 0.8,
   "bossDamage": 0.6,
   "eliteHp": 1.0,
