@@ -19,6 +19,7 @@ namespace Forgebound.Cli
                     case "duel": return DuelCommand.Run(args);
                     case "tournament": return TournamentCommand.Run(args);
                     case "loc-check": return LocCommands.Check(args);
+                    case "scenarios": return ScenarioCommand.Run(args);
                     case "tooltips": return LocCommands.Tooltips(args);
                     default: Usage(); return 2;
                 }

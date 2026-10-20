@@ -1,0 +1,1535 @@
+{
+  "runs": 480,
+  "battles": 3952,
+  "overall": {
+    "n": 480,
+    "wins": 233,
+    "rate": 0.4854,
+    "ci95": [
+      0.441,
+      0.5301
+    ]
+  },
+  "byForgemaster": {
+    "alchemist": {
+      "n": 60,
+      "wins": 29,
+      "rate": 0.4833,
+      "ci95": [
+        0.3617,
+        0.6069
+      ]
+    },
+    "artificer": {
+      "n": 60,
+      "wins": 23,
+      "rate": 0.3833,
+      "ci95": [
+        0.2709,
+        0.5098
+      ]
+    },
+    "blacksmith": {
+      "n": 60,
+      "wins": 14,
+      "rate": 0.2333,
+      "ci95": [
+        0.1444,
+        0.3544
+      ]
+    },
+    "duelist": {
+      "n": 60,
+      "wins": 31,
+      "rate": 0.5167,
+      "ci95": [
+        0.3931,
+        0.6383
+      ]
+    },
+    "hexblade": {
+      "n": 60,
+      "wins": 38,
+      "rate": 0.6333,
+      "ci95": [
+        0.5068,
+        0.7438
+      ]
+    },
+    "runecrafter": {
+      "n": 60,
+      "wins": 24,
+      "rate": 0.4,
+      "ci95": [
+        0.2857,
+        0.5263
+      ]
+    },
+    "summoner": {
+      "n": 60,
+      "wins": 34,
+      "rate": 0.5667,
+      "ci95": [
+        0.441,
+        0.6843
+      ]
+    },
+    "warden": {
+      "n": 60,
+      "wins": 40,
+      "rate": 0.6667,
+      "ci95": [
+        0.5406,
+        0.7727
+      ]
+    }
+  },
+  "byDifficulty": {
+    "d0": {
+      "n": 240,
+      "wins": 194,
+      "rate": 0.8083,
+      "ci95": [
+        0.7538,
+        0.8531
+      ]
+    },
+    "d2": {
+      "n": 240,
+      "wins": 39,
+      "rate": 0.1625,
+      "ci95": [
+        0.1212,
+        0.2144
+      ]
+    }
+  },
+  "byPolicy": {
+    "Aggressive": {
+      "n": 96,
+      "wins": 50,
+      "rate": 0.5208,
+      "ci95": [
+        0.422,
+        0.618
+      ]
+    },
+    "Balanced": {
+      "n": 96,
+      "wins": 50,
+      "rate": 0.5208,
+      "ci95": [
+        0.422,
+        0.618
+      ]
+    },
+    "Cautious": {
+      "n": 96,
+      "wins": 44,
+      "rate": 0.4583,
+      "ci95": [
+        0.3622,
+        0.5577
+      ]
+    },
+    "Circuit": {
+      "n": 96,
+      "wins": 41,
+      "rate": 0.4271,
+      "ci95": [
+        0.3328,
+        0.527
+      ]
+    },
+    "Status": {
+      "n": 96,
+      "wins": 48,
+      "rate": 0.5,
+      "ci95": [
+        0.4019,
+        0.5981
+      ]
+    }
+  },
+  "byPrimaryFrame": {
+    "bulwark": {
+      "n": 24,
+      "wins": 11,
+      "rate": 0.4583,
+      "ci95": [
+        0.2789,
+        0.6493
+      ]
+    },
+    "crossbow": {
+      "n": 14,
+      "wins": 10,
+      "rate": 0.7143,
+      "ci95": [
+        0.4535,
+        0.8828
+      ]
+    },
+    "dagger": {
+      "n": 152,
+      "wins": 77,
+      "rate": 0.5066,
+      "ci95": [
+        0.4279,
+        0.5849
+      ]
+    },
+    "hammer": {
+      "n": 105,
+      "wins": 43,
+      "rate": 0.4095,
+      "ci95": [
+        0.3203,
+        0.5052
+      ]
+    },
+    "scythe": {
+      "n": 61,
+      "wins": 38,
+      "rate": 0.623,
+      "ci95": [
+        0.4975,
+        0.7339
+      ]
+    },
+    "spear": {
+      "n": 8,
+      "wins": 2,
+      "rate": 0.25,
+      "ci95": [
+        0.0715,
+        0.5907
+      ]
+    },
+    "staff": {
+      "n": 29,
+      "wins": 13,
+      "rate": 0.4483,
+      "ci95": [
+        0.2841,
+        0.6245
+      ]
+    },
+    "sword": {
+      "n": 73,
+      "wins": 35,
+      "rate": 0.4795,
+      "ci95": [
+        0.3688,
+        0.5922
+      ]
+    },
+    "tome": {
+      "n": 13,
+      "wins": 3,
+      "rate": 0.2308,
+      "ci95": [
+        0.0818,
+        0.5026
+      ]
+    },
+    "whip": {
+      "n": 1,
+      "wins": 1,
+      "rate": 1,
+      "ci95": [
+        0.2065,
+        1
+      ]
+    }
+  },
+  "byPrimaryCore": {
+    "-": {
+      "n": 1,
+      "wins": 1,
+      "rate": 1,
+      "ci95": [
+        0.2065,
+        1
+      ]
+    },
+    "arcane": {
+      "n": 66,
+      "wins": 35,
+      "rate": 0.5303,
+      "ci95": [
+        0.4116,
+        0.6457
+      ]
+    },
+    "earth": {
+      "n": 86,
+      "wins": 26,
+      "rate": 0.3023,
+      "ci95": [
+        0.2154,
+        0.4061
+      ]
+    },
+    "fire": {
+      "n": 36,
+      "wins": 17,
+      "rate": 0.4722,
+      "ci95": [
+        0.3199,
+        0.6299
+      ]
+    },
+    "frost": {
+      "n": 13,
+      "wins": 8,
+      "rate": 0.6154,
+      "ci95": [
+        0.3552,
+        0.8229
+      ]
+    },
+    "life": {
+      "n": 28,
+      "wins": 21,
+      "rate": 0.75,
+      "ci95": [
+        0.5664,
+        0.8732
+      ]
+    },
+    "lightning": {
+      "n": 62,
+      "wins": 26,
+      "rate": 0.4194,
+      "ci95": [
+        0.3048,
+        0.5433
+      ]
+    },
+    "shadow": {
+      "n": 40,
+      "wins": 25,
+      "rate": 0.625,
+      "ci95": [
+        0.4703,
+        0.7578
+      ]
+    },
+    "solar": {
+      "n": 10,
+      "wins": 6,
+      "rate": 0.6,
+      "ci95": [
+        0.3127,
+        0.8318
+      ]
+    },
+    "steel": {
+      "n": 60,
+      "wins": 31,
+      "rate": 0.5167,
+      "ci95": [
+        0.3931,
+        0.6383
+      ]
+    },
+    "venom": {
+      "n": 52,
+      "wins": 25,
+      "rate": 0.4808,
+      "ci95": [
+        0.351,
+        0.6131
+      ]
+    },
+    "void": {
+      "n": 10,
+      "wins": 3,
+      "rate": 0.3,
+      "ci95": [
+        0.1078,
+        0.6032
+      ]
+    },
+    "wind": {
+      "n": 16,
+      "wins": 9,
+      "rate": 0.5625,
+      "ci95": [
+        0.3318,
+        0.769
+      ]
+    }
+  },
+  "byLegendary": {
+    "(none)": {
+      "n": 469,
+      "wins": 223,
+      "rate": 0.4755,
+      "ci95": [
+        0.4307,
+        0.5207
+      ]
+    },
+    "bloodmoon_scythe": {
+      "n": 3,
+      "wins": 3,
+      "rate": 1,
+      "ci95": [
+        0.4385,
+        1
+      ]
+    },
+    "earthshaker_bulwark": {
+      "n": 6,
+      "wins": 6,
+      "rate": 1,
+      "ci95": [
+        0.6097,
+        1
+      ]
+    },
+    "runeblade": {
+      "n": 1,
+      "wins": 0,
+      "rate": 0,
+      "ci95": [
+        0,
+        0.7935
+      ]
+    },
+    "worldbreaker": {
+      "n": 1,
+      "wins": 1,
+      "rate": 1,
+      "ci95": [
+        0.2065,
+        1
+      ]
+    }
+  },
+  "byBlessing": {
+    "berserker_blood": {
+      "n": 120,
+      "wins": 67,
+      "rate": 0.5583,
+      "ci95": [
+        0.469,
+        0.644
+      ]
+    },
+    "chain_lore": {
+      "n": 68,
+      "wins": 35,
+      "rate": 0.5147,
+      "ci95": [
+        0.3983,
+        0.6295
+      ]
+    },
+    "chain_reaction": {
+      "n": 5,
+      "wins": 5,
+      "rate": 1,
+      "ci95": [
+        0.5655,
+        1
+      ]
+    },
+    "circuit_mastery": {
+      "n": 1,
+      "wins": 1,
+      "rate": 1,
+      "ci95": [
+        0.2065,
+        1
+      ]
+    },
+    "deep_forge": {
+      "n": 14,
+      "wins": 5,
+      "rate": 0.3571,
+      "ci95": [
+        0.1634,
+        0.6124
+      ]
+    },
+    "discerning_taste": {
+      "n": 14,
+      "wins": 11,
+      "rate": 0.7857,
+      "ci95": [
+        0.5241,
+        0.9243
+      ]
+    },
+    "echoing_forge": {
+      "n": 66,
+      "wins": 51,
+      "rate": 0.7727,
+      "ci95": [
+        0.6583,
+        0.8571
+      ]
+    },
+    "ember_halo": {
+      "n": 61,
+      "wins": 61,
+      "rate": 1,
+      "ci95": [
+        0.9408,
+        1
+      ]
+    },
+    "essence_affinity": {
+      "n": 12,
+      "wins": 4,
+      "rate": 0.3333,
+      "ci95": [
+        0.1381,
+        0.6094
+      ]
+    },
+    "executioners_focus": {
+      "n": 14,
+      "wins": 5,
+      "rate": 0.3571,
+      "ci95": [
+        0.1634,
+        0.6124
+      ]
+    },
+    "expanded_forge": {
+      "n": 19,
+      "wins": 3,
+      "rate": 0.1579,
+      "ci95": [
+        0.0552,
+        0.3757
+      ]
+    },
+    "first_blood": {
+      "n": 38,
+      "wins": 30,
+      "rate": 0.7895,
+      "ci95": [
+        0.6365,
+        0.8893
+      ]
+    },
+    "fletchers_gift": {
+      "n": 1,
+      "wins": 1,
+      "rate": 1,
+      "ci95": [
+        0.2065,
+        1
+      ]
+    },
+    "forge_hammered": {
+      "n": 16,
+      "wins": 5,
+      "rate": 0.3125,
+      "ci95": [
+        0.1416,
+        0.556
+      ]
+    },
+    "giants_heart": {
+      "n": 11,
+      "wins": 9,
+      "rate": 0.8182,
+      "ci95": [
+        0.523,
+        0.9486
+      ]
+    },
+    "guardian_angel": {
+      "n": 5,
+      "wins": 5,
+      "rate": 1,
+      "ci95": [
+        0.5655,
+        1
+      ]
+    },
+    "harmonic_anvils": {
+      "n": 3,
+      "wins": 1,
+      "rate": 0.3333,
+      "ci95": [
+        0.0615,
+        0.7923
+      ]
+    },
+    "healers_touch": {
+      "n": 4,
+      "wins": 3,
+      "rate": 0.75,
+      "ci95": [
+        0.3006,
+        0.9544
+      ]
+    },
+    "iron_skin": {
+      "n": 8,
+      "wins": 8,
+      "rate": 1,
+      "ci95": [
+        0.6756,
+        1
+      ]
+    },
+    "keen_eye": {
+      "n": 23,
+      "wins": 23,
+      "rate": 1,
+      "ci95": [
+        0.8569,
+        1
+      ]
+    },
+    "kingsbane": {
+      "n": 4,
+      "wins": 4,
+      "rate": 1,
+      "ci95": [
+        0.5101,
+        1
+      ]
+    },
+    "lucky_dice": {
+      "n": 32,
+      "wins": 32,
+      "rate": 1,
+      "ci95": [
+        0.8928,
+        1
+      ]
+    },
+    "marking_light": {
+      "n": 2,
+      "wins": 2,
+      "rate": 1,
+      "ci95": [
+        0.3424,
+        1
+      ]
+    },
+    "merchant_friend": {
+      "n": 56,
+      "wins": 31,
+      "rate": 0.5536,
+      "ci95": [
+        0.4241,
+        0.6761
+      ]
+    },
+    "opening_salvo": {
+      "n": 11,
+      "wins": 11,
+      "rate": 1,
+      "ci95": [
+        0.7412,
+        1
+      ]
+    },
+    "quick_hands": {
+      "n": 70,
+      "wins": 35,
+      "rate": 0.5,
+      "ci95": [
+        0.386,
+        0.614
+      ]
+    },
+    "radiant_heart": {
+      "n": 56,
+      "wins": 35,
+      "rate": 0.625,
+      "ci95": [
+        0.4941,
+        0.7399
+      ]
+    },
+    "reapers_toll": {
+      "n": 57,
+      "wins": 55,
+      "rate": 0.9649,
+      "ci95": [
+        0.8808,
+        0.9903
+      ]
+    },
+    "second_wind": {
+      "n": 6,
+      "wins": 4,
+      "rate": 0.6667,
+      "ci95": [
+        0.3,
+        0.9032
+      ]
+    },
+    "sickly": {
+      "n": 79,
+      "wins": 51,
+      "rate": 0.6456,
+      "ci95": [
+        0.5356,
+        0.742
+      ]
+    },
+    "spiked_mail": {
+      "n": 36,
+      "wins": 25,
+      "rate": 0.6944,
+      "ci95": [
+        0.5314,
+        0.82
+      ]
+    },
+    "spirit_companion": {
+      "n": 3,
+      "wins": 3,
+      "rate": 1,
+      "ci95": [
+        0.4385,
+        1
+      ]
+    },
+    "stormcaller": {
+      "n": 3,
+      "wins": 1,
+      "rate": 0.3333,
+      "ci95": [
+        0.0615,
+        0.7923
+      ]
+    },
+    "summoners_pact": {
+      "n": 1,
+      "wins": 1,
+      "rate": 1,
+      "ci95": [
+        0.2065,
+        1
+      ]
+    },
+    "swift_shafts": {
+      "n": 55,
+      "wins": 48,
+      "rate": 0.8727,
+      "ci95": [
+        0.7598,
+        0.937
+      ]
+    },
+    "troll_blood": {
+      "n": 79,
+      "wins": 51,
+      "rate": 0.6456,
+      "ci95": [
+        0.5356,
+        0.742
+      ]
+    },
+    "vampiric_draught": {
+      "n": 80,
+      "wins": 31,
+      "rate": 0.3875,
+      "ci95": [
+        0.2882,
+        0.4971
+      ]
+    },
+    "wildfire": {
+      "n": 46,
+      "wins": 34,
+      "rate": 0.7391,
+      "ci95": [
+        0.5974,
+        0.844
+      ]
+    }
+  },
+  "chapters": {
+    "chapter1": {
+      "reached": 480,
+      "cleared": 458,
+      "clearRate": 0.9542
+    },
+    "chapter2": {
+      "reached": 458,
+      "cleared": 345,
+      "clearRate": 0.7533
+    },
+    "chapter3": {
+      "reached": 345,
+      "cleared": 233,
+      "clearRate": 0.6754
+    }
+  },
+  "encounters": {
+    "crypt_bat_swarm": {
+      "n": 64,
+      "lossRate": 0.1406,
+      "medianSeconds": 22.8,
+      "p90Seconds": 40,
+      "medianHpLossPct": 40.9
+    },
+    "crypt_bone_patrol": {
+      "n": 67,
+      "lossRate": 0,
+      "medianSeconds": 7.8,
+      "p90Seconds": 13.6,
+      "medianHpLossPct": 0
+    },
+    "crypt_boss_choir": {
+      "n": 69,
+      "lossRate": 0.0435,
+      "medianSeconds": 25,
+      "p90Seconds": 42.1,
+      "medianHpLossPct": 1.8
+    },
+    "crypt_boss_lich": {
+      "n": 137,
+      "lossRate": 0.0803,
+      "medianSeconds": 22.9,
+      "p90Seconds": 53.3,
+      "medianHpLossPct": 15
+    },
+    "crypt_colossus": {
+      "n": 16,
+      "lossRate": 0,
+      "medianSeconds": 16.1,
+      "p90Seconds": 29.3,
+      "medianHpLossPct": 10.5
+    },
+    "crypt_ghoul_pack": {
+      "n": 214,
+      "lossRate": 0.1121,
+      "medianSeconds": 7.6,
+      "p90Seconds": 23.5,
+      "medianHpLossPct": 5.5
+    },
+    "ember_bandit_raid": {
+      "n": 292,
+      "lossRate": 0,
+      "medianSeconds": 10.3,
+      "p90Seconds": 18.2,
+      "medianHpLossPct": 6.7
+    },
+    "ember_bellows_crew": {
+      "n": 148,
+      "lossRate": 0,
+      "medianSeconds": 8.1,
+      "p90Seconds": 13.5,
+      "medianHpLossPct": 2.7
+    },
+    "ember_boss_kaldur": {
+      "n": 150,
+      "lossRate": 0,
+      "medianSeconds": 20,
+      "p90Seconds": 34.3,
+      "medianHpLossPct": 21
+    },
+    "ember_boss_titan": {
+      "n": 240,
+      "lossRate": 0.0042,
+      "medianSeconds": 18.5,
+      "p90Seconds": 34.9,
+      "medianHpLossPct": 10.8
+    },
+    "ember_brute_line": {
+      "n": 124,
+      "lossRate": 0,
+      "medianSeconds": 9.7,
+      "p90Seconds": 17,
+      "medianHpLossPct": 3.8
+    },
+    "ember_foreman": {
+      "n": 146,
+      "lossRate": 0,
+      "medianSeconds": 13.9,
+      "p90Seconds": 28.6,
+      "medianHpLossPct": 11.4
+    },
+    "ember_scrap_swarm": {
+      "n": 172,
+      "lossRate": 0,
+      "medianSeconds": 9.3,
+      "p90Seconds": 20.3,
+      "medianHpLossPct": 0
+    },
+    "ember_slinger_nest": {
+      "n": 80,
+      "lossRate": 0,
+      "medianSeconds": 6.7,
+      "p90Seconds": 10.9,
+      "medianHpLossPct": 9.2
+    },
+    "ember_wisp_flock": {
+      "n": 80,
+      "lossRate": 0.125,
+      "medianSeconds": 10.6,
+      "p90Seconds": 80.7,
+      "medianHpLossPct": 1.8
+    },
+    "frost_archer_line": {
+      "n": 80,
+      "lossRate": 0,
+      "medianSeconds": 9.2,
+      "p90Seconds": 13.1,
+      "medianHpLossPct": 9.1
+    },
+    "frost_boss_wyrm": {
+      "n": 206,
+      "lossRate": 0.2573,
+      "medianSeconds": 28.8,
+      "p90Seconds": 41.1,
+      "medianHpLossPct": 40
+    },
+    "frost_countess": {
+      "n": 82,
+      "lossRate": 0.0488,
+      "medianSeconds": 16.9,
+      "p90Seconds": 28.5,
+      "medianHpLossPct": 23.6
+    },
+    "frost_knight_pair": {
+      "n": 54,
+      "lossRate": 0,
+      "medianSeconds": 11.5,
+      "p90Seconds": 25.5,
+      "medianHpLossPct": 8
+    },
+    "frost_shard_storm": {
+      "n": 2,
+      "lossRate": 0,
+      "medianSeconds": 11.1,
+      "p90Seconds": 16.6,
+      "medianHpLossPct": 19.1
+    },
+    "frost_sprite_court": {
+      "n": 137,
+      "lossRate": 0.0657,
+      "medianSeconds": 12.2,
+      "p90Seconds": 23.6,
+      "medianHpLossPct": 19
+    },
+    "frost_wraith_gale": {
+      "n": 68,
+      "lossRate": 0,
+      "medianSeconds": 12.8,
+      "p90Seconds": 19.6,
+      "medianHpLossPct": 3.6
+    },
+    "storm_adept_cell": {
+      "n": 10,
+      "lossRate": 0,
+      "medianSeconds": 8.5,
+      "p90Seconds": 10.9,
+      "medianHpLossPct": 12.4
+    },
+    "storm_aegis_bastion": {
+      "n": 102,
+      "lossRate": 0.0098,
+      "medianSeconds": 8.9,
+      "p90Seconds": 11.7,
+      "medianHpLossPct": 10
+    },
+    "storm_boss_colossus": {
+      "n": 147,
+      "lossRate": 0.2789,
+      "medianSeconds": 40.1,
+      "p90Seconds": 62.4,
+      "medianHpLossPct": 28
+    },
+    "storm_boss_tyrant": {
+      "n": 170,
+      "lossRate": 0.2529,
+      "medianSeconds": 29,
+      "p90Seconds": 47.5,
+      "medianHpLossPct": 47.7
+    },
+    "storm_conscript_march": {
+      "n": 234,
+      "lossRate": 0.0128,
+      "medianSeconds": 7,
+      "p90Seconds": 10.2,
+      "medianHpLossPct": 8.6
+    },
+    "storm_drone_swarm": {
+      "n": 136,
+      "lossRate": 0.1691,
+      "medianSeconds": 12.7,
+      "p90Seconds": 18.5,
+      "medianHpLossPct": 41
+    },
+    "storm_hound_pack": {
+      "n": 50,
+      "lossRate": 0,
+      "medianSeconds": 6.5,
+      "p90Seconds": 14.6,
+      "medianHpLossPct": 12.7
+    },
+    "storm_lancer_charge": {
+      "n": 76,
+      "lossRate": 0.0132,
+      "medianSeconds": 6.3,
+      "p90Seconds": 8.7,
+      "medianHpLossPct": 21.8
+    },
+    "storm_paragon": {
+      "n": 18,
+      "lossRate": 0,
+      "medianSeconds": 18,
+      "p90Seconds": 30.3,
+      "medianHpLossPct": 40
+    },
+    "storm_sentinel_wall": {
+      "n": 49,
+      "lossRate": 0,
+      "medianSeconds": 8.4,
+      "p90Seconds": 11.2,
+      "medianHpLossPct": 9.5
+    },
+    "verdant_boss_bloom": {
+      "n": 72,
+      "lossRate": 0.0417,
+      "medianSeconds": 19.1,
+      "p90Seconds": 39.9,
+      "medianHpLossPct": 17.7
+    },
+    "verdant_golem_path": {
+      "n": 16,
+      "lossRate": 0,
+      "medianSeconds": 14.4,
+      "p90Seconds": 25.8,
+      "medianHpLossPct": 6.2
+    },
+    "verdant_pod_field": {
+      "n": 16,
+      "lossRate": 0,
+      "medianSeconds": 12.9,
+      "p90Seconds": 33,
+      "medianHpLossPct": 0
+    },
+    "verdant_shaman_grove": {
+      "n": 64,
+      "lossRate": 0,
+      "medianSeconds": 8.5,
+      "p90Seconds": 17.8,
+      "medianHpLossPct": 12.7
+    },
+    "verdant_toad_marsh": {
+      "n": 64,
+      "lossRate": 0,
+      "medianSeconds": 13.7,
+      "p90Seconds": 24.6,
+      "medianHpLossPct": 28.2
+    },
+    "verdant_treant": {
+      "n": 100,
+      "lossRate": 0.08,
+      "medianSeconds": 23.3,
+      "p90Seconds": 67,
+      "medianHpLossPct": 16.2
+    }
+  },
+  "dpsByFrame": {
+    "bow": {
+      "n": 996,
+      "median": 12.72,
+      "p90": 25.5
+    },
+    "bulwark": {
+      "n": 661,
+      "median": 7.24,
+      "p90": 17.45
+    },
+    "crossbow": {
+      "n": 178,
+      "median": 28.5,
+      "p90": 59.29
+    },
+    "dagger": {
+      "n": 1206,
+      "median": 17.1,
+      "p90": 34.63
+    },
+    "greatsword": {
+      "n": 34,
+      "median": 12.46,
+      "p90": 15.7
+    },
+    "hammer": {
+      "n": 778,
+      "median": 18.83,
+      "p90": 39.4
+    },
+    "scythe": {
+      "n": 1093,
+      "median": 16.65,
+      "p90": 37.77
+    },
+    "spear": {
+      "n": 89,
+      "median": 12.17,
+      "p90": 29.65
+    },
+    "staff": {
+      "n": 806,
+      "median": 16.92,
+      "p90": 35.21
+    },
+    "sword": {
+      "n": 593,
+      "median": 18.18,
+      "p90": 35.1
+    },
+    "tome": {
+      "n": 721,
+      "median": 13.22,
+      "p90": 25.93
+    },
+    "whip": {
+      "n": 12,
+      "median": 18.79,
+      "p90": 21.85
+    }
+  },
+  "dpsByCore": {
+    "-": {
+      "n": 637,
+      "median": 11.43,
+      "p90": 19.81
+    },
+    "arcane": {
+      "n": 1097,
+      "median": 14.87,
+      "p90": 29.47
+    },
+    "earth": {
+      "n": 932,
+      "median": 12.45,
+      "p90": 24.71
+    },
+    "fire": {
+      "n": 488,
+      "median": 12.46,
+      "p90": 46.83
+    },
+    "frost": {
+      "n": 168,
+      "median": 10.26,
+      "p90": 31.67
+    },
+    "life": {
+      "n": 252,
+      "median": 18.43,
+      "p90": 37.39
+    },
+    "lightning": {
+      "n": 673,
+      "median": 17.23,
+      "p90": 35
+    },
+    "shadow": {
+      "n": 523,
+      "median": 19.66,
+      "p90": 49.06
+    },
+    "solar": {
+      "n": 172,
+      "median": 15.49,
+      "p90": 35.95
+    },
+    "steel": {
+      "n": 518,
+      "median": 21.68,
+      "p90": 39.57
+    },
+    "venom": {
+      "n": 822,
+      "median": 18.62,
+      "p90": 37.8
+    },
+    "void": {
+      "n": 151,
+      "median": 11.28,
+      "p90": 21.92
+    },
+    "wind": {
+      "n": 734,
+      "median": 13.58,
+      "p90": 28.15
+    }
+  },
+  "dpsPerCellByFrame": {
+    "bow": {
+      "n": 996,
+      "median": 4.24,
+      "p90": 8.5
+    },
+    "bulwark": {
+      "n": 661,
+      "median": 1.81,
+      "p90": 4.36
+    },
+    "crossbow": {
+      "n": 178,
+      "median": 7.12,
+      "p90": 14.82
+    },
+    "dagger": {
+      "n": 1206,
+      "median": 8.55,
+      "p90": 17.31
+    },
+    "greatsword": {
+      "n": 34,
+      "median": 2.49,
+      "p90": 3.14
+    },
+    "hammer": {
+      "n": 778,
+      "median": 3.77,
+      "p90": 7.88
+    },
+    "scythe": {
+      "n": 1093,
+      "median": 4.16,
+      "p90": 9.44
+    },
+    "spear": {
+      "n": 89,
+      "median": 3.04,
+      "p90": 7.41
+    },
+    "staff": {
+      "n": 806,
+      "median": 4.23,
+      "p90": 8.8
+    },
+    "sword": {
+      "n": 593,
+      "median": 6.06,
+      "p90": 11.7
+    },
+    "tome": {
+      "n": 721,
+      "median": 6.61,
+      "p90": 12.96
+    },
+    "whip": {
+      "n": 12,
+      "median": 6.26,
+      "p90": 7.28
+    }
+  },
+  "runes": {
+    "adrenal_rune": {
+      "battlesEquipped": 71,
+      "triggers": 265,
+      "perBattle": 3.73
+    },
+    "aegis_rune": {
+      "battlesEquipped": 100,
+      "triggers": 104,
+      "perBattle": 1.04
+    },
+    "bark_skin": {
+      "battlesEquipped": 54,
+      "triggers": 201,
+      "perBattle": 3.72
+    },
+    "bleeding_edge": {
+      "battlesEquipped": 157,
+      "triggers": 768,
+      "perBattle": 4.89
+    },
+    "blood_rune": {
+      "battlesEquipped": 84,
+      "triggers": 1164,
+      "perBattle": 13.86
+    },
+    "bounty_rune": {
+      "battlesEquipped": 28,
+      "triggers": 63,
+      "perBattle": 2.25
+    },
+    "breaker_rune": {
+      "battlesEquipped": 33,
+      "triggers": 0,
+      "perBattle": 0
+    },
+    "bulwark_oath": {
+      "battlesEquipped": 107,
+      "triggers": 107,
+      "perBattle": 1
+    },
+    "combo_finisher": {
+      "battlesEquipped": 38,
+      "triggers": 53,
+      "perBattle": 1.39
+    },
+    "conductor": {
+      "battlesEquipped": 70,
+      "triggers": 0,
+      "perBattle": 0
+    },
+    "corpse_blast": {
+      "battlesEquipped": 130,
+      "triggers": 213,
+      "perBattle": 1.64
+    },
+    "crit_spark": {
+      "battlesEquipped": 46,
+      "triggers": 153,
+      "perBattle": 3.33
+    },
+    "deep_freeze": {
+      "battlesEquipped": 17,
+      "triggers": 0,
+      "perBattle": 0
+    },
+    "detonator": {
+      "battlesEquipped": 83,
+      "triggers": 6,
+      "perBattle": 0.07
+    },
+    "ember_etch": {
+      "battlesEquipped": 85,
+      "triggers": 575,
+      "perBattle": 6.76
+    },
+    "execution_rune": {
+      "battlesEquipped": 2,
+      "triggers": 6,
+      "perBattle": 3
+    },
+    "first_light": {
+      "battlesEquipped": 124,
+      "triggers": 137,
+      "perBattle": 1.1
+    },
+    "flurry_rune": {
+      "battlesEquipped": 190,
+      "triggers": 508,
+      "perBattle": 2.67
+    },
+    "frost_glyph": {
+      "battlesEquipped": 269,
+      "triggers": 3177,
+      "perBattle": 11.81
+    },
+    "giant_slayer": {
+      "battlesEquipped": 50,
+      "triggers": 672,
+      "perBattle": 13.44
+    },
+    "gravity_well": {
+      "battlesEquipped": 264,
+      "triggers": 575,
+      "perBattle": 2.18
+    },
+    "harvest_rune": {
+      "battlesEquipped": 1,
+      "triggers": 0,
+      "perBattle": 0
+    },
+    "hex_rune": {
+      "battlesEquipped": 43,
+      "triggers": 197,
+      "perBattle": 4.58
+    },
+    "hunters_sight": {
+      "battlesEquipped": 197,
+      "triggers": 564,
+      "perBattle": 2.86
+    },
+    "kindling": {
+      "battlesEquipped": 223,
+      "triggers": 29,
+      "perBattle": 0.13
+    },
+    "last_stand": {
+      "battlesEquipped": 14,
+      "triggers": 1,
+      "perBattle": 0.07
+    },
+    "malediction": {
+      "battlesEquipped": 115,
+      "triggers": 1531,
+      "perBattle": 13.31
+    },
+    "mending_clock": {
+      "battlesEquipped": 23,
+      "triggers": 145,
+      "perBattle": 6.3
+    },
+    "momentum": {
+      "battlesEquipped": 66,
+      "triggers": 110,
+      "perBattle": 1.67
+    },
+    "opening_volley": {
+      "battlesEquipped": 1,
+      "triggers": 1,
+      "perBattle": 1
+    },
+    "plague_seed": {
+      "battlesEquipped": 17,
+      "triggers": 42,
+      "perBattle": 2.47
+    },
+    "pulse_clock": {
+      "battlesEquipped": 19,
+      "triggers": 114,
+      "perBattle": 6
+    },
+    "rending_glyph": {
+      "battlesEquipped": 23,
+      "triggers": 364,
+      "perBattle": 15.83
+    },
+    "retaliation": {
+      "battlesEquipped": 43,
+      "triggers": 312,
+      "perBattle": 7.26
+    },
+    "shard_burst": {
+      "battlesEquipped": 10,
+      "triggers": 0,
+      "perBattle": 0
+    },
+    "smiting_rune": {
+      "battlesEquipped": 55,
+      "triggers": 169,
+      "perBattle": 3.07
+    },
+    "soul_siphon": {
+      "battlesEquipped": 92,
+      "triggers": 121,
+      "perBattle": 1.32
+    },
+    "spite_rune": {
+      "battlesEquipped": 313,
+      "triggers": 2963,
+      "perBattle": 9.47
+    },
+    "splinter_rune": {
+      "battlesEquipped": 94,
+      "triggers": 551,
+      "perBattle": 5.86
+    },
+    "stagger_lock": {
+      "battlesEquipped": 34,
+      "triggers": 21,
+      "perBattle": 0.62
+    },
+    "static_sigil": {
+      "battlesEquipped": 346,
+      "triggers": 2235,
+      "perBattle": 6.46
+    },
+    "storm_clock": {
+      "battlesEquipped": 5,
+      "triggers": 34,
+      "perBattle": 6.8
+    },
+    "thunder_knot": {
+      "battlesEquipped": 7,
+      "triggers": 57,
+      "perBattle": 8.14
+    },
+    "toxin_burst": {
+      "battlesEquipped": 5,
+      "triggers": 0,
+      "perBattle": 0
+    },
+    "venom_mark": {
+      "battlesEquipped": 100,
+      "triggers": 1376,
+      "perBattle": 13.76
+    },
+    "volley_glyph": {
+      "battlesEquipped": 21,
+      "triggers": 132,
+      "perBattle": 6.29
+    },
+    "war_cry": {
+      "battlesEquipped": 38,
+      "triggers": 44,
+      "perBattle": 1.16
+    },
+    "ward_glyph": {
+      "battlesEquipped": 144,
+      "triggers": 3911,
+      "perBattle": 27.16
+    }
+  },
+  "runesNeverTriggered": [
+    "breaker_rune",
+    "conductor",
+    "deep_freeze",
+    "shard_burst",
+    "toxin_burst"
+  ],
+  "runesNeverEquipped": [
+    "echo_glyph",
+    "star_shard",
+    "arcane_pulse",
+    "pack_leader"
+  ],
+  "procs": {
+    "maxPerTickMedian": 2,
+    "maxPerTickP90": 4,
+    "maxPerTickMax": 13,
+    "maxChainDepth": 3,
+    "suppressedTotal": 123
+  },
+  "performance": {
+    "battleSimMsMedian": 2.29,
+    "battleSimMsP90": 5.48,
+    "peakProjectilesP90": 4,
+    "peakProjectilesMax": 12,
+    "note": "Headless desktop CPU timing of the simulation only; not a device frame-rate measurement."
+  },
+  "economy": {
+    "shopDeadOfferRate": 0.0725,
+    "avgRerollsPerRun": 0.39,
+    "avgGoldSpent": 171.2,
+    "avgGoldUnspentAtEnd": 99.3,
+    "avgItemsBought": 3.47,
+    "runsWithLegendary": 11,
+    "medianFirstLegendaryStep": 9
+  },
+  "sustain": {
+    "healingPctOfDamageTaken": 10.5,
+    "shieldPctOfDamageTaken": 46.5
+  },
+  "diversity": {
+    "uniquePrimaryBuilds": 29,
+    "simpsonIndex": 0.9241,
+    "mostCommon": "dagger+steel",
+    "mostCommonShare": 0.125
+  },
+  "flags": [
+    "underperformer: forgemaster blacksmith win 0.2333 (CI high 0.3544) vs overall 0.485",
+    "overperformer: forgemaster warden win 0.6667 (CI low 0.5406) vs overall 0.485",
+    "underperformer: core earth win 0.3023 (CI high 0.4061) vs overall 0.485",
+    "overperformer: core life win 0.75 (CI low 0.5664) vs overall 0.485"
+  ],
+  "label": "difficulty",
+  "config": {
+    "seeds": 6,
+    "seedBase": "1000",
+    "forgemasters": "blacksmith,runecrafter,alchemist,artificer,hexblade,summoner,duelist,warden",
+    "policies": "Balanced,Aggressive,Cautious,Circuit,Status",
+    "difficulties": "0,2"
+  },
+  "contentVersion": "86d1d3c46f1a3316"
+}

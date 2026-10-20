@@ -1,0 +1,58 @@
+# Adversarial scenarios
+
+- PASS dagger_echo_repeat_leech — victory=True t=11.6s dmg=300 procsSuppressed=0 events=236 simMs=44.3
+- PASS split_pierce_chain — victory=True t=3.2s dmg=448 procsSuppressed=0 events=277 simMs=2.1
+- PASS three_weapons_dense_relays — victory=True t=3.9s dmg=510 procsSuppressed=0 events=162 simMs=2.3
+- PASS high_shield_leech — victory=True t=157.1s dmg=2323 procsSuppressed=0 events=1997 simMs=7.0
+- PASS all_fire_vs_resistant_boss — victory=True t=11.2s dmg=562 procsSuppressed=0 events=337 simMs=0.7
+- PASS single_massive_frame — victory=False t=31.2s dmg=1506 procsSuppressed=0 events=189 simMs=1.7
+- PASS fx_stress_swarm_100_hits — victory=True t=60.0s dmg=3231 procsSuppressed=0 events=2157 simMs=3.8
+- PASS legendary_signatures_all — victory=True t=29.6s dmg=2720 procsSuppressed=0 events=734 simMs=1.8
+- PASS legendary_infernal_sovereign — victory=False t=90.0s dmg=319 procsSuppressed=0 events=278 simMs=2.2
+- PASS legendary_stormpiercer — victory=True t=4.8s dmg=296 procsSuppressed=0 events=183 simMs=0.5
+- PASS legendary_worldbreaker — victory=False t=90.0s dmg=334 procsSuppressed=0 events=288 simMs=2.5
+- PASS legendary_winters_silence — victory=True t=9.0s dmg=260 procsSuppressed=0 events=321 simMs=0.7
+- PASS legendary_thousandfold_edge — victory=True t=24.3s dmg=322 procsSuppressed=0 events=261 simMs=1.1
+- PASS legendary_soul_harvester — victory=True t=14.1s dmg=444 procsSuppressed=0 events=154 simMs=1.0
+- PASS legendary_bloodmoon_scythe — victory=True t=10.7s dmg=385 procsSuppressed=0 events=123 simMs=0.6
+- PASS legendary_sunforged_blade — victory=True t=19.3s dmg=373 procsSuppressed=0 events=140 simMs=0.8
+- PASS legendary_venomweaver_lash — victory=True t=9.5s dmg=292 procsSuppressed=0 events=237 simMs=1.1
+- PASS legendary_aegis_eternal — victory=True t=61.7s dmg=355 procsSuppressed=0 events=507 simMs=2.4
+- PASS legendary_grimoire_of_legions — victory=True t=22.5s dmg=297 procsSuppressed=0 events=265 simMs=1.4
+- PASS legendary_voidlance — victory=True t=10.8s dmg=347 procsSuppressed=0 events=155 simMs=0.8
+- PASS legendary_tempest_repeater — victory=True t=6.8s dmg=285 procsSuppressed=0 events=99 simMs=0.4
+- PASS legendary_phoenix_greatblade — victory=False t=90.0s dmg=640 procsSuppressed=0 events=284 simMs=2.4
+- PASS legendary_frostfang_daggers — victory=True t=34.0s dmg=274 procsSuppressed=0 events=492 simMs=1.6
+- PASS legendary_thunder_maul — victory=True t=5.6s dmg=487 procsSuppressed=0 events=86 simMs=0.4
+- PASS legendary_eclipse_staff — victory=True t=19.2s dmg=438 procsSuppressed=0 events=170 simMs=1.0
+- PASS legendary_gearwork_crossbow — victory=True t=5.0s dmg=407 procsSuppressed=0 events=143 simMs=0.5
+- PASS legendary_mirror_blade — victory=True t=16.7s dmg=363 procsSuppressed=0 events=148 simMs=1.1
+- PASS legendary_rootbinder_whip — victory=True t=13.4s dmg=297 procsSuppressed=0 events=164 simMs=0.8
+- PASS legendary_colossus_hammer — victory=False t=90.0s dmg=664 procsSuppressed=0 events=310 simMs=3.0
+- PASS legendary_windrunner_bow — victory=True t=6.8s dmg=317 procsSuppressed=0 events=159 simMs=0.5
+- PASS legendary_dragonbreath_staff — victory=True t=7.0s dmg=296 procsSuppressed=0 events=159 simMs=0.5
+- PASS legendary_glacier_bulwark — victory=True t=42.6s dmg=330 procsSuppressed=0 events=534 simMs=2.8
+- PASS legendary_storm_spear — victory=True t=6.0s dmg=314 procsSuppressed=0 events=121 simMs=0.4
+- PASS legendary_plague_tome — victory=True t=10.5s dmg=353 procsSuppressed=0 events=280 simMs=0.8
+- PASS legendary_starcaller_bow — victory=True t=8.8s dmg=291 procsSuppressed=0 events=191 simMs=0.6
+- PASS legendary_widowmaker_crossbow — victory=True t=5.1s dmg=401 procsSuppressed=0 events=109 simMs=0.3
+- PASS legendary_cyclone_glaive — victory=True t=9.4s dmg=338 procsSuppressed=0 events=146 simMs=0.6
+- PASS legendary_obsidian_greatsword — victory=True t=8.0s dmg=451 procsSuppressed=0 events=110 simMs=0.5
+- PASS legendary_lifebloom_staff — victory=True t=17.4s dmg=378 procsSuppressed=0 events=186 simMs=1.1
+- PASS legendary_shadowstep_daggers — victory=True t=32.7s dmg=328 procsSuppressed=0 events=312 simMs=1.2
+- PASS legendary_earthshaker_bulwark — victory=True t=57.9s dmg=380 procsSuppressed=0 events=434 simMs=2.0
+- PASS legendary_hellfire_whip — victory=True t=7.5s dmg=297 procsSuppressed=0 events=274 simMs=0.6
+- PASS legendary_orrery_of_the_void — victory=True t=19.8s dmg=291 procsSuppressed=0 events=264 simMs=1.2
+- PASS legendary_frostbound_crossbow — victory=True t=5.0s dmg=284 procsSuppressed=0 events=122 simMs=0.3
+- PASS legendary_runeblade — victory=True t=18.1s dmg=386 procsSuppressed=0 events=157 simMs=0.8
+- PASS legendary_bastion_of_dawn — victory=True t=61.5s dmg=374 procsSuppressed=0 events=419 simMs=3.3
+- PASS legendary_venomfang_spear — victory=True t=11.0s dmg=328 procsSuppressed=0 events=205 simMs=0.7
+- PASS legendary_reaper_of_storms — victory=True t=7.4s dmg=323 procsSuppressed=0 events=139 simMs=0.5
+- PASS legendary_cursed_heartforge — victory=False t=90.0s dmg=700 procsSuppressed=0 events=320 simMs=2.6
+- PASS legendary_echoing_greatsword — victory=False t=90.0s dmg=371 procsSuppressed=0 events=286 simMs=2.7
+- PASS low_roll_shop_pity — 
+- PASS no_early_core_ch1_viable — coreless hammer wins 33/36 chapter-1 battles
+- PASS spend_all_gold — rerolls=41 gold=31
+- PASS negative_corrupt_data — 
+
+54/54 passed
